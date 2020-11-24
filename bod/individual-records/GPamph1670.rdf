@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:lob="http://w3id.org/lob/concept/"
+         xmlns:aat="http://vocab.getty.edu/aat/"
+         xmlns:dbp="http://dbpedia.org/resource/"
+         xml:base="http://www.ligatus.org.uk/lcd">
+   <crm:E31_Document rdf:about="http://www.ligatus.org.uk/lcd/c8e1f574-acb3-4af3-99a5-e69d9d327cbf/">
+      <rdfs:label xml:lang="en">Conservation Report (Bodleian, G.Pamph.1670)</rdfs:label>
+      <crm:P70_documents>
+         <crm:E13_Attribute_Assignment rdf:about="http://www.ligatus.org.uk/lcd/1de88e04-10bf-43b3-9204-7bcecff4f050/">
+            <rdfs:label xml:lang="en">Conservation assessment (Bodleian, G.Pamph.1670)</rdfs:label>
+            <crm:P140_assigned_attribute_to>
+               <crm:E22_Human-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/3c4c70e0-977c-485f-a3c9-d702d661c2ea/">
+                  <rdfs:label xml:lang="en">Book (Bodleian, G.Pamph.1670)</rdfs:label>
+                  <crm:P1_is_identified_by>
+                     <crm:E42_Identifier rdf:about="http://www.ligatus.org.uk/lcd/4e9aca52-e0db-4582-952e-9b4bf7fe62d9/">
+                        <rdfs:label xml:lang="en">Shelfmark (Bodleian, G.Pamph.1670)</rdfs:label>
+                        <crm:P2_has_type>
+                           <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3437">
+                              <rdfs:label xml:lang="en">shelfmarks</rdfs:label>
+                           </crm:E55_Type>
+                        </crm:P2_has_type>
+                        <crm:P190_has_symbolic_content rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G.Pamph.1670</crm:P190_has_symbolic_content>
+                     </crm:E42_Identifier>
+                  </crm:P1_is_identified_by>
+                  <crm:P108i_was_produced_by>
+                     <crm:E12_Production rdf:about="http://www.ligatus.org.uk/lcd/ac267d41-401a-4549-8f81-af5c53b4bb24">
+                        <rdfs:label xml:lang="en">Bookbinding (Bodleian, G.Pamph.1670)</rdfs:label>
+                        <crm:P4_has_time-span>
+                           <crm:E52_Time-Span rdf:about="http://www.ligatus.org.uk/lcd/078ce0ff-f1f5-4bb1-a993-e05651c42372/">
+                              <rdfs:label xml:lang="en">Bookbinding dating (Bodleian, G.Pamph.1670)</rdfs:label>

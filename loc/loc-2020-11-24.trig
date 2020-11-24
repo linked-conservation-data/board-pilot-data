@@ -1,0 +1,2846 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dbp: <http://dbpedia.org/resource/> .
+@prefix lob: <http://w3id.org/lob/concept/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+_:N92d95702a36e4d2f991bf5a684b8c28f {
+    <http://www.ligatus.org.uk/lcd/1167fa84-a8cd-45df-929c-d46f3b931886/> a crm:E31_Document ;
+        rdfs:label "Conservation Report (Library of Congress, 1697)"@en ;
+        crm:P70_documents <http://www.ligatus.org.uk/lcd/66353051-087c-4549-9a58-4f48f33861c5/> .
+
+    <http://www.ligatus.org.uk/lcd/13f51b1a-d719-4f68-b7b5-494a640c266b/> a crm:E31_Document ;
+        rdfs:label "Conservation Report (Library of Congress, 135)"@en ;
+        crm:P70_documents <http://www.ligatus.org.uk/lcd/95025f1d-0784-4b24-8407-4542523e0b1e/> .
+
+    <http://www.ligatus.org.uk/lcd/5c7734bb-066e-4705-8200-26381ae79c9c/> a crm:E31_Document ;
+        rdfs:label "Conservation Report (Library of Congress, 1785)"@en ;
+        crm:P70_documents <http://www.ligatus.org.uk/lcd/20bf3187-05aa-4162-94c3-80916443dce6/> .
+
+    <http://www.ligatus.org.uk/lcd/689331b2-4a0f-4d99-8e0e-60027ce45ae2/> a crm:E31_Document ;
+        rdfs:label "Conservation Report (Library of Congress, 1657_001)"@en ;
+        crm:P70_documents <http://www.ligatus.org.uk/lcd/ac007a64-f969-4a31-b1c6-b2a338703875/> .
+
+    <http://www.ligatus.org.uk/lcd/6f7ba6a3-0e30-41ee-ae0e-f30e1302f43d/> a crm:E31_Document ;
+        rdfs:label "Conservation Report (Library of Congress, 17)"@en ;
+        crm:P70_documents <http://www.ligatus.org.uk/lcd/814c0f5c-e8a5-43a0-bf65-695c5781c178/> .
+
+    <http://www.ligatus.org.uk/lcd/93b78186-02f1-4f45-a420-d9d8c24ceb62/> a crm:E31_Document ;
+        rdfs:label "Conservation Report (Library of Congress, 1471)"@en ;
+        crm:P70_documents <http://www.ligatus.org.uk/lcd/1ced6676-8db5-4940-8c9b-bf3cffbed278/> .
+
+    <http://www.ligatus.org.uk/lcd/9eaa587d-b3e2-419e-89bb-ab1f920e0d99/> a crm:E31_Document ;
+        rdfs:label "Conservation Report (Library of Congress, 2247)"@en ;
+        crm:P70_documents <http://www.ligatus.org.uk/lcd/b84b913e-8ae6-46c7-9e81-e6b6cee36538/> .
+
+    <http://www.ligatus.org.uk/lcd/ac01a4a0-1f03-4cd1-bb49-4b2435009fcc/> a crm:E31_Document ;
+        rdfs:label "Conservation Report (Library of Congress, 1466_028)"@en ;
+        crm:P70_documents <http://www.ligatus.org.uk/lcd/d4d12dac-80f6-4db4-aa5f-3cf4bc28b1d9/> .
+
+    <http://www.ligatus.org.uk/lcd/b4bfa380-d237-44be-8339-c37f3d06c582/> a crm:E31_Document ;
+        rdfs:label "Conservation Report (Library of Congress, 1638)"@en ;
+        crm:P70_documents <http://www.ligatus.org.uk/lcd/ca69986c-c78c-4580-9ff9-f88bd2d5c21f/> .
+
+    <http://www.ligatus.org.uk/lcd/b58e7cf2-52dd-4b68-b27c-512439c74054/> a crm:E31_Document ;
+        rdfs:label "Conservation Report (Library of Congress, 1466_029)"@en ;
+        crm:P70_documents <http://www.ligatus.org.uk/lcd/99e2e60a-2359-4bcb-bfc8-e92c42ed39e3/> .
+
+    <http://www.ligatus.org.uk/lcd/b874e5fa-5be6-4988-9558-0287eb6ebf88/> a crm:E31_Document ;
+        rdfs:label "Conservation Report (Library of Congress, 1450)"@en ;
+        crm:P70_documents <http://www.ligatus.org.uk/lcd/155cd2d4-3d55-424a-9748-f21924f3b4c8/> .
+
+    <http://www.ligatus.org.uk/lcd/bd3a7ea5-70ff-4fb5-9f47-73cea8ce6541/> a crm:E31_Document ;
+        rdfs:label "Conservation Report (Library of Congress, 2028)"@en ;
+        crm:P70_documents <http://www.ligatus.org.uk/lcd/c2adbc4f-a75f-4485-9b29-99d003b99910/> .
+
+    <http://www.ligatus.org.uk/lcd/f750b39f-58ee-4a3b-b7e1-de9d004d09f3/> a crm:E31_Document ;
+        rdfs:label "Conservation Report (Library of Congress, 1782)"@en ;
+        crm:P70_documents <http://www.ligatus.org.uk/lcd/c3fb26ec-759f-4948-ae2d-5bfecb2e7475/> .
+
+    <http://www.ligatus.org.uk/lcd/f83c7ae6-3f6a-4093-9022-1213577ecb87/> a crm:E31_Document ;
+        rdfs:label "Conservation Report (Library of Congress, 1466_027)"@en ;
+        crm:P70_documents <http://www.ligatus.org.uk/lcd/1eacf270-1690-4263-906b-3db12b08c31b/> .
+
+    <http://dbpedia.org/resource/Washington,_D.C.> a crm:E41_Appellation ;
+        rdfs:label "Washington, D.C. (name)"@en ;
+        crm:P190_has_symbolic_content "Oxford"^^xsd:string .
+
+    <http://w3id.org/loc-vocabs/1fbcc4b8-1591-45e0-9420-c7f2382832c7> a crm:E55_Type ;
+        rdfs:label "outer joint repair"@en .
+
+    <http://w3id.org/loc-vocabs/27a2f7a6-c9ed-42b2-bf1c-d3218ff35709> a crm:E55_Type ;
+        rdfs:label "lining removal"@en .
+
+    <http://w3id.org/loc-vocabs/397b812c-cf26-4c87-991b-58677b4703a0> a crm:E57_Material ;
+        rdfs:label "Parchment"@en .
+
+    <http://w3id.org/loc-vocabs/514f52d7-37a1-45a3-8dc6-a6ac9d0aecef> a crm:E55_Type ;
+        rdfs:label "blind tooling"@en .
+
+    <http://w3id.org/loc-vocabs/63b7ad04-90ad-4410-964e-114429e14897> a crm:E57_Material ;
+        rdfs:label "Silk"@en .
+
+    <http://w3id.org/loc-vocabs/6ded13fd-8cfc-48d2-8afa-f26800d19689> a crm:E57_Material ;
+        rdfs:label "Methylcellulose"@en .
+
+    <http://w3id.org/loc-vocabs/75ca0bfb-f8e5-4342-8bd9-84e406696075> a crm:E55_Type ;
+        rdfs:label "leafcasting"@en .
+
+    <http://w3id.org/loc-vocabs/75fd4fee-032f-41ab-8968-191d2baa77a0> a crm:E57_Material ;
+        rdfs:label "Machine Made Paper"@en .
+
+    <http://w3id.org/loc-vocabs/80155d27-5aa6-4e7b-9d6d-1bd6a2f2ced1> a crm:E55_Type ;
+        rdfs:label "lining (process)"@en .
+
+    <http://w3id.org/loc-vocabs/881009e9-746c-4878-90bc-e114f873a308> a crm:E57_Material ;
+        rdfs:label "Silk Thread"@en .
+
+    <http://w3id.org/loc-vocabs/94de5f5a-cf26-4fca-9357-2c66caad02a4> a crm:E57_Material ;
+        rdfs:label "Calcium Phytate"@en .
+
+    <http://w3id.org/loc-vocabs/a3c95700-1325-4930-ae44-05e647a1e12f> a crm:E57_Material ;
+        rdfs:label "Watercolor"@en .
+
+    <http://w3id.org/loc-vocabs/b926fc0b-949a-4538-adf7-5332cd4637cc> a crm:E55_Type ;
+        rdfs:label "hinge removal"@en .
+
+    <http://w3id.org/loc-vocabs/b93dc32b-d9fd-4439-a66b-e5dd3d596c51> a crm:E57_Material ;
+        rdfs:label "Alum Tawed Skin"@en .
+
+    <http://w3id.org/loc-vocabs/bde6be40-b2ec-42b3-82cc-4c681ed881fc> a crm:E57_Material ;
+        rdfs:label "Linen Thread"@en .
+
+    <http://w3id.org/loc-vocabs/e5acbee3-5cc9-45e9-95f3-f568cfee3e9c> a crm:E55_Type ;
+        rdfs:label "silking removal"@en .
+
+    <http://w3id.org/loc-vocabs/f6e3f6ba-a3fb-4c70-9924-a149e95e8576> a crm:E57_Material ;
+        rdfs:label "Leather (Goat)"@en .
+
+    <http://w3id.org/loc-vocabs/feff19c0-aa31-4378-ae08-57400892248a> a crm:E57_Material ;
+        rdfs:label "Leather (Calf) "@en .
+
+    <http://www.ligatus.org.uk/lcd/01ace8f0-239c-4a96-90c5-33176b6203a4/> a crm:E52_Time-Span ;
+        rdfs:label "Attribute assignment date (Library of Congress, 1466_027)"@en ;
+        crm:P82a_begin_of_the_begin "2011-01-01T00:00:00"^^xsd:dateTime ;
+        crm:P82b_end_of_the_end "2011-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/03ee8e32-171f-41a5-968c-98481fc18b73/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1697"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/4ff5ec0f-b891-42fd-b805-2ea1b2adc04c> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/2f3c4c0d-24ea-486e-ab77-fff36b47ad25/> .
+
+    <http://www.ligatus.org.uk/lcd/04472eb6-68d7-4224-95e4-a1f0ac1c8924/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1697"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/06a37aa1-5505-4a84-ae13-0dafdd49dcfa> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/2f3c4c0d-24ea-486e-ab77-fff36b47ad25/> .
+
+    <http://www.ligatus.org.uk/lcd/06428aa0-4c9b-44f4-9727-4020fe523be8/> a crm:E52_Time-Span ;
+        rdfs:label "Printing or Production date (Library of Congress, 1657_001)"@en .
+
+    <http://www.ligatus.org.uk/lcd/06692280-d730-4e18-9624-b5993eae9090/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Right board (Library of Congress, 1638)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/69cc504e-6f1f-4184-b9e9-229a749a3f75#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/07b5731c-61ba-4f86-a8a1-784963901038/> a crm:E3_Condition_State ;
+        rdfs:label "Repaired (Library of Congress, 1782)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/bcc78dc8-9637-455c-a2b7-e60099818a19> .
+
+    <http://www.ligatus.org.uk/lcd/07cf488a-87a6-4a62-baa7-031bbc47bf57/> a crm:E42_Identifier ;
+        rdfs:label "Project Number (Library of Congress, 1657_001)"@en ;
+        crm:P190_has_symbolic_content "1657_001"^^xsd:string .
+
+    <http://www.ligatus.org.uk/lcd/0848db13-8147-4233-85eb-a210e327ce20/> a crm:E52_Time-Span ;
+        rdfs:label "Attribute assignment date (Library of Congress, 1697)"@en ;
+        crm:P82a_begin_of_the_begin "2010-01-01T00:00:00"^^xsd:dateTime ;
+        crm:P82b_end_of_the_end "2010-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/090347d2-0ee3-4764-a068-87a386e89338/> a crm:E79_Part_Addition ;
+        rdfs:label "Addition to Library of Congress, 2247"@en ;
+        crm:P32_used_general_technique <http://www.ligatus.org.uk/lcd> ;
+        crm:P8_took_place_on_or_within <http://www.ligatus.org.uk/lcd/ce5db086-fc1d-4002-806c-e35412899678/> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/d270ae20-e1fb-40e7-bb25-0895469b162d/> .
+
+    <http://www.ligatus.org.uk/lcd/097d9cb8-ec45-4cb2-9e7e-e1d4f53a773f/> a crm:E52_Time-Span ;
+        rdfs:label "Printing or Production date (Library of Congress, 1697)"@en ;
+        crm:P82a_begin_of_the_begin "1735-01-01T00:00:00"^^xsd:dateTime ;
+        crm:P82b_end_of_the_end "1735-12-31T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/099c76d2-c4e6-4dfb-944e-385b6b323825/> a crm:E39_Actor ;
+        rdfs:label "Conservator"@en ;
+        crm:P14.1_in_the_role_of aat:300102842 ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd> .
+
+    <http://www.ligatus.org.uk/lcd/09b67e8c-42d2-4b50-b306-a6424eca6367/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Book (Library of Congress, 1466_027)"@en ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd/375afe21-a350-4904-8b2e-921316b04c22/> ;
+        crm:P2_has_type lob:4886 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/30b9de1a-37e9-4fea-8cf9-483c12b1cc1e/> ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/1c72eb3a-a0a0-480b-a8e5-6819b5d2d02d/>,
+            <http://www.ligatus.org.uk/lcd/3f375a2a-185c-4c2b-96d5-dd698b0fd6e6/>,
+            <http://www.ligatus.org.uk/lcd/448db053-7d60-44c2-8636-790ba913d538/>,
+            <http://www.ligatus.org.uk/lcd/8489f44b-b826-424b-a5f4-2881af1ccfb0/>,
+            <http://www.ligatus.org.uk/lcd/949a5cbf-057c-4594-912e-27bc66b1e13b/> ;
+        crm:P50_has_current_keeper dbp:Library_of_Congress ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/5fc8878e-64d4-4ed2-876b-a77707b56fe0> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/09b67e8c-42d2-4b50-b306-a6424eca6367#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/09b67e8c-42d2-4b50-b306-a6424eca6367#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/09c8b8b6-6d51-4321-a1c2-6b3c5bba9738/> a crm:E25_Human-Made_Feature ;
+        rdfs:label "Bookblock spine (Library of Congress, 1471)"@en ;
+        crm:P2_has_type lob:2352 .
+
+    <http://www.ligatus.org.uk/lcd/0a49b1b1-ead8-425f-ba1a-657cd8dc5639/> a crm:E25_Human-Made_Feature ;
+        rdfs:label "Bookblock edges (Library of Congress, 2028)"@en ;
+        crm:P2_has_type lob:1226,
+            <http://w3id.org/loc-vocabs/18738fbd-b109-4b9b-9c90-64e83b194673>,
+            <http://w3id.org/loc-vocabs/d80a51e0-d6b6-493c-a5fd-eeb1a7979c02> .
+
+    <http://www.ligatus.org.uk/lcd/0ae7941f-625c-46c7-8da5-bdabb88fa747/> a crm:E39_Actor ;
+        rdfs:label "Conservator"@en ;
+        crm:P14.1_in_the_role_of aat:300102842 ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd> .
+
+    <http://www.ligatus.org.uk/lcd/0becbd0e-962e-4753-8b13-a5f408bc0d20/> a crm:E3_Condition_State ;
+        rdfs:label "Damaged (Library of Congress, 1466_029)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/e645fa14-55fb-4aea-91f6-c47c534d858f> .
+
+    <http://www.ligatus.org.uk/lcd/0c32efd8-49a9-48c6-9e69-1a5850dc7d07/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1785"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/06a37aa1-5505-4a84-ae13-0dafdd49dcfa> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/feb8c65f-a916-4167-b35a-0544f74244f2/> .
+
+    <http://www.ligatus.org.uk/lcd/0c89fda5-e857-4c29-8b0b-a05348c7a678/> a crm:E25_Human-Made_Object ;
+        rdfs:label "New sewn structure (Library of Congress, 2028)"@en ;
+        crm:P111i_was_added_by <http://www.ligatus.org.uk/lcd/a376b73e-87ef-40e7-aed7-a978c0b1fa7f/> ;
+        crm:P2_has_type lob:3014 .
+
+    <http://www.ligatus.org.uk/lcd/0d368fec-f9d3-4e89-9f51-6a738b9df775/> a crm:E25_Human-Made_Object ;
+        rdfs:label "New covers (Library of Congress, 2247)"@en ;
+        crm:P111i_was_added_by <http://www.ligatus.org.uk/lcd/090347d2-0ee3-4764-a068-87a386e89338/> ;
+        crm:P2_has_type lob:1268 .
+
+    <http://www.ligatus.org.uk/lcd/0d6e64b6-2387-4eca-b859-bf5572c150d1> a crm:E12_Production ;
+        rdfs:label "Book production (Library of Congress, 1697)"@en ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/097d9cb8-ec45-4cb2-9e7e-e1d4f53a773f/> .
+
+    <http://www.ligatus.org.uk/lcd/0dba4dbe-e411-484f-b1cb-3c250aa6af5e/> a crm:E39_Actor ;
+        rdfs:label "Conservator"@en ;
+        crm:P14.1_in_the_role_of aat:300102842 ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd> .
+
+    <http://www.ligatus.org.uk/lcd/0e8c35bd-54cf-476d-852e-c7e7b3518bf0/> a crm:E52_Time-Span ;
+        rdfs:label "Conservation treatment date (Library of Congress, 1466_027)"@en ;
+        crm:P82b_end_of_the_end "2011-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/0ec87f16-4b82-4f2a-9d54-9b5037fc5d0b> a crm:E12_Production ;
+        rdfs:label "Book production (Library of Congress, 135)"@en ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/dadfcdc6-f72c-4c90-a6d3-a2459dee4dc2/> .
+
+    <http://www.ligatus.org.uk/lcd/0ef3448e-e3ae-4a2e-b196-9722c0618498/> a crm:E52_Time-Span ;
+        rdfs:label "Attribute assignment date (Library of Congress, 1782)"@en ;
+        crm:P82a_begin_of_the_begin "2014-01-01T00:00:00"^^xsd:dateTime ;
+        crm:P82b_end_of_the_end "2014-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/0ff87324-8fb3-4349-8897-f82b814122e1/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Textblock (Library of Congress, 1471)"@en ;
+        crm:P113i_was_removed_by <http://www.ligatus.org.uk/lcd/1bdbe333-e3c8-4bcd-adbd-1a181d3b3da0/>,
+            <http://www.ligatus.org.uk/lcd/c5c78dcc-6cb1-4fc8-93ab-b606a2e52610/> ;
+        crm:P2_has_type lob:1663 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/34265fd7-5459-414a-bcff-3e200d0384d8/>,
+            <http://www.ligatus.org.uk/lcd/3fc6a8da-f230-48e1-8caa-ef8d47d7ca8d/>,
+            <http://www.ligatus.org.uk/lcd/6c10ed0c-6ead-4323-8795-f8122daf4dca/>,
+            <http://www.ligatus.org.uk/lcd/aa4a9ab0-38ce-4132-b968-9355298c7afc/> ;
+        crm:P44_has_condition <http://www.ligatus.org.uk/lcd/95aee319-57f0-4f84-9dc6-4b9e68369481/>,
+            <http://www.ligatus.org.uk/lcd/97d8e1eb-e0e2-4144-8f4b-b3895126afc8/>,
+            <http://www.ligatus.org.uk/lcd/dffa0faa-97ab-42f0-a2dc-8343f4cacde0/> ;
+        crm:P45_consists_of <http://www.ligatus.org.uk/lcd/409e7211-43cd-4ced-98c8-a3475567df58/> .
+
+    <http://www.ligatus.org.uk/lcd/10913493-9390-4a3f-9906-51a58820a829> a crm:E12_Production ;
+        rdfs:label "Book production (Library of Congress, 1785)"@en ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/a552050f-ffeb-4d8b-be9d-f448fc4902f1/> .
+
+    <http://www.ligatus.org.uk/lcd/1167112c-5c1e-445b-bde5-367e82d71fee/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1466_027"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/fd0dcd79-f862-4a87-93ce-17277abfe83a> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/30b9de1a-37e9-4fea-8cf9-483c12b1cc1e/> .
+
+    <http://www.ligatus.org.uk/lcd/126879ce-50be-43fd-befa-eba6dfd3ac53/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Textblock (Library of Congress, 17)"@en ;
+        crm:P2_has_type lob:1663 .
+
+    <http://www.ligatus.org.uk/lcd/12939288-8744-4f36-8eb6-3299b375ef1a/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Cover (Library of Congress, 1782)"@en ;
+        crm:P2_has_type lob:1268 ;
+        crm:P45_consists_of <http://w3id.org/loc-vocabs/7ab02df9-5e78-454f-9536-963cac18f688> .
+
+    <http://www.ligatus.org.uk/lcd/130e297e-fb4d-4452-8833-0c59bf3396a0/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1466_028"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/06a37aa1-5505-4a84-ae13-0dafdd49dcfa> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/53b5ada8-2f5c-4a4a-bf0b-595b424e2265/> .
+
+    <http://www.ligatus.org.uk/lcd/140e412c-d693-42cc-b791-5a5fc6eccdc7/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Cover (Library of Congress, 1785)"@en ;
+        crm:P2_has_type lob:1268 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/f59c601d-082e-4980-9dca-90bbfb00e38d/> ;
+        crm:P45_consists_of <http://w3id.org/loc-vocabs/5c1a66ed-5594-4120-8453-db9a4506a1bd>,
+            <http://w3id.org/loc-vocabs/982aee63-6edb-4184-b5fe-f906912aaf11> .
+
+    <http://www.ligatus.org.uk/lcd/14cffdea-6407-4868-bf00-fa9c45b4742d/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1450"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/c9718ed8-8891-4617-a239-94e5d09c3b45> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/d5a0e875-0c73-4a01-9b0c-63498edc65f5/> .
+
+    <http://www.ligatus.org.uk/lcd/14ed98fd-a8a8-42b6-bc74-7696ba118a4f/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Right board (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/3388b45d-a609-47a4-8e63-600094633c0e#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/19dc02f3-0edc-4a41-a8de-7d6a44925329/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Cover (Library of Congress, 1466_029)"@en ;
+        crm:P2_has_type lob:1268 ;
+        crm:P45_consists_of <http://w3id.org/loc-vocabs/7ab02df9-5e78-454f-9536-963cac18f688> .
+
+    <http://www.ligatus.org.uk/lcd/19ea01c7-e32b-4e18-8cfb-7eda3c7fec83/> a crm:E3_Condition_State ;
+        rdfs:label "Losses (Library of Congress, 1785)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/397089a9-ac53-45bb-a369-c7a24f6426e8> .
+
+    <http://www.ligatus.org.uk/lcd/1b1bb053-b1f4-404d-b11d-2a9d5bd8b411/> a crm:E52_Time-Span ;
+        rdfs:label "Conservation treatment date (Library of Congress, 17)"@en .
+
+    <http://www.ligatus.org.uk/lcd/1b379d4f-69e6-469e-89cd-b6145c73bc90/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Cover (Library of Congress, 1466_028)"@en ;
+        crm:P2_has_type lob:1268 ;
+        crm:P45_consists_of <http://w3id.org/loc-vocabs/7ab02df9-5e78-454f-9536-963cac18f688> .
+
+    <http://www.ligatus.org.uk/lcd/1b6418ac-522a-4a7d-8cdb-0dbe6208c650/> a crm:E80_Part_Removal ;
+        rdfs:label "Removal from Library of Congress, 135"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/e5acbee3-5cc9-45e9-95f3-f568cfee3e9c> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/37448046-7a1b-4243-afda-bc0cc43638d8/> .
+
+    <http://www.ligatus.org.uk/lcd/1b875f81-cb8e-4ac6-8e90-4034ce2ab620/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1466_027"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/8152ba03-13d3-421d-a0d4-507bbe7ca072> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/30b9de1a-37e9-4fea-8cf9-483c12b1cc1e/> .
+
+    <http://www.ligatus.org.uk/lcd/1bdbe333-e3c8-4bcd-adbd-1a181d3b3da0/> a crm:E80_Part_Removal ;
+        rdfs:label "Removal from Library of Congress, 1471"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/78f4aeb6-67a5-4e05-96ff-c42defeb36f5> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/409e7211-43cd-4ced-98c8-a3475567df58/> .
+
+    <http://www.ligatus.org.uk/lcd/1c72eb3a-a0a0-480b-a8e5-6819b5d2d02d/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing structure (Library of Congress, 1466_027)"@en ;
+        crm:P2_has_type lob:3014 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/77a569f9-8f5c-4a3a-8cf8-19f2fbe259ae-1/> .
+
+    <http://www.ligatus.org.uk/lcd/1eacf270-1690-4263-906b-3db12b08c31b/> a crm:E13_Attribute_Assignment ;
+        rdfs:label "Conservation assessment (Library of Congress, 1466_027)"@en ;
+        crm:P140_assigned_attribute_to <http://www.ligatus.org.uk/lcd/09b67e8c-42d2-4b50-b306-a6424eca6367/> ;
+        crm:P2_has_type aat:300080091 ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/01ace8f0-239c-4a96-90c5-33176b6203a4/> .
+
+    <http://www.ligatus.org.uk/lcd/20bf3187-05aa-4162-94c3-80916443dce6/> a crm:E13_Attribute_Assignment ;
+        rdfs:label "Conservation assessment (Library of Congress, 1785)"@en ;
+        crm:P140_assigned_attribute_to <http://www.ligatus.org.uk/lcd/8147243b-8b0c-40d1-8316-69571ac36224/> ;
+        crm:P14_carried_out_by <http://www.ligatus.org.uk/lcd/fe6f3847-b1c3-477a-b024-ab489659caca/> ;
+        crm:P2_has_type aat:300080091 ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/e9f6f780-a233-4301-8fb7-b80cadc97657/> .
+
+    <http://www.ligatus.org.uk/lcd/210568db-70a2-4fbc-9db5-31f6edb1f9da/> a crm:E11_Modification ;
+        rdfs:label "Main conservation event (Library of Congress, 17)"@en ;
+        crm:P2_has_type <http://vocab.getty.edu/page/aat/300404519> ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/1b1bb053-b1f4-404d-b11d-2a9d5bd8b411/> .
+
+    <http://www.ligatus.org.uk/lcd/213dad24-6414-4e7f-8151-ec9826953654/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Left board (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/3388b45d-a609-47a4-8e63-600094633c0e#leftPlace> .
+
+    <http://www.ligatus.org.uk/lcd/2143c8fb-441a-4c62-90e5-a23f79ad496d/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1466_028"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/9427a904-6d88-4b95-b064-86aba33178dd> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/53b5ada8-2f5c-4a4a-bf0b-595b424e2265/> .
+
+    <http://www.ligatus.org.uk/lcd/21db4f14-85a1-499b-be06-20a62f0b0f73/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Textblock (Library of Congress, 1466_029)"@en ;
+        crm:P2_has_type lob:1663 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/629c5c3b-c4f2-4f79-995c-4724225cbad1/>,
+            <http://www.ligatus.org.uk/lcd/d24a71db-c714-49e4-a9bc-f0537ba32e55/>,
+            <http://www.ligatus.org.uk/lcd/e4e497ea-9c10-4cb2-8e4f-42b555f8905f/> ;
+        crm:P44_has_condition <http://www.ligatus.org.uk/lcd/e86c292e-932b-462a-9b4c-71e622e83e97/> ;
+        crm:P45_consists_of <http://www.ligatus.org.uk/lcd/04ebd857-4246-49c2-9a29-c3e71c3ff40f/> .
+
+    <http://www.ligatus.org.uk/lcd/2250cc73-8325-4f9d-8c21-3664799047f9/> a crm:E52_Time-Span ;
+        rdfs:label "Attribute assignment date (Library of Congress, 1657_001)"@en ;
+        crm:P82a_begin_of_the_begin "2016-01-01T00:00:00"^^xsd:dateTime ;
+        crm:P82b_end_of_the_end "2016-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/22eb4839-680d-41dc-a28b-2cc7e18e4413/> a crm:E11_Modification ;
+        rdfs:label "Previous repair (Library of Congress, 1657_001)"@en ;
+        crm:P183_ends_before_the_start_of <http://www.ligatus.org.uk/lcd/ac007a64-f969-4a31-b1c6-b2a338703875/> .
+
+    <http://www.ligatus.org.uk/lcd/23701e2e-c595-4a61-a6a4-1c965bda169e/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 2247"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/c9718ed8-8891-4617-a239-94e5d09c3b45> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/d270ae20-e1fb-40e7-bb25-0895469b162d/> .
+
+    <http://www.ligatus.org.uk/lcd/249b720a-4027-4d9a-a858-07a41845ea99/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1638"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/5d916c8f-31fc-48a4-9f3e-2f355f3392f3> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/a3a956a5-71fe-4d86-8619-efd14cbc67c1/> .
+
+    <http://www.ligatus.org.uk/lcd/25d9fab6-9c51-4fff-8883-421efd571fc8/> a crm:E52_Time-Span ;
+        rdfs:label "Conservation treatment date (Library of Congress, 2028)"@en ;
+        crm:P82b_end_of_the_end "2013-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/27574f6a-c6e8-49b0-af0c-41b192bba075/> a crm:E42_Identifier ;
+        rdfs:label "Project Number (Library of Congress, 2028)"@en ;
+        crm:P190_has_symbolic_content "2028"^^xsd:string .
+
+    <http://www.ligatus.org.uk/lcd/2974362d-3dc5-47da-95f1-1c9ca91ea636> a crm:E12_Production ;
+        rdfs:label "Book production (Library of Congress, 1471)"@en ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/33e7a130-b373-450a-bc9b-f2844d7dfaf1/> .
+
+    <http://www.ligatus.org.uk/lcd/2988b68e-3a1d-4ade-962f-00bbe460b243/> a crm:E52_Time-Span ;
+        rdfs:label "Printing or Production date (Library of Congress, 2028)"@en ;
+        crm:P82a_begin_of_the_begin "1596-01-01T00:00:00"^^xsd:dateTime ;
+        crm:P82b_end_of_the_end "1596-12-30T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/2affbd18-3b43-4bd8-a0d7-ab322f59cf07/> a crm:E39_Actor ;
+        rdfs:label "Conservator"@en ;
+        crm:P14.1_in_the_role_of aat:300102842 ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd> .
+
+    <http://www.ligatus.org.uk/lcd/2cba91fb-e1a0-4a3e-a899-6c2579ef1795/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1657_001"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/1fbcc4b8-1591-45e0-9420-c7f2382832c7> ;
+        crm:P8_took_place_on_or_within <http://www.ligatus.org.uk/lcd/d9ff553c-3d24-4952-8454-95ed7080087d/> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/75bea6e7-d19f-4194-9447-912ea681e243/> .
+
+    <http://www.ligatus.org.uk/lcd/2d7838b3-22f9-41ae-a955-033b3c8bd28a/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing structure (Library of Congress, 1466_028)"@en ;
+        crm:P2_has_type lob:3014 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/cb22cb2f-e55b-447b-8e00-d3dc18a5f129-1/> .
+
+    <http://www.ligatus.org.uk/lcd/2de97b54-e501-4739-9acb-f36bdb54a58c/> a crm:E25_Human-Made_Feature ;
+        rdfs:label "Bookblock edges (Library of Congress, 1785)"@en ;
+        crm:P2_has_type lob:1226,
+            <http://w3id.org/loc-vocabs/18738fbd-b109-4b9b-9c90-64e83b194673>,
+            <http://w3id.org/loc-vocabs/d80a51e0-d6b6-493c-a5fd-eeb1a7979c02> .
+
+    <http://www.ligatus.org.uk/lcd/313c72d5-6a67-4b6a-8120-14bc6b41045f/> a crm:E3_Condition_State ;
+        rdfs:label "Distortion (Library of Congress, 1466_028)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/edec7bcb-d127-4512-9f05-67b52435b12b> .
+
+    <http://www.ligatus.org.uk/lcd/31af1ba9-2244-45cb-8b19-997c56872f91/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1466_027"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/c9718ed8-8891-4617-a239-94e5d09c3b45> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/30b9de1a-37e9-4fea-8cf9-483c12b1cc1e/> .
+
+    <http://www.ligatus.org.uk/lcd/32dbeb52-53d2-4851-ae22-76ff0d793f59/> a crm:E25_Human-Made_Feature ;
+        rdfs:label "Bookblock spine (Library of Congress, 1697)"@en ;
+        crm:P2_has_type lob:2352 .
+
+    <http://www.ligatus.org.uk/lcd/3388b45d-a609-47a4-8e63-600094633c0e/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Book (Library of Congress, 1657_001)"@en ;
+        crm:P108i_was_produced_by <http://www.ligatus.org.uk/lcd/afcf35e9-d703-4ff6-becb-bddd983c1b51> ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd/07cf488a-87a6-4a62-baa7-031bbc47bf57/> ;
+        crm:P2_has_type lob:4886 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/22eb4839-680d-41dc-a28b-2cc7e18e4413/>,
+            <http://www.ligatus.org.uk/lcd/75bea6e7-d19f-4194-9447-912ea681e243/> ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/14ed98fd-a8a8-42b6-bc74-7696ba118a4f/>,
+            <http://www.ligatus.org.uk/lcd/213dad24-6414-4e7f-8151-ec9826953654/>,
+            <http://www.ligatus.org.uk/lcd/52bd8f49-205b-4772-b158-1ac75c2fb5fa/>,
+            <http://www.ligatus.org.uk/lcd/78b68c13-326c-4a73-ab02-848a10f3eb8e/>,
+            <http://www.ligatus.org.uk/lcd/d15c2b5e-9305-4a69-85b0-c4eeebcf1039/> ;
+        crm:P50_has_current_keeper dbp:Library_of_Congress ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/5fc8878e-64d4-4ed2-876b-a77707b56fe0> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/3388b45d-a609-47a4-8e63-600094633c0e#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/3388b45d-a609-47a4-8e63-600094633c0e#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/33c14462-989f-4e0d-aebd-48988e9ac724/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing structure (Library of Congress, 2028)"@en ;
+        crm:P2_has_type lob:3014 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/d1a3b4bd-cf8a-43d9-884f-9c57ff762bc6-1/> .
+
+    <http://www.ligatus.org.uk/lcd/33c86a63-6b42-4b4f-a1f1-d98cb9722b77/> a crm:E39_Actor ;
+        rdfs:label "Conservator"@en ;
+        crm:P14.1_in_the_role_of aat:300102842 ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd> .
+
+    <http://www.ligatus.org.uk/lcd/33e7a130-b373-450a-bc9b-f2844d7dfaf1/> a crm:E52_Time-Span ;
+        rdfs:label "Printing or Production date (Library of Congress, 1471)"@en ;
+        crm:P82a_begin_of_the_begin "1515-01-01T00:00:00"^^xsd:dateTime ;
+        crm:P82b_end_of_the_end "1515-12-31T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/34265fd7-5459-414a-bcff-3e200d0384d8/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1471"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/4d85d2ad-6db9-4b12-b7bb-019788aa96d8> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/409e7211-43cd-4ced-98c8-a3475567df58/> .
+
+    <http://www.ligatus.org.uk/lcd/348f9df8-26cb-4cbf-831f-80a1010bc0c2/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Book (Library of Congress, 135)"@en ;
+        crm:P108i_was_produced_by <http://www.ligatus.org.uk/lcd/0ec87f16-4b82-4f2a-9d54-9b5037fc5d0b> ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd/47c472ef-709a-4155-b6e1-cd7d7e23da37/> ;
+        crm:P2_has_type lob:4886 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/37448046-7a1b-4243-afda-bc0cc43638d8/>,
+            <http://www.ligatus.org.uk/lcd/95c173f5-44f1-48e0-ba4f-c25a418dfa08/> ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/52f70eaa-b4c5-476a-80af-756263087c01/>,
+            <http://www.ligatus.org.uk/lcd/756996bb-aa45-4545-b13b-f5ec0e82dbd4/>,
+            <http://www.ligatus.org.uk/lcd/a847e8cc-3f98-4b21-8da2-14c98385b2c0/>,
+            <http://www.ligatus.org.uk/lcd/d07c4c99-8915-4bb7-b2bc-d7dedcd34c87/>,
+            <http://www.ligatus.org.uk/lcd/e1841666-fe07-4aa3-ad92-a31c5aae2649/> ;
+        crm:P50_has_current_keeper dbp:Library_of_Congress ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/5fc8878e-64d4-4ed2-876b-a77707b56fe0> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/348f9df8-26cb-4cbf-831f-80a1010bc0c2#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/348f9df8-26cb-4cbf-831f-80a1010bc0c2#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/34d414d1-06d6-4368-99cb-9822d53dac61/> a crm:E3_Condition_State ;
+        rdfs:label "Repaired (Library of Congress, 1450)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/bcc78dc8-9637-455c-a2b7-e60099818a19> .
+
+    <http://www.ligatus.org.uk/lcd/355e7a68-9456-42ad-b9c0-09f6ff5a9506/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Textblock (Library of Congress, 1697)"@en ;
+        crm:P2_has_type lob:1663 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/03ee8e32-171f-41a5-968c-98481fc18b73/>,
+            <http://www.ligatus.org.uk/lcd/04472eb6-68d7-4224-95e4-a1f0ac1c8924/>,
+            <http://www.ligatus.org.uk/lcd/792c4d90-23da-4756-aaf8-6aa1c7b30da0/>,
+            <http://www.ligatus.org.uk/lcd/7bde4da1-079f-4c80-bb65-9d253917dc60/>,
+            <http://www.ligatus.org.uk/lcd/cb26578d-c437-4027-b2a1-f1a052bbfa5a/>,
+            <http://www.ligatus.org.uk/lcd/d501d98c-5902-41e3-b8cc-60259fecfe42/> ;
+        crm:P44_has_condition <http://www.ligatus.org.uk/lcd/8e5d0f9f-b437-4ab2-bb58-23dd649c2ccb/>,
+            <http://www.ligatus.org.uk/lcd/b2813ac9-ac0f-4bc7-b294-d6afc9e8868b/> ;
+        crm:P45_consists_of <http://w3id.org/loc-vocabs/e9350b60-96e4-488f-9f11-3a2c21079927> .
+
+    <http://www.ligatus.org.uk/lcd/3748fa42-04a4-4fcf-bdaa-87a08c4202b8/> a crm:E25_Human-Made_Feature ;
+        rdfs:label "Bookblock spine (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type lob:2352 .
+
+    <http://www.ligatus.org.uk/lcd/375afe21-a350-4904-8b2e-921316b04c22/> a crm:E42_Identifier ;
+        rdfs:label "Project Number (Library of Congress, 1466_027)"@en ;
+        crm:P190_has_symbolic_content "1466_027"^^xsd:string .
+
+    <http://www.ligatus.org.uk/lcd/3760e57a-e2fe-4f77-a73f-c3419e6f5331/> a crm:E80_Part_Removal ;
+        rdfs:label "Removal from Library of Congress, 1450"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/78f4aeb6-67a5-4e05-96ff-c42defeb36f5> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/d5a0e875-0c73-4a01-9b0c-63498edc65f5/> .
+
+    <http://www.ligatus.org.uk/lcd/3960f3e3-9f51-4eed-878b-7cdfbcee2f86/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Book (Library of Congress, 1466_028)"@en ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd/4731c863-2619-4e7b-9fca-ef80bc2b3c9f/> ;
+        crm:P2_has_type lob:4886 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/53b5ada8-2f5c-4a4a-bf0b-595b424e2265/> ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/1b379d4f-69e6-469e-89cd-b6145c73bc90/>,
+            <http://www.ligatus.org.uk/lcd/2d7838b3-22f9-41ae-a955-033b3c8bd28a/>,
+            <http://www.ligatus.org.uk/lcd/b985b95e-1a6a-40b3-baff-ba02c0c050cd/>,
+            <http://www.ligatus.org.uk/lcd/f5895c1c-6eaa-4620-98c5-80e60cbcbda1/>,
+            <http://www.ligatus.org.uk/lcd/f7bc4a6a-3514-42a3-a880-fe83a0fe0ae9/> ;
+        crm:P50_has_current_keeper dbp:Library_of_Congress ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/5fc8878e-64d4-4ed2-876b-a77707b56fe0> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/3960f3e3-9f51-4eed-878b-7cdfbcee2f86#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/3960f3e3-9f51-4eed-878b-7cdfbcee2f86#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/3a35c435-b8c8-48c0-ab64-3e0227b77ddb/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Cover (Library of Congress, 1471)"@en ;
+        crm:P2_has_type lob:1268 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/cf834233-8082-40ad-a817-757fa67469ce/> ;
+        crm:P45_consists_of <http://w3id.org/loc-vocabs/397b812c-cf26-4c87-991b-58677b4703a0>,
+            <http://w3id.org/loc-vocabs/5c1a66ed-5594-4120-8453-db9a4506a1bd>,
+            <http://w3id.org/loc-vocabs/b93dc32b-d9fd-4439-a66b-e5dd3d596c51> .
+
+    <http://www.ligatus.org.uk/lcd/3ca6ee56-a6dc-4ffd-ad87-05fb966eb375-1/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing supports (Library of Congress, 1697)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/ce79bf79-6a53-4c50-84d6-e3a3a2da8090> .
+
+    <http://www.ligatus.org.uk/lcd/3d0c367a-ae47-4f09-a9ca-27cad4da283e/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Left board (Library of Congress, 1450)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/d7cf1e0a-a345-447e-a11a-cf6adfac0e74#leftPlace> .
+
+    <http://www.ligatus.org.uk/lcd/3d444b35-658a-46b9-af2f-4369b3e0fbfb#headPlace> a crm:E53_Place ;
+        rdfs:label "Head (Library of Congress, 1471)"@en ;
+        crm:P2_has_type lob:3803 .
+
+    <http://www.ligatus.org.uk/lcd/3d444b35-658a-46b9-af2f-4369b3e0fbfb#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 1471)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/3d444b35-658a-46b9-af2f-4369b3e0fbfb#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 1471)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/3d444b35-658a-46b9-af2f-4369b3e0fbfb#spinePlace> a crm:E53_Place ;
+        rdfs:label "Spine (place) (Library of Congress, 1471)"@en ;
+        crm:P2_has_type lob:3810 .
+
+    <http://www.ligatus.org.uk/lcd/3d444b35-658a-46b9-af2f-4369b3e0fbfb#tailPlace> a crm:E53_Place ;
+        rdfs:label "Tail (Library of Congress, 1471)"@en ;
+        crm:P2_has_type lob:3805 .
+
+    <http://www.ligatus.org.uk/lcd/3d444b35-658a-46b9-af2f-4369b3e0fbfb/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Bookblock (Library of Congress, 1471)"@en ;
+        crm:P2_has_type lob:1227 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/0ff87324-8fb3-4349-8897-f82b814122e1/> ;
+        crm:P56_bears_feature <http://www.ligatus.org.uk/lcd/09c8b8b6-6d51-4321-a1c2-6b3c5bba9738/> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/3d444b35-658a-46b9-af2f-4369b3e0fbfb#headPlace>,
+            <http://www.ligatus.org.uk/lcd/3d444b35-658a-46b9-af2f-4369b3e0fbfb#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/3d444b35-658a-46b9-af2f-4369b3e0fbfb#rightPlace>,
+            <http://www.ligatus.org.uk/lcd/3d444b35-658a-46b9-af2f-4369b3e0fbfb#spinePlace>,
+            <http://www.ligatus.org.uk/lcd/3d444b35-658a-46b9-af2f-4369b3e0fbfb#tailPlace> .
+
+    <http://www.ligatus.org.uk/lcd/3f375a2a-185c-4c2b-96d5-dd698b0fd6e6/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Right board (Library of Congress, 1466_027)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/09b67e8c-42d2-4b50-b306-a6424eca6367#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/3fc6a8da-f230-48e1-8caa-ef8d47d7ca8d/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1471"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/06a37aa1-5505-4a84-ae13-0dafdd49dcfa> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/409e7211-43cd-4ced-98c8-a3475567df58/> .
+
+    <http://www.ligatus.org.uk/lcd/400912ae-b3aa-4d2d-a1aa-192fe1b945db#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 17)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/400912ae-b3aa-4d2d-a1aa-192fe1b945db#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 17)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/400912ae-b3aa-4d2d-a1aa-192fe1b945db/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Book (Library of Congress, 17)"@en ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd//> ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/210568db-70a2-4fbc-9db5-31f6edb1f9da/> ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/4ec3b595-0fb0-4862-8017-0714fd3945c8/>,
+            <http://www.ligatus.org.uk/lcd/956b6099-a4df-4b6b-859e-c9c81cc2a348/>,
+            <http://www.ligatus.org.uk/lcd/a142a4c6-d9cd-4f1f-8334-3e7db6a01502/> ;
+        crm:P50_has_current_keeper dbp:Library_of_Congress ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/5fc8878e-64d4-4ed2-876b-a77707b56fe0> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/400912ae-b3aa-4d2d-a1aa-192fe1b945db#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/400912ae-b3aa-4d2d-a1aa-192fe1b945db#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/40afa610-e60d-4cf0-b840-7fc6d0ba1d38/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Cover (Library of Congress, 2028)"@en ;
+        crm:P2_has_type lob:1268 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/ca5ae8ad-c7e0-44af-9b66-eff590b0febf/>,
+            <http://www.ligatus.org.uk/lcd/d9f1359e-58d1-4a9c-8b7b-502f240e6ef5/> ;
+        crm:P56_bears_feature <http://www.ligatus.org.uk/lcd/54818d5b-d490-4142-81cb-a0f01a339c6d/> .
+
+    <http://www.ligatus.org.uk/lcd/41275738-5089-49b6-81a9-b1238f4d302a/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1466_028"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/80155d27-5aa6-4e7b-9d6d-1bd6a2f2ced1> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/53b5ada8-2f5c-4a4a-bf0b-595b424e2265/> .
+
+    <http://www.ligatus.org.uk/lcd/430a6f92-621f-4c59-8bd5-bbec9f653b6f/> a crm:E25_Man-Made_Feature ;
+        rdfs:label "Gold tooling (Library of Congress, 2247)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/acb60fc6-53b4-4120-8776-06dcaf06e25f> .
+
+    <http://www.ligatus.org.uk/lcd/436a3a40-1fb5-4e61-aa17-3ea6f48fb80e/> a crm:E39_Actor ;
+        rdfs:label "Conservator"@en ;
+        crm:P14.1_in_the_role_of aat:300102842 ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd> .
+
+    <http://www.ligatus.org.uk/lcd/448db053-7d60-44c2-8636-790ba913d538/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Cover (Library of Congress, 1466_027)"@en ;
+        crm:P2_has_type lob:1268 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/1167112c-5c1e-445b-bde5-367e82d71fee/> ;
+        crm:P45_consists_of <http://w3id.org/loc-vocabs/982aee63-6edb-4184-b5fe-f906912aaf11>,
+            <http://w3id.org/loc-vocabs/af102085-70f2-402c-82e3-1ed349c2d6ec> .
+
+    <http://www.ligatus.org.uk/lcd/44c321ae-363d-4b78-a205-d9bc7610c633/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Left board (Library of Congress, 1471)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/c2ab2acb-6395-4896-b90c-ead0ba586947#leftPlace> .
+
+    <http://www.ligatus.org.uk/lcd/44fce9bc-a438-43eb-bcfc-88ef8c8fde06/> a crm:E53_Place ;
+        rdfs:label "Outer joints (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/b5942287-d522-4848-8e61-acadf348c119> .
+
+    <http://www.ligatus.org.uk/lcd/458f59b7-ae5d-40da-95c6-2c54f69fba72/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1638"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/4ff5ec0f-b891-42fd-b805-2ea1b2adc04c> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/a3a956a5-71fe-4d86-8619-efd14cbc67c1/> .
+
+    <http://www.ligatus.org.uk/lcd/4696d862-996b-43cb-a1f7-1a53862fb51e/> a crm:E39_Actor ;
+        rdfs:label "Conservator"@en ;
+        crm:P14.1_in_the_role_of aat:300102842 ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd> .
+
+    <http://www.ligatus.org.uk/lcd/4731c863-2619-4e7b-9fca-ef80bc2b3c9f/> a crm:E42_Identifier ;
+        rdfs:label "Project Number (Library of Congress, 1466_028)"@en ;
+        crm:P190_has_symbolic_content "1466_028"^^xsd:string .
+
+    <http://www.ligatus.org.uk/lcd/474d159b-6d76-4b17-a5ac-bf67b3161364/> a crm:E42_Identifier ;
+        rdfs:label "Project Number (Library of Congress, 1638)"@en ;
+        crm:P190_has_symbolic_content "1638"^^xsd:string .
+
+    <http://www.ligatus.org.uk/lcd/47c472ef-709a-4155-b6e1-cd7d7e23da37/> a crm:E42_Identifier ;
+        rdfs:label "Project Number (Library of Congress, 135)"@en ;
+        crm:P190_has_symbolic_content "135"^^xsd:string .
+
+    <http://www.ligatus.org.uk/lcd/48b7c4e4-dc70-44dd-b5d0-7bbbac71fecf/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1657_001"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/c9718ed8-8891-4617-a239-94e5d09c3b45> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/75bea6e7-d19f-4194-9447-912ea681e243/> .
+
+    <http://www.ligatus.org.uk/lcd/4955e1f4-06da-479d-9e75-a7207ed34874/> a crm:E25_Human-Made_Feature ;
+        rdfs:label "Bookblock spine (Library of Congress, 1638)"@en ;
+        crm:P2_has_type lob:2352 .
+
+    <http://www.ligatus.org.uk/lcd/4a002469-a3a9-4242-8f1c-5c3f77e45038/> a crm:E25_Human-Made_Feature ;
+        rdfs:label "Bookblock spine (Library of Congress, 2247)"@en ;
+        crm:P2_has_type lob:2352 .
+
+    <http://www.ligatus.org.uk/lcd/4a03b4d6-2aad-40c3-881a-5eb9f3f18dbc/> a crm:E3_Condition_State ;
+        rdfs:label "Damaged (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/e645fa14-55fb-4aea-91f6-c47c534d858f>,
+            <http://www.ligatus.org.uk/lcd> .
+
+    <http://www.ligatus.org.uk/lcd/4a19e4f3-bda7-4537-87b7-76fa59dab195/> a crm:E52_Time-Span ;
+        rdfs:label "Attribute assignment date (Library of Congress, 2247)"@en ;
+        crm:P82a_begin_of_the_begin "2013-01-01T00:00:00"^^xsd:dateTime ;
+        crm:P82b_end_of_the_end "2013-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/4afce964-c816-4fbb-be92-d70014644c0b/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Textblock (Library of Congress, 1466_028)"@en ;
+        crm:P113i_was_removed_by <http://www.ligatus.org.uk/lcd/f2f63552-8c25-4196-ad5f-14bd4db64956/> ;
+        crm:P2_has_type lob:1663 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/130e297e-fb4d-4452-8833-0c59bf3396a0/>,
+            <http://www.ligatus.org.uk/lcd/2143c8fb-441a-4c62-90e5-a23f79ad496d/>,
+            <http://www.ligatus.org.uk/lcd/41275738-5089-49b6-81a9-b1238f4d302a/>,
+            <http://www.ligatus.org.uk/lcd/a798d000-d5a3-4f4e-b7d4-2f91752e3013/>,
+            <http://www.ligatus.org.uk/lcd/b02ae385-5dd9-4094-9fb6-4d0aaa425527/> ;
+        crm:P44_has_condition <http://www.ligatus.org.uk/lcd/313c72d5-6a67-4b6a-8120-14bc6b41045f/> ;
+        crm:P45_consists_of <http://www.ligatus.org.uk/lcd/53b5ada8-2f5c-4a4a-bf0b-595b424e2265/> .
+
+    <http://www.ligatus.org.uk/lcd/4b2a438a-a18c-4449-a7b3-046b9b8d88b5/> a crm:E25_Human-Made_Object ;
+        rdfs:label "New sewn structure (Library of Congress, 1785)"@en ;
+        crm:P111i_was_added_by <http://www.ligatus.org.uk/lcd/e76b94fe-1caf-4c8f-b01a-a387a3651df2/> ;
+        crm:P2_has_type lob:3014 .
+
+    <http://www.ligatus.org.uk/lcd/4b301d42-c4be-4562-8a02-f522d46fdd31/> a crm:E52_Time-Span ;
+        rdfs:label "Attribute assignment date (Library of Congress, 1466_029)"@en ;
+        crm:P82a_begin_of_the_begin "2011-01-01T00:00:00"^^xsd:dateTime ;
+        crm:P82b_end_of_the_end "2011-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/4de6ed8f-0b8a-4751-a33b-d347ec69b589/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing structure (Library of Congress, 1471)"@en ;
+        crm:P2_has_type lob:3014 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/c1794fb3-d3cf-429b-8c0e-ebc052762251-1/> .
+
+    <http://www.ligatus.org.uk/lcd/4ec3b595-0fb0-4862-8017-0714fd3945c8#headPlace> a crm:E53_Place ;
+        rdfs:label "Head (Library of Congress, 17)"@en ;
+        crm:P2_has_type lob:3803 .
+
+    <http://www.ligatus.org.uk/lcd/4ec3b595-0fb0-4862-8017-0714fd3945c8#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 17)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/4ec3b595-0fb0-4862-8017-0714fd3945c8#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 17)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/4ec3b595-0fb0-4862-8017-0714fd3945c8#spinePlace> a crm:E53_Place ;
+        rdfs:label "Spine (place) (Library of Congress, 17)"@en ;
+        crm:P2_has_type lob:3810 .
+
+    <http://www.ligatus.org.uk/lcd/4ec3b595-0fb0-4862-8017-0714fd3945c8#tailPlace> a crm:E53_Place ;
+        rdfs:label "Tail (Library of Congress, 17)"@en ;
+        crm:P2_has_type lob:3805 .
+
+    <http://www.ligatus.org.uk/lcd/4ec3b595-0fb0-4862-8017-0714fd3945c8/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Bookblock (Library of Congress, 17)"@en ;
+        crm:P2_has_type lob:1227 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/126879ce-50be-43fd-befa-eba6dfd3ac53/> ;
+        crm:P56_bears_feature <http://www.ligatus.org.uk/lcd/68f394a6-6197-4684-b048-923dff92bc12/> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/4ec3b595-0fb0-4862-8017-0714fd3945c8#headPlace>,
+            <http://www.ligatus.org.uk/lcd/4ec3b595-0fb0-4862-8017-0714fd3945c8#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/4ec3b595-0fb0-4862-8017-0714fd3945c8#rightPlace>,
+            <http://www.ligatus.org.uk/lcd/4ec3b595-0fb0-4862-8017-0714fd3945c8#spinePlace>,
+            <http://www.ligatus.org.uk/lcd/4ec3b595-0fb0-4862-8017-0714fd3945c8#tailPlace> .
+
+    <http://www.ligatus.org.uk/lcd/5158be3d-1ef6-465a-a2fc-96278c9147a8/> a crm:E39_Actor ;
+        rdfs:label "Conservator"@en ;
+        crm:P14.1_in_the_role_of aat:300102842 ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd> .
+
+    <http://www.ligatus.org.uk/lcd/51faff31-b285-411f-b9c2-3ee8eabf6a9e/> a crm:E25_Human-Made_Feature ;
+        rdfs:label "Bookblock spine (Library of Congress, 2028)"@en ;
+        crm:P2_has_type lob:2352 .
+
+    <http://www.ligatus.org.uk/lcd/5218c28f-078e-428d-b20f-2d0052c856bf/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Cover (Library of Congress, 1450)"@en ;
+        crm:P2_has_type lob:1268 ;
+        crm:P45_consists_of <http://w3id.org/loc-vocabs/5c1a66ed-5594-4120-8453-db9a4506a1bd>,
+            <http://w3id.org/loc-vocabs/982aee63-6edb-4184-b5fe-f906912aaf11> ;
+        crm:P56_bears_feature <http://www.ligatus.org.uk/lcd/e21b73df-dc0b-43ac-9795-1f715dba1c7a/> .
+
+    <http://www.ligatus.org.uk/lcd/5282f300-d595-434a-89ea-ce1ef36177c8> a crm:E12_Production ;
+        rdfs:label "Book production (Library of Congress, 2247)"@en ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/c6b40d54-1af8-45d7-8dee-8e1b7a5dc8e1/> .
+
+    <http://www.ligatus.org.uk/lcd/52bd8f49-205b-4772-b158-1ac75c2fb5fa/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Cover (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type lob:1268 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/2cba91fb-e1a0-4a3e-a899-6c2579ef1795/>,
+            <http://www.ligatus.org.uk/lcd/8120c5d3-cdfd-42ae-b062-dab43c817116/> ;
+        crm:P56_bears_feature <http://www.ligatus.org.uk/lcd/9b36068c-8732-4bfa-930c-9fd417008c79/> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/44fce9bc-a438-43eb-bcfc-88ef8c8fde06/> .
+
+    <http://www.ligatus.org.uk/lcd/52f70eaa-b4c5-476a-80af-756263087c01/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Cover (Library of Congress, 135)"@en ;
+        crm:P2_has_type lob:1268 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/9aee2011-ea50-448c-a5ae-ab1dd010f46c/> ;
+        crm:P45_consists_of <http://w3id.org/loc-vocabs/63b7ad04-90ad-4410-964e-114429e14897>,
+            <http://w3id.org/loc-vocabs/f6e3f6ba-a3fb-4c70-9924-a149e95e8576> ;
+        crm:P56_bears_feature <http://www.ligatus.org.uk/lcd/bc8621a1-8917-4515-a4a7-62ca33daeda0/> .
+
+    <http://www.ligatus.org.uk/lcd/5360c699-703f-4fb9-8dab-8f604849893a/> a crm:E3_Condition_State ;
+        rdfs:label "Damaged (Library of Congress, 1466_029)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/e645fa14-55fb-4aea-91f6-c47c534d858f> .
+
+    <http://www.ligatus.org.uk/lcd/536c11c4-ec69-4d0f-a50d-03ff2b9e234c/> a crm:E3_Condition_State ;
+        rdfs:label "Distortion (Library of Congress, 135)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/edec7bcb-d127-4512-9f05-67b52435b12b> .
+
+    <http://www.ligatus.org.uk/lcd/54818d5b-d490-4142-81cb-a0f01a339c6d/> a crm:E25_Man-Made_Feature ;
+        rdfs:label "Gold tooling (Library of Congress, 2028)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/acb60fc6-53b4-4120-8776-06dcaf06e25f> .
+
+    <http://www.ligatus.org.uk/lcd/548ab1ac-5a0c-4553-8bf5-2356ac8bdacd/> a crm:E3_Condition_State ;
+        rdfs:label "Detached (Library of Congress, 1697)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/dbe22ff9-13ca-4907-9931-acea6e73c5a1> .
+
+    <http://www.ligatus.org.uk/lcd/5517ef26-2fc2-4a31-a214-b2316648fe72/> a crm:E39_Actor ;
+        rdfs:label "Conservator"@en ;
+        crm:P14.1_in_the_role_of aat:300102842 ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd> .
+
+    <http://www.ligatus.org.uk/lcd/55b554a5-d4d6-4321-9226-d60c4aa19ded/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Right board (Library of Congress, 2247)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P44_has_condition <http://www.ligatus.org.uk/lcd/89919667-4f51-4f98-9630-e93fac4c464e/>,
+            <http://www.ligatus.org.uk/lcd/98e17a69-39b0-46d9-a450-108e60b81659/> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/d0ecabcc-f85b-4e4c-a628-a688790451fd#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/55c36af1-06a9-4a78-b696-1debf150b60e/> a crm:E52_Time-Span ;
+        rdfs:label "Conservation treatment date (Library of Congress, 1466_029)"@en ;
+        crm:P82b_end_of_the_end "2011-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/56284eb3-d368-47e7-8a6b-cd478798cd14/> a crm:E3_Condition_State ;
+        rdfs:label "Damaged (Library of Congress, 2247)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/e645fa14-55fb-4aea-91f6-c47c534d858f> .
+
+    <http://www.ligatus.org.uk/lcd/56a1265f-6f85-47ad-98e0-8305f2618b8a/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 2028"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/8152ba03-13d3-421d-a0d4-507bbe7ca072> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/4fd9d07b-72c2-4318-94b3-584acb41a7b9/> .
+
+    <http://www.ligatus.org.uk/lcd/56ff36e1-a98d-4f77-b83c-b8be3e7b8341/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1638"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/c9718ed8-8891-4617-a239-94e5d09c3b45> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/a3a956a5-71fe-4d86-8619-efd14cbc67c1/> .
+
+    <http://www.ligatus.org.uk/lcd/573e6eb2-bb08-4bb5-94bd-ed68e2095337/> a crm:E52_Time-Span ;
+        rdfs:label "Printing or Production date (Library of Congress, 1782)"@en ;
+        crm:P82a_begin_of_the_begin "1491-01-01T00:00:00"^^xsd:dateTime ;
+        crm:P82b_end_of_the_end "1491-12-31T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/5798c179-7c1e-40e2-b16c-c7d03e5b1566/> a crm:E25_Human-Made_Feature ;
+        rdfs:label "Bookblock spine (Library of Congress, 1466_027)"@en ;
+        crm:P2_has_type lob:2352 .
+
+    <http://www.ligatus.org.uk/lcd/57f78c42-c807-4886-a047-5164a0565334/> a crm:E52_Time-Span ;
+        rdfs:label "Conservation treatment date (Library of Congress, 1466_028)"@en ;
+        crm:P82b_end_of_the_end "2011-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/581e7aab-0ca1-469a-8074-6344b8993889/> a crm:E52_Time-Span ;
+        rdfs:label "Conservation treatment date (Library of Congress, 1471)"@en ;
+        crm:P82b_end_of_the_end "2001-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/5d190623-928b-41b7-a474-d79d2537c0b0/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Right board (Library of Congress, 1466_029)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P44_has_condition <http://www.ligatus.org.uk/lcd/5360c699-703f-4fb9-8dab-8f604849893a/> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/fe0bba64-3ec7-418a-a629-fb4380fd1a4f#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/5e33c122-b11f-430a-9095-75f067afb5ea/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1657_001"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/06a37aa1-5505-4a84-ae13-0dafdd49dcfa> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/75bea6e7-d19f-4194-9447-912ea681e243/> .
+
+    <http://www.ligatus.org.uk/lcd/5efcf5af-b556-4254-8bbc-427fa60161e4/> a crm:E3_Condition_State ;
+        rdfs:label "Repaired (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/bcc78dc8-9637-455c-a2b7-e60099818a19> .
+
+    <http://www.ligatus.org.uk/lcd/5f521fa2-9e06-4053-8893-338cb9bf107f#headPlace> a crm:E53_Place ;
+        rdfs:label "Head (Library of Congress, 2247)"@en ;
+        crm:P2_has_type lob:3803 .
+
+    <http://www.ligatus.org.uk/lcd/5f521fa2-9e06-4053-8893-338cb9bf107f#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 2247)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/5f521fa2-9e06-4053-8893-338cb9bf107f#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 2247)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/5f521fa2-9e06-4053-8893-338cb9bf107f#spinePlace> a crm:E53_Place ;
+        rdfs:label "Spine (place) (Library of Congress, 2247)"@en ;
+        crm:P2_has_type lob:3810 .
+
+    <http://www.ligatus.org.uk/lcd/5f521fa2-9e06-4053-8893-338cb9bf107f#tailPlace> a crm:E53_Place ;
+        rdfs:label "Tail (Library of Congress, 2247)"@en ;
+        crm:P2_has_type lob:3805 .
+
+    <http://www.ligatus.org.uk/lcd/5f521fa2-9e06-4053-8893-338cb9bf107f/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Bookblock (Library of Congress, 2247)"@en ;
+        crm:P2_has_type lob:1227 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/ae907b5f-e857-4213-88d7-14d9675900ee/> ;
+        crm:P56_bears_feature <http://www.ligatus.org.uk/lcd/4a002469-a3a9-4242-8f1c-5c3f77e45038/> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/5f521fa2-9e06-4053-8893-338cb9bf107f#headPlace>,
+            <http://www.ligatus.org.uk/lcd/5f521fa2-9e06-4053-8893-338cb9bf107f#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/5f521fa2-9e06-4053-8893-338cb9bf107f#rightPlace>,
+            <http://www.ligatus.org.uk/lcd/5f521fa2-9e06-4053-8893-338cb9bf107f#spinePlace>,
+            <http://www.ligatus.org.uk/lcd/5f521fa2-9e06-4053-8893-338cb9bf107f#tailPlace> .
+
+    <http://www.ligatus.org.uk/lcd/5ff6ab3f-0b30-4424-b810-43eddf60a255/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1697"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/06fedf92-7130-4a78-8cd8-8a6c0c997b51> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/2f3c4c0d-24ea-486e-ab77-fff36b47ad25/> .
+
+    <http://www.ligatus.org.uk/lcd/604d6acb-6285-412f-a694-ddaffd5cad7e> a crm:E12_Production ;
+        rdfs:label "Book production (Library of Congress, 2028)"@en ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/2988b68e-3a1d-4ade-962f-00bbe460b243/> .
+
+    <http://www.ligatus.org.uk/lcd/6182425e-6315-4263-bde1-0404916f78a0/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Textblock (Library of Congress, 1638)"@en ;
+        crm:P2_has_type lob:1663 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/249b720a-4027-4d9a-a858-07a41845ea99/>,
+            <http://www.ligatus.org.uk/lcd/458f59b7-ae5d-40da-95c6-2c54f69fba72/>,
+            <http://www.ligatus.org.uk/lcd/56ff36e1-a98d-4f77-b83c-b8be3e7b8341/>,
+            <http://www.ligatus.org.uk/lcd/897fa165-f781-4430-a628-d5d455ad7b23/>,
+            <http://www.ligatus.org.uk/lcd/be9f4a45-b281-4f67-85f9-3f98866a5b97/> ;
+        crm:P44_has_condition <http://www.ligatus.org.uk/lcd/949baefd-59bf-42fe-80ca-5bfc4823519c/> ;
+        crm:P45_consists_of <http://www.ligatus.org.uk/lcd/a3a956a5-71fe-4d86-8619-efd14cbc67c1/> .
+
+    <http://www.ligatus.org.uk/lcd/6239bca1-74af-4fcf-bb4e-66368762d6ce/> a crm:E3_Condition_State ;
+        rdfs:label "Broken (Library of Congress, 1697)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/71be10c9-0ee0-4008-a7b2-e59b121c7b79> .
+
+    <http://www.ligatus.org.uk/lcd/629c5c3b-c4f2-4f79-995c-4724225cbad1/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1466_029"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/9427a904-6d88-4b95-b064-86aba33178dd> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/04ebd857-4246-49c2-9a29-c3e71c3ff40f/> .
+
+    <http://www.ligatus.org.uk/lcd/63944694-b26a-4357-9d76-be880b2b3ec7/> a crm:E42_Identifier ;
+        rdfs:label "Project Number (Library of Congress, 1782)"@en ;
+        crm:P190_has_symbolic_content "1782"^^xsd:string .
+
+    <http://www.ligatus.org.uk/lcd/6515648a-e677-4860-89c6-f47a751290b0/> a crm:E39_Actor ;
+        rdfs:label "Conservator"@en ;
+        crm:P14.1_in_the_role_of aat:300102842 ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd> .
+
+    <http://www.ligatus.org.uk/lcd/653c4671-17de-4d92-a8eb-fad8e84a1af5/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Right board (Library of Congress, 1697)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P44_has_condition <http://www.ligatus.org.uk/lcd/548ab1ac-5a0c-4553-8bf5-2356ac8bdacd/>,
+            <http://www.ligatus.org.uk/lcd/c7d1a7d6-00db-42cc-ac99-4e4eef99c321/> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/f8cdf6b8-1ecf-4e65-8cf7-9df0eeac25ca#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/65a583f0-565e-48a7-b998-67df10e50968/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Book (Library of Congress, 1782)"@en ;
+        crm:P108i_was_produced_by <http://www.ligatus.org.uk/lcd/935d0dab-9814-4180-993e-94886e300ee0> ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd/63944694-b26a-4357-9d76-be880b2b3ec7/> ;
+        crm:P2_has_type lob:4886 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/53125270-cee7-46b9-9f91-549848f25277/>,
+            <http://www.ligatus.org.uk/lcd/c1a6f2f6-a955-4911-82c9-ad72309a87a9/> ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/12939288-8744-4f36-8eb6-3299b375ef1a/>,
+            <http://www.ligatus.org.uk/lcd/72af1f37-ba31-42d7-a5f3-d8c5dbc8e264/>,
+            <http://www.ligatus.org.uk/lcd/aef65a57-a421-4665-8705-886dc2924e42/>,
+            <http://www.ligatus.org.uk/lcd/ca8d05b8-2594-456b-9a2d-95861e1880d0/>,
+            <http://www.ligatus.org.uk/lcd/cf2ff256-5a58-4022-80aa-6d71f71d8f3e/> ;
+        crm:P50_has_current_keeper dbp:Library_of_Congress ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/5fc8878e-64d4-4ed2-876b-a77707b56fe0> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/65a583f0-565e-48a7-b998-67df10e50968#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/65a583f0-565e-48a7-b998-67df10e50968#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/66353051-087c-4549-9a58-4f48f33861c5/> a crm:E13_Attribute_Assignment ;
+        rdfs:label "Conservation assessment (Library of Congress, 1697)"@en ;
+        crm:P140_assigned_attribute_to <http://www.ligatus.org.uk/lcd/f8cdf6b8-1ecf-4e65-8cf7-9df0eeac25ca/> ;
+        crm:P14_carried_out_by <http://www.ligatus.org.uk/lcd/0ae7941f-625c-46c7-8da5-bdabb88fa747/>,
+            <http://www.ligatus.org.uk/lcd/e1b9f4f9-fe97-4c2e-ae90-07eea6493d35/> ;
+        crm:P2_has_type aat:300080091 ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/0848db13-8147-4233-85eb-a210e327ce20/> .
+
+    <http://www.ligatus.org.uk/lcd/66d6df88-d7d4-4479-9f70-6128a4e54082/> a crm:E52_Time-Span ;
+        rdfs:label "Attribute assignment date (Library of Congress, 2028)"@en ;
+        crm:P82a_begin_of_the_begin "2013-01-01T00:00:00"^^xsd:dateTime ;
+        crm:P82b_end_of_the_end "2013-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/68311705-f2cf-4f24-bd6b-883d023fa437/> a crm:E3_Condition_State ;
+        rdfs:label "Losses (Library of Congress, 1785)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/397089a9-ac53-45bb-a369-c7a24f6426e8> .
+
+    <http://www.ligatus.org.uk/lcd/68f394a6-6197-4684-b048-923dff92bc12/> a crm:E25_Human-Made_Feature ;
+        rdfs:label "Bookblock spine (Library of Congress, 17)"@en ;
+        crm:P2_has_type lob:2352 .
+
+    <http://www.ligatus.org.uk/lcd/6981e9e8-053f-428a-8257-c4a40aea50c2/> a crm:E3_Condition_State ;
+        rdfs:label "Repaired (Library of Congress, 2028)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/bcc78dc8-9637-455c-a2b7-e60099818a19> .
+
+    <http://www.ligatus.org.uk/lcd/69cc504e-6f1f-4184-b9e9-229a749a3f75/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Book (Library of Congress, 1638)"@en ;
+        crm:P108i_was_produced_by <http://www.ligatus.org.uk/lcd/88a965fb-234d-44c7-9040-6831e017c1df> ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd/474d159b-6d76-4b17-a5ac-bf67b3161364/> ;
+        crm:P2_has_type lob:4886 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/a3a956a5-71fe-4d86-8619-efd14cbc67c1/> ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/06692280-d730-4e18-9624-b5993eae9090/>,
+            <http://www.ligatus.org.uk/lcd/6a157ba8-7e6f-4c4e-b0c3-99363b77d7f6/>,
+            <http://www.ligatus.org.uk/lcd/7f25255c-8d79-4f26-a8a8-c9eac7eec0ea/>,
+            <http://www.ligatus.org.uk/lcd/94fe4670-be1b-4561-bd26-e7d8e5eeb433/>,
+            <http://www.ligatus.org.uk/lcd/ccdeda72-f5ee-439e-93c4-69e70d644e86/> ;
+        crm:P50_has_current_keeper dbp:Library_of_Congress ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/5fc8878e-64d4-4ed2-876b-a77707b56fe0> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/69cc504e-6f1f-4184-b9e9-229a749a3f75#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/69cc504e-6f1f-4184-b9e9-229a749a3f75#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/6a157ba8-7e6f-4c4e-b0c3-99363b77d7f6#headPlace> a crm:E53_Place ;
+        rdfs:label "Head (Library of Congress, 1638)"@en ;
+        crm:P2_has_type lob:3803 .
+
+    <http://www.ligatus.org.uk/lcd/6a157ba8-7e6f-4c4e-b0c3-99363b77d7f6#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 1638)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/6a157ba8-7e6f-4c4e-b0c3-99363b77d7f6#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 1638)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/6a157ba8-7e6f-4c4e-b0c3-99363b77d7f6#spinePlace> a crm:E53_Place ;
+        rdfs:label "Spine (place) (Library of Congress, 1638)"@en ;
+        crm:P2_has_type lob:3810 .
+
+    <http://www.ligatus.org.uk/lcd/6a157ba8-7e6f-4c4e-b0c3-99363b77d7f6#tailPlace> a crm:E53_Place ;
+        rdfs:label "Tail (Library of Congress, 1638)"@en ;
+        crm:P2_has_type lob:3805 .
+
+    <http://www.ligatus.org.uk/lcd/6a157ba8-7e6f-4c4e-b0c3-99363b77d7f6/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Bookblock (Library of Congress, 1638)"@en ;
+        crm:P2_has_type lob:1227 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/6182425e-6315-4263-bde1-0404916f78a0/> ;
+        crm:P56_bears_feature <http://www.ligatus.org.uk/lcd/4955e1f4-06da-479d-9e75-a7207ed34874/> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/6a157ba8-7e6f-4c4e-b0c3-99363b77d7f6#headPlace>,
+            <http://www.ligatus.org.uk/lcd/6a157ba8-7e6f-4c4e-b0c3-99363b77d7f6#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/6a157ba8-7e6f-4c4e-b0c3-99363b77d7f6#rightPlace>,
+            <http://www.ligatus.org.uk/lcd/6a157ba8-7e6f-4c4e-b0c3-99363b77d7f6#spinePlace>,
+            <http://www.ligatus.org.uk/lcd/6a157ba8-7e6f-4c4e-b0c3-99363b77d7f6#tailPlace> .
+
+    <http://www.ligatus.org.uk/lcd/6c10ed0c-6ead-4323-8795-f8122daf4dca/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1471"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/9427a904-6d88-4b95-b064-86aba33178dd> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/409e7211-43cd-4ced-98c8-a3475567df58/> .
+
+    <http://www.ligatus.org.uk/lcd/6cd3a4be-55bf-4cd0-ab02-25c48c5fa127/> a crm:E39_Actor ;
+        rdfs:label "Conservator"@en ;
+        crm:P14.1_in_the_role_of aat:300102842 ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd> .
+
+    <http://www.ligatus.org.uk/lcd/6e348f7b-509d-464c-a924-5a94f590825c/> a crm:E80_Part_Removal ;
+        rdfs:label "Removal from Library of Congress, 135"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/78f4aeb6-67a5-4e05-96ff-c42defeb36f5> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/37448046-7a1b-4243-afda-bc0cc43638d8/> .
+
+    <http://www.ligatus.org.uk/lcd/72af1f37-ba31-42d7-a5f3-d8c5dbc8e264/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing structure (Library of Congress, 1782)"@en ;
+        crm:P2_has_type lob:3014 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/91fa99c6-a796-4cf2-82c4-f0bf33cee571-1/> .
+
+    <http://www.ligatus.org.uk/lcd/739d1673-1e06-43d7-9d1a-5a272165eca4/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing structure (Library of Congress, 1697)"@en ;
+        crm:P2_has_type lob:3014 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/3ca6ee56-a6dc-4ffd-ad87-05fb966eb375-1/> .
+
+    <http://www.ligatus.org.uk/lcd/74cef784-53fa-4343-9848-32a46f4150c6/> a crm:E52_Time-Span ;
+        rdfs:label "Attribute assignment date (Library of Congress, 1466_028)"@en ;
+        crm:P82a_begin_of_the_begin "2011-01-01T00:00:00"^^xsd:dateTime ;
+        crm:P82b_end_of_the_end "2011-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/756996bb-aa45-4545-b13b-f5ec0e82dbd4/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing structure (Library of Congress, 135)"@en ;
+        crm:P2_has_type lob:3014 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/ac82efe6-34af-41a7-8493-c980d831547a-1/> .
+
+    <http://www.ligatus.org.uk/lcd/7585782e-4ba9-4ac1-8503-42845fd12fd9/> a crm:E3_Condition_State ;
+        rdfs:label "Detached (Library of Congress, 2247)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/dbe22ff9-13ca-4907-9931-acea6e73c5a1> .
+
+    <http://www.ligatus.org.uk/lcd/76600736-bc33-452c-ba77-ab162a35a860-1/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing supports (Library of Congress, 17)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/ce79bf79-6a53-4c50-84d6-e3a3a2da8090> .
+
+    <http://www.ligatus.org.uk/lcd/77a569f9-8f5c-4a3a-8cf8-19f2fbe259ae-1/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing supports (Library of Congress, 1466_027)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/ce79bf79-6a53-4c50-84d6-e3a3a2da8090> .
+
+    <http://www.ligatus.org.uk/lcd/78b68c13-326c-4a73-ab02-848a10f3eb8e/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing structure (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type lob:3014 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/966a434e-2442-4deb-b289-e972a7530da4-1/> .
+
+    <http://www.ligatus.org.uk/lcd/78e3a9e5-b136-44a2-8d75-ea8a1d2993fc/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing structure (Library of Congress, 1450)"@en ;
+        crm:P2_has_type lob:3014 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/9c2b8de3-48d4-43eb-be9b-da8c5452455c-1/> .
+
+    <http://www.ligatus.org.uk/lcd/792c4d90-23da-4756-aaf8-6aa1c7b30da0/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1697"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/687ccb00-81d0-479f-9d72-044b91546825> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/2f3c4c0d-24ea-486e-ab77-fff36b47ad25/> .
+
+    <http://www.ligatus.org.uk/lcd/7bde4da1-079f-4c80-bb65-9d253917dc60/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1697"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/c9718ed8-8891-4617-a239-94e5d09c3b45> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/2f3c4c0d-24ea-486e-ab77-fff36b47ad25/> .
+
+    <http://www.ligatus.org.uk/lcd/7c06a1c3-fb38-4508-9150-9ab2aaec6b1f/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1785"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/13d682c4-bf88-4c06-a85f-1456180b6418> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/feb8c65f-a916-4167-b35a-0544f74244f2/> .
+
+    <http://www.ligatus.org.uk/lcd/7f25255c-8d79-4f26-a8a8-c9eac7eec0ea/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Left board (Library of Congress, 1638)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/69cc504e-6f1f-4184-b9e9-229a749a3f75#leftPlace> .
+
+    <http://www.ligatus.org.uk/lcd/803a7eca-bba9-4a35-b4c7-9a50f5fb8986/> a crm:E52_Time-Span ;
+        rdfs:label "Printing or Production date (Library of Congress, 1638)"@en ;
+        crm:P82a_begin_of_the_begin "1767-01-01T00:00:00"^^xsd:dateTime ;
+        crm:P82b_end_of_the_end "1767-12-31T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/8120c5d3-cdfd-42ae-b062-dab43c817116/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1657_001"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/fd0dcd79-f862-4a87-93ce-17277abfe83a> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/75bea6e7-d19f-4194-9447-912ea681e243/> .
+
+    <http://www.ligatus.org.uk/lcd/8147243b-8b0c-40d1-8316-69571ac36224/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Book (Library of Congress, 1785)"@en ;
+        crm:P108i_was_produced_by <http://www.ligatus.org.uk/lcd/10913493-9390-4a3f-9906-51a58820a829> ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd//> ;
+        crm:P2_has_type lob:4886 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/feb8c65f-a916-4167-b35a-0544f74244f2/> ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/140e412c-d693-42cc-b791-5a5fc6eccdc7/>,
+            <http://www.ligatus.org.uk/lcd/4b2a438a-a18c-4449-a7b3-046b9b8d88b5/>,
+            <http://www.ligatus.org.uk/lcd/86e62eb2-7c52-4fa5-b05a-43c620d30d46/>,
+            <http://www.ligatus.org.uk/lcd/8d256b60-5f46-4000-98ca-d0cf7e3ea8fe/>,
+            <http://www.ligatus.org.uk/lcd/9eea8641-33e0-4b87-92d7-4db2c3022779/>,
+            <http://www.ligatus.org.uk/lcd/ddafbce3-4241-4add-a60a-b3ac300b895b/> ;
+        crm:P50_has_current_keeper dbp:Library_of_Congress ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/5fc8878e-64d4-4ed2-876b-a77707b56fe0> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/8147243b-8b0c-40d1-8316-69571ac36224#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/8147243b-8b0c-40d1-8316-69571ac36224#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/814c0f5c-e8a5-43a0-bf65-695c5781c178/> a crm:E13_Attribute_Assignment ;
+        rdfs:label "Conservation assessment (Library of Congress, 17)"@en ;
+        crm:P140_assigned_attribute_to <http://www.ligatus.org.uk/lcd/400912ae-b3aa-4d2d-a1aa-192fe1b945db/> ;
+        crm:P2_has_type aat:300080091 .
+
+    <http://www.ligatus.org.uk/lcd/816b7baf-1a29-41bd-8983-3e73383c35bb/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1466_027"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/06a37aa1-5505-4a84-ae13-0dafdd49dcfa> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/30b9de1a-37e9-4fea-8cf9-483c12b1cc1e/> .
+
+    <http://www.ligatus.org.uk/lcd/83d4a119-f8cb-48d3-9b22-d99466f9927a/> a crm:E80_Part_Removal ;
+        rdfs:label "Removal from Library of Congress, 1782"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/78f4aeb6-67a5-4e05-96ff-c42defeb36f5> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/53125270-cee7-46b9-9f91-549848f25277/> .
+
+    <http://www.ligatus.org.uk/lcd/8489f44b-b826-424b-a5f4-2881af1ccfb0/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Left board (Library of Congress, 1466_027)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/09b67e8c-42d2-4b50-b306-a6424eca6367#leftPlace> .
+
+    <http://www.ligatus.org.uk/lcd/84db8131-128f-4536-86bf-4a8a9261cf2c/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 135"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/687ccb00-81d0-479f-9d72-044b91546825> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/37448046-7a1b-4243-afda-bc0cc43638d8/> .
+
+    <http://www.ligatus.org.uk/lcd/859b9829-185f-42f3-8984-e3fdd700dc96/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Textblock (Library of Congress, 1466_027)"@en ;
+        crm:P2_has_type lob:1663 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/1b875f81-cb8e-4ac6-8e90-4034ce2ab620/>,
+            <http://www.ligatus.org.uk/lcd/31af1ba9-2244-45cb-8b19-997c56872f91/>,
+            <http://www.ligatus.org.uk/lcd/816b7baf-1a29-41bd-8983-3e73383c35bb/>,
+            <http://www.ligatus.org.uk/lcd/8bb744a4-618d-4af3-8dea-c2d3a8bff261/>,
+            <http://www.ligatus.org.uk/lcd/f55de97e-b232-4865-ab1f-e00c42a805ad/> ;
+        crm:P44_has_condition <http://www.ligatus.org.uk/lcd/92bc2558-2a57-4f1f-bf76-b9cd264e0fb0/>,
+            <http://www.ligatus.org.uk/lcd/a578fe50-aa8b-464a-93a8-a8e717fe1cbf/> ;
+        crm:P45_consists_of <http://www.ligatus.org.uk/lcd/30b9de1a-37e9-4fea-8cf9-483c12b1cc1e/> .
+
+    <http://www.ligatus.org.uk/lcd/86e62eb2-7c52-4fa5-b05a-43c620d30d46/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Right board (Library of Congress, 1785)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/8147243b-8b0c-40d1-8316-69571ac36224#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/88a965fb-234d-44c7-9040-6831e017c1df> a crm:E12_Production ;
+        rdfs:label "Book production (Library of Congress, 1638)"@en ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/803a7eca-bba9-4a35-b4c7-9a50f5fb8986/> .
+
+    <http://www.ligatus.org.uk/lcd/897fa165-f781-4430-a628-d5d455ad7b23/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1638"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/06a37aa1-5505-4a84-ae13-0dafdd49dcfa> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/a3a956a5-71fe-4d86-8619-efd14cbc67c1/> .
+
+    <http://www.ligatus.org.uk/lcd/89919667-4f51-4f98-9630-e93fac4c464e/> a crm:E3_Condition_State ;
+        rdfs:label "Detached (Library of Congress, 2247)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/dbe22ff9-13ca-4907-9931-acea6e73c5a1> .
+
+    <http://www.ligatus.org.uk/lcd/8bb744a4-618d-4af3-8dea-c2d3a8bff261/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1466_027"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/687ccb00-81d0-479f-9d72-044b91546825> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/30b9de1a-37e9-4fea-8cf9-483c12b1cc1e/> .
+
+    <http://www.ligatus.org.uk/lcd/8d224c1b-33b9-42cb-b862-b1556602f565/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Cover (Library of Congress, 2247)"@en ;
+        crm:P2_has_type lob:1268 ;
+        crm:P56_bears_feature <http://www.ligatus.org.uk/lcd/430a6f92-621f-4c59-8bd5-bbec9f653b6f/> .
+
+    <http://www.ligatus.org.uk/lcd/8d256b60-5f46-4000-98ca-d0cf7e3ea8fe#headPlace> a crm:E53_Place ;
+        rdfs:label "Head (Library of Congress, 1785)"@en ;
+        crm:P2_has_type lob:3803 .
+
+    <http://www.ligatus.org.uk/lcd/8d256b60-5f46-4000-98ca-d0cf7e3ea8fe#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 1785)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/8d256b60-5f46-4000-98ca-d0cf7e3ea8fe#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 1785)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/8d256b60-5f46-4000-98ca-d0cf7e3ea8fe#spinePlace> a crm:E53_Place ;
+        rdfs:label "Spine (place) (Library of Congress, 1785)"@en ;
+        crm:P2_has_type lob:3810 .
+
+    <http://www.ligatus.org.uk/lcd/8d256b60-5f46-4000-98ca-d0cf7e3ea8fe#tailPlace> a crm:E53_Place ;
+        rdfs:label "Tail (Library of Congress, 1785)"@en ;
+        crm:P2_has_type lob:3805 .
+
+    <http://www.ligatus.org.uk/lcd/8d256b60-5f46-4000-98ca-d0cf7e3ea8fe/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Bookblock (Library of Congress, 1785)"@en ;
+        crm:P2_has_type lob:1227 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/d3028c51-9de6-4977-b9db-792831efff37/> ;
+        crm:P56_bears_feature <http://www.ligatus.org.uk/lcd/2de97b54-e501-4739-9acb-f36bdb54a58c/>,
+            <http://www.ligatus.org.uk/lcd/8fb09428-b8af-400c-92f7-240f86ab2e97/> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/8d256b60-5f46-4000-98ca-d0cf7e3ea8fe#headPlace>,
+            <http://www.ligatus.org.uk/lcd/8d256b60-5f46-4000-98ca-d0cf7e3ea8fe#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/8d256b60-5f46-4000-98ca-d0cf7e3ea8fe#rightPlace>,
+            <http://www.ligatus.org.uk/lcd/8d256b60-5f46-4000-98ca-d0cf7e3ea8fe#spinePlace>,
+            <http://www.ligatus.org.uk/lcd/8d256b60-5f46-4000-98ca-d0cf7e3ea8fe#tailPlace> .
+
+    <http://www.ligatus.org.uk/lcd/8da07a39-aa95-4ad6-971e-d6906a201155/> a crm:E3_Condition_State ;
+        rdfs:label "Losses (Library of Congress, 2028)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/397089a9-ac53-45bb-a369-c7a24f6426e8> .
+
+    <http://www.ligatus.org.uk/lcd/8e5d0f9f-b437-4ab2-bb58-23dd649c2ccb/> a crm:E3_Condition_State ;
+        rdfs:label "Damaged (Library of Congress, 1697)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/e645fa14-55fb-4aea-91f6-c47c534d858f> .
+
+    <http://www.ligatus.org.uk/lcd/8fb09428-b8af-400c-92f7-240f86ab2e97/> a crm:E25_Human-Made_Feature ;
+        rdfs:label "Bookblock spine (Library of Congress, 1785)"@en ;
+        crm:P2_has_type lob:2352 .
+
+    <http://www.ligatus.org.uk/lcd/91fa99c6-a796-4cf2-82c4-f0bf33cee571-1/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing supports (Library of Congress, 1782)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/ce79bf79-6a53-4c50-84d6-e3a3a2da8090> .
+
+    <http://www.ligatus.org.uk/lcd/92bc2558-2a57-4f1f-bf76-b9cd264e0fb0/> a crm:E3_Condition_State ;
+        rdfs:label "Distortion (Library of Congress, 1466_027)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/edec7bcb-d127-4512-9f05-67b52435b12b> .
+
+    <http://www.ligatus.org.uk/lcd/935d0dab-9814-4180-993e-94886e300ee0> a crm:E12_Production ;
+        rdfs:label "Book production (Library of Congress, 1782)"@en ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/573e6eb2-bb08-4bb5-94bd-ed68e2095337/> .
+
+    <http://www.ligatus.org.uk/lcd/949a5cbf-057c-4594-912e-27bc66b1e13b#headPlace> a crm:E53_Place ;
+        rdfs:label "Head (Library of Congress, 1466_027)"@en ;
+        crm:P2_has_type lob:3803 .
+
+    <http://www.ligatus.org.uk/lcd/949a5cbf-057c-4594-912e-27bc66b1e13b#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 1466_027)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/949a5cbf-057c-4594-912e-27bc66b1e13b#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 1466_027)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/949a5cbf-057c-4594-912e-27bc66b1e13b#spinePlace> a crm:E53_Place ;
+        rdfs:label "Spine (place) (Library of Congress, 1466_027)"@en ;
+        crm:P2_has_type lob:3810 .
+
+    <http://www.ligatus.org.uk/lcd/949a5cbf-057c-4594-912e-27bc66b1e13b#tailPlace> a crm:E53_Place ;
+        rdfs:label "Tail (Library of Congress, 1466_027)"@en ;
+        crm:P2_has_type lob:3805 .
+
+    <http://www.ligatus.org.uk/lcd/949a5cbf-057c-4594-912e-27bc66b1e13b/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Bookblock (Library of Congress, 1466_027)"@en ;
+        crm:P2_has_type lob:1227 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/859b9829-185f-42f3-8984-e3fdd700dc96/> ;
+        crm:P56_bears_feature <http://www.ligatus.org.uk/lcd/5798c179-7c1e-40e2-b16c-c7d03e5b1566/> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/949a5cbf-057c-4594-912e-27bc66b1e13b#headPlace>,
+            <http://www.ligatus.org.uk/lcd/949a5cbf-057c-4594-912e-27bc66b1e13b#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/949a5cbf-057c-4594-912e-27bc66b1e13b#rightPlace>,
+            <http://www.ligatus.org.uk/lcd/949a5cbf-057c-4594-912e-27bc66b1e13b#spinePlace>,
+            <http://www.ligatus.org.uk/lcd/949a5cbf-057c-4594-912e-27bc66b1e13b#tailPlace> .
+
+    <http://www.ligatus.org.uk/lcd/949baefd-59bf-42fe-80ca-5bfc4823519c/> a crm:E3_Condition_State ;
+        rdfs:label "Damaged (Library of Congress, 1638)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/e645fa14-55fb-4aea-91f6-c47c534d858f> .
+
+    <http://www.ligatus.org.uk/lcd/94fe4670-be1b-4561-bd26-e7d8e5eeb433/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing structure (Library of Congress, 1638)"@en ;
+        crm:P2_has_type lob:3014 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/e57dd9b5-e8db-4320-9f69-0149633c3510-1/> .
+
+    <http://www.ligatus.org.uk/lcd/956b6099-a4df-4b6b-859e-c9c81cc2a348/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing structure (Library of Congress, 17)"@en ;
+        crm:P2_has_type lob:3014 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/76600736-bc33-452c-ba77-ab162a35a860-1/> .
+
+    <http://www.ligatus.org.uk/lcd/95aee319-57f0-4f84-9dc6-4b9e68369481/> a crm:E3_Condition_State ;
+        rdfs:label "Losses (Library of Congress, 1471)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/397089a9-ac53-45bb-a369-c7a24f6426e8> .
+
+    <http://www.ligatus.org.uk/lcd/95c173f5-44f1-48e0-ba4f-c25a418dfa08/> a crm:E11_Modification ;
+        rdfs:label "Previous repair (Library of Congress, 135)"@en ;
+        crm:P183_ends_before_the_start_of <http://www.ligatus.org.uk/lcd/95025f1d-0784-4b24-8407-4542523e0b1e/> .
+
+    <http://www.ligatus.org.uk/lcd/966a434e-2442-4deb-b289-e972a7530da4-1/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing supports (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/ce79bf79-6a53-4c50-84d6-e3a3a2da8090> .
+
+    <http://www.ligatus.org.uk/lcd/96ccce21-ab57-4ee2-b51a-399013594a34/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Right board (Library of Congress, 2028)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/b8ecfddf-b21e-4716-bb4e-2575009577d4#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/97d8e1eb-e0e2-4144-8f4b-b3895126afc8/> a crm:E3_Condition_State ;
+        rdfs:label "Losses (Library of Congress, 1471)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/397089a9-ac53-45bb-a369-c7a24f6426e8> .
+
+    <http://www.ligatus.org.uk/lcd/98e17a69-39b0-46d9-a450-108e60b81659/> a crm:E3_Condition_State ;
+        rdfs:label "Broken (Library of Congress, 2247)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/71be10c9-0ee0-4008-a7b2-e59b121c7b79> .
+
+    <http://www.ligatus.org.uk/lcd/996a9818-e2d2-4741-acfd-f499dddbd76f/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1657_001"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/4d85d2ad-6db9-4b12-b7bb-019788aa96d8> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/75bea6e7-d19f-4194-9447-912ea681e243/> .
+
+    <http://www.ligatus.org.uk/lcd/99e2e60a-2359-4bcb-bfc8-e92c42ed39e3/> a crm:E13_Attribute_Assignment ;
+        rdfs:label "Conservation assessment (Library of Congress, 1466_029)"@en ;
+        crm:P140_assigned_attribute_to <http://www.ligatus.org.uk/lcd/fe0bba64-3ec7-418a-a629-fb4380fd1a4f/> ;
+        crm:P2_has_type aat:300080091 ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/4b301d42-c4be-4562-8a02-f522d46fdd31/> .
+
+    <http://www.ligatus.org.uk/lcd/9aebf3bd-bae1-476a-901f-6aade74f9aea/> a crm:E52_Time-Span ;
+        rdfs:label "Conservation treatment date (Library of Congress, 2247)"@en ;
+        crm:P82b_end_of_the_end "2013-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/9aee2011-ea50-448c-a5ae-ab1dd010f46c/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 135"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/fd0dcd79-f862-4a87-93ce-17277abfe83a> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/37448046-7a1b-4243-afda-bc0cc43638d8/> .
+
+    <http://www.ligatus.org.uk/lcd/9b1a517d-b802-484d-a393-e5530844049c/> a crm:E25_Human-Made_Feature ;
+        rdfs:label "Bookblock spine (Library of Congress, 1782)"@en ;
+        crm:P2_has_type lob:2352 .
+
+    <http://www.ligatus.org.uk/lcd/9b36068c-8732-4bfa-930c-9fd417008c79/> a crm:E25_Man-Made_Feature ;
+        rdfs:label "Blind tooling (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/514f52d7-37a1-45a3-8dc6-a6ac9d0aecef> .
+
+    <http://www.ligatus.org.uk/lcd/9c2b8de3-48d4-43eb-be9b-da8c5452455c-1/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing supports (Library of Congress, 1450)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/ce79bf79-6a53-4c50-84d6-e3a3a2da8090> .
+
+    <http://www.ligatus.org.uk/lcd/9c52ada9-6fa3-493b-b3dc-2c45adfffd53/> a crm:E39_Actor ;
+        rdfs:label "Conservator"@en ;
+        crm:P14.1_in_the_role_of aat:300102842 ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd> .
+
+    <http://www.ligatus.org.uk/lcd/9ed35b3c-78f7-4342-bb50-fcc60c4d5888/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Left board (Library of Congress, 2247)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P44_has_condition <http://www.ligatus.org.uk/lcd/7585782e-4ba9-4ac1-8503-42845fd12fd9/>,
+            <http://www.ligatus.org.uk/lcd/e15d0b77-8652-4630-8180-bb2885594807/> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/d0ecabcc-f85b-4e4c-a628-a688790451fd#leftPlace> .
+
+    <http://www.ligatus.org.uk/lcd/9edb8cf2-bc57-4e29-8e12-b0744f3356d3/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1782"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/8152ba03-13d3-421d-a0d4-507bbe7ca072> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/53125270-cee7-46b9-9f91-549848f25277/> .
+
+    <http://www.ligatus.org.uk/lcd/9eea8641-33e0-4b87-92d7-4db2c3022779/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing structure (Library of Congress, 1785)"@en ;
+        crm:P2_has_type lob:3014 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/d4ebfb8f-a0ed-4f9f-8715-419603d3c1eb-1/> .
+
+    <http://www.ligatus.org.uk/lcd/a0775d5d-f8c9-4664-8f90-e78bc7c428bd/> a crm:E52_Time-Span ;
+        rdfs:label "Attribute assignment date (Library of Congress, 135)"@en ;
+        crm:P82a_begin_of_the_begin "2019-01-01T00:00:00"^^xsd:dateTime ;
+        crm:P82b_end_of_the_end "2019-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/a0e413bc-5289-40e8-bd1f-9fecef100c4d/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Textblock (Library of Congress, 135)"@en ;
+        crm:P113i_was_removed_by <http://www.ligatus.org.uk/lcd/1b6418ac-522a-4a7d-8cdb-0dbe6208c650/>,
+            <http://www.ligatus.org.uk/lcd/6e348f7b-509d-464c-a924-5a94f590825c/> ;
+        crm:P2_has_type lob:1663 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/84db8131-128f-4536-86bf-4a8a9261cf2c/>,
+            <http://www.ligatus.org.uk/lcd/ab9bfc8f-14b7-4709-8d8b-6577dc98a40b/>,
+            <http://www.ligatus.org.uk/lcd/ed9616e4-529f-402b-bbc2-0eb6395f6c63/>,
+            <http://www.ligatus.org.uk/lcd/fa9d6098-fadc-4799-bdb5-e72a76559c89/> ;
+        crm:P44_has_condition <http://www.ligatus.org.uk/lcd/536c11c4-ec69-4d0f-a50d-03ff2b9e234c/>,
+            <http://www.ligatus.org.uk/lcd/ab791965-9475-4f93-8862-a06350017864/>,
+            <http://www.ligatus.org.uk/lcd/e391bf78-12b9-476c-9247-c0cf518340ce/> ;
+        crm:P45_consists_of <http://www.ligatus.org.uk/lcd/37448046-7a1b-4243-afda-bc0cc43638d8/> .
+
+    <http://www.ligatus.org.uk/lcd/a142a4c6-d9cd-4f1f-8334-3e7db6a01502/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Cover (Library of Congress, 17)"@en ;
+        crm:P2_has_type lob:1268 .
+
+    <http://www.ligatus.org.uk/lcd/a338b736-2f29-4a52-8670-fe86f2c9c952/> a crm:E25_Human-Made_Feature ;
+        rdfs:label "Bookblock spine (Library of Congress, 1466_028)"@en ;
+        crm:P2_has_type lob:2352 .
+
+    <http://www.ligatus.org.uk/lcd/a376b73e-87ef-40e7-aed7-a978c0b1fa7f/> a crm:E79_Part_Addition ;
+        rdfs:label "Addition to Library of Congress, 2028"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/8c2d0794-04d9-4239-98ea-1cfc9652e161> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/4fd9d07b-72c2-4318-94b3-584acb41a7b9/> .
+
+    <http://www.ligatus.org.uk/lcd/a4c1b3cd-c9e7-445f-b6ab-eb634b3c4be7/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1785"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/4ff5ec0f-b891-42fd-b805-2ea1b2adc04c> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/feb8c65f-a916-4167-b35a-0544f74244f2/> .
+
+    <http://www.ligatus.org.uk/lcd/a552050f-ffeb-4d8b-be9d-f448fc4902f1/> a crm:E52_Time-Span ;
+        rdfs:label "Printing or Production date (Library of Congress, 1785)"@en .
+
+    <http://www.ligatus.org.uk/lcd/a578fe50-aa8b-464a-93a8-a8e717fe1cbf/> a crm:E3_Condition_State ;
+        rdfs:label "Damaged (Library of Congress, 1466_027)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/e645fa14-55fb-4aea-91f6-c47c534d858f> .
+
+    <http://www.ligatus.org.uk/lcd/a5a7bd7d-368a-48ca-82e6-20e4581c10ac/> a crm:E42_Identifier ;
+        rdfs:label "Project Number (Library of Congress, 2247)"@en ;
+        crm:P190_has_symbolic_content "2247"^^xsd:string .
+
+    <http://www.ligatus.org.uk/lcd/a652b10e-018d-4b82-8e18-da3c63238b22/> a crm:E42_Identifier ;
+        rdfs:label "Project Number (Library of Congress, 1450)"@en ;
+        crm:P190_has_symbolic_content "1450"^^xsd:string .
+
+    <http://www.ligatus.org.uk/lcd/a798d000-d5a3-4f4e-b7d4-2f91752e3013/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1466_028"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/8152ba03-13d3-421d-a0d4-507bbe7ca072> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/53b5ada8-2f5c-4a4a-bf0b-595b424e2265/> .
+
+    <http://www.ligatus.org.uk/lcd/a847e8cc-3f98-4b21-8da2-14c98385b2c0/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Left board (Library of Congress, 135)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/348f9df8-26cb-4cbf-831f-80a1010bc0c2#leftPlace> .
+
+    <http://www.ligatus.org.uk/lcd/aa4a9ab0-38ce-4132-b968-9355298c7afc/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1471"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/13d682c4-bf88-4c06-a85f-1456180b6418> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/409e7211-43cd-4ced-98c8-a3475567df58/> .
+
+    <http://www.ligatus.org.uk/lcd/ab791965-9475-4f93-8862-a06350017864/> a crm:E3_Condition_State ;
+        rdfs:label "Repaired (Library of Congress, 135)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/bcc78dc8-9637-455c-a2b7-e60099818a19> .
+
+    <http://www.ligatus.org.uk/lcd/ab9bfc8f-14b7-4709-8d8b-6577dc98a40b/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 135"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/75ca0bfb-f8e5-4342-8bd9-84e406696075> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/37448046-7a1b-4243-afda-bc0cc43638d8/> .
+
+    <http://www.ligatus.org.uk/lcd/ac82efe6-34af-41a7-8493-c980d831547a-1/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing supports (Library of Congress, 135)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/ce79bf79-6a53-4c50-84d6-e3a3a2da8090> .
+
+    <http://www.ligatus.org.uk/lcd/ae907b5f-e857-4213-88d7-14d9675900ee/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Textblock (Library of Congress, 2247)"@en ;
+        crm:P2_has_type lob:1663 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/23701e2e-c595-4a61-a6a4-1c965bda169e/> ;
+        crm:P44_has_condition <http://www.ligatus.org.uk/lcd/56284eb3-d368-47e7-8a6b-cd478798cd14/> ;
+        crm:P45_consists_of <http://w3id.org/loc-vocabs/75fd4fee-032f-41ab-8968-191d2baa77a0>,
+            <http://w3id.org/loc-vocabs/d10e4374-db00-49eb-94f8-5033faac762b> .
+
+    <http://www.ligatus.org.uk/lcd/ae9640de-d644-4ced-86d8-dedd4cf76aa7/> a crm:E11_Modification ;
+        rdfs:label "Previous repair (Library of Congress, 1471)"@en ;
+        crm:P183_ends_before_the_start_of <http://www.ligatus.org.uk/lcd/1ced6676-8db5-4940-8c9b-bf3cffbed278/> .
+
+    <http://www.ligatus.org.uk/lcd/aee20d51-62a8-4047-a609-0be960f88737/> a crm:E52_Time-Span ;
+        rdfs:label "Attribute assignment date (Library of Congress, 1471)"@en ;
+        crm:P82a_begin_of_the_begin "2001-01-01T00:00:00"^^xsd:dateTime ;
+        crm:P82b_end_of_the_end "2001-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/aee4792d-2135-4e76-89a4-b316297e5515/> a crm:E25_Human-Made_Feature ;
+        rdfs:label "Bookblock spine (Library of Congress, 1450)"@en ;
+        crm:P2_has_type lob:2352 .
+
+    <http://www.ligatus.org.uk/lcd/aef65a57-a421-4665-8705-886dc2924e42/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Right board (Library of Congress, 1782)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/65a583f0-565e-48a7-b998-67df10e50968#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/afcf35e9-d703-4ff6-becb-bddd983c1b51> a crm:E12_Production ;
+        rdfs:label "Book production (Library of Congress, 1657_001)"@en ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/06428aa0-4c9b-44f4-9727-4020fe523be8/> .
+
+    <http://www.ligatus.org.uk/lcd/b02ae385-5dd9-4094-9fb6-4d0aaa425527/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1466_028"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/687ccb00-81d0-479f-9d72-044b91546825> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/53b5ada8-2f5c-4a4a-bf0b-595b424e2265/> .
+
+    <http://www.ligatus.org.uk/lcd/b245026b-25f4-43c3-97bb-247491186b7c/> a crm:E3_Condition_State ;
+        rdfs:label "Damaged (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/e645fa14-55fb-4aea-91f6-c47c534d858f> .
+
+    <http://www.ligatus.org.uk/lcd/b2813ac9-ac0f-4bc7-b294-d6afc9e8868b/> a crm:E3_Condition_State ;
+        rdfs:label "Distortion (Library of Congress, 1697)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/edec7bcb-d127-4512-9f05-67b52435b12b> .
+
+    <http://www.ligatus.org.uk/lcd/b2d93e88-68bc-4664-b8d3-b4a88c357059/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Textblock (Library of Congress, 2028)"@en ;
+        crm:P113i_was_removed_by <http://www.ligatus.org.uk/lcd/fdaea405-2f5e-46e7-b7cd-dd51aa9f3eef/> ;
+        crm:P2_has_type lob:1663 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/56a1265f-6f85-47ad-98e0-8305f2618b8a/>,
+            <http://www.ligatus.org.uk/lcd/d2af4d63-417c-4963-9bce-c65bd7d454dd/> ;
+        crm:P44_has_condition <http://www.ligatus.org.uk/lcd/6981e9e8-053f-428a-8257-c4a40aea50c2/>,
+            <http://www.ligatus.org.uk/lcd/8da07a39-aa95-4ad6-971e-d6906a201155/>,
+            <http://www.ligatus.org.uk/lcd/baa5b6fb-5337-48c0-a5e2-b9440a8f5745/> ;
+        crm:P45_consists_of <http://w3id.org/loc-vocabs/e9350b60-96e4-488f-9f11-3a2c21079927> .
+
+    <http://www.ligatus.org.uk/lcd/b6c70063-7f9c-4576-bb43-f951f303088b/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1782"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/06a37aa1-5505-4a84-ae13-0dafdd49dcfa> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/53125270-cee7-46b9-9f91-549848f25277/> .
+
+    <http://www.ligatus.org.uk/lcd/b703c635-5375-4308-82c5-bd60b6637e38/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1657_001"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/4ff5ec0f-b891-42fd-b805-2ea1b2adc04c> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/75bea6e7-d19f-4194-9447-912ea681e243/> .
+
+    <http://www.ligatus.org.uk/lcd/b81a8f9d-9985-4340-a5cd-d7676b06b34c/> a crm:E52_Time-Span ;
+        rdfs:label "Conservation treatment date (Library of Congress, 1657_001)"@en ;
+        crm:P82b_end_of_the_end "2016-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/b84b913e-8ae6-46c7-9e81-e6b6cee36538/> a crm:E13_Attribute_Assignment ;
+        rdfs:label "Conservation assessment (Library of Congress, 2247)"@en ;
+        crm:P140_assigned_attribute_to <http://www.ligatus.org.uk/lcd/d0ecabcc-f85b-4e4c-a628-a688790451fd/> ;
+        crm:P14_carried_out_by <http://www.ligatus.org.uk/lcd/436a3a40-1fb5-4e61-aa17-3ea6f48fb80e/>,
+            <http://www.ligatus.org.uk/lcd/f0cb55c1-e700-4287-9778-4c92f7c0686d/> ;
+        crm:P2_has_type aat:300080091 ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/4a19e4f3-bda7-4537-87b7-76fa59dab195/> .
+
+    <http://www.ligatus.org.uk/lcd/b89cb718-0f99-4a2a-9b76-e332306c5dec/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Right board (Library of Congress, 1450)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/d7cf1e0a-a345-447e-a11a-cf6adfac0e74#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/b8ecfddf-b21e-4716-bb4e-2575009577d4/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Book (Library of Congress, 2028)"@en ;
+        crm:P108i_was_produced_by <http://www.ligatus.org.uk/lcd/604d6acb-6285-412f-a694-ddaffd5cad7e> ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd/27574f6a-c6e8-49b0-af0c-41b192bba075/> ;
+        crm:P2_has_type lob:4886 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/4fd9d07b-72c2-4318-94b3-584acb41a7b9/>,
+            <http://www.ligatus.org.uk/lcd/cce95078-71d2-4e80-9051-f2b77a3c4984/> ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/0c89fda5-e857-4c29-8b0b-a05348c7a678/>,
+            <http://www.ligatus.org.uk/lcd/33c14462-989f-4e0d-aebd-48988e9ac724/>,
+            <http://www.ligatus.org.uk/lcd/40afa610-e60d-4cf0-b840-7fc6d0ba1d38/>,
+            <http://www.ligatus.org.uk/lcd/96ccce21-ab57-4ee2-b51a-399013594a34/>,
+            <http://www.ligatus.org.uk/lcd/b9917f8a-aacb-49a1-88db-f67f299aba1b/>,
+            <http://www.ligatus.org.uk/lcd/f7adb61c-0340-4bf2-8422-50173aedc71a/> ;
+        crm:P50_has_current_keeper dbp:Library_of_Congress ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/5fc8878e-64d4-4ed2-876b-a77707b56fe0> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/b8ecfddf-b21e-4716-bb4e-2575009577d4#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/b8ecfddf-b21e-4716-bb4e-2575009577d4#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/b985b95e-1a6a-40b3-baff-ba02c0c050cd/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Left board (Library of Congress, 1466_028)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/3960f3e3-9f51-4eed-878b-7cdfbcee2f86#leftPlace> .
+
+    <http://www.ligatus.org.uk/lcd/b9917f8a-aacb-49a1-88db-f67f299aba1b#headPlace> a crm:E53_Place ;
+        rdfs:label "Head (Library of Congress, 2028)"@en ;
+        crm:P2_has_type lob:3803 .
+
+    <http://www.ligatus.org.uk/lcd/b9917f8a-aacb-49a1-88db-f67f299aba1b#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 2028)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/b9917f8a-aacb-49a1-88db-f67f299aba1b#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 2028)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/b9917f8a-aacb-49a1-88db-f67f299aba1b#spinePlace> a crm:E53_Place ;
+        rdfs:label "Spine (place) (Library of Congress, 2028)"@en ;
+        crm:P2_has_type lob:3810 .
+
+    <http://www.ligatus.org.uk/lcd/b9917f8a-aacb-49a1-88db-f67f299aba1b#tailPlace> a crm:E53_Place ;
+        rdfs:label "Tail (Library of Congress, 2028)"@en ;
+        crm:P2_has_type lob:3805 .
+
+    <http://www.ligatus.org.uk/lcd/b9917f8a-aacb-49a1-88db-f67f299aba1b/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Bookblock (Library of Congress, 2028)"@en ;
+        crm:P2_has_type lob:1227 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/b2d93e88-68bc-4664-b8d3-b4a88c357059/> ;
+        crm:P56_bears_feature <http://www.ligatus.org.uk/lcd/0a49b1b1-ead8-425f-ba1a-657cd8dc5639/>,
+            <http://www.ligatus.org.uk/lcd/51faff31-b285-411f-b9c2-3ee8eabf6a9e/> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/b9917f8a-aacb-49a1-88db-f67f299aba1b#headPlace>,
+            <http://www.ligatus.org.uk/lcd/b9917f8a-aacb-49a1-88db-f67f299aba1b#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/b9917f8a-aacb-49a1-88db-f67f299aba1b#rightPlace>,
+            <http://www.ligatus.org.uk/lcd/b9917f8a-aacb-49a1-88db-f67f299aba1b#spinePlace>,
+            <http://www.ligatus.org.uk/lcd/b9917f8a-aacb-49a1-88db-f67f299aba1b#tailPlace> .
+
+    <http://www.ligatus.org.uk/lcd/baa5b6fb-5337-48c0-a5e2-b9440a8f5745/> a crm:E3_Condition_State ;
+        rdfs:label "Losses (Library of Congress, 2028)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/397089a9-ac53-45bb-a369-c7a24f6426e8> .
+
+    <http://www.ligatus.org.uk/lcd/bc8621a1-8917-4515-a4a7-62ca33daeda0/> a crm:E25_Man-Made_Feature ;
+        rdfs:label "Gold tooling (Library of Congress, 135)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/acb60fc6-53b4-4120-8776-06dcaf06e25f> .
+
+    <http://www.ligatus.org.uk/lcd/be93b266-bc8d-4c48-a741-99fc5e1ec456/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Textblock (Library of Congress, 1782)"@en ;
+        crm:P113i_was_removed_by <http://www.ligatus.org.uk/lcd/83d4a119-f8cb-48d3-9b22-d99466f9927a/> ;
+        crm:P2_has_type lob:1663 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/9edb8cf2-bc57-4e29-8e12-b0744f3356d3/>,
+            <http://www.ligatus.org.uk/lcd/b6c70063-7f9c-4576-bb43-f951f303088b/> ;
+        crm:P44_has_condition <http://www.ligatus.org.uk/lcd/07b5731c-61ba-4f86-a8a1-784963901038/> ;
+        crm:P45_consists_of <http://www.ligatus.org.uk/lcd/53125270-cee7-46b9-9f91-549848f25277/> .
+
+    <http://www.ligatus.org.uk/lcd/be9f4a45-b281-4f67-85f9-3f98866a5b97/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1638"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/9427a904-6d88-4b95-b064-86aba33178dd> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/a3a956a5-71fe-4d86-8619-efd14cbc67c1/> .
+
+    <http://www.ligatus.org.uk/lcd/c02a77b2-ad09-4f15-ac46-a99e77038005/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing structure (Library of Congress, 2247)"@en ;
+        crm:P2_has_type lob:3014 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/f909409a-da4b-420a-ace3-527e62123639-1/> .
+
+    <http://www.ligatus.org.uk/lcd/c1794fb3-d3cf-429b-8c0e-ebc052762251-1/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing supports (Library of Congress, 1471)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/ce79bf79-6a53-4c50-84d6-e3a3a2da8090> .
+
+    <http://www.ligatus.org.uk/lcd/c1a6f2f6-a955-4911-82c9-ad72309a87a9/> a crm:E11_Modification ;
+        rdfs:label "Previous repair (Library of Congress, 1782)"@en ;
+        crm:P183_ends_before_the_start_of <http://www.ligatus.org.uk/lcd/c3fb26ec-759f-4948-ae2d-5bfecb2e7475/> .
+
+    <http://www.ligatus.org.uk/lcd/c1bd1da8-0af2-4eb2-a1f2-41c19bdefa0d/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing structure (Library of Congress, 1466_029)"@en ;
+        crm:P2_has_type lob:3014 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/dd6ee620-d173-4ce8-88e4-34bef495b8ca-1/> .
+
+    <http://www.ligatus.org.uk/lcd/c2ab2acb-6395-4896-b90c-ead0ba586947/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Book (Library of Congress, 1471)"@en ;
+        crm:P108i_was_produced_by <http://www.ligatus.org.uk/lcd/2974362d-3dc5-47da-95f1-1c9ca91ea636> ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd//> ;
+        crm:P2_has_type lob:4886 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/409e7211-43cd-4ced-98c8-a3475567df58/>,
+            <http://www.ligatus.org.uk/lcd/ae9640de-d644-4ced-86d8-dedd4cf76aa7/> ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/3a35c435-b8c8-48c0-ab64-3e0227b77ddb/>,
+            <http://www.ligatus.org.uk/lcd/3d444b35-658a-46b9-af2f-4369b3e0fbfb/>,
+            <http://www.ligatus.org.uk/lcd/44c321ae-363d-4b78-a205-d9bc7610c633/>,
+            <http://www.ligatus.org.uk/lcd/4de6ed8f-0b8a-4751-a33b-d347ec69b589/>,
+            <http://www.ligatus.org.uk/lcd/ffd5f7c8-1361-4896-b84b-95a033700e17/> ;
+        crm:P50_has_current_keeper dbp:Library_of_Congress ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/5fc8878e-64d4-4ed2-876b-a77707b56fe0> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/c2ab2acb-6395-4896-b90c-ead0ba586947#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/c2ab2acb-6395-4896-b90c-ead0ba586947#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/c4b9eb82-bf18-4aa7-b1dc-0d1f2e7c6a02/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Textblock (Library of Congress, 1450)"@en ;
+        crm:P113i_was_removed_by <http://www.ligatus.org.uk/lcd/3760e57a-e2fe-4f77-a73f-c3419e6f5331/> ;
+        crm:P2_has_type lob:1663 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/14cffdea-6407-4868-bf00-fa9c45b4742d/>,
+            <http://www.ligatus.org.uk/lcd/f21eaa43-0759-47d0-a98f-fe83ba617913/> ;
+        crm:P44_has_condition <http://www.ligatus.org.uk/lcd/34d414d1-06d6-4368-99cb-9822d53dac61/>,
+            <http://www.ligatus.org.uk/lcd/eee62340-44f2-4ff7-82e8-5eafd1d5f2fd/> ;
+        crm:P45_consists_of <http://www.ligatus.org.uk/lcd/d5a0e875-0c73-4a01-9b0c-63498edc65f5/> .
+
+    <http://www.ligatus.org.uk/lcd/c535215b-1dd4-40ff-81fe-88726bf95a17/> a crm:E39_Actor ;
+        rdfs:label "Conservator"@en ;
+        crm:P14.1_in_the_role_of aat:300102842 ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd> .
+
+    <http://www.ligatus.org.uk/lcd/c5c78dcc-6cb1-4fc8-93ab-b606a2e52610/> a crm:E80_Part_Removal ;
+        rdfs:label "Removal from Library of Congress, 1471"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/b926fc0b-949a-4538-adf7-5332cd4637cc> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/409e7211-43cd-4ced-98c8-a3475567df58/> .
+
+    <http://www.ligatus.org.uk/lcd/c6b40d54-1af8-45d7-8dee-8e1b7a5dc8e1/> a crm:E52_Time-Span ;
+        rdfs:label "Printing or Production date (Library of Congress, 2247)"@en ;
+        crm:P82a_begin_of_the_begin "1814-01-01T00:00:00"^^xsd:dateTime ;
+        crm:P82b_end_of_the_end "1814-12-31T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/c6e0f572-c4dc-446e-9872-8080b5733375/> a crm:E25_Human-Made_Feature ;
+        rdfs:label "Bookblock edges (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type lob:1226,
+            <http://w3id.org/loc-vocabs/18738fbd-b109-4b9b-9c90-64e83b194673>,
+            <http://w3id.org/loc-vocabs/d80a51e0-d6b6-493c-a5fd-eeb1a7979c02> .
+
+    <http://www.ligatus.org.uk/lcd/c7d1a7d6-00db-42cc-ac99-4e4eef99c321/> a crm:E3_Condition_State ;
+        rdfs:label "Broken (Library of Congress, 1697)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/71be10c9-0ee0-4008-a7b2-e59b121c7b79> .
+
+    <http://www.ligatus.org.uk/lcd/ca04544e-b09c-4468-b369-80fa5b462e8c/> a crm:E52_Time-Span ;
+        rdfs:label "Conservation treatment date (Library of Congress, 1638)"@en ;
+        crm:P82b_end_of_the_end "2018-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/ca5ae8ad-c7e0-44af-9b66-eff590b0febf/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 2028"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/fd0dcd79-f862-4a87-93ce-17277abfe83a> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/4fd9d07b-72c2-4318-94b3-584acb41a7b9/> .
+
+    <http://www.ligatus.org.uk/lcd/ca69986c-c78c-4580-9ff9-f88bd2d5c21f/> a crm:E13_Attribute_Assignment ;
+        rdfs:label "Conservation assessment (Library of Congress, 1638)"@en ;
+        crm:P140_assigned_attribute_to <http://www.ligatus.org.uk/lcd/69cc504e-6f1f-4184-b9e9-229a749a3f75/> ;
+        crm:P14_carried_out_by <http://www.ligatus.org.uk/lcd/2affbd18-3b43-4bd8-a0d7-ab322f59cf07/> ;
+        crm:P2_has_type aat:300080091 ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/cb1ed670-cb3f-4075-bb5d-1f5b3ed901d4/> .
+
+    <http://www.ligatus.org.uk/lcd/ca8d05b8-2594-456b-9a2d-95861e1880d0/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Left board (Library of Congress, 1782)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/65a583f0-565e-48a7-b998-67df10e50968#leftPlace> .
+
+    <http://www.ligatus.org.uk/lcd/cb1ed670-cb3f-4075-bb5d-1f5b3ed901d4/> a crm:E52_Time-Span ;
+        rdfs:label "Attribute assignment date (Library of Congress, 1638)"@en ;
+        crm:P82a_begin_of_the_begin "2018-01-01T00:00:00"^^xsd:dateTime ;
+        crm:P82b_end_of_the_end "2018-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/cb22cb2f-e55b-447b-8e00-d3dc18a5f129-1/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing supports (Library of Congress, 1466_028)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/ce79bf79-6a53-4c50-84d6-e3a3a2da8090> .
+
+    <http://www.ligatus.org.uk/lcd/cb26578d-c437-4027-b2a1-f1a052bbfa5a/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1697"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/9427a904-6d88-4b95-b064-86aba33178dd> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/2f3c4c0d-24ea-486e-ab77-fff36b47ad25/> .
+
+    <http://www.ligatus.org.uk/lcd/ccdeda72-f5ee-439e-93c4-69e70d644e86/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Cover (Library of Congress, 1638)"@en ;
+        crm:P2_has_type lob:1268 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/f8083611-bbea-4a48-bc92-6ebcd398cac9/>,
+            <http://www.ligatus.org.uk/lcd/f92683a4-8aa0-4622-9155-6cb58b7745ec/> ;
+        crm:P45_consists_of <http://w3id.org/loc-vocabs/af102085-70f2-402c-82e3-1ed349c2d6ec> .
+
+    <http://www.ligatus.org.uk/lcd/cce95078-71d2-4e80-9051-f2b77a3c4984/> a crm:E11_Modification ;
+        rdfs:label "Previous repair (Library of Congress, 2028)"@en ;
+        crm:P183_ends_before_the_start_of <http://www.ligatus.org.uk/lcd/c2adbc4f-a75f-4485-9b29-99d003b99910/> .
+
+    <http://www.ligatus.org.uk/lcd/ce5db086-fc1d-4002-806c-e35412899678/> a crm:E53_Place ;
+        rdfs:label "Spine (Library of Congress, 2247)"@en ;
+        crm:P2_has_type <http://www.ligatus.org.uk/lcd> .
+
+    <http://www.ligatus.org.uk/lcd/cf2ff256-5a58-4022-80aa-6d71f71d8f3e#headPlace> a crm:E53_Place ;
+        rdfs:label "Head (Library of Congress, 1782)"@en ;
+        crm:P2_has_type lob:3803 .
+
+    <http://www.ligatus.org.uk/lcd/cf2ff256-5a58-4022-80aa-6d71f71d8f3e#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 1782)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/cf2ff256-5a58-4022-80aa-6d71f71d8f3e#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 1782)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/cf2ff256-5a58-4022-80aa-6d71f71d8f3e#spinePlace> a crm:E53_Place ;
+        rdfs:label "Spine (place) (Library of Congress, 1782)"@en ;
+        crm:P2_has_type lob:3810 .
+
+    <http://www.ligatus.org.uk/lcd/cf2ff256-5a58-4022-80aa-6d71f71d8f3e#tailPlace> a crm:E53_Place ;
+        rdfs:label "Tail (Library of Congress, 1782)"@en ;
+        crm:P2_has_type lob:3805 .
+
+    <http://www.ligatus.org.uk/lcd/cf2ff256-5a58-4022-80aa-6d71f71d8f3e/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Bookblock (Library of Congress, 1782)"@en ;
+        crm:P2_has_type lob:1227 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/be93b266-bc8d-4c48-a741-99fc5e1ec456/> ;
+        crm:P56_bears_feature <http://www.ligatus.org.uk/lcd/9b1a517d-b802-484d-a393-e5530844049c/> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/cf2ff256-5a58-4022-80aa-6d71f71d8f3e#headPlace>,
+            <http://www.ligatus.org.uk/lcd/cf2ff256-5a58-4022-80aa-6d71f71d8f3e#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/cf2ff256-5a58-4022-80aa-6d71f71d8f3e#rightPlace>,
+            <http://www.ligatus.org.uk/lcd/cf2ff256-5a58-4022-80aa-6d71f71d8f3e#spinePlace>,
+            <http://www.ligatus.org.uk/lcd/cf2ff256-5a58-4022-80aa-6d71f71d8f3e#tailPlace> .
+
+    <http://www.ligatus.org.uk/lcd/cf834233-8082-40ad-a817-757fa67469ce/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1471"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/fd0dcd79-f862-4a87-93ce-17277abfe83a> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/409e7211-43cd-4ced-98c8-a3475567df58/> .
+
+    <http://www.ligatus.org.uk/lcd/d07c4c99-8915-4bb7-b2bc-d7dedcd34c87#headPlace> a crm:E53_Place ;
+        rdfs:label "Head (Library of Congress, 135)"@en ;
+        crm:P2_has_type lob:3803 .
+
+    <http://www.ligatus.org.uk/lcd/d07c4c99-8915-4bb7-b2bc-d7dedcd34c87#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 135)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/d07c4c99-8915-4bb7-b2bc-d7dedcd34c87#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 135)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/d07c4c99-8915-4bb7-b2bc-d7dedcd34c87#spinePlace> a crm:E53_Place ;
+        rdfs:label "Spine (place) (Library of Congress, 135)"@en ;
+        crm:P2_has_type lob:3810 .
+
+    <http://www.ligatus.org.uk/lcd/d07c4c99-8915-4bb7-b2bc-d7dedcd34c87#tailPlace> a crm:E53_Place ;
+        rdfs:label "Tail (Library of Congress, 135)"@en ;
+        crm:P2_has_type lob:3805 .
+
+    <http://www.ligatus.org.uk/lcd/d07c4c99-8915-4bb7-b2bc-d7dedcd34c87/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Bookblock (Library of Congress, 135)"@en ;
+        crm:P2_has_type lob:1227 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/a0e413bc-5289-40e8-bd1f-9fecef100c4d/> ;
+        crm:P56_bears_feature <http://www.ligatus.org.uk/lcd/fd871ccc-f90d-45a2-84bd-561435269246/> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/d07c4c99-8915-4bb7-b2bc-d7dedcd34c87#headPlace>,
+            <http://www.ligatus.org.uk/lcd/d07c4c99-8915-4bb7-b2bc-d7dedcd34c87#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/d07c4c99-8915-4bb7-b2bc-d7dedcd34c87#rightPlace>,
+            <http://www.ligatus.org.uk/lcd/d07c4c99-8915-4bb7-b2bc-d7dedcd34c87#spinePlace>,
+            <http://www.ligatus.org.uk/lcd/d07c4c99-8915-4bb7-b2bc-d7dedcd34c87#tailPlace> .
+
+    <http://www.ligatus.org.uk/lcd/d0ecabcc-f85b-4e4c-a628-a688790451fd/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Book (Library of Congress, 2247)"@en ;
+        crm:P108i_was_produced_by <http://www.ligatus.org.uk/lcd/5282f300-d595-434a-89ea-ce1ef36177c8> ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd/a5a7bd7d-368a-48ca-82e6-20e4581c10ac/> ;
+        crm:P2_has_type lob:4886 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/d270ae20-e1fb-40e7-bb25-0895469b162d/> ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/0d368fec-f9d3-4e89-9f51-6a738b9df775/>,
+            <http://www.ligatus.org.uk/lcd/55b554a5-d4d6-4321-9226-d60c4aa19ded/>,
+            <http://www.ligatus.org.uk/lcd/5f521fa2-9e06-4053-8893-338cb9bf107f/>,
+            <http://www.ligatus.org.uk/lcd/8d224c1b-33b9-42cb-b862-b1556602f565/>,
+            <http://www.ligatus.org.uk/lcd/9ed35b3c-78f7-4342-bb50-fcc60c4d5888/>,
+            <http://www.ligatus.org.uk/lcd/c02a77b2-ad09-4f15-ac46-a99e77038005/> ;
+        crm:P50_has_current_keeper dbp:Library_of_Congress ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/5fc8878e-64d4-4ed2-876b-a77707b56fe0> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/d0ecabcc-f85b-4e4c-a628-a688790451fd#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/d0ecabcc-f85b-4e4c-a628-a688790451fd#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/d15c2b5e-9305-4a69-85b0-c4eeebcf1039#headPlace> a crm:E53_Place ;
+        rdfs:label "Head (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type lob:3803 .
+
+    <http://www.ligatus.org.uk/lcd/d15c2b5e-9305-4a69-85b0-c4eeebcf1039#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/d15c2b5e-9305-4a69-85b0-c4eeebcf1039#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/d15c2b5e-9305-4a69-85b0-c4eeebcf1039#spinePlace> a crm:E53_Place ;
+        rdfs:label "Spine (place) (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type lob:3810 .
+
+    <http://www.ligatus.org.uk/lcd/d15c2b5e-9305-4a69-85b0-c4eeebcf1039#tailPlace> a crm:E53_Place ;
+        rdfs:label "Tail (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type lob:3805 .
+
+    <http://www.ligatus.org.uk/lcd/d15c2b5e-9305-4a69-85b0-c4eeebcf1039/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Bookblock (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type lob:1227 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/f943776b-4027-4d05-a084-b4ce706385b0/> ;
+        crm:P56_bears_feature <http://www.ligatus.org.uk/lcd/3748fa42-04a4-4fcf-bdaa-87a08c4202b8/>,
+            <http://www.ligatus.org.uk/lcd/c6e0f572-c4dc-446e-9872-8080b5733375/> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/d15c2b5e-9305-4a69-85b0-c4eeebcf1039#headPlace>,
+            <http://www.ligatus.org.uk/lcd/d15c2b5e-9305-4a69-85b0-c4eeebcf1039#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/d15c2b5e-9305-4a69-85b0-c4eeebcf1039#rightPlace>,
+            <http://www.ligatus.org.uk/lcd/d15c2b5e-9305-4a69-85b0-c4eeebcf1039#spinePlace>,
+            <http://www.ligatus.org.uk/lcd/d15c2b5e-9305-4a69-85b0-c4eeebcf1039#tailPlace> .
+
+    <http://www.ligatus.org.uk/lcd/d1a3b4bd-cf8a-43d9-884f-9c57ff762bc6-1/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing supports (Library of Congress, 2028)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/ce79bf79-6a53-4c50-84d6-e3a3a2da8090> .
+
+    <http://www.ligatus.org.uk/lcd/d24a71db-c714-49e4-a9bc-f0537ba32e55/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1466_029"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/687ccb00-81d0-479f-9d72-044b91546825> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/04ebd857-4246-49c2-9a29-c3e71c3ff40f/> .
+
+    <http://www.ligatus.org.uk/lcd/d2611ca4-d1af-418a-9656-13f70a072f62#headPlace> a crm:E53_Place ;
+        rdfs:label "Head (Library of Congress, 1466_029)"@en ;
+        crm:P2_has_type lob:3803 .
+
+    <http://www.ligatus.org.uk/lcd/d2611ca4-d1af-418a-9656-13f70a072f62#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 1466_029)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/d2611ca4-d1af-418a-9656-13f70a072f62#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 1466_029)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/d2611ca4-d1af-418a-9656-13f70a072f62#spinePlace> a crm:E53_Place ;
+        rdfs:label "Spine (place) (Library of Congress, 1466_029)"@en ;
+        crm:P2_has_type lob:3810 .
+
+    <http://www.ligatus.org.uk/lcd/d2611ca4-d1af-418a-9656-13f70a072f62#tailPlace> a crm:E53_Place ;
+        rdfs:label "Tail (Library of Congress, 1466_029)"@en ;
+        crm:P2_has_type lob:3805 .
+
+    <http://www.ligatus.org.uk/lcd/d2611ca4-d1af-418a-9656-13f70a072f62/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Bookblock (Library of Congress, 1466_029)"@en ;
+        crm:P2_has_type lob:1227 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/21db4f14-85a1-499b-be06-20a62f0b0f73/> ;
+        crm:P56_bears_feature <http://www.ligatus.org.uk/lcd/e956ab5e-7a50-470b-a654-d3fdc1ea8924/> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/d2611ca4-d1af-418a-9656-13f70a072f62#headPlace>,
+            <http://www.ligatus.org.uk/lcd/d2611ca4-d1af-418a-9656-13f70a072f62#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/d2611ca4-d1af-418a-9656-13f70a072f62#rightPlace>,
+            <http://www.ligatus.org.uk/lcd/d2611ca4-d1af-418a-9656-13f70a072f62#spinePlace>,
+            <http://www.ligatus.org.uk/lcd/d2611ca4-d1af-418a-9656-13f70a072f62#tailPlace> .
+
+    <http://www.ligatus.org.uk/lcd/d2af4d63-417c-4963-9bce-c65bd7d454dd/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 2028"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/13d682c4-bf88-4c06-a85f-1456180b6418> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/4fd9d07b-72c2-4318-94b3-584acb41a7b9/> .
+
+    <http://www.ligatus.org.uk/lcd/d3028c51-9de6-4977-b9db-792831efff37/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Textblock (Library of Congress, 1785)"@en ;
+        crm:P2_has_type lob:1663 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/0c32efd8-49a9-48c6-9e69-1a5850dc7d07/>,
+            <http://www.ligatus.org.uk/lcd/7c06a1c3-fb38-4508-9150-9ab2aaec6b1f/>,
+            <http://www.ligatus.org.uk/lcd/a4c1b3cd-c9e7-445f-b6ab-eb634b3c4be7/> ;
+        crm:P44_has_condition <http://www.ligatus.org.uk/lcd/19ea01c7-e32b-4e18-8cfb-7eda3c7fec83/>,
+            <http://www.ligatus.org.uk/lcd/68311705-f2cf-4f24-bd6b-883d023fa437/> ;
+        crm:P45_consists_of <http://w3id.org/loc-vocabs/982aee63-6edb-4184-b5fe-f906912aaf11> .
+
+    <http://www.ligatus.org.uk/lcd/d4d12dac-80f6-4db4-aa5f-3cf4bc28b1d9/> a crm:E13_Attribute_Assignment ;
+        rdfs:label "Conservation assessment (Library of Congress, 1466_028)"@en ;
+        crm:P140_assigned_attribute_to <http://www.ligatus.org.uk/lcd/3960f3e3-9f51-4eed-878b-7cdfbcee2f86/> ;
+        crm:P2_has_type aat:300080091 ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/74cef784-53fa-4343-9848-32a46f4150c6/> .
+
+    <http://www.ligatus.org.uk/lcd/d4ebfb8f-a0ed-4f9f-8715-419603d3c1eb-1/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing supports (Library of Congress, 1785)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/ce79bf79-6a53-4c50-84d6-e3a3a2da8090> .
+
+    <http://www.ligatus.org.uk/lcd/d501d98c-5902-41e3-b8cc-60259fecfe42/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1697"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/5d916c8f-31fc-48a4-9f3e-2f355f3392f3> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/2f3c4c0d-24ea-486e-ab77-fff36b47ad25/> .
+
+    <http://www.ligatus.org.uk/lcd/d7cf1e0a-a345-447e-a11a-cf6adfac0e74/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Book (Library of Congress, 1450)"@en ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd/a652b10e-018d-4b82-8e18-da3c63238b22/> ;
+        crm:P2_has_type lob:4886 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/d5a0e875-0c73-4a01-9b0c-63498edc65f5/>,
+            <http://www.ligatus.org.uk/lcd/ff03c679-6fb0-456f-9e5a-99b4eb54b233/> ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/3d0c367a-ae47-4f09-a9ca-27cad4da283e/>,
+            <http://www.ligatus.org.uk/lcd/5218c28f-078e-428d-b20f-2d0052c856bf/>,
+            <http://www.ligatus.org.uk/lcd/78e3a9e5-b136-44a2-8d75-ea8a1d2993fc/>,
+            <http://www.ligatus.org.uk/lcd/b89cb718-0f99-4a2a-9b76-e332306c5dec/>,
+            <http://www.ligatus.org.uk/lcd/fed71a69-e68b-4239-9cac-70799db40e4f/> ;
+        crm:P50_has_current_keeper dbp:Library_of_Congress ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/5fc8878e-64d4-4ed2-876b-a77707b56fe0> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/d7cf1e0a-a345-447e-a11a-cf6adfac0e74#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/d7cf1e0a-a345-447e-a11a-cf6adfac0e74#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/d9f1359e-58d1-4a9c-8b7b-502f240e6ef5/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 2028"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/06fedf92-7130-4a78-8cd8-8a6c0c997b51> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/4fd9d07b-72c2-4318-94b3-584acb41a7b9/> .
+
+    <http://www.ligatus.org.uk/lcd/d9ff553c-3d24-4952-8454-95ed7080087d/> a crm:E53_Place ;
+        rdfs:label "Outer joints (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/b5942287-d522-4848-8e61-acadf348c119> .
+
+    <http://www.ligatus.org.uk/lcd/dadfcdc6-f72c-4c90-a6d3-a2459dee4dc2/> a crm:E52_Time-Span ;
+        rdfs:label "Printing or Production date (Library of Congress, 135)"@en ;
+        crm:P82a_begin_of_the_begin "1747-01-01T00:00:00"^^xsd:dateTime ;
+        crm:P82b_end_of_the_end "1747-12-31T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/dd6ee620-d173-4ce8-88e4-34bef495b8ca-1/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing supports (Library of Congress, 1466_029)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/ce79bf79-6a53-4c50-84d6-e3a3a2da8090> .
+
+    <http://www.ligatus.org.uk/lcd/ddafbce3-4241-4add-a60a-b3ac300b895b/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Left board (Library of Congress, 1785)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/8147243b-8b0c-40d1-8316-69571ac36224#leftPlace> .
+
+    <http://www.ligatus.org.uk/lcd/df115031-7776-4967-bf18-b313b2eef975/> a crm:E42_Identifier ;
+        rdfs:label "Project Number (Library of Congress, 1466_029)"@en ;
+        crm:P190_has_symbolic_content "1466_029"^^xsd:string .
+
+    <http://www.ligatus.org.uk/lcd/dffa0faa-97ab-42f0-a2dc-8343f4cacde0/> a crm:E3_Condition_State ;
+        rdfs:label "Repaired (Library of Congress, 1471)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/bcc78dc8-9637-455c-a2b7-e60099818a19> .
+
+    <http://www.ligatus.org.uk/lcd/e15d0b77-8652-4630-8180-bb2885594807/> a crm:E3_Condition_State ;
+        rdfs:label "Broken (Library of Congress, 2247)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/71be10c9-0ee0-4008-a7b2-e59b121c7b79> .
+
+    <http://www.ligatus.org.uk/lcd/e1841666-fe07-4aa3-ad92-a31c5aae2649/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Right board (Library of Congress, 135)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/348f9df8-26cb-4cbf-831f-80a1010bc0c2#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/e1b9f4f9-fe97-4c2e-ae90-07eea6493d35/> a crm:E39_Actor ;
+        rdfs:label "Conservator"@en ;
+        crm:P14.1_in_the_role_of aat:300102842 ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd> .
+
+    <http://www.ligatus.org.uk/lcd/e21b73df-dc0b-43ac-9795-1f715dba1c7a/> a crm:E25_Man-Made_Feature ;
+        rdfs:label "Gold tooling (Library of Congress, 1450)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/acb60fc6-53b4-4120-8776-06dcaf06e25f> .
+
+    <http://www.ligatus.org.uk/lcd/e2a46eed-ef01-4b56-9db2-4e3d1fd6bdb1/> a crm:E52_Time-Span ;
+        rdfs:label "Conservation treatment date (Library of Congress, 1782)"@en ;
+        crm:P82b_end_of_the_end "2014-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/e2a6bf41-1cc1-4c7b-9e2f-7a0c7a8fe417/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Left board (Library of Congress, 1697)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P44_has_condition <http://www.ligatus.org.uk/lcd/6239bca1-74af-4fcf-bb4e-66368762d6ce/>,
+            <http://www.ligatus.org.uk/lcd/f8280227-6bef-40ef-af3f-2b7cda9ae30e/> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/f8cdf6b8-1ecf-4e65-8cf7-9df0eeac25ca#leftPlace> .
+
+    <http://www.ligatus.org.uk/lcd/e391bf78-12b9-476c-9247-c0cf518340ce/> a crm:E3_Condition_State ;
+        rdfs:label "Losses (Library of Congress, 135)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/397089a9-ac53-45bb-a369-c7a24f6426e8> .
+
+    <http://www.ligatus.org.uk/lcd/e4e497ea-9c10-4cb2-8e4f-42b555f8905f/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1466_029"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/8152ba03-13d3-421d-a0d4-507bbe7ca072> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/04ebd857-4246-49c2-9a29-c3e71c3ff40f/> .
+
+    <http://www.ligatus.org.uk/lcd/e57dd9b5-e8db-4320-9f69-0149633c3510-1/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing supports (Library of Congress, 1638)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/ce79bf79-6a53-4c50-84d6-e3a3a2da8090> .
+
+    <http://www.ligatus.org.uk/lcd/e5b1b17e-3437-49e5-bac9-6f19c1bf9e1e/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Cover (Library of Congress, 1697)"@en ;
+        crm:P2_has_type lob:1268 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/5ff6ab3f-0b30-4424-b810-43eddf60a255/>,
+            <http://www.ligatus.org.uk/lcd/fc65abaf-8518-4387-8435-93405b68871a/> ;
+        crm:P45_consists_of <http://w3id.org/loc-vocabs/982aee63-6edb-4184-b5fe-f906912aaf11>,
+            <http://w3id.org/loc-vocabs/feff19c0-aa31-4378-ae08-57400892248a> ;
+        crm:P56_bears_feature <http://www.ligatus.org.uk/lcd/f18d283a-0261-4dd4-bd31-06228156e3f3/> .
+
+    <http://www.ligatus.org.uk/lcd/e63a0e78-ae13-4d27-a3b9-4b38df7474e6#headPlace> a crm:E53_Place ;
+        rdfs:label "Head (Library of Congress, 1697)"@en ;
+        crm:P2_has_type lob:3803 .
+
+    <http://www.ligatus.org.uk/lcd/e63a0e78-ae13-4d27-a3b9-4b38df7474e6#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 1697)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/e63a0e78-ae13-4d27-a3b9-4b38df7474e6#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 1697)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/e63a0e78-ae13-4d27-a3b9-4b38df7474e6#spinePlace> a crm:E53_Place ;
+        rdfs:label "Spine (place) (Library of Congress, 1697)"@en ;
+        crm:P2_has_type lob:3810 .
+
+    <http://www.ligatus.org.uk/lcd/e63a0e78-ae13-4d27-a3b9-4b38df7474e6#tailPlace> a crm:E53_Place ;
+        rdfs:label "Tail (Library of Congress, 1697)"@en ;
+        crm:P2_has_type lob:3805 .
+
+    <http://www.ligatus.org.uk/lcd/e63a0e78-ae13-4d27-a3b9-4b38df7474e6/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Bookblock (Library of Congress, 1697)"@en ;
+        crm:P2_has_type lob:1227 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/355e7a68-9456-42ad-b9c0-09f6ff5a9506/> ;
+        crm:P56_bears_feature <http://www.ligatus.org.uk/lcd/32dbeb52-53d2-4851-ae22-76ff0d793f59/> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/e63a0e78-ae13-4d27-a3b9-4b38df7474e6#headPlace>,
+            <http://www.ligatus.org.uk/lcd/e63a0e78-ae13-4d27-a3b9-4b38df7474e6#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/e63a0e78-ae13-4d27-a3b9-4b38df7474e6#rightPlace>,
+            <http://www.ligatus.org.uk/lcd/e63a0e78-ae13-4d27-a3b9-4b38df7474e6#spinePlace>,
+            <http://www.ligatus.org.uk/lcd/e63a0e78-ae13-4d27-a3b9-4b38df7474e6#tailPlace> .
+
+    <http://www.ligatus.org.uk/lcd/e6e7402f-ebfa-4a43-bb85-5689897dc56e/> a crm:E39_Actor ;
+        rdfs:label "Conservator"@en ;
+        crm:P14.1_in_the_role_of aat:300102842 ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd> .
+
+    <http://www.ligatus.org.uk/lcd/e76b94fe-1caf-4c8f-b01a-a387a3651df2/> a crm:E79_Part_Addition ;
+        rdfs:label "Addition to Library of Congress, 1785"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/8c2d0794-04d9-4239-98ea-1cfc9652e161> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/feb8c65f-a916-4167-b35a-0544f74244f2/> .
+
+    <http://www.ligatus.org.uk/lcd/e86c292e-932b-462a-9b4c-71e622e83e97/> a crm:E3_Condition_State ;
+        rdfs:label "Distortion (Library of Congress, 1466_029)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/edec7bcb-d127-4512-9f05-67b52435b12b> .
+
+    <http://www.ligatus.org.uk/lcd/e908914e-3f2d-4b90-929b-71edfb9bf064/> a crm:E52_Time-Span ;
+        rdfs:label "Conservation treatment date (Library of Congress, 1785)"@en ;
+        crm:P82b_end_of_the_end "2016-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/e956ab5e-7a50-470b-a654-d3fdc1ea8924/> a crm:E25_Human-Made_Feature ;
+        rdfs:label "Bookblock spine (Library of Congress, 1466_029)"@en ;
+        crm:P2_has_type lob:2352 .
+
+    <http://www.ligatus.org.uk/lcd/e9f6f780-a233-4301-8fb7-b80cadc97657/> a crm:E52_Time-Span ;
+        rdfs:label "Attribute assignment date (Library of Congress, 1785)"@en ;
+        crm:P82a_begin_of_the_begin "2016-01-01T00:00:00"^^xsd:dateTime ;
+        crm:P82b_end_of_the_end "2016-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/ed9616e4-529f-402b-bbc2-0eb6395f6c63/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 135"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/06a37aa1-5505-4a84-ae13-0dafdd49dcfa> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/37448046-7a1b-4243-afda-bc0cc43638d8/> .
+
+    <http://www.ligatus.org.uk/lcd/eee62340-44f2-4ff7-82e8-5eafd1d5f2fd/> a crm:E3_Condition_State ;
+        rdfs:label "Damaged (Library of Congress, 1450)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/e645fa14-55fb-4aea-91f6-c47c534d858f> .
+
+    <http://www.ligatus.org.uk/lcd/f0c000fb-385a-49b8-8392-5fce19bb0fbd/> a crm:E52_Time-Span ;
+        rdfs:label "Conservation treatment date (Library of Congress, 1697)"@en ;
+        crm:P82b_end_of_the_end "2010-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/f0cb55c1-e700-4287-9778-4c92f7c0686d/> a crm:E39_Actor ;
+        rdfs:label "Conservator"@en ;
+        crm:P14.1_in_the_role_of aat:300102842 ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd> .
+
+    <http://www.ligatus.org.uk/lcd/f18d283a-0261-4dd4-bd31-06228156e3f3/> a crm:E25_Man-Made_Feature ;
+        rdfs:label "Gold tooling (Library of Congress, 1697)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/acb60fc6-53b4-4120-8776-06dcaf06e25f> .
+
+    <http://www.ligatus.org.uk/lcd/f21eaa43-0759-47d0-a98f-fe83ba617913/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1450"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/9427a904-6d88-4b95-b064-86aba33178dd> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/d5a0e875-0c73-4a01-9b0c-63498edc65f5/> .
+
+    <http://www.ligatus.org.uk/lcd/f2f63552-8c25-4196-ad5f-14bd4db64956/> a crm:E80_Part_Removal ;
+        rdfs:label "Removal from Library of Congress, 1466_028"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/27a2f7a6-c9ed-42b2-bf1c-d3218ff35709> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/53b5ada8-2f5c-4a4a-bf0b-595b424e2265/> .
+
+    <http://www.ligatus.org.uk/lcd/f371ed80-0a64-4e9c-a48b-349d69b9d1b1/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1657_001"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/9427a904-6d88-4b95-b064-86aba33178dd> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/75bea6e7-d19f-4194-9447-912ea681e243/> .
+
+    <http://www.ligatus.org.uk/lcd/f48f2054-ef51-43ad-95ea-bebc3ad4c2b6/> a crm:E80_Part_Removal ;
+        rdfs:label "Removal from Library of Congress, 1657_001"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/78f4aeb6-67a5-4e05-96ff-c42defeb36f5> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/75bea6e7-d19f-4194-9447-912ea681e243/> .
+
+    <http://www.ligatus.org.uk/lcd/f55de97e-b232-4865-ab1f-e00c42a805ad/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1466_027"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/9427a904-6d88-4b95-b064-86aba33178dd> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/30b9de1a-37e9-4fea-8cf9-483c12b1cc1e/> .
+
+    <http://www.ligatus.org.uk/lcd/f5895c1c-6eaa-4620-98c5-80e60cbcbda1#headPlace> a crm:E53_Place ;
+        rdfs:label "Head (Library of Congress, 1466_028)"@en ;
+        crm:P2_has_type lob:3803 .
+
+    <http://www.ligatus.org.uk/lcd/f5895c1c-6eaa-4620-98c5-80e60cbcbda1#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 1466_028)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/f5895c1c-6eaa-4620-98c5-80e60cbcbda1#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 1466_028)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/f5895c1c-6eaa-4620-98c5-80e60cbcbda1#spinePlace> a crm:E53_Place ;
+        rdfs:label "Spine (place) (Library of Congress, 1466_028)"@en ;
+        crm:P2_has_type lob:3810 .
+
+    <http://www.ligatus.org.uk/lcd/f5895c1c-6eaa-4620-98c5-80e60cbcbda1#tailPlace> a crm:E53_Place ;
+        rdfs:label "Tail (Library of Congress, 1466_028)"@en ;
+        crm:P2_has_type lob:3805 .
+
+    <http://www.ligatus.org.uk/lcd/f5895c1c-6eaa-4620-98c5-80e60cbcbda1/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Bookblock (Library of Congress, 1466_028)"@en ;
+        crm:P2_has_type lob:1227 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/4afce964-c816-4fbb-be92-d70014644c0b/> ;
+        crm:P56_bears_feature <http://www.ligatus.org.uk/lcd/a338b736-2f29-4a52-8670-fe86f2c9c952/> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/f5895c1c-6eaa-4620-98c5-80e60cbcbda1#headPlace>,
+            <http://www.ligatus.org.uk/lcd/f5895c1c-6eaa-4620-98c5-80e60cbcbda1#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/f5895c1c-6eaa-4620-98c5-80e60cbcbda1#rightPlace>,
+            <http://www.ligatus.org.uk/lcd/f5895c1c-6eaa-4620-98c5-80e60cbcbda1#spinePlace>,
+            <http://www.ligatus.org.uk/lcd/f5895c1c-6eaa-4620-98c5-80e60cbcbda1#tailPlace> .
+
+    <http://www.ligatus.org.uk/lcd/f59c601d-082e-4980-9dca-90bbfb00e38d/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1785"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/fd0dcd79-f862-4a87-93ce-17277abfe83a> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/feb8c65f-a916-4167-b35a-0544f74244f2/> .
+
+    <http://www.ligatus.org.uk/lcd/f7551e59-5789-4663-85f7-fc2335b28dbb/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Left board (Library of Congress, 1466_029)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P44_has_condition <http://www.ligatus.org.uk/lcd/0becbd0e-962e-4753-8b13-a5f408bc0d20/> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/fe0bba64-3ec7-418a-a629-fb4380fd1a4f#leftPlace> .
+
+    <http://www.ligatus.org.uk/lcd/f7adb61c-0340-4bf2-8422-50173aedc71a/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Left board (Library of Congress, 2028)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/b8ecfddf-b21e-4716-bb4e-2575009577d4#leftPlace> .
+
+    <http://www.ligatus.org.uk/lcd/f7bc4a6a-3514-42a3-a880-fe83a0fe0ae9/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Right board (Library of Congress, 1466_028)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/3960f3e3-9f51-4eed-878b-7cdfbcee2f86#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/f8083611-bbea-4a48-bc92-6ebcd398cac9/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1638"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/fd0dcd79-f862-4a87-93ce-17277abfe83a> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/a3a956a5-71fe-4d86-8619-efd14cbc67c1/> .
+
+    <http://www.ligatus.org.uk/lcd/f8280227-6bef-40ef-af3f-2b7cda9ae30e/> a crm:E3_Condition_State ;
+        rdfs:label "Detached (Library of Congress, 1697)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/dbe22ff9-13ca-4907-9931-acea6e73c5a1> .
+
+    <http://www.ligatus.org.uk/lcd/f8cdf6b8-1ecf-4e65-8cf7-9df0eeac25ca/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Book (Library of Congress, 1697)"@en ;
+        crm:P108i_was_produced_by <http://www.ligatus.org.uk/lcd/0d6e64b6-2387-4eca-b859-bf5572c150d1> ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd/fe75e944-66e9-40e0-90f7-a0dd53dca641/> ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/2f3c4c0d-24ea-486e-ab77-fff36b47ad25/> ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/653c4671-17de-4d92-a8eb-fad8e84a1af5/>,
+            <http://www.ligatus.org.uk/lcd/739d1673-1e06-43d7-9d1a-5a272165eca4/>,
+            <http://www.ligatus.org.uk/lcd/e2a6bf41-1cc1-4c7b-9e2f-7a0c7a8fe417/>,
+            <http://www.ligatus.org.uk/lcd/e5b1b17e-3437-49e5-bac9-6f19c1bf9e1e/>,
+            <http://www.ligatus.org.uk/lcd/e63a0e78-ae13-4d27-a3b9-4b38df7474e6/> ;
+        crm:P50_has_current_keeper dbp:Library_of_Congress ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/5fc8878e-64d4-4ed2-876b-a77707b56fe0> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/f8cdf6b8-1ecf-4e65-8cf7-9df0eeac25ca#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/f8cdf6b8-1ecf-4e65-8cf7-9df0eeac25ca#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/f909409a-da4b-420a-ace3-527e62123639-1/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Sewing supports (Library of Congress, 2247)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/ce79bf79-6a53-4c50-84d6-e3a3a2da8090> .
+
+    <http://www.ligatus.org.uk/lcd/f92683a4-8aa0-4622-9155-6cb58b7745ec/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1638"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/06fedf92-7130-4a78-8cd8-8a6c0c997b51> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/a3a956a5-71fe-4d86-8619-efd14cbc67c1/> .
+
+    <http://www.ligatus.org.uk/lcd/f943776b-4027-4d05-a084-b4ce706385b0/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Textblock (Library of Congress, 1657_001)"@en ;
+        crm:P113i_was_removed_by <http://www.ligatus.org.uk/lcd/f48f2054-ef51-43ad-95ea-bebc3ad4c2b6/> ;
+        crm:P2_has_type lob:1663 ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/48b7c4e4-dc70-44dd-b5d0-7bbbac71fecf/>,
+            <http://www.ligatus.org.uk/lcd/5e33c122-b11f-430a-9095-75f067afb5ea/>,
+            <http://www.ligatus.org.uk/lcd/996a9818-e2d2-4741-acfd-f499dddbd76f/>,
+            <http://www.ligatus.org.uk/lcd/b703c635-5375-4308-82c5-bd60b6637e38/>,
+            <http://www.ligatus.org.uk/lcd/f371ed80-0a64-4e9c-a48b-349d69b9d1b1/> ;
+        crm:P44_has_condition <http://www.ligatus.org.uk/lcd/4a03b4d6-2aad-40c3-881a-5eb9f3f18dbc/>,
+            <http://www.ligatus.org.uk/lcd/5efcf5af-b556-4254-8bbc-427fa60161e4/>,
+            <http://www.ligatus.org.uk/lcd/b245026b-25f4-43c3-97bb-247491186b7c/> ;
+        crm:P45_consists_of <http://www.ligatus.org.uk/lcd/75bea6e7-d19f-4194-9447-912ea681e243/> .
+
+    <http://www.ligatus.org.uk/lcd/fa9d6098-fadc-4799-bdb5-e72a76559c89/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 135"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/4d85d2ad-6db9-4b12-b7bb-019788aa96d8> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/37448046-7a1b-4243-afda-bc0cc43638d8/> .
+
+    <http://www.ligatus.org.uk/lcd/fb422876-06d4-41f3-8db7-1b42f2ac21c5/> a crm:E39_Actor ;
+        rdfs:label "Conservator"@en ;
+        crm:P14.1_in_the_role_of aat:300102842 ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd> .
+
+    <http://www.ligatus.org.uk/lcd/fc65abaf-8518-4387-8435-93405b68871a/> a crm:E11_Modification ;
+        rdfs:label "Modification of Library of Congress, 1697"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/fd0dcd79-f862-4a87-93ce-17277abfe83a> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/2f3c4c0d-24ea-486e-ab77-fff36b47ad25/> .
+
+    <http://www.ligatus.org.uk/lcd/fcc08d59-3aad-43bb-ba63-491bba28b8cc/> a crm:E52_Time-Span ;
+        rdfs:label "Conservation treatment date (Library of Congress, 1450)"@en .
+
+    <http://www.ligatus.org.uk/lcd/fd871ccc-f90d-45a2-84bd-561435269246/> a crm:E25_Human-Made_Feature ;
+        rdfs:label "Bookblock spine (Library of Congress, 135)"@en ;
+        crm:P2_has_type lob:2352 .
+
+    <http://www.ligatus.org.uk/lcd/fdaea405-2f5e-46e7-b7cd-dd51aa9f3eef/> a crm:E80_Part_Removal ;
+        rdfs:label "Removal from Library of Congress, 2028"@en ;
+        crm:P32_used_general_technique <http://w3id.org/loc-vocabs/78f4aeb6-67a5-4e05-96ff-c42defeb36f5> ;
+        crm:P9i_forms_part_of <http://www.ligatus.org.uk/lcd/4fd9d07b-72c2-4318-94b3-584acb41a7b9/> .
+
+    <http://www.ligatus.org.uk/lcd/fe0bba64-3ec7-418a-a629-fb4380fd1a4f/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Book (Library of Congress, 1466_029)"@en ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd/df115031-7776-4967-bf18-b313b2eef975/> ;
+        crm:P31i_was_modified_by <http://www.ligatus.org.uk/lcd/04ebd857-4246-49c2-9a29-c3e71c3ff40f/> ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/19dc02f3-0edc-4a41-a8de-7d6a44925329/>,
+            <http://www.ligatus.org.uk/lcd/5d190623-928b-41b7-a474-d79d2537c0b0/>,
+            <http://www.ligatus.org.uk/lcd/c1bd1da8-0af2-4eb2-a1f2-41c19bdefa0d/>,
+            <http://www.ligatus.org.uk/lcd/d2611ca4-d1af-418a-9656-13f70a072f62/>,
+            <http://www.ligatus.org.uk/lcd/f7551e59-5789-4663-85f7-fc2335b28dbb/> ;
+        crm:P50_has_current_keeper dbp:Library_of_Congress ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/5fc8878e-64d4-4ed2-876b-a77707b56fe0> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/fe0bba64-3ec7-418a-a629-fb4380fd1a4f#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/fe0bba64-3ec7-418a-a629-fb4380fd1a4f#rightPlace> .
+
+    <http://www.ligatus.org.uk/lcd/fe6f3847-b1c3-477a-b024-ab489659caca/> a crm:E39_Actor ;
+        rdfs:label "Conservator"@en ;
+        crm:P14.1_in_the_role_of aat:300102842 ;
+        crm:P1_is_identified_by <http://www.ligatus.org.uk/lcd> .
+
+    <http://www.ligatus.org.uk/lcd/fe75e944-66e9-40e0-90f7-a0dd53dca641/> a crm:E42_Identifier ;
+        rdfs:label "Project Number (Library of Congress, 1697)"@en ;
+        crm:P190_has_symbolic_content "1697"^^xsd:string .
+
+    <http://www.ligatus.org.uk/lcd/fed71a69-e68b-4239-9cac-70799db40e4f#headPlace> a crm:E53_Place ;
+        rdfs:label "Head (Library of Congress, 1450)"@en ;
+        crm:P2_has_type lob:3803 .
+
+    <http://www.ligatus.org.uk/lcd/fed71a69-e68b-4239-9cac-70799db40e4f#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 1450)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/fed71a69-e68b-4239-9cac-70799db40e4f#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 1450)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/fed71a69-e68b-4239-9cac-70799db40e4f#spinePlace> a crm:E53_Place ;
+        rdfs:label "Spine (place) (Library of Congress, 1450)"@en ;
+        crm:P2_has_type lob:3810 .
+
+    <http://www.ligatus.org.uk/lcd/fed71a69-e68b-4239-9cac-70799db40e4f#tailPlace> a crm:E53_Place ;
+        rdfs:label "Tail (Library of Congress, 1450)"@en ;
+        crm:P2_has_type lob:3805 .
+
+    <http://www.ligatus.org.uk/lcd/fed71a69-e68b-4239-9cac-70799db40e4f/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Bookblock (Library of Congress, 1450)"@en ;
+        crm:P2_has_type lob:1227 ;
+        crm:P46_is_composed_of <http://www.ligatus.org.uk/lcd/c4b9eb82-bf18-4aa7-b1dc-0d1f2e7c6a02/> ;
+        crm:P56_bears_feature <http://www.ligatus.org.uk/lcd/aee4792d-2135-4e76-89a4-b316297e5515/> ;
+        crm:P59_has_section <http://www.ligatus.org.uk/lcd/fed71a69-e68b-4239-9cac-70799db40e4f#headPlace>,
+            <http://www.ligatus.org.uk/lcd/fed71a69-e68b-4239-9cac-70799db40e4f#leftPlace>,
+            <http://www.ligatus.org.uk/lcd/fed71a69-e68b-4239-9cac-70799db40e4f#rightPlace>,
+            <http://www.ligatus.org.uk/lcd/fed71a69-e68b-4239-9cac-70799db40e4f#spinePlace>,
+            <http://www.ligatus.org.uk/lcd/fed71a69-e68b-4239-9cac-70799db40e4f#tailPlace> .
+
+    <http://www.ligatus.org.uk/lcd/fee7c62f-5a82-43f2-9c0a-bb8014399744/> a crm:E52_Time-Span ;
+        rdfs:label "Conservation treatment date (Library of Congress, 135)"@en ;
+        crm:P82b_end_of_the_end "2019-01-01T23:59:59"^^xsd:dateTime .
+
+    <http://www.ligatus.org.uk/lcd/ff03c679-6fb0-456f-9e5a-99b4eb54b233/> a crm:E11_Modification ;
+        rdfs:label "Previous repair (Library of Congress, 1450)"@en ;
+        crm:P183_ends_before_the_start_of <http://www.ligatus.org.uk/lcd/155cd2d4-3d55-424a-9748-f21924f3b4c8/> .
+
+    <http://www.ligatus.org.uk/lcd/ffd5f7c8-1361-4896-b84b-95a033700e17/> a crm:E22_Human-Made_Object ;
+        rdfs:label "Right board (Library of Congress, 1471)"@en ;
+        crm:P2_has_type <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> ;
+        crm:P55_has_current_location <http://www.ligatus.org.uk/lcd/c2ab2acb-6395-4896-b90c-ead0ba586947#rightPlace> .
+
+    <http://w3id.org/loc-vocabs/2dacfb85-947b-4616-8eab-8e041340dec7> a crm:E57_Material ;
+        rdfs:label "Acrylic paint"@en .
+
+    <http://w3id.org/loc-vocabs/5d916c8f-31fc-48a4-9f3e-2f355f3392f3> a crm:E55_Type ;
+        rdfs:label "guarding"@en .
+
+    <http://w3id.org/loc-vocabs/8c2d0794-04d9-4239-98ea-1cfc9652e161> a crm:E55_Type ;
+        rdfs:label "resewing"@en .
+
+    <http://w3id.org/loc-vocabs/af102085-70f2-402c-82e3-1ed349c2d6ec> a crm:E57_Material ;
+        rdfs:label "Bookcloth"@en .
+
+    <http://w3id.org/loc-vocabs/b5942287-d522-4848-8e61-acadf348c119> a crm:E55_Type ;
+        rdfs:label "outer joints"@en .
+
+    <http://w3id.org/loc-vocabs/d10e4374-db00-49eb-94f8-5033faac762b> a crm:E55_Type,
+            crm:E57_Material ;
+        rdfs:label "Wove Paper"@en .
+
+    <http://www.ligatus.org.uk/lcd/09b67e8c-42d2-4b50-b306-a6424eca6367#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 1466_027)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/09b67e8c-42d2-4b50-b306-a6424eca6367#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 1466_027)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/155cd2d4-3d55-424a-9748-f21924f3b4c8/> a crm:E13_Attribute_Assignment ;
+        rdfs:label "Conservation assessment (Library of Congress, 1450)"@en ;
+        crm:P140_assigned_attribute_to <http://www.ligatus.org.uk/lcd/d7cf1e0a-a345-447e-a11a-cf6adfac0e74/> ;
+        crm:P14_carried_out_by <http://www.ligatus.org.uk/lcd/fb422876-06d4-41f3-8db7-1b42f2ac21c5/> ;
+        crm:P2_has_type aat:300080091 .
+
+    <http://www.ligatus.org.uk/lcd/1ced6676-8db5-4940-8c9b-bf3cffbed278/> a crm:E13_Attribute_Assignment ;
+        rdfs:label "Conservation assessment (Library of Congress, 1471)"@en ;
+        crm:P140_assigned_attribute_to <http://www.ligatus.org.uk/lcd/c2ab2acb-6395-4896-b90c-ead0ba586947/> ;
+        crm:P14_carried_out_by <http://www.ligatus.org.uk/lcd/099c76d2-c4e6-4dfb-944e-385b6b323825/>,
+            <http://www.ligatus.org.uk/lcd/6cd3a4be-55bf-4cd0-ab02-25c48c5fa127/> ;
+        crm:P2_has_type aat:300080091 ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/aee20d51-62a8-4047-a609-0be960f88737/> .
+
+    <http://www.ligatus.org.uk/lcd/3388b45d-a609-47a4-8e63-600094633c0e#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/3388b45d-a609-47a4-8e63-600094633c0e#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 1657_001)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/348f9df8-26cb-4cbf-831f-80a1010bc0c2#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 135)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/348f9df8-26cb-4cbf-831f-80a1010bc0c2#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 135)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/3960f3e3-9f51-4eed-878b-7cdfbcee2f86#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 1466_028)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/3960f3e3-9f51-4eed-878b-7cdfbcee2f86#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 1466_028)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/65a583f0-565e-48a7-b998-67df10e50968#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 1782)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/65a583f0-565e-48a7-b998-67df10e50968#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 1782)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/69cc504e-6f1f-4184-b9e9-229a749a3f75#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 1638)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/69cc504e-6f1f-4184-b9e9-229a749a3f75#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 1638)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/8147243b-8b0c-40d1-8316-69571ac36224#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 1785)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/8147243b-8b0c-40d1-8316-69571ac36224#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 1785)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/95025f1d-0784-4b24-8407-4542523e0b1e/> a crm:E13_Attribute_Assignment ;
+        rdfs:label "Conservation assessment (Library of Congress, 135)"@en ;
+        crm:P140_assigned_attribute_to <http://www.ligatus.org.uk/lcd/348f9df8-26cb-4cbf-831f-80a1010bc0c2/> ;
+        crm:P14_carried_out_by <http://www.ligatus.org.uk/lcd/5158be3d-1ef6-465a-a2fc-96278c9147a8/>,
+            <http://www.ligatus.org.uk/lcd/e6e7402f-ebfa-4a43-bb85-5689897dc56e/> ;
+        crm:P2_has_type aat:300080091 ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/a0775d5d-f8c9-4664-8f90-e78bc7c428bd/> .
+
+    <http://www.ligatus.org.uk/lcd/ac007a64-f969-4a31-b1c6-b2a338703875/> a crm:E13_Attribute_Assignment ;
+        rdfs:label "Conservation assessment (Library of Congress, 1657_001)"@en ;
+        crm:P140_assigned_attribute_to <http://www.ligatus.org.uk/lcd/3388b45d-a609-47a4-8e63-600094633c0e/> ;
+        crm:P14_carried_out_by <http://www.ligatus.org.uk/lcd/0dba4dbe-e411-484f-b1cb-3c250aa6af5e/>,
+            <http://www.ligatus.org.uk/lcd/5517ef26-2fc2-4a31-a214-b2316648fe72/> ;
+        crm:P2_has_type aat:300080091 ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/2250cc73-8325-4f9d-8c21-3664799047f9/> .
+
+    <http://www.ligatus.org.uk/lcd/b8ecfddf-b21e-4716-bb4e-2575009577d4#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 2028)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/b8ecfddf-b21e-4716-bb4e-2575009577d4#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 2028)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/c2ab2acb-6395-4896-b90c-ead0ba586947#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 1471)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/c2ab2acb-6395-4896-b90c-ead0ba586947#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 1471)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/c2adbc4f-a75f-4485-9b29-99d003b99910/> a crm:E13_Attribute_Assignment ;
+        rdfs:label "Conservation assessment (Library of Congress, 2028)"@en ;
+        crm:P140_assigned_attribute_to <http://www.ligatus.org.uk/lcd/b8ecfddf-b21e-4716-bb4e-2575009577d4/> ;
+        crm:P14_carried_out_by <http://www.ligatus.org.uk/lcd/33c86a63-6b42-4b4f-a1f1-d98cb9722b77/>,
+            <http://www.ligatus.org.uk/lcd/4696d862-996b-43cb-a1f7-1a53862fb51e/>,
+            <http://www.ligatus.org.uk/lcd/9c52ada9-6fa3-493b-b3dc-2c45adfffd53/> ;
+        crm:P2_has_type aat:300080091 ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/66d6df88-d7d4-4479-9f70-6128a4e54082/> .
+
+    <http://www.ligatus.org.uk/lcd/c3fb26ec-759f-4948-ae2d-5bfecb2e7475/> a crm:E13_Attribute_Assignment ;
+        rdfs:label "Conservation assessment (Library of Congress, 1782)"@en ;
+        crm:P140_assigned_attribute_to <http://www.ligatus.org.uk/lcd/65a583f0-565e-48a7-b998-67df10e50968/> ;
+        crm:P14_carried_out_by <http://www.ligatus.org.uk/lcd/6515648a-e677-4860-89c6-f47a751290b0/>,
+            <http://www.ligatus.org.uk/lcd/c535215b-1dd4-40ff-81fe-88726bf95a17/> ;
+        crm:P2_has_type aat:300080091 ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/0ef3448e-e3ae-4a2e-b196-9722c0618498/> .
+
+    <http://www.ligatus.org.uk/lcd/d0ecabcc-f85b-4e4c-a628-a688790451fd#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 2247)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/d0ecabcc-f85b-4e4c-a628-a688790451fd#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 2247)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/d7cf1e0a-a345-447e-a11a-cf6adfac0e74#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 1450)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/d7cf1e0a-a345-447e-a11a-cf6adfac0e74#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 1450)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/f8cdf6b8-1ecf-4e65-8cf7-9df0eeac25ca#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 1697)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/f8cdf6b8-1ecf-4e65-8cf7-9df0eeac25ca#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 1697)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    <http://www.ligatus.org.uk/lcd/fe0bba64-3ec7-418a-a629-fb4380fd1a4f#leftPlace> a crm:E53_Place ;
+        rdfs:label "Left (Library of Congress, 1466_029)"@en ;
+        crm:P2_has_type lob:2947 .
+
+    <http://www.ligatus.org.uk/lcd/fe0bba64-3ec7-418a-a629-fb4380fd1a4f#rightPlace> a crm:E53_Place ;
+        rdfs:label "Right (Library of Congress, 1466_029)"@en ;
+        crm:P2_has_type lob:3004 .
+
+    lob:1226 a crm:E55_Type ;
+        rdfs:label "bookblock edges"@en .
+
+    <http://w3id.org/loc-vocabs/06fedf92-7130-4a78-8cd8-8a6c0c997b51> a crm:E55_Type ;
+        rdfs:label "tooling"@en .
+
+    <http://w3id.org/loc-vocabs/0d84bb4c-2503-4519-b8bd-6679bb5a5e92> a crm:E57_Material ;
+        rdfs:label "Gelatin"@en .
+
+    <http://w3id.org/loc-vocabs/13d682c4-bf88-4c06-a85f-1456180b6418> a crm:E55_Type ;
+        rdfs:label "fills"@en .
+
+    <http://w3id.org/loc-vocabs/18738fbd-b109-4b9b-9c90-64e83b194673> a crm:E55_Type ;
+        rdfs:label "edge coloring"@en .
+
+    <http://w3id.org/loc-vocabs/4d85d2ad-6db9-4b12-b7bb-019788aa96d8> a crm:E55_Type ;
+        rdfs:label "alkalyzation"@en .
+
+    <http://w3id.org/loc-vocabs/a9b48f6a-223a-494c-98a0-74c85cd182a6> a crm:E57_Material ;
+        rdfs:label "Magnesium Bicarbonate"@en .
+
+    <http://w3id.org/loc-vocabs/d80a51e0-d6b6-493c-a5fd-eeb1a7979c02> a crm:E55_Type ;
+        rdfs:label "cut"@en .
+
+    <http://www.ligatus.org.uk/lcd//> a crm:E42_Identifier ;
+        rdfs:label "Project Number (Library of Congress, 1471)"@en,
+            "Project Number (Library of Congress, 17)"@en,
+            "Project Number (Library of Congress, 1785)"@en ;
+        crm:P190_has_symbolic_content "1471"^^xsd:string,
+            "17"^^xsd:string,
+            "1785"^^xsd:string .
+
+    <http://www.ligatus.org.uk/lcd/d270ae20-e1fb-40e7-bb25-0895469b162d/> a crm:E11_Modification ;
+        rdfs:label "Main conservation event (Library of Congress, 2247)"@en ;
+        crm:P126_employed <http://w3id.org/loc-vocabs/2dacfb85-947b-4616-8eab-8e041340dec7>,
+            <http://w3id.org/loc-vocabs/5c1a66ed-5594-4120-8453-db9a4506a1bd>,
+            <http://w3id.org/loc-vocabs/6962c43b-6702-4080-b1fa-706e5215a643>,
+            <http://w3id.org/loc-vocabs/7ab02df9-5e78-454f-9536-963cac18f688>,
+            <http://www.ligatus.org.uk/lcd> ;
+        crm:P2_has_type <http://vocab.getty.edu/page/aat/300404519> ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/9aebf3bd-bae1-476a-901f-6aade74f9aea/> .
+
+    <http://w3id.org/loc-vocabs/4ff5ec0f-b891-42fd-b805-2ea1b2adc04c> a crm:E55_Type ;
+        rdfs:label "sizing"@en .
+
+    <http://w3id.org/loc-vocabs/71be10c9-0ee0-4008-a7b2-e59b121c7b79> a crm:E55_Type ;
+        rdfs:label "broken"@en .
+
+    <http://w3id.org/loc-vocabs/a7dbe68a-8dfd-4842-aef7-078c093c2455> a crm:E57_Material ;
+        rdfs:label "Ethanol"@en .
+
+    <http://w3id.org/loc-vocabs/dbe22ff9-13ca-4907-9931-acea6e73c5a1> a crm:E55_Type ;
+        rdfs:label "detached"@en .
+
+    <http://w3id.org/loc-vocabs/5c1a66ed-5594-4120-8453-db9a4506a1bd> a crm:E57_Material ;
+        rdfs:label "Leather"@en .
+
+    <http://w3id.org/loc-vocabs/687ccb00-81d0-479f-9d72-044b91546825> a crm:E55_Type ;
+        rdfs:label "flattening"@en .
+
+    <http://w3id.org/loc-vocabs/7ab02df9-5e78-454f-9536-963cac18f688> a crm:E57_Material ;
+        rdfs:label "Textile"@en .
+
+    <http://w3id.org/loc-vocabs/8152ba03-13d3-421d-a0d4-507bbe7ca072> a crm:E55_Type ;
+        rdfs:label "humidification"@en .
+
+    <http://w3id.org/loc-vocabs/acb60fc6-53b4-4120-8776-06dcaf06e25f> a crm:E55_Type ;
+        rdfs:label "gold tooling"@en .
+
+    <http://w3id.org/loc-vocabs/edec7bcb-d127-4512-9f05-67b52435b12b> a crm:E55_Type ;
+        rdfs:label "distortion"@en .
+
+    <http://www.ligatus.org.uk/lcd/04ebd857-4246-49c2-9a29-c3e71c3ff40f/> a crm:E11_Modification,
+            crm:E57_Material ;
+        rdfs:label "Main conservation event (Library of Congress, 1466_029)"@en,
+            "Paper, Asian Paper"@en ;
+        crm:P126_employed <http://w3id.org/loc-vocabs/2dacfb85-947b-4616-8eab-8e041340dec7>,
+            <http://w3id.org/loc-vocabs/6962c43b-6702-4080-b1fa-706e5215a643>,
+            <http://www.ligatus.org.uk/lcd> ;
+        crm:P2_has_type <http://vocab.getty.edu/page/aat/300404519>,
+            <http://w3id.org/loc-vocabs/982aee63-6edb-4184-b5fe-f906912aaf11> ;
+        crm:P3_has_note "Asian Paper"@en ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/55c36af1-06a9-4a78-b696-1debf150b60e/> .
+
+    <http://www.ligatus.org.uk/lcd/53125270-cee7-46b9-9f91-549848f25277/> a crm:E11_Modification,
+            crm:E57_Material ;
+        rdfs:label "Handmade Paper, Laid Paper"@en,
+            "Main conservation event (Library of Congress, 1782)"@en ;
+        crm:P126_employed <http://w3id.org/loc-vocabs/773e0a72-8045-4b84-b0e5-12094f53558b>,
+            <http://w3id.org/loc-vocabs/a7dbe68a-8dfd-4842-aef7-078c093c2455>,
+            <http://w3id.org/loc-vocabs/abf341f9-f5b6-432e-afe4-0bf0602a6e8d> ;
+        crm:P2_has_type <http://vocab.getty.edu/page/aat/300404519>,
+            <http://w3id.org/loc-vocabs/e9350b60-96e4-488f-9f11-3a2c21079927> ;
+        crm:P3_has_note "Laid Paper"@en ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/e2a46eed-ef01-4b56-9db2-4e3d1fd6bdb1/> .
+
+    <http://www.ligatus.org.uk/lcd/d5a0e875-0c73-4a01-9b0c-63498edc65f5/> a crm:E11_Modification,
+            crm:E57_Material ;
+        rdfs:label "Main conservation event (Library of Congress, 1450)"@en,
+            "Paper, Pasteboard"@en ;
+        crm:P2_has_type <http://vocab.getty.edu/page/aat/300404519>,
+            <http://w3id.org/loc-vocabs/982aee63-6edb-4184-b5fe-f906912aaf11> ;
+        crm:P3_has_note "Pasteboard"@en ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/fcc08d59-3aad-43bb-ba63-491bba28b8cc/> .
+
+    <http://w3id.org/loc-vocabs/773e0a72-8045-4b84-b0e5-12094f53558b> a crm:E57_Material ;
+        rdfs:label "Calcium Hydroxide"@en .
+
+    <http://w3id.org/loc-vocabs/78f4aeb6-67a5-4e05-96ff-c42defeb36f5> a crm:E55_Type ;
+        rdfs:label "previous mend removal"@en .
+
+    <http://w3id.org/loc-vocabs/bcc78dc8-9637-455c-a2b7-e60099818a19> a crm:E55_Type ;
+        rdfs:label "repaired"@en .
+
+    <http://w3id.org/loc-vocabs/c9718ed8-8891-4617-a239-94e5d09c3b45> a crm:E55_Type ;
+        rdfs:label "mending"@en .
+
+    <http://www.ligatus.org.uk/lcd/feb8c65f-a916-4167-b35a-0544f74244f2/> a crm:E11_Modification ;
+        rdfs:label "Main conservation event (Library of Congress, 1785)"@en ;
+        crm:P126_employed <http://w3id.org/loc-vocabs/773e0a72-8045-4b84-b0e5-12094f53558b>,
+            <http://w3id.org/loc-vocabs/a9b48f6a-223a-494c-98a0-74c85cd182a6>,
+            <http://w3id.org/loc-vocabs/abf341f9-f5b6-432e-afe4-0bf0602a6e8d>,
+            <http://www.ligatus.org.uk/lcd> ;
+        crm:P2_has_type <http://vocab.getty.edu/page/aat/300404519> ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/e908914e-3f2d-4b90-929b-71edfb9bf064/> .
+
+    <http://w3id.org/loc-vocabs/397089a9-ac53-45bb-a369-c7a24f6426e8> a crm:E55_Type ;
+        rdfs:label "losses"@en .
+
+    <http://w3id.org/loc-vocabs/e9350b60-96e4-488f-9f11-3a2c21079927> a crm:E55_Type,
+            crm:E57_Material ;
+        rdfs:label "Handmade Paper"@en .
+
+    <http://www.ligatus.org.uk/lcd/4fd9d07b-72c2-4318-94b3-584acb41a7b9/> a crm:E11_Modification ;
+        rdfs:label "Main conservation event (Library of Congress, 2028)"@en ;
+        crm:P126_employed <http://w3id.org/loc-vocabs/5c1a66ed-5594-4120-8453-db9a4506a1bd>,
+            <http://w3id.org/loc-vocabs/6962c43b-6702-4080-b1fa-706e5215a643>,
+            <http://w3id.org/loc-vocabs/7ab02df9-5e78-454f-9536-963cac18f688>,
+            <http://w3id.org/loc-vocabs/881009e9-746c-4878-90bc-e114f873a308>,
+            <http://w3id.org/loc-vocabs/bde6be40-b2ec-42b3-82cc-4c681ed881fc>,
+            <http://www.ligatus.org.uk/lcd> ;
+        crm:P2_has_type <http://vocab.getty.edu/page/aat/300404519> ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/25d9fab6-9c51-4fff-8883-421efd571fc8/> .
+
+    <http://w3id.org/loc-vocabs/9427a904-6d88-4b95-b064-86aba33178dd> a crm:E55_Type ;
+        rdfs:label "dry cleaning"@en .
+
+    <http://w3id.org/loc-vocabs/fd0dcd79-f862-4a87-93ce-17277abfe83a> a crm:E55_Type ;
+        rdfs:label "disbinding"@en .
+
+    <http://www.ligatus.org.uk/lcd/30b9de1a-37e9-4fea-8cf9-483c12b1cc1e/> a crm:E11_Modification,
+            crm:E57_Material ;
+        rdfs:label "Main conservation event (Library of Congress, 1466_027)"@en,
+            "Paper, Asian Paper"@en ;
+        crm:P126_employed <http://w3id.org/loc-vocabs/6962c43b-6702-4080-b1fa-706e5215a643>,
+            <http://w3id.org/loc-vocabs/abf341f9-f5b6-432e-afe4-0bf0602a6e8d>,
+            <http://www.ligatus.org.uk/lcd> ;
+        crm:P2_has_type <http://vocab.getty.edu/page/aat/300404519>,
+            <http://w3id.org/loc-vocabs/982aee63-6edb-4184-b5fe-f906912aaf11> ;
+        crm:P3_has_note "Asian Paper"@en ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/0e8c35bd-54cf-476d-852e-c7e7b3518bf0/> .
+
+    <http://www.ligatus.org.uk/lcd/53b5ada8-2f5c-4a4a-bf0b-595b424e2265/> a crm:E11_Modification,
+            crm:E57_Material ;
+        rdfs:label "Main conservation event (Library of Congress, 1466_028)"@en,
+            "Paper, Asian Paper, Textile Lining"@en,
+            "Textile , Asian Paper, Textile Lining"@en ;
+        crm:P126_employed <http://w3id.org/loc-vocabs/6962c43b-6702-4080-b1fa-706e5215a643>,
+            <http://w3id.org/loc-vocabs/a3c95700-1325-4930-ae44-05e647a1e12f>,
+            <http://w3id.org/loc-vocabs/abf341f9-f5b6-432e-afe4-0bf0602a6e8d>,
+            <http://www.ligatus.org.uk/lcd> ;
+        crm:P2_has_type <http://vocab.getty.edu/page/aat/300404519>,
+            <http://w3id.org/loc-vocabs/982aee63-6edb-4184-b5fe-f906912aaf11>,
+            <http://www.ligatus.org.uk/lcd> ;
+        crm:P3_has_note "Asian Paper, Textile Lining"@en ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/57f78c42-c807-4886-a047-5164a0565334/> .
+
+    <http://w3id.org/loc-vocabs/06a37aa1-5505-4a84-ae13-0dafdd49dcfa> a crm:E55_Type ;
+        rdfs:label "washing"@en .
+
+    <http://w3id.org/loc-vocabs/982aee63-6edb-4184-b5fe-f906912aaf11> a crm:E55_Type,
+            crm:E57_Material ;
+        rdfs:label "Paper"@en .
+
+    <http://w3id.org/loc-vocabs/abf341f9-f5b6-432e-afe4-0bf0602a6e8d> a crm:E57_Material ;
+        rdfs:label "Water"@en .
+
+    <http://w3id.org/loc-vocabs/e645fa14-55fb-4aea-91f6-c47c534d858f> a crm:E55_Type ;
+        rdfs:label "damaged"@en .
+
+    <http://www.ligatus.org.uk/lcd/2f3c4c0d-24ea-486e-ab77-fff36b47ad25/> a crm:E11_Modification ;
+        rdfs:label "Main conservation event (Library of Congress, 1697)"@en ;
+        crm:P126_employed <http://w3id.org/loc-vocabs/0d84bb4c-2503-4519-b8bd-6679bb5a5e92>,
+            <http://w3id.org/loc-vocabs/6962c43b-6702-4080-b1fa-706e5215a643>,
+            <http://w3id.org/loc-vocabs/773e0a72-8045-4b84-b0e5-12094f53558b>,
+            <http://w3id.org/loc-vocabs/abf341f9-f5b6-432e-afe4-0bf0602a6e8d>,
+            <http://www.ligatus.org.uk/lcd> ;
+        crm:P2_has_type <http://vocab.getty.edu/page/aat/300404519> ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/f0c000fb-385a-49b8-8392-5fce19bb0fbd/> .
+
+    <http://www.ligatus.org.uk/lcd/37448046-7a1b-4243-afda-bc0cc43638d8/> a crm:E11_Modification,
+            crm:E57_Material ;
+        rdfs:label "Handmade Paper, Laid Paper, Machine Made paper stubs"@en,
+            "Main conservation event (Library of Congress, 135)"@en,
+            "Wove Paper, Laid Paper, Machine Made paper stubs"@en ;
+        crm:P126_employed <http://w3id.org/loc-vocabs/6962c43b-6702-4080-b1fa-706e5215a643>,
+            <http://w3id.org/loc-vocabs/773e0a72-8045-4b84-b0e5-12094f53558b>,
+            <http://w3id.org/loc-vocabs/a7dbe68a-8dfd-4842-aef7-078c093c2455>,
+            <http://w3id.org/loc-vocabs/a9b48f6a-223a-494c-98a0-74c85cd182a6>,
+            <http://w3id.org/loc-vocabs/abf341f9-f5b6-432e-afe4-0bf0602a6e8d>,
+            <http://www.ligatus.org.uk/lcd> ;
+        crm:P2_has_type <http://vocab.getty.edu/page/aat/300404519>,
+            <http://w3id.org/loc-vocabs/d10e4374-db00-49eb-94f8-5033faac762b>,
+            <http://w3id.org/loc-vocabs/e9350b60-96e4-488f-9f11-3a2c21079927> ;
+        crm:P3_has_note "Laid Paper, Machine Made paper stubs"@en ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/fee7c62f-5a82-43f2-9c0a-bb8014399744/> .
+
+    <http://www.ligatus.org.uk/lcd/409e7211-43cd-4ced-98c8-a3475567df58/> a crm:E11_Modification,
+            crm:E57_Material ;
+        rdfs:label "Handmade Paper, Laid Paper"@en,
+            "Main conservation event (Library of Congress, 1471)"@en ;
+        crm:P126_employed <http://w3id.org/loc-vocabs/6962c43b-6702-4080-b1fa-706e5215a643>,
+            <http://w3id.org/loc-vocabs/6ded13fd-8cfc-48d2-8afa-f26800d19689>,
+            <http://w3id.org/loc-vocabs/a7dbe68a-8dfd-4842-aef7-078c093c2455>,
+            <http://w3id.org/loc-vocabs/a9b48f6a-223a-494c-98a0-74c85cd182a6>,
+            <http://w3id.org/loc-vocabs/abf341f9-f5b6-432e-afe4-0bf0602a6e8d>,
+            <http://www.ligatus.org.uk/lcd> ;
+        crm:P2_has_type <http://vocab.getty.edu/page/aat/300404519>,
+            <http://w3id.org/loc-vocabs/e9350b60-96e4-488f-9f11-3a2c21079927> ;
+        crm:P3_has_note "Laid Paper"@en ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/581e7aab-0ca1-469a-8074-6344b8993889/> .
+
+    <http://www.ligatus.org.uk/lcd/a3a956a5-71fe-4d86-8619-efd14cbc67c1/> a crm:E11_Modification,
+            crm:E57_Material ;
+        rdfs:label "Handmade Paper, Laid Paper"@en,
+            "Main conservation event (Library of Congress, 1638)"@en ;
+        crm:P126_employed <http://w3id.org/loc-vocabs/0d84bb4c-2503-4519-b8bd-6679bb5a5e92>,
+            <http://w3id.org/loc-vocabs/6962c43b-6702-4080-b1fa-706e5215a643>,
+            <http://w3id.org/loc-vocabs/773e0a72-8045-4b84-b0e5-12094f53558b>,
+            <http://w3id.org/loc-vocabs/abf341f9-f5b6-432e-afe4-0bf0602a6e8d>,
+            <http://www.ligatus.org.uk/lcd> ;
+        crm:P2_has_type <http://vocab.getty.edu/page/aat/300404519>,
+            <http://w3id.org/loc-vocabs/e9350b60-96e4-488f-9f11-3a2c21079927> ;
+        crm:P3_has_note "Laid Paper"@en ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/ca04544e-b09c-4468-b369-80fa5b462e8c/> .
+
+    <http://w3id.org/loc-vocabs/6962c43b-6702-4080-b1fa-706e5215a643> a crm:E57_Material ;
+        rdfs:label "Wheat Starch Paste"@en .
+
+    <http://www.ligatus.org.uk/lcd/75bea6e7-d19f-4194-9447-912ea681e243/> a crm:E11_Modification,
+            crm:E57_Material ;
+        rdfs:label "Handmade Paper, Laid Paper"@en,
+            "Main conservation event (Library of Congress, 1657_001)"@en ;
+        crm:P126_employed <http://w3id.org/loc-vocabs/0d84bb4c-2503-4519-b8bd-6679bb5a5e92>,
+            <http://w3id.org/loc-vocabs/6962c43b-6702-4080-b1fa-706e5215a643>,
+            <http://w3id.org/loc-vocabs/773e0a72-8045-4b84-b0e5-12094f53558b>,
+            <http://w3id.org/loc-vocabs/94de5f5a-cf26-4fca-9357-2c66caad02a4>,
+            <http://w3id.org/loc-vocabs/a7dbe68a-8dfd-4842-aef7-078c093c2455>,
+            <http://w3id.org/loc-vocabs/abf341f9-f5b6-432e-afe4-0bf0602a6e8d>,
+            <http://www.ligatus.org.uk/lcd> ;
+        crm:P2_has_type <http://vocab.getty.edu/page/aat/300404519>,
+            <http://w3id.org/loc-vocabs/e9350b60-96e4-488f-9f11-3a2c21079927> ;
+        crm:P3_has_note "Laid Paper"@en ;
+        crm:P4_has_time-span <http://www.ligatus.org.uk/lcd/b81a8f9d-9985-4340-a5cd-d7676b06b34c/> .
+
+    lob:4886 a crm:E55_Type ;
+        rdfs:label "codex-form books"@en .
+
+    dbp:Library_of_Congress a crm:E40_Legal_Body ;
+        rdfs:label "Library of Congress"@en .
+
+    aat:300080091 a crm:E55_Type ;
+        rdfs:label "description"@en .
+
+    <http://vocab.getty.edu/page/aat/300404519> a crm:E55_Type ;
+        rdfs:label "conservation (process)"@en .
+
+    lob:1227 a crm:E55_Type ;
+        rdfs:label "bookblocks"@en .
+
+    lob:1663 a crm:E55_Type ;
+        rdfs:label "textblocks"@en .
+
+    lob:2352 a crm:E55_Type ;
+        rdfs:label "spine (bookblocks)"@en .
+
+    lob:3803 a crm:E55_Type ;
+        rdfs:label "head"@en .
+
+    lob:3805 a crm:E55_Type ;
+        rdfs:label "tail"@en .
+
+    lob:3810 a crm:E55_Type ;
+        rdfs:label "spine (place)"@en .
+
+    <http://w3id.org/loc-vocabs/ce79bf79-6a53-4c50-84d6-e3a3a2da8090> a crm:E55_Type ;
+        rdfs:label "sewing supports"@en .
+
+    <http://www.ligatus.org.uk/lcd/5fc8878e-64d4-4ed2-876b-a77707b56fe0> a crm:E53_Place ;
+        rdfs:label "Washington, D.C. (place)"@en ;
+        crm:P1_is_identified_by <http://dbpedia.org/resource/Washington,_D.C.> .
+
+    lob:1268 a crm:E55_Type ;
+        rdfs:label "covers"@en .
+
+    lob:3014 a crm:E55_Type ;
+        rdfs:label "sewn structure"@en,
+            "sewn structures"@en .
+
+    aat:300102842 a crm:E55_Type ;
+        rdfs:label "conservators (people in conservation)"@en .
+
+    <http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e> a crm:E55_Type ;
+        rdfs:label "boards"@en .
+
+    lob:2947 a crm:E55_Type ;
+        rdfs:label "left"@en .
+
+    lob:3004 a crm:E55_Type ;
+        rdfs:label "right"@en .
+
+    <http://www.ligatus.org.uk/lcd> a crm:E41_Appellation,
+            crm:E55_Type,
+            crm:E57_Material ;
+        rdfs:label "Asian Paper"@en,
+            "BASF leather dye"@en,
+            "Conservator's name"@en,
+            "Gellan gum"@en,
+            "Handmade Western Paper"@en,
+            "Klucel G"@en,
+            "Lascaux 498"@en,
+            "PVA"@en,
+            "Textile "@en,
+            "acidic ink"@en,
+            "rebacking"@en,
+            "spine"@en ;
+        crm:P190_has_symbolic_content "Dekle, Claire"^^xsd:string,
+            "Fraser, Danielle"^^xsd:string,
+            "Haley, Alan"^^xsd:string,
+            "Haude, Mary \"Betsy\""^^xsd:string,
+            "Knight, Evan"^^xsd:string,
+            "McNeal, Carrie"^^xsd:string,
+            "Nugent, Maria"^^xsd:string,
+            "Paterson, Dan"^^xsd:string,
+            "Wanser, Heather"^^xsd:string .
+}
+

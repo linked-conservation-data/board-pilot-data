@@ -1,0 +1,275 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://www.w3.org/2001/XMLSchema#">
+  <crm:E31_Document rdf:about="https://w3id.org/sul-data/524ade00-48f2-404f-bcb6-0402a47dd952">
+    <crm:P2_has_type>
+      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/05615321-9496-4355-b6e9-60a7748f5fbc">
+        <rdfs:label xml:lang="en">text</rdfs:label>
+      </crm:E55_Type>
+    </crm:P2_has_type>
+    <crm:P70_documents>
+      <crm:E7_Activity rdf:about="https://w3id.org/sul-data/4e7d88fa-e0a6-4cc7-a5d5-265c3f50b627">
+        <crm:P9_consists_of>
+          <crm:E79_Part_Addition rdf:about="https://w3id.org/sul-data/37d5ceac-a4c8-4782-a63e-571c582e9c29">
+            <crm:P110_augmented>
+              <crm:E18_Physical_Thing rdf:about="https://w3id.org/sul-data/reg_jira_control1919/object/component/board">
+                <crm:P31i_was_modified_by>
+                  <crm:E79_Part_Addition rdf:about="https://w3id.org/sul-data/568919bb-55f3-4551-a5f1-6e5eb460f4d5">
+                    <crm:P2_has_type>
+                      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/ba36bb81-8115-47b8-883e-f724d035c359">
+                        <rdfs:label xml:lang="en">reattachment</rdfs:label>
+                      </crm:E55_Type>
+                    </crm:P2_has_type>
+                    <crm:P111_added>
+                      <crm:E24_Physical_Man-Made_Thing rdf:about="https://w3id.org/sul-data/1088b4d9-ef25-46ef-9250-f4530825e144">
+                        <crm:P108i_was_produced_by>
+                          <crm:E79_Part_Addition rdf:about="https://w3id.org/sul-data/f580de2c-03d1-4387-a336-240e10b69021">
+                            <rdfs:label xml:lang="en">Production of hinge</rdfs:label>
+                            <crm:P33_used_specific_technique>
+                              <crm:E29_Design_or_Procedure rdf:about="https://w3id.org/sul-vocab/e8173325-216d-49b9-a645-81ea4f49e142">
+                                <rdfs:label xml:lang="en">paper hinge</rdfs:label>
+                              </crm:E29_Design_or_Procedure>
+                            </crm:P33_used_specific_technique>
+                            <crm:P7_took_place_at>
+                              <crm:E53_Place rdf:about="https://w3id.org/sul-data/reg_jira_control1919/object/place/hinge">
+                                <crm:P2_has_type>
+                                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/67207703-5fac-41f4-8850-5226600123fc">
+                                    <rdfs:label xml:lang="en"
+                                    >hinge</rdfs:label>
+                                  </crm:E55_Type>
+                                </crm:P2_has_type>
+                                <rdfs:label xml:lang="en">hinge</rdfs:label>
+                              </crm:E53_Place>
+                            </crm:P7_took_place_at>
+                            <crm:P7_took_place_at>
+                              <crm:E53_Place rdf:about="https://w3id.org/sul-data/reg_jira_control1919/object/place/flyleaf">
+                                <crm:P2_has_type>
+                                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/2ab6b31b-45d2-4696-b03c-08418903139b">
+                                    <rdfs:label xml:lang="en"
+                                    >flyleaf</rdfs:label>
+                                  </crm:E55_Type>
+                                </crm:P2_has_type>
+                                <rdfs:label xml:lang="en">flyleaf</rdfs:label>
+                              </crm:E53_Place>
+                            </crm:P7_took_place_at>
+                            <crm:P7_took_place_at>
+                              <crm:E53_Place rdf:about="https://w3id.org/sul-data/reg_jira_control1919/object/place/back">
+                                <crm:P2_has_type>
+                                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/acfc5013-3a98-4cef-b7f9-b53d8b0866f9">
+                                    <rdfs:label xml:lang="en"
+                                    >back</rdfs:label>
+                                  </crm:E55_Type>
+                                </crm:P2_has_type>
+                                <rdfs:label xml:lang="en">back</rdfs:label>
+                              </crm:E53_Place>
+                            </crm:P7_took_place_at>
+                            <crm:P32_used_general_technique>
+                              <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/de69a040-c348-4495-b194-b16fa0cae21c">
+                                <rdfs:label xml:lang="en">board reattachment</rdfs:label>
+                              </crm:E55_Type>
+                            </crm:P32_used_general_technique>
+                            <crm:P7_took_place_at>
+                              <crm:E53_Place rdf:about="https://w3id.org/sul-data/reg_jira_control1919/object/place/front">
+                                <crm:P2_has_type>
+                                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/b3eaf2b6-1241-407e-90a3-7732cdf052d9">
+                                    <rdfs:label xml:lang="en"
+                                    >front</rdfs:label>
+                                  </crm:E55_Type>
+                                </crm:P2_has_type>
+                                <rdfs:label xml:lang="en">front</rdfs:label>
+                              </crm:E53_Place>
+                            </crm:P7_took_place_at>
+                            <crm:P7_took_place_at>
+                              <crm:E53_Place rdf:about="https://w3id.org/sul-data/reg_jira_control1919/object/place/pastedown">
+                                <crm:P2_has_type>
+                                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/1958359c-9810-43cb-b538-2c90c1656fd8">
+                                    <rdfs:label xml:lang="en"
+                                    >pastedown</rdfs:label>
+                                  </crm:E55_Type>
+                                </crm:P2_has_type>
+                                <rdfs:label xml:lang="en">pastedown</rdfs:label>
+                              </crm:E53_Place>
+                            </crm:P7_took_place_at>
+                            <crm:P7_took_place_at>
+                              <crm:E53_Place rdf:about="https://w3id.org/sul-data/reg_jira_control1919/object/place/spine">
+                                <crm:P2_has_type>
+                                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/d222fb37-76ee-4f3e-ae8b-66e21e334ee2">
+                                    <rdfs:label xml:lang="en"
+                                    >spine</rdfs:label>
+                                  </crm:E55_Type>
+                                </crm:P2_has_type>
+                                <rdfs:label xml:lang="en">spine</rdfs:label>
+                              </crm:E53_Place>
+                            </crm:P7_took_place_at>
+                            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E12_Production"/>
+                            <crm:P126_employed>
+                              <crm:E57_Material rdf:about="https://w3id.org/sul-vocab/df2392bd-3259-4778-8011-c4138fd69955">
+                                <rdfs:label xml:lang="en">Japanese paper</rdfs:label>
+                              </crm:E57_Material>
+                            </crm:P126_employed>
+                          </crm:E79_Part_Addition>
+                        </crm:P108i_was_produced_by>
+                        <crm:P2_has_type rdf:resource="https://w3id.org/sul-vocab/67207703-5fac-41f4-8850-5226600123fc"/>
+                        <rdfs:label xml:lang="en">New hinge</rdfs:label>
+                        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+                      </crm:E24_Physical_Man-Made_Thing>
+                    </crm:P111_added>
+                    <rdfs:label xml:lang="en">Component Reattachment</rdfs:label>
+                    <rdfs:label xml:lang="en">Reattachment</rdfs:label>
+                    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E11_Modification"/>
+                  </crm:E79_Part_Addition>
+                </crm:P31i_was_modified_by>
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/25d585d3-336f-4904-bf24-b2ff5f7ce280">
+                    <rdfs:label xml:lang="en">board</rdfs:label>
+                    <rdfs:label xml:lang="en">boards</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P111i_was_added_by>
+                  <crm:E79_Part_Addition rdf:about="https://w3id.org/sul-data/b88ffee9-c0e4-49d2-aa45-320a18a73bed">
+                    <rdfs:label xml:lang="en">Component Application</rdfs:label>
+                    <crm:P7_took_place_at rdf:resource="https://w3id.org/sul-data/reg_jira_control1919/object/place/hinge"/>
+                    <crm:P33_used_specific_technique rdf:resource="https://w3id.org/sul-vocab/e8173325-216d-49b9-a645-81ea4f49e142"/>
+                    <crm:P7_took_place_at rdf:resource="https://w3id.org/sul-data/reg_jira_control1919/object/place/spine"/>
+                    <crm:P7_took_place_at rdf:resource="https://w3id.org/sul-data/reg_jira_control1919/object/place/flyleaf"/>
+                    <crm:P7_took_place_at rdf:resource="https://w3id.org/sul-data/reg_jira_control1919/object/place/back"/>
+                    <crm:P7_took_place_at rdf:resource="https://w3id.org/sul-data/reg_jira_control1919/object/place/pastedown"/>
+                    <crm:P2_has_type>
+                      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/a5e7ec9c-78c7-4c66-8d65-7370a8516ff9">
+                        <rdfs:label xml:lang="en">application</rdfs:label>
+                      </crm:E55_Type>
+                    </crm:P2_has_type>
+                    <crm:P7_took_place_at rdf:resource="https://w3id.org/sul-data/reg_jira_control1919/object/place/front"/>
+                  </crm:E79_Part_Addition>
+                </crm:P111i_was_added_by>
+                <rdfs:label xml:lang="en">board</rdfs:label>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing"/>
+              </crm:E18_Physical_Thing>
+            </crm:P110_augmented>
+            <crm:P110_augmented>
+              <crm:E18_Physical_Thing rdf:about="https://searchworks.stanford.edu/view/185360#item">
+                <crm:P59_has_section rdf:resource="https://w3id.org/sul-data/reg_jira_control1919/object/place/flyleaf"/>
+                <crm:P59_has_section rdf:resource="https://w3id.org/sul-data/reg_jira_control1919/object/place/front"/>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+                <crm:P160_has_temporal_projection>
+                  <crm:E52_Time-Span rdf:about="https://w3id.org/sul-data/593caa0f-7510-4f59-93f8-5c5d58d6a18f">
+                    <crm:P82a_begin_of_the_begin xml:lang="en"
+                    >1786</crm:P82a_begin_of_the_begin>
+                    <crm:P2_has_type>
+                      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/be27ef65-2fc9-4f4a-92d6-7b8233b299a4">
+                        <rdfs:label xml:lang="en">date attributed by cataloger</rdfs:label>
+                      </crm:E55_Type>
+                    </crm:P2_has_type>
+                    <rdfs:label xml:lang="en">publication date</rdfs:label>
+                  </crm:E52_Time-Span>
+                </crm:P160_has_temporal_projection>
+                <crm:P59_has_section rdf:resource="https://w3id.org/sul-data/reg_jira_control1919/object/place/back"/>
+                <crm:P59_has_section rdf:resource="https://w3id.org/sul-data/reg_jira_control1919/object/place/spine"/>
+                <rdfs:label xml:lang="en">Collection Item: The children's friend : consisting of apt tales, short dialogues, and moral dramas, all intended to engage attention, cherish feeling, and inculcate virtue, in the rising generation</rdfs:label>
+                <crm:P59_has_section rdf:resource="https://w3id.org/sul-data/reg_jira_control1919/object/place/pastedown"/>
+                <crm:P1_is_identified_by>
+                  <crm:E35_Title rdf:about="https://searchworks.stanford.edu/view/185360">
+                    <rdfs:label xml:lang="en">The children's friend : consisting of apt tales, short dialogues, and moral dramas, all intended to engage attention, cherish feeling, and inculcate virtue, in the rising generation</rdfs:label>
+                  </crm:E35_Title>
+                </crm:P1_is_identified_by>
+                <crm:P59_has_section rdf:resource="https://w3id.org/sul-data/reg_jira_control1919/object/place/hinge"/>
+                <crm:P1_is_identified_by>
+                  <crm:E42_Identifier rdf:about="https://w3id.org/sul-data/fed3866e-76d0-4376-8f8a-5c25207a8b97">
+                    <crm:P2_has_type>
+                      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/dc110074-ea64-49ca-865c-b866a264d112">
+                        <rdfs:label xml:lang="en">catkey</rdfs:label>
+                      </crm:E55_Type>
+                    </crm:P2_has_type>
+                    <rdfs:label xml:lang="en">185360</rdfs:label>
+                  </crm:E42_Identifier>
+                </crm:P1_is_identified_by>
+              </crm:E18_Physical_Thing>
+            </crm:P110_augmented>
+            <rdfs:label xml:lang="en">Treatment Steps</rdfs:label>
+            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E11_Modification"/>
+          </crm:E79_Part_Addition>
+        </crm:P9_consists_of>
+        <crm:P9_consists_of>
+          <crm:E14_Condition_Assessment rdf:about="https://w3id.org/sul-data/8154566a-7517-4045-a563-1c1301f05aea">
+            <crm:P4_has_time-span>
+              <j.0:dateTime rdf:about="https://w3id.org/sul-data/83231f1f-183c-41a7-bd83-5438713b9c1f">
+                <rdfs:label xml:lang="en">Latest Date</rdfs:label>
+                <crm:P82b_end_of_the_end rdf:resource="https://w3id.org/sul-data/83231f1f-183c-41a7-bd83-5438713b9c1f"/>
+                <rdfs:label xml:lang="en">1994-12-09T00:00:00</rdfs:label>
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/28acc7d7-c73e-4c73-b58a-8626bb9a1878">
+                    <rdfs:label xml:lang="en">completion date</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <rdfs:label xml:lang="en">Text Documentation Date</rdfs:label>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+              </j.0:dateTime>
+            </crm:P4_has_time-span>
+            <crm:P35_has_identified>
+              <crm:E55_Type rdf:about="https://w3id.org/sul-data/88e27723-aedd-47fe-b820-62423e550bd5">
+                <crm:P2_has_type rdf:resource="https://w3id.org/sul-data/88e27723-aedd-47fe-b820-62423e550bd5"/>
+                <rdfs:label xml:lang="en">detached</rdfs:label>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"/>
+              </crm:E55_Type>
+            </crm:P35_has_identified>
+            <crm:P134i_was_continued_by rdf:resource="https://w3id.org/sul-data/37d5ceac-a4c8-4782-a63e-571c582e9c29"/>
+            <crm:P34_concerned>
+              <crm:E19_Physical_Object rdf:about="https://w3id.org/sul-data/reg_jira_control1919/object/component/cover">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/bec752f3-c694-4e75-b98d-c81ad4e7b019">
+                    <rdfs:label xml:lang="en">cover</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P46_is_composed_of>
+                  <crm:E19_Physical_Object rdf:about="https://w3id.org/sul-data/reg_jira_control1919/object/component/boards">
+                    <crm:P2_has_type rdf:resource="https://w3id.org/sul-vocab/25d585d3-336f-4904-bf24-b2ff5f7ce280"/>
+                    <crm:P44_has_condition rdf:resource="https://w3id.org/sul-data/88e27723-aedd-47fe-b820-62423e550bd5"/>
+                    <rdfs:label xml:lang="en">boards</rdfs:label>
+                  </crm:E19_Physical_Object>
+                </crm:P46_is_composed_of>
+                <rdfs:label xml:lang="en">cover</rdfs:label>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+              </crm:E19_Physical_Object>
+            </crm:P34_concerned>
+            <rdfs:label xml:lang="en">Pretreatment Examination: Condition Assessment</rdfs:label>
+          </crm:E14_Condition_Assessment>
+        </crm:P9_consists_of>
+        <crm:P9_consists_of>
+          <crm:E13_Attribute_Assignment rdf:about="https://w3id.org/sul-data/a15da247-da16-4c0c-a11f-f52bb183d287">
+            <crm:P4_has_time-span rdf:resource="https://w3id.org/sul-data/83231f1f-183c-41a7-bd83-5438713b9c1f"/>
+            <crm:P134i_was_continued_by rdf:resource="https://w3id.org/sul-data/37d5ceac-a4c8-4782-a63e-571c582e9c29"/>
+            <crm:P140_assigned_attribute_to rdf:resource="https://searchworks.stanford.edu/view/185360#item"/>
+            <rdfs:label xml:lang="en">Pretreatment Examination: Descriptive Attribute Assignment</rdfs:label>
+          </crm:E13_Attribute_Assignment>
+        </crm:P9_consists_of>
+        <crm:P4_has_time-span rdf:resource="https://w3id.org/sul-data/83231f1f-183c-41a7-bd83-5438713b9c1f"/>
+        <crm:P3_has_note xml:lang="en">This limited selection of data was generated for a pilot project of the Linked Conservation Data Consortium (https://www.ligatus.org.uk/lcd/). More complete documentation about this conservation treatment can be found in the Stanford Digital Repository.</crm:P3_has_note>
+        <crm:P1_is_identified_by>
+          <crm:E42_Identifier rdf:about="https://w3id.org/sul-data/35a06a2f-84b0-41d3-a615-ecfb555cc4b8">
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/3dd75348-fa60-4e40-a330-7bb1992f016a">
+                <rdfs:label xml:lang="en">historic control number</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <rdfs:label xml:lang="en">1919</rdfs:label>
+          </crm:E42_Identifier>
+        </crm:P1_is_identified_by>
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/8850c675-f1ee-4a0a-84b3-909e5c7340eb">
+            <rdfs:label xml:lang="en">conservation</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <rdfs:label xml:lang="en">_1919 - Conservation of "The children's friend : consisting of apt tales, short dialogues, and moral dramas, all intended to engage attention, cherish feeling, and inculcate virtue, in the rising generation"</rdfs:label>
+      </crm:E7_Activity>
+    </crm:P70_documents>
+    <crm:P1_is_identified_by>
+      <crm:E35_Title rdf:about="https://w3id.org/sul-data/b6a9c3c8-23f3-43ba-9935-0ad3e18cd127">
+        <rdfs:label xml:lang="en">SPC_1919_1994.docx</rdfs:label>
+      </crm:E35_Title>
+    </crm:P1_is_identified_by>
+    <rdfs:label xml:lang="en">Conservation Documentation: Text</rdfs:label>
+  </crm:E31_Document>
+</rdf:RDF>

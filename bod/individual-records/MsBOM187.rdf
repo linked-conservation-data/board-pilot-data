@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:lob="http://w3id.org/lob/concept/"
+         xmlns:aat="http://vocab.getty.edu/aat/"
+         xmlns:dbp="http://dbpedia.org/resource/"
+         xml:base="http://www.ligatus.org.uk/lcd">
+   <crm:E31_Document rdf:about="http://www.ligatus.org.uk/lcd/68c527ce-a485-4a4a-8faf-bef272e2903d/">
+      <rdfs:label xml:lang="en">Conservation Report (Bodleian, Ms.BOM.187)</rdfs:label>
+      <crm:P70_documents>
+         <crm:E13_Attribute_Assignment rdf:about="http://www.ligatus.org.uk/lcd/ddc7f042-0815-45e5-9e83-ab03ea49ca00/">
+            <rdfs:label xml:lang="en">Conservation assessment (Bodleian, Ms.BOM.187)</rdfs:label>
+            <crm:P140_assigned_attribute_to>
+               <crm:E22_Human-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/accc6884-3d79-49ed-a54c-046a32068381/">
+                  <rdfs:label xml:lang="en">Book (Bodleian, Ms.BOM.187)</rdfs:label>
+                  <crm:P2_has_type>
+                     <crm:E55_Type rdf:about="http://w3id.org/lob/concept/4886">
+                        <rdfs:label xml:lang="en">codex-form books</rdfs:label>
+                     </crm:E55_Type>
+                  </crm:P2_has_type>
+                  <crm:P1_is_identified_by>
+                     <crm:E42_Identifier rdf:about="http://www.ligatus.org.uk/lcd/3985169f-77cc-4cd5-965c-8cf1eade27d5/">
+                        <rdfs:label xml:lang="en">Shelfmark (Bodleian, Ms.BOM.187)</rdfs:label>
+                        <crm:P2_has_type>
+                           <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3437">
+                              <rdfs:label xml:lang="en">shelfmarks</rdfs:label>
+                           </crm:E55_Type>
+                        </crm:P2_has_type>
+                        <crm:P190_has_symbolic_content rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ms.BOM.187</crm:P190_has_symbolic_content>
+                     </crm:E42_Identifier>
+                  </crm:P1_is_identified_by>
+                  <crm:P108i_was_produced_by>
+                     <crm:E12_Production rdf:about="http://www.ligatus.org.uk/lcd/402fbdea-2681-497a-ac41-51237a0f4b07">
+                        <rdfs:label xml:lang="en">Bookbinding (Bodleian, Ms.BOM.187)</rdfs:label>
+                        <crm:P4_has_time-span>
+                           <crm:E52_Time-Span rdf:about="http://www.ligatus.org.uk/lcd/1824069e-5656-4bbc-89c0-865e3ada71a8/">
+                              <rdfs:label xml:lang="en">Bookbinding dating (Bodleian, Ms.BOM.187)</rdfs:label>

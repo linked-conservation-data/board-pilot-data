@@ -1,0 +1,249 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://www.w3.org/2001/XMLSchema#">
+  <crm:E31_Document rdf:about="https://w3id.org/sul-data/561b0767-c148-45bc-8dd7-66cf7cedbc8a">
+    <crm:P2_has_type>
+      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/05615321-9496-4355-b6e9-60a7748f5fbc">
+        <rdfs:label xml:lang="en">text</rdfs:label>
+      </crm:E55_Type>
+    </crm:P2_has_type>
+    <crm:P70_documents>
+      <crm:E7_Activity rdf:about="https://w3id.org/sul-data/1096be78-8dc7-4164-86dc-73a4bbbd33b4">
+        <crm:P9_consists_of>
+          <crm:E79_Part_Addition rdf:about="https://w3id.org/sul-data/17a80756-ade6-4cd9-a830-d99da3b69d19">
+            <crm:P111_added>
+              <crm:E24_Physical_Man-Made_Thing rdf:about="https://w3id.org/sul-data/99d31893-bb11-4c82-b5a6-c7c9b10808bb">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/bec752f3-c694-4e75-b98d-c81ad4e7b019">
+                    <rdfs:label xml:lang="en">cover</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P108i_was_produced_by>
+                  <crm:E12_Production rdf:about="https://w3id.org/sul-data/aae262bd-6f36-4674-910e-903a26ecac23">
+                    <rdfs:label xml:lang="en">New Component Formation</rdfs:label>
+                  </crm:E12_Production>
+                </crm:P108i_was_produced_by>
+                <rdfs:label xml:lang="en">cover</rdfs:label>
+                <rdfs:label xml:lang="en">New cover</rdfs:label>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+              </crm:E24_Physical_Man-Made_Thing>
+            </crm:P111_added>
+            <crm:P111_added>
+              <crm:E24_Physical_Man-Made_Thing rdf:about="https://w3id.org/sul-data/97cf6bb7-5fc9-4626-a2b5-b22469668b24">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/8dfc9cb0-1522-44aa-9c43-9bae7b8f5d4a">
+                    <rdfs:label xml:lang="en">spine lining</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P108i_was_produced_by>
+                  <crm:E12_Production rdf:about="https://w3id.org/sul-data/9e48c3f3-017f-4820-8332-f4a689d29fc0">
+                    <rdfs:label xml:lang="en">New Component Formation</rdfs:label>
+                  </crm:E12_Production>
+                </crm:P108i_was_produced_by>
+                <rdfs:label xml:lang="en">spine lining</rdfs:label>
+                <rdfs:label xml:lang="en">New spine lining</rdfs:label>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+              </crm:E24_Physical_Man-Made_Thing>
+            </crm:P111_added>
+            <crm:P111_added>
+              <crm:E24_Physical_Man-Made_Thing rdf:about="https://w3id.org/sul-data/2a4638e2-7c2d-4423-bcfa-8c89b6b3059a">
+                <crm:P2_has_type rdf:resource="https://w3id.org/sul-vocab/8dfc9cb0-1522-44aa-9c43-9bae7b8f5d4a"/>
+                <crm:P108i_was_produced_by>
+                  <crm:E12_Production rdf:about="https://w3id.org/sul-data/4dc12e1d-c7d2-4a41-9080-f567141c92ad">
+                    <rdfs:label xml:lang="en">New Component Formation</rdfs:label>
+                  </crm:E12_Production>
+                </crm:P108i_was_produced_by>
+                <rdfs:label xml:lang="en">spine lining</rdfs:label>
+                <rdfs:label xml:lang="en">New spine lining</rdfs:label>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+              </crm:E24_Physical_Man-Made_Thing>
+            </crm:P111_added>
+            <crm:P110_augmented>
+              <crm:E22_Man-Made_Object rdf:about="https://searchworks.stanford.edu/view/2873413#item">
+                <crm:P46_is_composed_of>
+                  <crm:E19_Physical_Object rdf:about="https://w3id.org/sul-data/reg_jira_control999/object/component/cover">
+                    <crm:P46_is_composed_of>
+                      <crm:E19_Physical_Object rdf:about="https://w3id.org/sul-data/reg_jira_control999/object/component/boards">
+                        <crm:P2_has_type>
+                          <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/25d585d3-336f-4904-bf24-b2ff5f7ce280">
+                            <rdfs:label xml:lang="en">boards</rdfs:label>
+                          </crm:E55_Type>
+                        </crm:P2_has_type>
+                        <crm:P55_has_current_location>
+                          <crm:E53_Place rdf:about="https://w3id.org/sul-data/reg_jira_control999/object/place/back">
+                            <crm:P2_has_type>
+                              <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/acfc5013-3a98-4cef-b7f9-b53d8b0866f9">
+                                <rdfs:label xml:lang="en">back</rdfs:label>
+                              </crm:E55_Type>
+                            </crm:P2_has_type>
+                            <rdfs:label xml:lang="en">back</rdfs:label>
+                          </crm:E53_Place>
+                        </crm:P55_has_current_location>
+                        <crm:P55_has_current_location>
+                          <crm:E53_Place rdf:about="https://w3id.org/sul-data/reg_jira_control999/object/place/front">
+                            <crm:P2_has_type>
+                              <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/b3eaf2b6-1241-407e-90a3-7732cdf052d9">
+                                <rdfs:label xml:lang="en">front</rdfs:label>
+                              </crm:E55_Type>
+                            </crm:P2_has_type>
+                            <rdfs:label xml:lang="en">front</rdfs:label>
+                          </crm:E53_Place>
+                        </crm:P55_has_current_location>
+                        <crm:P44_has_condition>
+                          <crm:E55_Type rdf:about="https://w3id.org/sul-data/fda8c895-583d-4a9f-8d8b-3ef61afb97d8">
+                            <crm:P2_has_type rdf:resource="https://w3id.org/sul-data/fda8c895-583d-4a9f-8d8b-3ef61afb97d8"/>
+                            <rdfs:label xml:lang="en">detached</rdfs:label>
+                            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"/>
+                          </crm:E55_Type>
+                        </crm:P44_has_condition>
+                        <crm:P44_has_condition>
+                          <crm:E55_Type rdf:about="https://w3id.org/sul-data/4bfc2a63-2bfd-440c-8c06-1b9e3d506093">
+                            <crm:P2_has_type rdf:resource="https://w3id.org/sul-data/4bfc2a63-2bfd-440c-8c06-1b9e3d506093"/>
+                            <rdfs:label xml:lang="en">detached</rdfs:label>
+                            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"/>
+                          </crm:E55_Type>
+                        </crm:P44_has_condition>
+                        <rdfs:label xml:lang="en">boards</rdfs:label>
+                      </crm:E19_Physical_Object>
+                    </crm:P46_is_composed_of>
+                    <crm:P2_has_type rdf:resource="https://w3id.org/sul-vocab/bec752f3-c694-4e75-b98d-c81ad4e7b019"/>
+                    <crm:P46_is_composed_of>
+                      <crm:E19_Physical_Object rdf:about="https://w3id.org/sul-data/reg_jira_control999/object/component/covering_material">
+                        <crm:P44_has_condition>
+                          <crm:E55_Type rdf:about="https://w3id.org/sul-data/096d30f1-9ef5-47db-a59a-20ddecd50dc8">
+                            <crm:P2_has_type rdf:resource="https://w3id.org/sul-data/096d30f1-9ef5-47db-a59a-20ddecd50dc8"/>
+                            <rdfs:label xml:lang="en">powdery leather</rdfs:label>
+                            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"/>
+                          </crm:E55_Type>
+                        </crm:P44_has_condition>
+                        <crm:P44_has_condition>
+                          <crm:E55_Type rdf:about="https://w3id.org/sul-data/b252c54a-e2c6-4616-aedb-a93f09699f5b">
+                            <crm:P2_has_type rdf:resource="https://w3id.org/sul-data/b252c54a-e2c6-4616-aedb-a93f09699f5b"/>
+                            <rdfs:label xml:lang="en">deteriorating</rdfs:label>
+                            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"/>
+                          </crm:E55_Type>
+                        </crm:P44_has_condition>
+                        <crm:P2_has_type>
+                          <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/c1d8307a-143c-4b3e-b96c-31c93d88276a">
+                            <rdfs:label xml:lang="en">covering material</rdfs:label>
+                          </crm:E55_Type>
+                        </crm:P2_has_type>
+                        <crm:P45_consists_of>
+                          <crm:E57_Material rdf:about="https://w3id.org/sul-vocab/0b4585f5-b40f-4dc7-815e-f04138231528">
+                            <rdfs:label xml:lang="en">leather</rdfs:label>
+                          </crm:E57_Material>
+                        </crm:P45_consists_of>
+                        <rdfs:label xml:lang="en">covering material</rdfs:label>
+                        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+                      </crm:E19_Physical_Object>
+                    </crm:P46_is_composed_of>
+                    <crm:P2_has_type>
+                      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/a0c86bb0-0496-4ecb-8c82-4a7ed6e720ab">
+                        <rdfs:label xml:lang="en">quarter binding</rdfs:label>
+                      </crm:E55_Type>
+                    </crm:P2_has_type>
+                    <rdfs:label xml:lang="en">cover</rdfs:label>
+                    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+                  </crm:E19_Physical_Object>
+                </crm:P46_is_composed_of>
+                <crm:P59_has_section rdf:resource="https://w3id.org/sul-data/reg_jira_control999/object/place/back"/>
+                <crm:P59_has_section rdf:resource="https://w3id.org/sul-data/reg_jira_control999/object/place/front"/>
+                <crm:P160_has_temporal_projection>
+                  <crm:E52_Time-Span rdf:about="https://w3id.org/sul-data/7f8ffd6d-21bd-48f6-9f1f-fb4ad3b02db2">
+                    <crm:P82a_begin_of_the_begin xml:lang="en"
+                    >1805</crm:P82a_begin_of_the_begin>
+                    <crm:P2_has_type>
+                      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/be27ef65-2fc9-4f4a-92d6-7b8233b299a4">
+                        <rdfs:label xml:lang="en">date attributed by cataloger</rdfs:label>
+                      </crm:E55_Type>
+                    </crm:P2_has_type>
+                    <rdfs:label xml:lang="en">publication date</rdfs:label>
+                  </crm:E52_Time-Span>
+                </crm:P160_has_temporal_projection>
+                <crm:P1_is_identified_by>
+                  <crm:E42_Identifier rdf:about="https://w3id.org/sul-data/b6687c53-40da-4a49-a109-107c67faf42f">
+                    <crm:P2_has_type>
+                      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/dc110074-ea64-49ca-865c-b866a264d112">
+                        <rdfs:label xml:lang="en">catkey</rdfs:label>
+                      </crm:E55_Type>
+                    </crm:P2_has_type>
+                    <rdfs:label xml:lang="en">2873413</rdfs:label>
+                  </crm:E42_Identifier>
+                </crm:P1_is_identified_by>
+                <crm:P1_is_identified_by>
+                  <crm:E35_Title rdf:about="https://searchworks.stanford.edu/view/2873413">
+                    <rdfs:label xml:lang="en">Beʼur ʼal ha-Torah [pt. 1].</rdfs:label>
+                  </crm:E35_Title>
+                </crm:P1_is_identified_by>
+                <rdfs:label xml:lang="en">Collection Item: Beʼur ʼal ha-Torah [pt. 1].</rdfs:label>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+              </crm:E22_Man-Made_Object>
+            </crm:P110_augmented>
+            <rdfs:label xml:lang="en">Treatment Steps</rdfs:label>
+            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E11_Modification"/>
+          </crm:E79_Part_Addition>
+        </crm:P9_consists_of>
+        <crm:P9_consists_of>
+          <crm:E14_Condition_Assessment rdf:about="https://w3id.org/sul-data/2ca8d870-cfc0-4350-b6c1-c93311338e08">
+            <crm:P4_has_time-span>
+              <j.0:dateTime rdf:about="https://w3id.org/sul-data/8a462d38-4a19-42b6-ad9f-74dd8b17da33">
+                <rdfs:label xml:lang="en">Latest Date</rdfs:label>
+                <crm:P82b_end_of_the_end rdf:resource="https://w3id.org/sul-data/8a462d38-4a19-42b6-ad9f-74dd8b17da33"/>
+                <rdfs:label xml:lang="en">1992-05-19T00:00:00</rdfs:label>
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/28acc7d7-c73e-4c73-b58a-8626bb9a1878">
+                    <rdfs:label xml:lang="en">completion date</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <rdfs:label xml:lang="en">Text Documentation Date</rdfs:label>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+              </j.0:dateTime>
+            </crm:P4_has_time-span>
+            <crm:P35_has_identified rdf:resource="https://w3id.org/sul-data/096d30f1-9ef5-47db-a59a-20ddecd50dc8"/>
+            <crm:P35_has_identified rdf:resource="https://w3id.org/sul-data/b252c54a-e2c6-4616-aedb-a93f09699f5b"/>
+            <crm:P35_has_identified rdf:resource="https://w3id.org/sul-data/fda8c895-583d-4a9f-8d8b-3ef61afb97d8"/>
+            <crm:P35_has_identified rdf:resource="https://w3id.org/sul-data/4bfc2a63-2bfd-440c-8c06-1b9e3d506093"/>
+            <crm:P134i_was_continued_by rdf:resource="https://w3id.org/sul-data/17a80756-ade6-4cd9-a830-d99da3b69d19"/>
+            <crm:P34_concerned rdf:resource="https://w3id.org/sul-data/reg_jira_control999/object/component/cover"/>
+            <rdfs:label xml:lang="en">Pretreatment Examination: Condition Assessment</rdfs:label>
+          </crm:E14_Condition_Assessment>
+        </crm:P9_consists_of>
+        <crm:P9_consists_of>
+          <crm:E13_Attribute_Assignment rdf:about="https://w3id.org/sul-data/f6e30609-16b1-4b60-993d-9de2fd44c6cc">
+            <crm:P4_has_time-span rdf:resource="https://w3id.org/sul-data/8a462d38-4a19-42b6-ad9f-74dd8b17da33"/>
+            <crm:P134i_was_continued_by rdf:resource="https://w3id.org/sul-data/17a80756-ade6-4cd9-a830-d99da3b69d19"/>
+            <crm:P140_assigned_attribute_to rdf:resource="https://searchworks.stanford.edu/view/2873413#item"/>
+            <rdfs:label xml:lang="en">Pretreatment Examination: Descriptive Attribute Assignment</rdfs:label>
+          </crm:E13_Attribute_Assignment>
+        </crm:P9_consists_of>
+        <crm:P4_has_time-span rdf:resource="https://w3id.org/sul-data/8a462d38-4a19-42b6-ad9f-74dd8b17da33"/>
+        <crm:P3_has_note xml:lang="en">This limited selection of data was generated for a pilot project of the Linked Conservation Data Consortium (https://www.ligatus.org.uk/lcd/). More complete documentation about this conservation treatment can be found in the Stanford Digital Repository.</crm:P3_has_note>
+        <crm:P1_is_identified_by>
+          <crm:E42_Identifier rdf:about="https://w3id.org/sul-data/8b70d08e-ecda-4737-93c7-a0dc84af711a">
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/3dd75348-fa60-4e40-a330-7bb1992f016a">
+                <rdfs:label xml:lang="en">historic control number</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <rdfs:label xml:lang="en">999</rdfs:label>
+          </crm:E42_Identifier>
+        </crm:P1_is_identified_by>
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/8850c675-f1ee-4a0a-84b3-909e5c7340eb">
+            <rdfs:label xml:lang="en">conservation</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <rdfs:label xml:lang="en">999 - Conservation of "Beʼur ʼal ha-Torah [pt. 1]."</rdfs:label>
+      </crm:E7_Activity>
+    </crm:P70_documents>
+    <crm:P1_is_identified_by>
+      <crm:E35_Title rdf:about="https://w3id.org/sul-data/32ef1893-22b6-48bd-8b60-c1e43243150c">
+        <rdfs:label xml:lang="en">SPC_999_1988.docx</rdfs:label>
+      </crm:E35_Title>
+    </crm:P1_is_identified_by>
+    <rdfs:label xml:lang="en">Conservation Documentation: Text</rdfs:label>
+  </crm:E31_Document>
+</rdf:RDF>

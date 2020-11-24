@@ -1,0 +1,439 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://www.w3.org/2001/XMLSchema#">
+  <crm:E31_Document rdf:about="https://w3id.org/sul-data/e1ad2e6a-dc69-4b33-a114-885d79f4820f">
+    <crm:P2_has_type>
+      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/05615321-9496-4355-b6e9-60a7748f5fbc">
+        <rdfs:label xml:lang="en">text</rdfs:label>
+      </crm:E55_Type>
+    </crm:P2_has_type>
+    <crm:P70_documents>
+      <crm:E7_Activity rdf:about="https://w3id.org/sul-data/d42f5c81-19a1-4dbf-a1cb-3cfb77fa1239">
+        <crm:P9_consists_of>
+          <crm:E79_Part_Addition rdf:about="https://w3id.org/sul-data/22185099-8912-4a9c-98c8-951a5f2bc748">
+            <crm:P110_augmented>
+              <crm:E18_Physical_Thing rdf:about="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/component/board">
+                <crm:P31i_was_modified_by>
+                  <crm:E79_Part_Addition rdf:about="https://w3id.org/sul-data/abf8f9dd-8162-4383-b2f3-1ca4bcf0754e">
+                    <crm:P2_has_type>
+                      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/ba36bb81-8115-47b8-883e-f724d035c359">
+                        <rdfs:label xml:lang="en">reattachment</rdfs:label>
+                      </crm:E55_Type>
+                    </crm:P2_has_type>
+                    <crm:P111_added>
+                      <crm:E24_Physical_Man-Made_Thing rdf:about="https://w3id.org/sul-data/80ed222b-5a46-48a4-8fd3-dbcc8349bc0b">
+                        <crm:P108i_was_produced_by>
+                          <crm:E12_Production rdf:about="https://w3id.org/sul-data/d3cca965-f930-4155-bab1-e849427e7db1">
+                            <crm:P33_used_specific_technique>
+                              <crm:E29_Design_or_Procedure rdf:about="https://w3id.org/sul-vocab/d4eb8b9f-ded5-4194-a890-439f30adffbe">
+                                <rdfs:label xml:lang="en">reback</rdfs:label>
+                              </crm:E29_Design_or_Procedure>
+                            </crm:P33_used_specific_technique>
+                            <crm:P32_used_general_technique>
+                              <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/de69a040-c348-4495-b194-b16fa0cae21c">
+                                <rdfs:label xml:lang="en">board reattachment</rdfs:label>
+                              </crm:E55_Type>
+                            </crm:P32_used_general_technique>
+                            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition"/>
+                            <crm:P7_took_place_at>
+                              <crm:E53_Place rdf:about="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/place/shoulder">
+                                <crm:P2_has_type>
+                                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/717b9726-095f-43ab-b7e8-5da543fede9a">
+                                    <rdfs:label xml:lang="en"
+                                    >shoulder</rdfs:label>
+                                  </crm:E55_Type>
+                                </crm:P2_has_type>
+                                <rdfs:label xml:lang="en">shoulder</rdfs:label>
+                              </crm:E53_Place>
+                            </crm:P7_took_place_at>
+                            <crm:P7_took_place_at>
+                              <crm:E53_Place rdf:about="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/place/spine">
+                                <crm:P2_has_type>
+                                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/d222fb37-76ee-4f3e-ae8b-66e21e334ee2">
+                                    <rdfs:label xml:lang="en"
+                                    >spine</rdfs:label>
+                                  </crm:E55_Type>
+                                </crm:P2_has_type>
+                                <rdfs:label xml:lang="en">spine</rdfs:label>
+                              </crm:E53_Place>
+                            </crm:P7_took_place_at>
+                            <crm:P7_took_place_at>
+                              <crm:E53_Place rdf:about="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/place/board_edge">
+                                <crm:P2_has_type>
+                                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/b71db8fa-f790-42c7-b7d5-b4fbc4295074">
+                                    <rdfs:label xml:lang="en"
+                                    >board edge</rdfs:label>
+                                  </crm:E55_Type>
+                                </crm:P2_has_type>
+                                <rdfs:label xml:lang="en">board edge</rdfs:label>
+                              </crm:E53_Place>
+                            </crm:P7_took_place_at>
+                            <rdfs:label xml:lang="en">Production of covering material</rdfs:label>
+                            <crm:P7_took_place_at>
+                              <crm:E53_Place rdf:about="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/place/joint">
+                                <crm:P2_has_type>
+                                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/8d7a1071-075a-4903-95cf-61d2c2307575">
+                                    <rdfs:label xml:lang="en"
+                                    >joint</rdfs:label>
+                                  </crm:E55_Type>
+                                </crm:P2_has_type>
+                                <rdfs:label xml:lang="en">joint</rdfs:label>
+                              </crm:E53_Place>
+                            </crm:P7_took_place_at>
+                            <crm:P126_employed>
+                              <crm:E57_Material rdf:about="https://w3id.org/sul-vocab/0b4585f5-b40f-4dc7-815e-f04138231528">
+                                <rdfs:label xml:lang="en">leather</rdfs:label>
+                              </crm:E57_Material>
+                            </crm:P126_employed>
+                          </crm:E12_Production>
+                        </crm:P108i_was_produced_by>
+                        <crm:P2_has_type>
+                          <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/c1d8307a-143c-4b3e-b96c-31c93d88276a">
+                            <rdfs:label xml:lang="en">covering material</rdfs:label>
+                          </crm:E55_Type>
+                        </crm:P2_has_type>
+                        <rdfs:label xml:lang="en">New covering material</rdfs:label>
+                        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+                      </crm:E24_Physical_Man-Made_Thing>
+                    </crm:P111_added>
+                    <rdfs:label xml:lang="en">Component Reattachment</rdfs:label>
+                    <rdfs:label xml:lang="en">Reattachment</rdfs:label>
+                    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E11_Modification"/>
+                  </crm:E79_Part_Addition>
+                </crm:P31i_was_modified_by>
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/25d585d3-336f-4904-bf24-b2ff5f7ce280">
+                    <rdfs:label xml:lang="en">board</rdfs:label>
+                    <rdfs:label xml:lang="en">boards</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P111i_was_added_by>
+                  <crm:E79_Part_Addition rdf:about="https://w3id.org/sul-data/d9295f9b-64f6-4877-9f08-c15931d9182b">
+                    <crm:P7_took_place_at rdf:resource="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/place/shoulder"/>
+                    <crm:P7_took_place_at rdf:resource="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/place/joint"/>
+                    <crm:P7_took_place_at rdf:resource="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/place/board_edge"/>
+                    <crm:P7_took_place_at rdf:resource="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/place/spine"/>
+                    <crm:P33_used_specific_technique rdf:resource="https://w3id.org/sul-vocab/d4eb8b9f-ded5-4194-a890-439f30adffbe"/>
+                    <crm:P2_has_type>
+                      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/a5e7ec9c-78c7-4c66-8d65-7370a8516ff9">
+                        <rdfs:label xml:lang="en">application</rdfs:label>
+                      </crm:E55_Type>
+                    </crm:P2_has_type>
+                    <rdfs:label xml:lang="en">Component Application</rdfs:label>
+                  </crm:E79_Part_Addition>
+                </crm:P111i_was_added_by>
+                <rdfs:label xml:lang="en">board</rdfs:label>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing"/>
+              </crm:E18_Physical_Thing>
+            </crm:P110_augmented>
+            <crm:P111_added>
+              <crm:E24_Physical_Man-Made_Thing rdf:about="https://w3id.org/sul-data/28383f9a-09dd-4757-8582-7217dd89ec31">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/d5b5ebec-3c9d-4f97-81b0-eb030570dd15">
+                    <rdfs:label xml:lang="en">guards</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P111i_was_added_by>
+                  <crm:E79_Part_Addition rdf:about="https://w3id.org/sul-data/5c4cc2dc-354a-454d-8e82-82bca58f2d08">
+                    <crm:P7_took_place_at>
+                      <crm:E53_Place rdf:about="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/place/last_section">
+                        <crm:P2_has_type>
+                          <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/7069f2bb-95a5-483f-9a45-14f0ef3a755d">
+                            <rdfs:label xml:lang="en">last section</rdfs:label>
+                            <rdfs:label xml:lang="en">first section</rdfs:label>
+                          </crm:E55_Type>
+                        </crm:P2_has_type>
+                        <rdfs:label xml:lang="en">last section</rdfs:label>
+                      </crm:E53_Place>
+                    </crm:P7_took_place_at>
+                    <crm:P7_took_place_at>
+                      <crm:E53_Place rdf:about="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/place/first_section">
+                        <crm:P2_has_type rdf:resource="https://w3id.org/sul-vocab/7069f2bb-95a5-483f-9a45-14f0ef3a755d"/>
+                        <rdfs:label xml:lang="en">first section</rdfs:label>
+                      </crm:E53_Place>
+                    </crm:P7_took_place_at>
+                    <crm:P32_used_general_technique>
+                      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/cbbd7ae5-ebc3-4034-9e94-5312df2efd82">
+                        <rdfs:label xml:lang="en">guarded</rdfs:label>
+                      </crm:E55_Type>
+                    </crm:P32_used_general_technique>
+                    <crm:P2_has_type rdf:resource="https://w3id.org/sul-vocab/a5e7ec9c-78c7-4c66-8d65-7370a8516ff9"/>
+                    <rdfs:label xml:lang="en">Component Application</rdfs:label>
+                  </crm:E79_Part_Addition>
+                </crm:P111i_was_added_by>
+                <rdfs:label xml:lang="en">guards</rdfs:label>
+                <rdfs:label xml:lang="en">New guards</rdfs:label>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+              </crm:E24_Physical_Man-Made_Thing>
+            </crm:P111_added>
+            <crm:P111_added>
+              <crm:E24_Physical_Man-Made_Thing rdf:about="https://w3id.org/sul-data/5388babb-bb90-4f77-a734-2c15238932b5">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/8dfc9cb0-1522-44aa-9c43-9bae7b8f5d4a">
+                    <rdfs:label xml:lang="en">spine lining</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P108i_was_produced_by>
+                  <crm:E12_Production rdf:about="https://w3id.org/sul-data/90bf620c-69d1-4d68-a120-0344e9e7e7f5">
+                    <crm:P126_employed>
+                      <crm:E57_Material rdf:about="https://w3id.org/sul-vocab/8841624a-f193-4b9d-a224-534fb7459cbb">
+                        <crm:P2_has_type>
+                          <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/164fa62c-00c3-472b-8d5e-c70f36d0443e">
+                            <rdfs:label xml:lang="en">adhesive</rdfs:label>
+                          </crm:E55_Type>
+                        </crm:P2_has_type>
+                        <rdfs:label xml:lang="en">wheat starch paste</rdfs:label>
+                      </crm:E57_Material>
+                    </crm:P126_employed>
+                    <crm:P126_employed>
+                      <crm:E57_Material rdf:about="https://w3id.org/sul-vocab/7dcac9c8-edac-44de-b658-98287e674f7f">
+                        <rdfs:label xml:lang="en">airplane linen</rdfs:label>
+                      </crm:E57_Material>
+                    </crm:P126_employed>
+                    <rdfs:label xml:lang="en">New Component Formation</rdfs:label>
+                  </crm:E12_Production>
+                </crm:P108i_was_produced_by>
+                <rdfs:label xml:lang="en">spine lining</rdfs:label>
+                <rdfs:label xml:lang="en">New spine lining</rdfs:label>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+              </crm:E24_Physical_Man-Made_Thing>
+            </crm:P111_added>
+            <crm:P110_augmented>
+              <crm:E18_Physical_Thing rdf:about="https://searchworks.stanford.edu/view/1215708#item">
+                <crm:P59_has_section>
+                  <crm:E53_Place rdf:about="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/place/back">
+                    <crm:P2_has_type>
+                      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/acfc5013-3a98-4cef-b7f9-b53d8b0866f9">
+                        <rdfs:label xml:lang="en">back</rdfs:label>
+                      </crm:E55_Type>
+                    </crm:P2_has_type>
+                    <rdfs:label xml:lang="en">back</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P59_has_section>
+                <crm:P59_has_section rdf:resource="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/place/spine"/>
+                <crm:P59_has_section rdf:resource="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/place/first_section"/>
+                <crm:P1_is_identified_by>
+                  <crm:E42_Identifier rdf:about="https://w3id.org/sul-data/89ef0c5a-28e7-4ed9-a642-ac9f3eecc7f4">
+                    <crm:P2_has_type>
+                      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/dc110074-ea64-49ca-865c-b866a264d112">
+                        <rdfs:label xml:lang="en">catkey</rdfs:label>
+                      </crm:E55_Type>
+                    </crm:P2_has_type>
+                    <rdfs:label xml:lang="en">1215708</rdfs:label>
+                  </crm:E42_Identifier>
+                </crm:P1_is_identified_by>
+                <rdfs:label xml:lang="en">Collection Item: Oculus artificialis teledioptricus sive telescopium ...</rdfs:label>
+                <crm:P59_has_section rdf:resource="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/place/last_section"/>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+                <crm:P46_is_composed_of>
+                  <crm:E19_Physical_Object rdf:about="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/component/cover">
+                    <crm:P46_is_composed_of>
+                      <crm:E19_Physical_Object rdf:about="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/component/boards">
+                        <crm:P2_has_type rdf:resource="https://w3id.org/sul-vocab/25d585d3-336f-4904-bf24-b2ff5f7ce280"/>
+                        <crm:P55_has_current_location>
+                          <crm:E53_Place rdf:about="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/place/front">
+                            <crm:P2_has_type>
+                              <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/b3eaf2b6-1241-407e-90a3-7732cdf052d9">
+                                <rdfs:label xml:lang="en">front</rdfs:label>
+                              </crm:E55_Type>
+                            </crm:P2_has_type>
+                            <rdfs:label xml:lang="en">front</rdfs:label>
+                          </crm:E53_Place>
+                        </crm:P55_has_current_location>
+                        <crm:P55_has_current_location rdf:resource="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/place/back"/>
+                        <crm:P44_has_condition>
+                          <crm:E55_Type rdf:about="https://w3id.org/sul-data/f45b9043-99f4-4080-a738-ec6e87daec55">
+                            <crm:P2_has_type rdf:resource="https://w3id.org/sul-data/f45b9043-99f4-4080-a738-ec6e87daec55"/>
+                            <rdfs:label xml:lang="en">detached</rdfs:label>
+                            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"/>
+                          </crm:E55_Type>
+                        </crm:P44_has_condition>
+                        <crm:P44_has_condition>
+                          <crm:E55_Type rdf:about="https://w3id.org/sul-data/08d94718-dd7e-46cc-b47e-abb221fabf3e">
+                            <crm:P2_has_type rdf:resource="https://w3id.org/sul-data/08d94718-dd7e-46cc-b47e-abb221fabf3e"/>
+                            <rdfs:label xml:lang="en">loose</rdfs:label>
+                            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"/>
+                          </crm:E55_Type>
+                        </crm:P44_has_condition>
+                        <rdfs:label xml:lang="en">boards</rdfs:label>
+                      </crm:E19_Physical_Object>
+                    </crm:P46_is_composed_of>
+                    <crm:P2_has_type>
+                      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/bec752f3-c694-4e75-b98d-c81ad4e7b019">
+                        <rdfs:label xml:lang="en">cover</rdfs:label>
+                      </crm:E55_Type>
+                    </crm:P2_has_type>
+                    <crm:P46_is_composed_of>
+                      <crm:E19_Physical_Object rdf:about="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/component/covering_material">
+                        <crm:P44_has_condition>
+                          <crm:E55_Type rdf:about="https://w3id.org/sul-data/aec17269-e0dc-4a3a-8edb-f864197c9dd3">
+                            <crm:P2_has_type rdf:resource="https://w3id.org/sul-data/aec17269-e0dc-4a3a-8edb-f864197c9dd3"/>
+                            <rdfs:label xml:lang="en">losses</rdfs:label>
+                            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"/>
+                          </crm:E55_Type>
+                        </crm:P44_has_condition>
+                        <crm:P44_has_condition>
+                          <crm:E55_Type rdf:about="https://w3id.org/sul-data/551aab83-377f-4afe-8ab4-350143d10ba2">
+                            <crm:P2_has_type rdf:resource="https://w3id.org/sul-data/551aab83-377f-4afe-8ab4-350143d10ba2"/>
+                            <rdfs:label xml:lang="en">deteriorating</rdfs:label>
+                            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"/>
+                          </crm:E55_Type>
+                        </crm:P44_has_condition>
+                        <crm:P2_has_type rdf:resource="https://w3id.org/sul-vocab/c1d8307a-143c-4b3e-b96c-31c93d88276a"/>
+                        <crm:P45_consists_of rdf:resource="https://w3id.org/sul-vocab/0b4585f5-b40f-4dc7-815e-f04138231528"/>
+                        <rdfs:label xml:lang="en">covering material</rdfs:label>
+                        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+                      </crm:E19_Physical_Object>
+                    </crm:P46_is_composed_of>
+                    <crm:P2_has_type>
+                      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/3cbfeb17-161d-449c-ab89-cabe8c965de7">
+                        <rdfs:label xml:lang="en">full binding</rdfs:label>
+                      </crm:E55_Type>
+                    </crm:P2_has_type>
+                    <rdfs:label xml:lang="en">cover</rdfs:label>
+                    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+                  </crm:E19_Physical_Object>
+                </crm:P46_is_composed_of>
+                <crm:P160_has_temporal_projection>
+                  <crm:E52_Time-Span rdf:about="https://w3id.org/sul-data/7c92410e-81ab-4207-8d08-a43d3dc0461f">
+                    <crm:P82a_begin_of_the_begin xml:lang="en"
+                    >1685</crm:P82a_begin_of_the_begin>
+                    <crm:P2_has_type>
+                      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/be27ef65-2fc9-4f4a-92d6-7b8233b299a4">
+                        <rdfs:label xml:lang="en">date attributed by cataloger</rdfs:label>
+                      </crm:E55_Type>
+                    </crm:P2_has_type>
+                    <rdfs:label xml:lang="en">publication date</rdfs:label>
+                  </crm:E52_Time-Span>
+                </crm:P160_has_temporal_projection>
+                <crm:P59_has_section rdf:resource="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/place/front"/>
+                <crm:P1_is_identified_by>
+                  <crm:E35_Title rdf:about="https://searchworks.stanford.edu/view/1215708">
+                    <rdfs:label xml:lang="en">Oculus artificialis teledioptricus sive telescopium ...</rdfs:label>
+                  </crm:E35_Title>
+                </crm:P1_is_identified_by>
+                <crm:P59_has_section rdf:resource="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/place/shoulder"/>
+                <crm:P59_has_section rdf:resource="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/place/joint"/>
+                <crm:P59_has_section rdf:resource="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/place/board_edge"/>
+                <crm:P46_is_composed_of>
+                  <crm:E18_Physical_Thing rdf:about="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/component/text_to_cover_attachment">
+                    <crm:P2_has_type>
+                      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/1125cd47-5a3b-48c7-8192-ea5310cb6787">
+                        <rdfs:label xml:lang="en">text to cover attachment</rdfs:label>
+                      </crm:E55_Type>
+                    </crm:P2_has_type>
+                    <crm:P2_has_type>
+                      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/117b52bb-c7b2-4a30-9436-2537bd95c4e2">
+                        <rdfs:label xml:lang="en">laced-in boards</rdfs:label>
+                      </crm:E55_Type>
+                    </crm:P2_has_type>
+                    <rdfs:label xml:lang="en">text to cover attachment</rdfs:label>
+                  </crm:E18_Physical_Thing>
+                </crm:P46_is_composed_of>
+              </crm:E18_Physical_Thing>
+            </crm:P110_augmented>
+            <rdfs:label xml:lang="en">Treatment Steps</rdfs:label>
+            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E11_Modification"/>
+          </crm:E79_Part_Addition>
+        </crm:P9_consists_of>
+        <crm:P9_consists_of>
+          <crm:E14_Condition_Assessment rdf:about="https://w3id.org/sul-data/1d51faab-136f-454a-95dd-a4394d1d66d8">
+            <crm:P34_concerned rdf:resource="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/component/cover"/>
+            <crm:P4_has_time-span>
+              <j.0:dateTime rdf:about="https://w3id.org/sul-data/0235c4fd-5ec3-4df5-b0f0-365e1e5960e2">
+                <rdfs:label xml:lang="en">Latest Date</rdfs:label>
+                <crm:P82b_end_of_the_end rdf:resource="https://w3id.org/sul-data/0235c4fd-5ec3-4df5-b0f0-365e1e5960e2"/>
+                <rdfs:label xml:lang="en">1992-04-30T00:00:00</rdfs:label>
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/28acc7d7-c73e-4c73-b58a-8626bb9a1878">
+                    <rdfs:label xml:lang="en">completion date</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <rdfs:label xml:lang="en">Text Documentation Date</rdfs:label>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+              </j.0:dateTime>
+            </crm:P4_has_time-span>
+            <crm:P134i_was_continued_by rdf:resource="https://w3id.org/sul-data/22185099-8912-4a9c-98c8-951a5f2bc748"/>
+            <crm:P35_has_identified rdf:resource="https://w3id.org/sul-data/551aab83-377f-4afe-8ab4-350143d10ba2"/>
+            <crm:P35_has_identified>
+              <crm:E55_Type rdf:about="https://w3id.org/sul-data/a2459cbe-09f6-408b-8fef-f36d9c626323">
+                <crm:P2_has_type rdf:resource="https://w3id.org/sul-data/a2459cbe-09f6-408b-8fef-f36d9c626323"/>
+                <rdfs:label xml:lang="en">deteriorating</rdfs:label>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"/>
+              </crm:E55_Type>
+            </crm:P35_has_identified>
+            <crm:P35_has_identified>
+              <crm:E55_Type rdf:about="https://w3id.org/sul-data/06a72331-05ab-463a-bdc8-40e0011acf15">
+                <crm:P2_has_type rdf:resource="https://w3id.org/sul-data/06a72331-05ab-463a-bdc8-40e0011acf15"/>
+                <rdfs:label xml:lang="en">missing</rdfs:label>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"/>
+              </crm:E55_Type>
+            </crm:P35_has_identified>
+            <rdfs:label xml:lang="en">Pretreatment Examination: Condition Assessment</rdfs:label>
+            <crm:P35_has_identified rdf:resource="https://w3id.org/sul-data/08d94718-dd7e-46cc-b47e-abb221fabf3e"/>
+            <crm:P34_concerned>
+              <crm:E19_Physical_Object rdf:about="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/component/textblock">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/ab554929-a2eb-4c05-a709-40bb76be7037">
+                    <rdfs:label xml:lang="en">textblock</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P46_is_composed_of>
+                  <crm:E19_Physical_Object rdf:about="https://w3id.org/sul-data/reg_jira_controlSPC_472/object/component/endbands">
+                    <crm:P2_has_type>
+                      <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/5bc50df0-363f-44fc-aefc-1de4bd807797">
+                        <rdfs:label xml:lang="en">endbands</rdfs:label>
+                      </crm:E55_Type>
+                    </crm:P2_has_type>
+                    <crm:P44_has_condition rdf:resource="https://w3id.org/sul-data/06a72331-05ab-463a-bdc8-40e0011acf15"/>
+                    <crm:P44_has_condition rdf:resource="https://w3id.org/sul-data/a2459cbe-09f6-408b-8fef-f36d9c626323"/>
+                    <rdfs:label xml:lang="en">endbands</rdfs:label>
+                  </crm:E19_Physical_Object>
+                </crm:P46_is_composed_of>
+                <rdfs:label xml:lang="en">textblock</rdfs:label>
+                <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+              </crm:E19_Physical_Object>
+            </crm:P34_concerned>
+            <crm:P35_has_identified rdf:resource="https://w3id.org/sul-data/aec17269-e0dc-4a3a-8edb-f864197c9dd3"/>
+            <crm:P35_has_identified rdf:resource="https://w3id.org/sul-data/f45b9043-99f4-4080-a738-ec6e87daec55"/>
+          </crm:E14_Condition_Assessment>
+        </crm:P9_consists_of>
+        <crm:P9_consists_of>
+          <crm:E13_Attribute_Assignment rdf:about="https://w3id.org/sul-data/a15175c2-eabd-42ec-aca2-c1cbb443fdf2">
+            <crm:P4_has_time-span rdf:resource="https://w3id.org/sul-data/0235c4fd-5ec3-4df5-b0f0-365e1e5960e2"/>
+            <crm:P134i_was_continued_by rdf:resource="https://w3id.org/sul-data/22185099-8912-4a9c-98c8-951a5f2bc748"/>
+            <crm:P140_assigned_attribute_to rdf:resource="https://searchworks.stanford.edu/view/1215708#item"/>
+            <rdfs:label xml:lang="en">Pretreatment Examination: Descriptive Attribute Assignment</rdfs:label>
+          </crm:E13_Attribute_Assignment>
+        </crm:P9_consists_of>
+        <crm:P4_has_time-span rdf:resource="https://w3id.org/sul-data/0235c4fd-5ec3-4df5-b0f0-365e1e5960e2"/>
+        <crm:P3_has_note xml:lang="en">This limited selection of data was generated for a pilot project of the Linked Conservation Data Consortium (https://www.ligatus.org.uk/lcd/). More complete documentation about this conservation treatment can be found in the Stanford Digital Repository.</crm:P3_has_note>
+        <crm:P1_is_identified_by>
+          <crm:E42_Identifier rdf:about="https://w3id.org/sul-data/ec298dac-2be8-462f-9ad8-3121ebb88e60">
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/3dd75348-fa60-4e40-a330-7bb1992f016a">
+                <rdfs:label xml:lang="en">historic control number</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <rdfs:label xml:lang="en">SPC_472</rdfs:label>
+          </crm:E42_Identifier>
+        </crm:P1_is_identified_by>
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="https://w3id.org/sul-vocab/8850c675-f1ee-4a0a-84b3-909e5c7340eb">
+            <rdfs:label xml:lang="en">conservation</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <rdfs:label xml:lang="en">SPC_472 - Conservation of "Oculus artificialis teledioptricus sive telescopium ..."</rdfs:label>
+      </crm:E7_Activity>
+    </crm:P70_documents>
+    <crm:P1_is_identified_by>
+      <crm:E35_Title rdf:about="https://w3id.org/sul-data/c353fe4c-84db-41ef-9081-7b6fc3984b39">
+        <rdfs:label xml:lang="en">SPC_472_1983.docx</rdfs:label>
+      </crm:E35_Title>
+    </crm:P1_is_identified_by>
+    <rdfs:label xml:lang="en">Conservation Documentation: Text</rdfs:label>
+  </crm:E31_Document>
+</rdf:RDF>
