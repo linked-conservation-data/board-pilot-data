@@ -7,30 +7,30 @@
          xmlns:aat="http://vocab.getty.edu/aat/"
          xmlns:dbp="http://dbpedia.org/resource/"
          xml:base="http://www.ligatus.org.uk/lcd">
-   <crm:E31_Document rdf:about="http://www.ligatus.org.uk/lcd/9eaa587d-b3e2-419e-89bb-ab1f920e0d99/">
+   <crm:E31_Document rdf:about="http://www.ligatus.org.uk/lcd/f0c4db44-054c-462c-8362-2c760be648d3/">
       <rdfs:label xml:lang="en">Conservation Report (Library of Congress, 2247)</rdfs:label>
       <crm:P70_documents>
-         <crm:E13_Attribute_Assignment rdf:about="http://www.ligatus.org.uk/lcd/b84b913e-8ae6-46c7-9e81-e6b6cee36538/">
+         <crm:E13_Attribute_Assignment rdf:about="http://www.ligatus.org.uk/lcd/b02d08bc-2243-4eca-a1cb-4e76e3cd7f36/">
             <rdfs:label xml:lang="en">Conservation assessment (Library of Congress, 2247)</rdfs:label>
             <crm:P140_assigned_attribute_to>
-               <crm:E22_Human-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/d0ecabcc-f85b-4e4c-a628-a688790451fd/">
+               <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/28bbb513-dee2-4417-8472-7fd24bfedb74/">
                   <rdfs:label xml:lang="en">Book (Library of Congress, 2247)</rdfs:label>
                   <crm:P2_has_type>
-                     <crm:E55_Type rdf:about="http://w3id.org/lob/concept/4886">
-                        <rdfs:label xml:lang="en">codex-form books</rdfs:label>
+                     <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300224200">
+                        <rdfs:label xml:lang="en">codices (bound manuscripts)</rdfs:label>
                      </crm:E55_Type>
                   </crm:P2_has_type>
                   <crm:P1_is_identified_by>
-                     <crm:E42_Identifier rdf:about="http://www.ligatus.org.uk/lcd/a5a7bd7d-368a-48ca-82e6-20e4581c10ac/">
+                     <crm:E42_Identifier rdf:about="http://www.ligatus.org.uk/lcd/f872cf10-ea53-4d96-9956-7d64df5606b3/">
                         <rdfs:label xml:lang="en">Project Number (Library of Congress, 2247)</rdfs:label>
                         <crm:P190_has_symbolic_content rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2247</crm:P190_has_symbolic_content>
                      </crm:E42_Identifier>
                   </crm:P1_is_identified_by>
                   <crm:P108i_was_produced_by>
-                     <crm:E12_Production rdf:about="http://www.ligatus.org.uk/lcd/5282f300-d595-434a-89ea-ce1ef36177c8">
+                     <crm:E12_Production rdf:about="http://www.ligatus.org.uk/lcd/235c0f00-177b-47b7-a390-a027923fdb52">
                         <rdfs:label xml:lang="en">Book production (Library of Congress, 2247)</rdfs:label>
                         <crm:P4_has_time-span>
-                           <crm:E52_Time-Span rdf:about="http://www.ligatus.org.uk/lcd/c6b40d54-1af8-45d7-8dee-8e1b7a5dc8e1/">
+                           <crm:E52_Time-Span rdf:about="http://www.ligatus.org.uk/lcd/231a3e1d-88b7-4c0b-abf3-6ec497a26e6a/">
                               <rdfs:label xml:lang="en">Printing or Production date (Library of Congress, 2247)</rdfs:label>
                               <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1814-01-01T00:00:00</crm:P82a_begin_of_the_begin>
                               <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1814-12-31T23:59:59</crm:P82b_end_of_the_end>
@@ -44,7 +44,7 @@
                         <crm:P1_is_identified_by>
                            <crm:E41_Appellation rdf:about="http://dbpedia.org/resource/Washington,_D.C.">
                               <rdfs:label xml:lang="en">Washington, D.C. (name)</rdfs:label>
-                              <crm:P190_has_symbolic_content rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxford</crm:P190_has_symbolic_content>
+                              <crm:P190_has_symbolic_content rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Washington, D.C.</crm:P190_has_symbolic_content>
                            </crm:E41_Appellation>
                         </crm:P1_is_identified_by>
                      </crm:E53_Place>
@@ -55,7 +55,7 @@
                      </crm:E40_Legal_Body>
                   </crm:P50_has_current_keeper>
                   <crm:P46_is_composed_of>
-                     <crm:E22_Human-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/5f521fa2-9e06-4053-8893-338cb9bf107f/">
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/a0cfa063-5362-404f-9877-9dd09a22cf07/">
                         <rdfs:label xml:lang="en">Bookblock (Library of Congress, 2247)</rdfs:label>
                         <crm:P2_has_type>
                            <crm:E55_Type rdf:about="http://w3id.org/lob/concept/1227">
@@ -63,7 +63,7 @@
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P46_is_composed_of>
-                           <crm:E22_Human-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/ae907b5f-e857-4213-88d7-14d9675900ee/">
+                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/1b56b0d9-c11a-4cc5-8ebc-e2ba7a317cd4/">
                               <rdfs:label xml:lang="en">Textblock (Library of Congress, 2247)</rdfs:label>
                               <crm:P2_has_type>
                                  <crm:E55_Type rdf:about="http://w3id.org/lob/concept/1663">
@@ -81,7 +81,7 @@
                                  </crm:E57_Material>
                               </crm:P45_consists_of>
                               <crm:P44_has_condition>
-                                 <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/56284eb3-d368-47e7-8a6b-cd478798cd14/">
+                                 <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/b4df5ce1-a508-49be-b2bb-63e7d460ec36/">
                                     <rdfs:label xml:lang="en">Damaged (Library of Congress, 2247)</rdfs:label>
                                     <crm:P2_has_type>
                                        <crm:E55_Type rdf:about="http://w3id.org/loc-vocabs/e645fa14-55fb-4aea-91f6-c47c534d858f">
@@ -91,7 +91,7 @@
                                  </crm:E3_Condition_State>
                               </crm:P44_has_condition>
                               <crm:P31i_was_modified_by>
-                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/23701e2e-c595-4a61-a6a4-1c965bda169e/">
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/4d917fca-195f-4386-a85b-d218f1ecd59b/">
                                     <rdfs:label xml:lang="en">Modification of Library of Congress, 2247</rdfs:label>
                                     <crm:P32_used_general_technique>
                                        <crm:E55_Type rdf:about="http://w3id.org/loc-vocabs/c9718ed8-8891-4617-a239-94e5d09c3b45">
@@ -99,26 +99,26 @@
                                        </crm:E55_Type>
                                     </crm:P32_used_general_technique>
                                     <crm:P9i_forms_part_of>
-                                       <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/d270ae20-e1fb-40e7-bb25-0895469b162d/">
+                                       <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/33456eb3-b363-4cd4-b134-d84bc6e5d4c7/">
                                           <rdfs:label xml:lang="en">Main conservation event (Library of Congress, 2247)</rdfs:label>
                                        </crm:E11_Modification>
                                     </crm:P9i_forms_part_of>
                                  </crm:E11_Modification>
                               </crm:P31i_was_modified_by>
-                           </crm:E22_Human-Made_Object>
+                           </crm:E22_Man-Made_Object>
                         </crm:P46_is_composed_of>
                         <crm:P56_bears_feature>
-                           <crm:E25_Human-Made_Feature rdf:about="http://www.ligatus.org.uk/lcd/4a002469-a3a9-4242-8f1c-5c3f77e45038/">
+                           <crm:E25_Man-Made_Feature rdf:about="http://www.ligatus.org.uk/lcd/e7480a52-1871-4f53-8a03-59ed26b8bbef/">
                               <rdfs:label xml:lang="en">Bookblock spine (Library of Congress, 2247)</rdfs:label>
                               <crm:P2_has_type>
                                  <crm:E55_Type rdf:about="http://w3id.org/lob/concept/2352">
                                     <rdfs:label xml:lang="en">spine (bookblocks)</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
-                           </crm:E25_Human-Made_Feature>
+                           </crm:E25_Man-Made_Feature>
                         </crm:P56_bears_feature>
                         <crm:P59_has_section>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/5f521fa2-9e06-4053-8893-338cb9bf107f#spinePlace">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/a0cfa063-5362-404f-9877-9dd09a22cf07#spinePlace">
                               <rdfs:label xml:lang="en">Spine (place) (Library of Congress, 2247)</rdfs:label>
                               <crm:P2_has_type>
                                  <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3810">
@@ -128,7 +128,7 @@
                            </crm:E53_Place>
                         </crm:P59_has_section>
                         <crm:P59_has_section>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/5f521fa2-9e06-4053-8893-338cb9bf107f#headPlace">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/a0cfa063-5362-404f-9877-9dd09a22cf07#headPlace">
                               <rdfs:label xml:lang="en">Head (Library of Congress, 2247)</rdfs:label>
                               <crm:P2_has_type>
                                  <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3803">
@@ -138,7 +138,7 @@
                            </crm:E53_Place>
                         </crm:P59_has_section>
                         <crm:P59_has_section>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/5f521fa2-9e06-4053-8893-338cb9bf107f#tailPlace">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/a0cfa063-5362-404f-9877-9dd09a22cf07#tailPlace">
                               <rdfs:label xml:lang="en">Tail (Library of Congress, 2247)</rdfs:label>
                               <crm:P2_has_type>
                                  <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3805">
@@ -148,7 +148,7 @@
                            </crm:E53_Place>
                         </crm:P59_has_section>
                         <crm:P59_has_section>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/5f521fa2-9e06-4053-8893-338cb9bf107f#leftPlace">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/a0cfa063-5362-404f-9877-9dd09a22cf07#leftPlace">
                               <rdfs:label xml:lang="en">Left (Library of Congress, 2247)</rdfs:label>
                               <crm:P2_has_type>
                                  <crm:E55_Type rdf:about="http://w3id.org/lob/concept/2947">
@@ -158,7 +158,7 @@
                            </crm:E53_Place>
                         </crm:P59_has_section>
                         <crm:P59_has_section>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/5f521fa2-9e06-4053-8893-338cb9bf107f#rightPlace">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/a0cfa063-5362-404f-9877-9dd09a22cf07#rightPlace">
                               <rdfs:label xml:lang="en">Right (Library of Congress, 2247)</rdfs:label>
                               <crm:P2_has_type>
                                  <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3004">
@@ -167,10 +167,10 @@
                               </crm:P2_has_type>
                            </crm:E53_Place>
                         </crm:P59_has_section>
-                     </crm:E22_Human-Made_Object>
+                     </crm:E22_Man-Made_Object>
                   </crm:P46_is_composed_of>
                   <crm:P46_is_composed_of>
-                     <crm:E22_Human-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/9ed35b3c-78f7-4342-bb50-fcc60c4d5888/">
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/48087c95-b1dc-411a-9973-6e4a93ca39f5/">
                         <rdfs:label xml:lang="en">Left board (Library of Congress, 2247)</rdfs:label>
                         <crm:P2_has_type>
                            <crm:E55_Type rdf:about="http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e">
@@ -178,7 +178,7 @@
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P55_has_current_location>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/d0ecabcc-f85b-4e4c-a628-a688790451fd#leftPlace">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/28bbb513-dee2-4417-8472-7fd24bfedb74#leftPlace">
                               <rdfs:label xml:lang="en">Left (Library of Congress, 2247)</rdfs:label>
                               <crm:P2_has_type>
                                  <crm:E55_Type rdf:about="http://w3id.org/lob/concept/2947">
@@ -188,7 +188,7 @@
                            </crm:E53_Place>
                         </crm:P55_has_current_location>
                         <crm:P44_has_condition>
-                           <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/7585782e-4ba9-4ac1-8503-42845fd12fd9/">
+                           <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/7f48a94b-76d7-49ab-90ac-d3a354743792/">
                               <rdfs:label xml:lang="en">Detached (Library of Congress, 2247)</rdfs:label>
                               <crm:P2_has_type>
                                  <crm:E55_Type rdf:about="http://w3id.org/loc-vocabs/dbe22ff9-13ca-4907-9931-acea6e73c5a1">
@@ -198,7 +198,7 @@
                            </crm:E3_Condition_State>
                         </crm:P44_has_condition>
                         <crm:P44_has_condition>
-                           <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/e15d0b77-8652-4630-8180-bb2885594807/">
+                           <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/ba9be5e5-1679-4080-bbd6-6e69dc24977c/">
                               <rdfs:label xml:lang="en">Broken (Library of Congress, 2247)</rdfs:label>
                               <crm:P2_has_type>
                                  <crm:E55_Type rdf:about="http://w3id.org/loc-vocabs/71be10c9-0ee0-4008-a7b2-e59b121c7b79">
@@ -207,10 +207,10 @@
                               </crm:P2_has_type>
                            </crm:E3_Condition_State>
                         </crm:P44_has_condition>
-                     </crm:E22_Human-Made_Object>
+                     </crm:E22_Man-Made_Object>
                   </crm:P46_is_composed_of>
                   <crm:P46_is_composed_of>
-                     <crm:E22_Human-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/55b554a5-d4d6-4321-9226-d60c4aa19ded/">
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/849166e0-2396-4c57-a27f-118f5217d8ed/">
                         <rdfs:label xml:lang="en">Right board (Library of Congress, 2247)</rdfs:label>
                         <crm:P2_has_type>
                            <crm:E55_Type rdf:about="http://w3id.org/loc-vocabs/5a30f6da-467b-4b60-9b0c-67f9aa31c01e">
@@ -218,7 +218,7 @@
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P55_has_current_location>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/d0ecabcc-f85b-4e4c-a628-a688790451fd#rightPlace">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/28bbb513-dee2-4417-8472-7fd24bfedb74#rightPlace">
                               <rdfs:label xml:lang="en">Right (Library of Congress, 2247)</rdfs:label>
                               <crm:P2_has_type>
                                  <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3004">
@@ -228,7 +228,7 @@
                            </crm:E53_Place>
                         </crm:P55_has_current_location>
                         <crm:P44_has_condition>
-                           <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/89919667-4f51-4f98-9630-e93fac4c464e/">
+                           <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/0dc294f0-b814-4c6e-a546-e1fb3d9daa10/">
                               <rdfs:label xml:lang="en">Detached (Library of Congress, 2247)</rdfs:label>
                               <crm:P2_has_type>
                                  <crm:E55_Type rdf:about="http://w3id.org/loc-vocabs/dbe22ff9-13ca-4907-9931-acea6e73c5a1">
@@ -238,7 +238,7 @@
                            </crm:E3_Condition_State>
                         </crm:P44_has_condition>
                         <crm:P44_has_condition>
-                           <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/98e17a69-39b0-46d9-a450-108e60b81659/">
+                           <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/d4522fa5-4941-4e6f-bcb3-0ca6e9f51cfb/">
                               <rdfs:label xml:lang="en">Broken (Library of Congress, 2247)</rdfs:label>
                               <crm:P2_has_type>
                                  <crm:E55_Type rdf:about="http://w3id.org/loc-vocabs/71be10c9-0ee0-4008-a7b2-e59b121c7b79">
@@ -247,10 +247,10 @@
                               </crm:P2_has_type>
                            </crm:E3_Condition_State>
                         </crm:P44_has_condition>
-                     </crm:E22_Human-Made_Object>
+                     </crm:E22_Man-Made_Object>
                   </crm:P46_is_composed_of>
                   <crm:P46_is_composed_of>
-                     <crm:E22_Human-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/c02a77b2-ad09-4f15-ac46-a99e77038005/">
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/bc063028-d67e-4b43-9df0-4b131cb5ea5d/">
                         <rdfs:label xml:lang="en">Sewing structure (Library of Congress, 2247)</rdfs:label>
                         <crm:P2_has_type>
                            <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3014">
@@ -258,19 +258,19 @@
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P46_is_composed_of>
-                           <crm:E22_Human-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/f909409a-da4b-420a-ace3-527e62123639-1/">
+                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/70bc9745-75dd-4b00-9a1f-c2394a55f10e-1/">
                               <rdfs:label xml:lang="en">Sewing supports (Library of Congress, 2247)</rdfs:label>
                               <crm:P2_has_type>
                                  <crm:E55_Type rdf:about="http://w3id.org/loc-vocabs/ce79bf79-6a53-4c50-84d6-e3a3a2da8090">
                                     <rdfs:label xml:lang="en">sewing supports</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
-                           </crm:E22_Human-Made_Object>
+                           </crm:E22_Man-Made_Object>
                         </crm:P46_is_composed_of>
-                     </crm:E22_Human-Made_Object>
+                     </crm:E22_Man-Made_Object>
                   </crm:P46_is_composed_of>
                   <crm:P46_is_composed_of>
-                     <crm:E22_Human-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/8d224c1b-33b9-42cb-b862-b1556602f565/">
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/67a551ac-9272-4fb3-b845-6207333219ab/">
                         <rdfs:label xml:lang="en">Cover (Library of Congress, 2247)</rdfs:label>
                         <crm:P2_has_type>
                            <crm:E55_Type rdf:about="http://w3id.org/lob/concept/1268">
@@ -278,7 +278,7 @@
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P56_bears_feature>
-                           <crm:E25_Man-Made_Feature rdf:about="http://www.ligatus.org.uk/lcd/430a6f92-621f-4c59-8bd5-bbec9f653b6f/">
+                           <crm:E25_Man-Made_Feature rdf:about="http://www.ligatus.org.uk/lcd/ff214314-9d72-443e-aa82-bd5852b40252/">
                               <rdfs:label xml:lang="en">Gold tooling (Library of Congress, 2247)</rdfs:label>
                               <crm:P2_has_type>
                                  <crm:E55_Type rdf:about="http://w3id.org/loc-vocabs/acb60fc6-53b4-4120-8776-06dcaf06e25f">
@@ -287,10 +287,10 @@
                               </crm:P2_has_type>
                            </crm:E25_Man-Made_Feature>
                         </crm:P56_bears_feature>
-                     </crm:E22_Human-Made_Object>
+                     </crm:E22_Man-Made_Object>
                   </crm:P46_is_composed_of>
                   <crm:P46_is_composed_of>
-                     <crm:E25_Human-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/0d368fec-f9d3-4e89-9f51-6a738b9df775/">
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/c0f02d8e-29cd-46d6-a825-6afe97116689/">
                         <rdfs:label xml:lang="en">New covers (Library of Congress, 2247)</rdfs:label>
                         <crm:P2_has_type>
                            <crm:E55_Type rdf:about="http://w3id.org/lob/concept/1268">
@@ -298,34 +298,34 @@
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P111i_was_added_by>
-                           <crm:E79_Part_Addition rdf:about="http://www.ligatus.org.uk/lcd/090347d2-0ee3-4764-a068-87a386e89338/">
+                           <crm:E79_Part_Addition rdf:about="http://www.ligatus.org.uk/lcd/d48f8e12-a9b4-4186-88fd-dbec2d243c92/">
                               <rdfs:label xml:lang="en">Addition to Library of Congress, 2247</rdfs:label>
                               <crm:P32_used_general_technique>
-                                 <crm:E55_Type rdf:about="">
+                                 <crm:E55_Type rdf:about="http://w3id.org/loc-vocabs/a0c89fdb-e0a5-4f7d-a299-685e087809eb">
                                     <rdfs:label xml:lang="en">rebacking</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P32_used_general_technique>
                               <crm:P8_took_place_on_or_within>
-                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/ce5db086-fc1d-4002-806c-e35412899678/">
+                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/0c9e5b0e-2fc9-432f-8956-1aee88865a4f/">
                                     <rdfs:label xml:lang="en">Spine (Library of Congress, 2247)</rdfs:label>
                                     <crm:P2_has_type>
-                                       <crm:E55_Type rdf:about="">
+                                       <crm:E55_Type rdf:about="http://w3id.org/loc-vocabs/5a449e22-e04f-46a7-a596-3ea18b75badd">
                                           <rdfs:label xml:lang="en">spine</rdfs:label>
                                        </crm:E55_Type>
                                     </crm:P2_has_type>
                                  </crm:E53_Place>
                               </crm:P8_took_place_on_or_within>
                               <crm:P9i_forms_part_of>
-                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/d270ae20-e1fb-40e7-bb25-0895469b162d/">
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/33456eb3-b363-4cd4-b134-d84bc6e5d4c7/">
                                     <rdfs:label xml:lang="en">Main conservation event (Library of Congress, 2247)</rdfs:label>
                                  </crm:E11_Modification>
                               </crm:P9i_forms_part_of>
                            </crm:E79_Part_Addition>
                         </crm:P111i_was_added_by>
-                     </crm:E25_Human-Made_Object>
+                     </crm:E22_Man-Made_Object>
                   </crm:P46_is_composed_of>
                   <crm:P59_has_section>
-                     <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/d0ecabcc-f85b-4e4c-a628-a688790451fd#leftPlace">
+                     <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/28bbb513-dee2-4417-8472-7fd24bfedb74#leftPlace">
                         <rdfs:label xml:lang="en">Left (Library of Congress, 2247)</rdfs:label>
                         <crm:P2_has_type>
                            <crm:E55_Type rdf:about="http://w3id.org/lob/concept/2947">
@@ -335,7 +335,7 @@
                      </crm:E53_Place>
                   </crm:P59_has_section>
                   <crm:P59_has_section>
-                     <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/d0ecabcc-f85b-4e4c-a628-a688790451fd#rightPlace">
+                     <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/28bbb513-dee2-4417-8472-7fd24bfedb74#rightPlace">
                         <rdfs:label xml:lang="en">Right (Library of Congress, 2247)</rdfs:label>
                         <crm:P2_has_type>
                            <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3004">
@@ -345,7 +345,7 @@
                      </crm:E53_Place>
                   </crm:P59_has_section>
                   <crm:P31i_was_modified_by>
-                     <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/d270ae20-e1fb-40e7-bb25-0895469b162d/">
+                     <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/33456eb3-b363-4cd4-b134-d84bc6e5d4c7/">
                         <rdfs:label xml:lang="en">Main conservation event (Library of Congress, 2247)</rdfs:label>
                         <crm:P2_has_type>
                            <crm:E55_Type rdf:about="http://vocab.getty.edu/page/aat/300404519">
@@ -353,7 +353,7 @@
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P4_has_time-span>
-                           <crm:E52_Time-Span rdf:about="http://www.ligatus.org.uk/lcd/9aebf3bd-bae1-476a-901f-6aade74f9aea/">
+                           <crm:E52_Time-Span rdf:about="http://www.ligatus.org.uk/lcd/33f0c32f-7427-4214-abaa-7b09cea10833/">
                               <rdfs:label xml:lang="en">Conservation treatment date (Library of Congress, 2247)</rdfs:label>
                               <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-01T23:59:59</crm:P82b_end_of_the_end>
                            </crm:E52_Time-Span>
@@ -364,12 +364,12 @@
                            </crm:E57_Material>
                         </crm:P126_employed>
                         <crm:P126_employed>
-                           <crm:E57_Material rdf:about="">
+                           <crm:E57_Material rdf:about="http://w3id.org/loc-vocabs/c63b6dff-1653-4bb2-907a-86ba56655ed6">
                               <rdfs:label xml:lang="en">Lascaux 498</rdfs:label>
                            </crm:E57_Material>
                         </crm:P126_employed>
                         <crm:P126_employed>
-                           <crm:E57_Material rdf:about="">
+                           <crm:E57_Material rdf:about="http://w3id.org/loc-vocabs/2de08376-1314-4668-b0a7-8987ae3542b4">
                               <rdfs:label xml:lang="en">Asian Paper</rdfs:label>
                            </crm:E57_Material>
                         </crm:P126_employed>
@@ -379,7 +379,7 @@
                            </crm:E57_Material>
                         </crm:P126_employed>
                         <crm:P126_employed>
-                           <crm:E57_Material rdf:about="">
+                           <crm:E57_Material rdf:about="http://w3id.org/loc-vocabs/b7001c86-ce04-4e93-a567-9bf556087d9d">
                               <rdfs:label xml:lang="en">BASF leather dye</rdfs:label>
                            </crm:E57_Material>
                         </crm:P126_employed>
@@ -395,7 +395,7 @@
                         </crm:P126_employed>
                      </crm:E11_Modification>
                   </crm:P31i_was_modified_by>
-               </crm:E22_Human-Made_Object>
+               </crm:E22_Man-Made_Object>
             </crm:P140_assigned_attribute_to>
             <crm:P2_has_type>
                <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300080091">
@@ -403,14 +403,8 @@
                </crm:E55_Type>
             </crm:P2_has_type>
             <crm:P14_carried_out_by>
-               <crm:E39_Actor rdf:about="http://www.ligatus.org.uk/lcd/f0cb55c1-e700-4287-9778-4c92f7c0686d/">
+               <crm:E39_Actor rdf:about="http://www.ligatus.org.uk/lcd/52bfee3f-b8c7-4088-bce8-04842a880f54/">
                   <rdfs:label xml:lang="en">Conservator</rdfs:label>
-                  <crm:P1_is_identified_by>
-                     <crm:E41_Appellation rdf:about="">
-                        <rdfs:label xml:lang="en">Conservator's name</rdfs:label>
-                        <crm:P190_has_symbolic_content rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paterson, Dan</crm:P190_has_symbolic_content>
-                     </crm:E41_Appellation>
-                  </crm:P1_is_identified_by>
                   <crm:P14.1_in_the_role_of>
                      <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300102842">
                         <rdfs:label xml:lang="en">conservators (people in conservation)</rdfs:label>
@@ -419,14 +413,8 @@
                </crm:E39_Actor>
             </crm:P14_carried_out_by>
             <crm:P14_carried_out_by>
-               <crm:E39_Actor rdf:about="http://www.ligatus.org.uk/lcd/436a3a40-1fb5-4e61-aa17-3ea6f48fb80e/">
+               <crm:E39_Actor rdf:about="http://www.ligatus.org.uk/lcd/beaad219-bf50-4dd4-b13d-2c6276bcbb62/">
                   <rdfs:label xml:lang="en">Conservator</rdfs:label>
-                  <crm:P1_is_identified_by>
-                     <crm:E41_Appellation rdf:about="">
-                        <rdfs:label xml:lang="en">Conservator's name</rdfs:label>
-                        <crm:P190_has_symbolic_content rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dekle, Claire</crm:P190_has_symbolic_content>
-                     </crm:E41_Appellation>
-                  </crm:P1_is_identified_by>
                   <crm:P14.1_in_the_role_of>
                      <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300102842">
                         <rdfs:label xml:lang="en">conservators (people in conservation)</rdfs:label>
@@ -435,7 +423,7 @@
                </crm:E39_Actor>
             </crm:P14_carried_out_by>
             <crm:P4_has_time-span>
-               <crm:E52_Time-Span rdf:about="http://www.ligatus.org.uk/lcd/4a19e4f3-bda7-4537-87b7-76fa59dab195/">
+               <crm:E52_Time-Span rdf:about="http://www.ligatus.org.uk/lcd/e08042ec-617d-434d-a39c-d7bb9d5fbcb0/">
                   <rdfs:label xml:lang="en">Attribute assignment date (Library of Congress, 2247)</rdfs:label>
                   <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-01T00:00:00</crm:P82a_begin_of_the_begin>
                   <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-01T23:59:59</crm:P82b_end_of_the_end>
