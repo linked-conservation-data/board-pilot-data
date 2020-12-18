@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:lob="http://w3id.org/lob/concept/"
+         xmlns:aat="http://vocab.getty.edu/aat/"
+         xmlns:dbp="http://dbpedia.org/resource/"
+         xml:base="http://www.ligatus.org.uk/lcd">
+   <crm:E31_Document rdf:about="http://www.ligatus.org.uk/lcd/E36-2/">
+      <rdfs:label xml:lang="en">Conservation Report (The National Archives, E 36/2)</rdfs:label>
+      <crm:P70_documents>
+         <crm:E13_Attribute_Assignment rdf:about="http://www.ligatus.org.uk/lcd/1bfc3fce-cbd6-4205-92cc-1dda4b86770d/">
+            <rdfs:label xml:lang="en">Conservation assessment (The National Archives, E 36/2)</rdfs:label>
+            <crm:P140_assigned_attribute_to>
+               <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/fc059d80-91c0-4b22-9a2c-f030da941d87/">
+                  <rdfs:label xml:lang="en">Book (The National Archives, E 36/2)</rdfs:label>
+                  <crm:P2_has_type>
+                     <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/3fd4028c-a10e-43b2-9101-04c834410c70">
+                        <rdfs:label xml:lang="en">books</rdfs:label>
+                     </crm:E55_Type>
+                  </crm:P2_has_type>
+                  <crm:P1_is_identified_by>
+                     <crm:E42_Identifier rdf:about="http://www.ligatus.org.uk/lcd/1541347c-bca2-4634-94b3-b6b34e081a6a/">
+                        <rdfs:label xml:lang="en">Shelfmark (The National Archives, E 36/2)</rdfs:label>
+                        <crm:P2_has_type>
+                           <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/fc73b7bd-0022-4c6e-aa8e-32cfc8320d31">
+                              <rdfs:label xml:lang="en">shelfmarks</rdfs:label>
+                           </crm:E55_Type>
+                        </crm:P2_has_type>
+                        <crm:P190_has_symbolic_content rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E 36/2</crm:P190_has_symbolic_content>
+                     </crm:E42_Identifier>
+                  </crm:P1_is_identified_by>
+                  <crm:P55_has_current_location>
+                     <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/7ca55e25-e920-434f-8d56-04f222d497db">
+                        <rdfs:label xml:lang="en">Kew (place)</rdfs:label>
+                        <crm:P1_is_identified_by>
+                           <crm:E41_Appellation rdf:about="http://dbpedia.org/resource/Kew">
+                              <rdfs:label xml:lang="en">Kew (name)</rdfs:label>
+                              <crm:P190_has_symbolic_content rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kew</crm:P190_has_symbolic_content>
+                           </crm:E41_Appellation>
+                        </crm:P1_is_identified_by>
+                     </crm:E53_Place>
+                  </crm:P55_has_current_location>
+                  <crm:P50_has_current_keeper>
+                     <crm:E40_Legal_Body rdf:about="http://dbpedia.org/resource/The_National_Archives_(United_Kingdom)">
+                        <rdfs:label xml:lang="en"/>
+                     </crm:E40_Legal_Body>
+                  </crm:P50_has_current_keeper>
+                  <crm:P46_is_composed_of>
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/88beac69-2fa7-4ba7-af7a-d39141ffd6f5/">
+                        <rdfs:label xml:lang="en">Bookblock (The National Archives, E 36/2)</rdfs:label>
+                        <crm:P2_has_type>
+                           <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/2af7d0e3-474f-4069-9cd0-2186c2016670">
+                              <rdfs:label xml:lang="en">bookblocks</rdfs:label>
+                           </crm:E55_Type>
+                        </crm:P2_has_type>
+                        <crm:P46_is_composed_of>
+                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/8ea53b34-1429-4b74-98cb-ae831829e7ae/">
+                              <rdfs:label xml:lang="en">Textblock (The National Archives, E 36/2)</rdfs:label>
+                              <crm:P2_has_type>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/7bf7137e-113c-4c83-86b7-e91409369953">
+                                    <rdfs:label xml:lang="en">textblocks</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P2_has_type>
+                           </crm:E22_Man-Made_Object>
+                        </crm:P46_is_composed_of>
+                        <crm:P46_is_composed_of>
+                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/445d6e61-c1a3-478f-b715-3139a1402f7e/">
+                              <rdfs:label xml:lang="en">Left endleaves (The National Archives, E 36/2)</rdfs:label>
+                              <crm:P2_has_type>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/33258881-c175-40f9-be1f-2ccac3aceb41">
+                                    <rdfs:label xml:lang="en">endleaves</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P2_has_type>
+                              <crm:P55_has_current_location>
+                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/88beac69-2fa7-4ba7-af7a-d39141ffd6f5#leftPlace">
+                                    <rdfs:label xml:lang="en">Left (The National Archives, E 36/2)</rdfs:label>
+                                    <crm:P2_has_type>
+                                       <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/f437bcbc-d609-4198-865e-c24703abbd99">
+                                          <rdfs:label xml:lang="en">left</rdfs:label>
+                                       </crm:E55_Type>
+                                    </crm:P2_has_type>
+                                 </crm:E53_Place>
+                              </crm:P55_has_current_location>
+                              <crm:P59_has_section>
+                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/b18b769f-3e9c-4861-82eb-b66c5796da9e/">
+                                    <rdfs:label xml:lang="en">Inner joints (The National Archives, E 36/2)</rdfs:label>
+                                    <crm:P2_has_type>
+                                       <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/853bcc22-8226-4690-9959-d7ea480fea99">
+                                          <rdfs:label xml:lang="en">inner joints</rdfs:label>
+                                       </crm:E55_Type>
+                                    </crm:P2_has_type>
+                                 </crm:E53_Place>
+                              </crm:P59_has_section>
+                              <crm:P59_has_section>
+                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/b18b769f-3e9c-4861-82eb-b66c5796da9e/">
+                                    <rdfs:label xml:lang="en">Inner joints (The National Archives, E 36/2)</rdfs:label>
+                                    <crm:P2_has_type>
+                                       <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/853bcc22-8226-4690-9959-d7ea480fea99">
+                                          <rdfs:label xml:lang="en">inner joints</rdfs:label>
+                                       </crm:E55_Type>
+                                    </crm:P2_has_type>
+                                 </crm:E53_Place>
+                              </crm:P59_has_section>
+                           </crm:E22_Man-Made_Object>
+                        </crm:P46_is_composed_of>
+                        <crm:P46_is_composed_of>
+                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/d6d29e10-9d6b-41c3-8cf2-c5ddd1c7a738/">
+                              <rdfs:label xml:lang="en">Right endleaves (The National Archives, E 36/2)</rdfs:label>
+                              <crm:P2_has_type>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/33258881-c175-40f9-be1f-2ccac3aceb41">
+                                    <rdfs:label xml:lang="en">endleaves</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P2_has_type>
+                              <crm:P55_has_current_location>
+                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/88beac69-2fa7-4ba7-af7a-d39141ffd6f5#rightPlace">
+                                    <rdfs:label xml:lang="en">Right (The National Archives, E 36/2)</rdfs:label>
+                                    <crm:P2_has_type>
+                                       <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/f31f4a93-7472-44d8-960c-59b8a9cd9dad">
+                                          <rdfs:label xml:lang="en">right</rdfs:label>
+                                       </crm:E55_Type>
+                                    </crm:P2_has_type>
+                                 </crm:E53_Place>
+                              </crm:P55_has_current_location>
+                              <crm:P59_has_section>
+                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/72130e45-34ed-4978-ae25-8ca531beea30/">
+                                    <rdfs:label xml:lang="en">Inner joints (The National Archives, E 36/2)</rdfs:label>
+                                    <crm:P2_has_type>
+                                       <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/853bcc22-8226-4690-9959-d7ea480fea99">
+                                          <rdfs:label xml:lang="en">inner joints</rdfs:label>
+                                       </crm:E55_Type>
+                                    </crm:P2_has_type>
+                                 </crm:E53_Place>
+                              </crm:P59_has_section>
+                              <crm:P59_has_section>
+                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/72130e45-34ed-4978-ae25-8ca531beea30/">
+                                    <rdfs:label xml:lang="en">Inner joints (The National Archives, E 36/2)</rdfs:label>
+                                    <crm:P2_has_type>
+                                       <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/853bcc22-8226-4690-9959-d7ea480fea99">
+                                          <rdfs:label xml:lang="en">inner joints</rdfs:label>
+                                       </crm:E55_Type>
+                                    </crm:P2_has_type>
+                                 </crm:E53_Place>
+                              </crm:P59_has_section>
+                           </crm:E22_Man-Made_Object>
+                        </crm:P46_is_composed_of>
+                        <crm:P56_bears_feature>
+                           <crm:E25_Man-Made_Feature rdf:about="http://www.ligatus.org.uk/lcd/e2870452-fb15-45ba-b700-baed00e35507/">
+                              <rdfs:label xml:lang="en">Bookblock spine (The National Archives, E 36/2)</rdfs:label>
+                              <crm:P2_has_type>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/d43db656-e235-41e3-8ab7-fb0a2180d8c8">
+                                    <rdfs:label xml:lang="en">spine (bookblocks)</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P2_has_type>
+                           </crm:E25_Man-Made_Feature>
+                        </crm:P56_bears_feature>
+                        <crm:P59_has_section>
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/88beac69-2fa7-4ba7-af7a-d39141ffd6f5#spinePlace">
+                              <rdfs:label xml:lang="en">Spine (place) (The National Archives, E 36/2)</rdfs:label>
+                              <crm:P2_has_type>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/dcb93a3a-e53a-49c6-8945-8dffb39ed045">
+                                    <rdfs:label xml:lang="en">spine</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P2_has_type>
+                           </crm:E53_Place>
+                        </crm:P59_has_section>
+                        <crm:P59_has_section>
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/88beac69-2fa7-4ba7-af7a-d39141ffd6f5#headPlace">
+                              <rdfs:label xml:lang="en">Head (The National Archives, E 36/2)</rdfs:label>
+                              <crm:P2_has_type>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/a5021022-5701-4d6f-beb3-2c745013b7fc">
+                                    <rdfs:label xml:lang="en">head</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P2_has_type>
+                           </crm:E53_Place>
+                        </crm:P59_has_section>
+                        <crm:P59_has_section>
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/88beac69-2fa7-4ba7-af7a-d39141ffd6f5#tailPlace">
+                              <rdfs:label xml:lang="en">Tail (The National Archives, E 36/2)</rdfs:label>
+                              <crm:P2_has_type>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/e237c617-6205-4a72-a8ba-db9f0532c30c">
+                                    <rdfs:label xml:lang="en">tail</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P2_has_type>
+                           </crm:E53_Place>
+                        </crm:P59_has_section>
+                        <crm:P59_has_section>
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/88beac69-2fa7-4ba7-af7a-d39141ffd6f5#leftPlace">
+                              <rdfs:label xml:lang="en">Left (The National Archives, E 36/2)</rdfs:label>
+                              <crm:P2_has_type>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/f437bcbc-d609-4198-865e-c24703abbd99">
+                                    <rdfs:label xml:lang="en">left</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P2_has_type>
+                           </crm:E53_Place>
+                        </crm:P59_has_section>
+                        <crm:P59_has_section>
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/88beac69-2fa7-4ba7-af7a-d39141ffd6f5#rightPlace">
+                              <rdfs:label xml:lang="en">Right (The National Archives, E 36/2)</rdfs:label>
+                              <crm:P2_has_type>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/f31f4a93-7472-44d8-960c-59b8a9cd9dad">
+                                    <rdfs:label xml:lang="en">right</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P2_has_type>
+                           </crm:E53_Place>
+                        </crm:P59_has_section>
+                     </crm:E22_Man-Made_Object>
+                  </crm:P46_is_composed_of>
+                  <crm:P46_is_composed_of>
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/d863d306-04e6-4132-a495-84a25d6741d0/">
+                        <rdfs:label xml:lang="en">Left board (The National Archives, E 36/2)</rdfs:label>
+                        <crm:P2_has_type>
+                           <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/6aa637b5-06a0-42d9-89c0-b75a39e1e0e3">
+                              <rdfs:label xml:lang="en">boards</rdfs:label>
+                           </crm:E55_Type>
+                        </crm:P2_has_type>
+                        <crm:P55_has_current_location>
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/fc059d80-91c0-4b22-9a2c-f030da941d87#leftPlace">
+                              <rdfs:label xml:lang="en">Left (The National Archives, E 36/2)</rdfs:label>
+                              <crm:P2_has_type>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/f437bcbc-d609-4198-865e-c24703abbd99">
+                                    <rdfs:label xml:lang="en">left</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P2_has_type>
+                           </crm:E53_Place>
+                        </crm:P55_has_current_location>
+                        <crm:P31i_was_modified_by>
+                           <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/0702097c-1f32-40e2-9d5d-8ab04eb9f5aa/">
+                              <rdfs:label xml:lang="en">Modification of The National Archives, E 36/2</rdfs:label>
+                              <crm:P32_used_general_technique>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/8139ac28-a531-430a-a084-50c543537373">
+                                    <rdfs:label xml:lang="en">repaired</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P32_used_general_technique>
+                              <crm:P8_took_place_on_or_within>
+                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/758fe59a-9d7a-48ee-badb-0c8dc1d277a2/">
+                                    <rdfs:label xml:lang="en">Corners (The National Archives, E 36/2)</rdfs:label>
+                                    <crm:P2_has_type>
+                                       <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/24abd768d0-5b65-4f84-8975-86d1bc3e3ddb">
+                                          <rdfs:label xml:lang="en">corners</rdfs:label>
+                                       </crm:E55_Type>
+                                    </crm:P2_has_type>
+                                 </crm:E53_Place>
+                              </crm:P8_took_place_on_or_within>
+                              <crm:P9i_forms_part_of>
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/176d7c9b-897b-4836-ac00-f73546d9d961/">
+                                    <rdfs:label xml:lang="en">Main conservation event (The National Archives, E 36/2)</rdfs:label>
+                                 </crm:E11_Modification>
+                              </crm:P9i_forms_part_of>
+                           </crm:E11_Modification>
+                        </crm:P31i_was_modified_by>
+                     </crm:E22_Man-Made_Object>
+                  </crm:P46_is_composed_of>
+                  <crm:P46_is_composed_of>
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/4dad891a-9a66-44ee-a609-947d19b614f7/">
+                        <rdfs:label xml:lang="en">Right board (The National Archives, E 36/2)</rdfs:label>
+                        <crm:P2_has_type>
+                           <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/6aa637b5-06a0-42d9-89c0-b75a39e1e0e3">
+                              <rdfs:label xml:lang="en">boards</rdfs:label>
+                           </crm:E55_Type>
+                        </crm:P2_has_type>
+                        <crm:P55_has_current_location>
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/fc059d80-91c0-4b22-9a2c-f030da941d87#rightPlace">
+                              <rdfs:label xml:lang="en">Right (The National Archives, E 36/2)</rdfs:label>
+                              <crm:P2_has_type>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/f31f4a93-7472-44d8-960c-59b8a9cd9dad">
+                                    <rdfs:label xml:lang="en">right</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P2_has_type>
+                           </crm:E53_Place>
+                        </crm:P55_has_current_location>
+                        <crm:P31i_was_modified_by>
+                           <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/6463b466-bb90-427e-9ffb-57da31ed41dd/">
+                              <rdfs:label xml:lang="en">Modification of The National Archives, E 36/2</rdfs:label>
+                              <crm:P32_used_general_technique>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/8139ac28-a531-430a-a084-50c543537373">
+                                    <rdfs:label xml:lang="en">repaired</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P32_used_general_technique>
+                              <crm:P8_took_place_on_or_within>
+                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/9ed8969c-f482-4c5a-8a41-ee61d0e9452a/">
+                                    <rdfs:label xml:lang="en">Corners (The National Archives, E 36/2)</rdfs:label>
+                                    <crm:P2_has_type>
+                                       <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/24abd768d0-5b65-4f84-8975-86d1bc3e3ddb">
+                                          <rdfs:label xml:lang="en">corners</rdfs:label>
+                                       </crm:E55_Type>
+                                    </crm:P2_has_type>
+                                 </crm:E53_Place>
+                              </crm:P8_took_place_on_or_within>
+                              <crm:P9i_forms_part_of>
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/176d7c9b-897b-4836-ac00-f73546d9d961/">
+                                    <rdfs:label xml:lang="en">Main conservation event (The National Archives, E 36/2)</rdfs:label>
+                                 </crm:E11_Modification>
+                              </crm:P9i_forms_part_of>
+                           </crm:E11_Modification>
+                        </crm:P31i_was_modified_by>
+                     </crm:E22_Man-Made_Object>
+                  </crm:P46_is_composed_of>
+                  <crm:P46_is_composed_of>
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/c7d178d4-67ff-4b70-8188-316b2e19644f/">
+                        <rdfs:label xml:lang="en">Sewing structure (The National Archives, E 36/2)</rdfs:label>
+                        <crm:P2_has_type>
+                           <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/25e18288-277d-4a1f-9bdc-11371640dc31">
+                              <rdfs:label xml:lang="en">sewn structures</rdfs:label>
+                           </crm:E55_Type>
+                        </crm:P2_has_type>
+                        <crm:P46_is_composed_of>
+                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/d56b6d3f-e254-447d-af2b-6a3b838f6252-1/">
+                              <rdfs:label xml:lang="en">Sewing supports (The National Archives, E 36/2)</rdfs:label>
+                              <crm:P2_has_type>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/e808420b-db71-47a1-92cc-a88de1b6746a">
+                                    <rdfs:label xml:lang="en">sewing supports</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P2_has_type>
+                           </crm:E22_Man-Made_Object>
+                        </crm:P46_is_composed_of>
+                     </crm:E22_Man-Made_Object>
+                  </crm:P46_is_composed_of>
+                  <crm:P46_is_composed_of>
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/ac822ae3-af8d-4de1-904b-0e431570db62/">
+                        <rdfs:label xml:lang="en">Cover (The National Archives, E 36/2)</rdfs:label>
+                        <crm:P2_has_type>
+                           <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/7c756c09-7968-488b-a516-246d85c83acc">
+                              <rdfs:label xml:lang="en">covers</rdfs:label>
+                           </crm:E55_Type>
+                        </crm:P2_has_type>
+                        <crm:P45_consists_of>
+                           <crm:E57_Material rdf:about="http://w3id.org/tna-vocab/e1102fd2-bfda-49f5-9aa9-9a0d0827ba3f">
+                              <rdfs:label xml:lang="en">Leather - not specified</rdfs:label>
+                           </crm:E57_Material>
+                        </crm:P45_consists_of>
+                        <crm:P59_has_section>
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/abc63fda-a155-4ea4-ae16-9183a91b68b9/">
+                              <rdfs:label xml:lang="en">Spine (The National Archives, E 36/2)</rdfs:label>
+                              <crm:P2_has_type>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/dcb93a3a-e53a-49c6-8945-8dffb39ed045">
+                                    <rdfs:label xml:lang="en">spine</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P2_has_type>
+                           </crm:E53_Place>
+                        </crm:P59_has_section>
+                        <crm:P46_is_composed_of>
+                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/e51ce0d4-21f5-48e3-85ca-fbe158c76def/">
+                              <rdfs:label xml:lang="en">Spine-section (The National Archives, E 36/2)</rdfs:label>
+                              <crm:P2_has_type>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/dcb93a3a-e53a-49c6-8945-8dffb39ed045">
+                                    <rdfs:label xml:lang="en">spine</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P2_has_type>
+                              <crm:P44_has_condition>
+                                 <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/aa0315e1-a441-4072-b48e-027ea68f59a1/">
+                                    <rdfs:label xml:lang="en">Damaged (The National Archives, E 36/2)</rdfs:label>
+                                    <crm:P2_has_type>
+                                       <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/e15acaf0-b008-4633-84d1-eb15b7d2475b">
+                                          <rdfs:label xml:lang="en">damaged</rdfs:label>
+                                       </crm:E55_Type>
+                                    </crm:P2_has_type>
+                                 </crm:E3_Condition_State>
+                              </crm:P44_has_condition>
+                           </crm:E22_Man-Made_Object>
+                        </crm:P46_is_composed_of>
+                        <crm:P46_is_composed_of>
+                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/371f015a-9d25-440a-b61e-aa21796849ba/">
+                              <rdfs:label xml:lang="en">New spine-section (The National Archives, E 36/2)</rdfs:label>
+                              <crm:P2_has_type>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/dcb93a3a-e53a-49c6-8945-8dffb39ed045">
+                                    <rdfs:label xml:lang="en">spine-section</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P2_has_type>
+                              <crm:P111i_was_added_by>
+                                 <crm:E79_Part_Addition rdf:about="http://www.ligatus.org.uk/lcd/f7974183-3b88-4d44-be14-78251c35deb3/">
+                                    <rdfs:label xml:lang="en">Addition to The National Archives, E 36/2</rdfs:label>
+                                    <crm:P32_used_general_technique>
+                                       <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/a3f83777-03fc-4245-9343-7eb5d55abe13">
+                                          <rdfs:label xml:lang="en">re-backed</rdfs:label>
+                                       </crm:E55_Type>
+                                    </crm:P32_used_general_technique>
+                                    <crm:P9i_forms_part_of>
+                                       <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/176d7c9b-897b-4836-ac00-f73546d9d961/">
+                                          <rdfs:label xml:lang="en">Main conservation event (The National Archives, E 36/2)</rdfs:label>
+                                       </crm:E11_Modification>
+                                    </crm:P9i_forms_part_of>
+                                 </crm:E79_Part_Addition>
+                              </crm:P111i_was_added_by>
+                           </crm:E22_Man-Made_Object>
+                        </crm:P46_is_composed_of>
+                        <crm:P59_has_section>
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/c9d89f9d-665c-49b9-8249-d662247b81e8/">
+                              <rdfs:label xml:lang="en">Corners (The National Archives, E 36/2)</rdfs:label>
+                              <crm:P2_has_type>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/24abd768d0-5b65-4f84-8975-86d1bc3e3ddb">
+                                    <rdfs:label xml:lang="en">corners</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P2_has_type>
+                           </crm:E53_Place>
+                        </crm:P59_has_section>
+                        <crm:P31i_was_modified_by>
+                           <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/0955c6d7-7c51-4af7-9bed-a9e7f4f84ff2/">
+                              <rdfs:label xml:lang="en">Modification of The National Archives, E 36/2</rdfs:label>
+                              <crm:P32_used_general_technique>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/8139ac28-a531-430a-a084-50c543537373">
+                                    <rdfs:label xml:lang="en">repaired</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P32_used_general_technique>
+                              <crm:P8_took_place_on_or_within>
+                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/5f6ca92f-6c56-4e5f-bf6d-1e09a85e1cf0/">
+                                    <rdfs:label xml:lang="en">Corners (The National Archives, E 36/2)</rdfs:label>
+                                    <crm:P2_has_type>
+                                       <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/24abd768d0-5b65-4f84-8975-86d1bc3e3ddb">
+                                          <rdfs:label xml:lang="en">corners</rdfs:label>
+                                       </crm:E55_Type>
+                                    </crm:P2_has_type>
+                                 </crm:E53_Place>
+                              </crm:P8_took_place_on_or_within>
+                              <crm:P9i_forms_part_of>
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/176d7c9b-897b-4836-ac00-f73546d9d961/">
+                                    <rdfs:label xml:lang="en">Main conservation event (The National Archives, E 36/2)</rdfs:label>
+                                 </crm:E11_Modification>
+                              </crm:P9i_forms_part_of>
+                           </crm:E11_Modification>
+                        </crm:P31i_was_modified_by>
+                        <crm:P31i_was_modified_by>
+                           <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/507517d5-9e56-4db3-b05a-93f5a7aba5a7/">
+                              <rdfs:label xml:lang="en">Modification of The National Archives, E 36/2</rdfs:label>
+                              <crm:P32_used_general_technique>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/ff33cb5a-f817-4786-b77e-d33964d05028">
+                                    <rdfs:label xml:lang="en">leather dressed</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P32_used_general_technique>
+                              <crm:P9i_forms_part_of>
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/176d7c9b-897b-4836-ac00-f73546d9d961/">
+                                    <rdfs:label xml:lang="en">Main conservation event (The National Archives, E 36/2)</rdfs:label>
+                                 </crm:E11_Modification>
+                              </crm:P9i_forms_part_of>
+                           </crm:E11_Modification>
+                        </crm:P31i_was_modified_by>
+                        <crm:P31i_was_modified_by>
+                           <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/cd562bf4-87bc-4eda-93c1-1ce3857ce130/">
+                              <rdfs:label xml:lang="en">Modification of The National Archives, E 36/2</rdfs:label>
+                              <crm:P9i_forms_part_of>
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/176d7c9b-897b-4836-ac00-f73546d9d961/">
+                                    <rdfs:label xml:lang="en">Main conservation event (The National Archives, E 36/2)</rdfs:label>
+                                 </crm:E11_Modification>
+                              </crm:P9i_forms_part_of>
+                           </crm:E11_Modification>
+                        </crm:P31i_was_modified_by>
+                        <crm:P31i_was_modified_by>
+                           <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/d8e4b2b3-fca4-429c-8cc9-ff6a3e20a786/">
+                              <rdfs:label xml:lang="en">Modification of The National Archives, E 36/2</rdfs:label>
+                              <crm:P32_used_general_technique>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/964c130d-145a-475f-87aa-44fcb32c6145">
+                                    <rdfs:label xml:lang="en">paste wash</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P32_used_general_technique>
+                              <crm:P126_employed>
+                                 <crm:E57_Material rdf:about="http://w3id.org/tna-vocab/6e9b5b98-29c2-4b53-aa08-06d8807726e4">
+                                    <rdfs:label xml:lang="en">paste</rdfs:label>
+                                 </crm:E57_Material>
+                              </crm:P126_employed>
+                              <crm:P9i_forms_part_of>
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/176d7c9b-897b-4836-ac00-f73546d9d961/">
+                                    <rdfs:label xml:lang="en">Main conservation event (The National Archives, E 36/2)</rdfs:label>
+                                 </crm:E11_Modification>
+                              </crm:P9i_forms_part_of>
+                           </crm:E11_Modification>
+                        </crm:P31i_was_modified_by>
+                        <crm:P59_has_section>
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/c9d89f9d-665c-49b9-8249-d662247b81e8/">
+                              <rdfs:label xml:lang="en">Corners (The National Archives, E 36/2)</rdfs:label>
+                              <crm:P2_has_type>
+                                 <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/24abd768d0-5b65-4f84-8975-86d1bc3e3ddb">
+                                    <rdfs:label xml:lang="en">corners</rdfs:label>
+                                 </crm:E55_Type>
+                              </crm:P2_has_type>
+                           </crm:E53_Place>
+                        </crm:P59_has_section>
+                     </crm:E22_Man-Made_Object>
+                  </crm:P46_is_composed_of>
+                  <crm:P59_has_section>
+                     <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/fc059d80-91c0-4b22-9a2c-f030da941d87#leftPlace">
+                        <rdfs:label xml:lang="en">Left (The National Archives, E 36/2)</rdfs:label>
+                        <crm:P2_has_type>
+                           <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/f437bcbc-d609-4198-865e-c24703abbd99">
+                              <rdfs:label xml:lang="en">left</rdfs:label>
+                           </crm:E55_Type>
+                        </crm:P2_has_type>
+                     </crm:E53_Place>
+                  </crm:P59_has_section>
+                  <crm:P59_has_section>
+                     <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/fc059d80-91c0-4b22-9a2c-f030da941d87#rightPlace">
+                        <rdfs:label xml:lang="en">Right (The National Archives, E 36/2)</rdfs:label>
+                        <crm:P2_has_type>
+                           <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/f31f4a93-7472-44d8-960c-59b8a9cd9dad">
+                              <rdfs:label xml:lang="en">right</rdfs:label>
+                           </crm:E55_Type>
+                        </crm:P2_has_type>
+                     </crm:E53_Place>
+                  </crm:P59_has_section>
+                  <crm:P31i_was_modified_by>
+                     <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/176d7c9b-897b-4836-ac00-f73546d9d961/">
+                        <rdfs:label xml:lang="en">Main conservation event (The National Archives, E 36/2)</rdfs:label>
+                        <crm:P2_has_type>
+                           <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/da79539a-01e4-416b-95b7-382589c73a6b">
+                              <rdfs:label xml:lang="en">conservation (process)</rdfs:label>
+                           </crm:E55_Type>
+                        </crm:P2_has_type>
+                        <crm:P4_has_time-span>
+                           <crm:E52_Time-Span rdf:about="http://www.ligatus.org.uk/lcd/9c7d5e6e-3a31-401f-8bf4-70d69bfa7258/">
+                              <rdfs:label xml:lang="en">Conservation treatment date (The National Archives, E 36/2)</rdfs:label>
+                              <crm:P86_falls_whitin>
+                                 <crm:E52_Time-Span rdf:about="http://www.ligatus.org.uk/lcd/b3599f95-5910-44ab-b3d8-fa2a0dc7ef79/">
+                                    <rdfs:label xml:lang="en">Conservation treatment decade (The National Archives, E 36/2)</rdfs:label>
+                                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1999-12-31T23:59:59</crm:P82b_end_of_the_end>
+                                 </crm:E52_Time-Span>
+                              </crm:P86_falls_whitin>
+                           </crm:E52_Time-Span>
+                        </crm:P4_has_time-span>
+                        <crm:P126_employed>
+                           <crm:E57_Material rdf:about="http://w3id.org/tna-vocab/c72f51a8-8911-4056-b71c-dc83792ff63a">
+                              <rdfs:label xml:lang="en">Leather - calf</rdfs:label>
+                           </crm:E57_Material>
+                        </crm:P126_employed>
+                        <crm:P126_employed>
+                           <crm:E57_Material rdf:about="http://w3id.org/tna-vocab/1c607ecb-68ef-4a0d-bb9a-678009340651">
+                              <rdfs:label xml:lang="en">Archival rag endleaf</rdfs:label>
+                           </crm:E57_Material>
+                        </crm:P126_employed>
+                        <crm:P126_employed>
+                           <crm:E57_Material rdf:about="http://w3id.org/tna-vocab/b1d6c3f2-c2f1-4c48-988a-ffbe4c5e00bd">
+                              <rdfs:label xml:lang="en">Fraynot cloth</rdfs:label>
+                           </crm:E57_Material>
+                        </crm:P126_employed>
+                        <crm:P126_employed>
+                           <crm:E57_Material rdf:about="http://w3id.org/tna-vocab/c0778ba5-3db6-4eb8-8e43-57af361fbe13">
+                              <rdfs:label xml:lang="en">Buckram</rdfs:label>
+                           </crm:E57_Material>
+                        </crm:P126_employed>
+                        <crm:P126_employed>
+                           <crm:E57_Material rdf:about="http://w3id.org/tna-vocab/6088c975-f622-4720-b235-9f72037762bd">
+                              <rdfs:label xml:lang="en">Animal glue</rdfs:label>
+                           </crm:E57_Material>
+                        </crm:P126_employed>
+                        <crm:P126_employed>
+                           <crm:E57_Material rdf:about="http://w3id.org/tna-vocab/38b2689c-0a08-4004-bb93-f204f47a3fc3">
+                              <rdfs:label xml:lang="en">PVA</rdfs:label>
+                           </crm:E57_Material>
+                        </crm:P126_employed>
+                        <crm:P126_employed>
+                           <crm:E57_Material rdf:about="http://w3id.org/tna-vocab/4fea25bd-7e38-45f5-86e4-8408f8e9ea58">
+                              <rdfs:label xml:lang="en">Shoufu</rdfs:label>
+                           </crm:E57_Material>
+                        </crm:P126_employed>
+                        <crm:P126_employed>
+                           <crm:E57_Material rdf:about="http://w3id.org/tna-vocab/2e2dd862-2091-42da-a7b9-60ae6b218492">
+                              <rdfs:label xml:lang="en">Anhydrous lanolin</rdfs:label>
+                           </crm:E57_Material>
+                        </crm:P126_employed>
+                        <crm:P126_employed>
+                           <crm:E57_Material rdf:about="http://w3id.org/tna-vocab/fad82280-dfc3-47a8-b249-0195d9b3d3f4">
+                              <rdfs:label xml:lang="en">Beeswax</rdfs:label>
+                           </crm:E57_Material>
+                        </crm:P126_employed>
+                        <crm:P126_employed>
+                           <crm:E57_Material rdf:about="http://w3id.org/tna-vocab/556a373f-6409-4088-bdc3-b61a05bbb498">
+                              <rdfs:label xml:lang="en">Neatsfoot</rdfs:label>
+                           </crm:E57_Material>
+                        </crm:P126_employed>
+                     </crm:E11_Modification>
+                  </crm:P31i_was_modified_by>
+               </crm:E22_Man-Made_Object>
+            </crm:P140_assigned_attribute_to>
+            <crm:P2_has_type>
+               <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/63829106-eb9c-4f44-923a-0a0c321b6783">
+                  <rdfs:label xml:lang="en">description</rdfs:label>
+               </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P14_carried_out_by>
+               <crm:E39_Actor rdf:about="http://www.ligatus.org.uk/lcd/e9bed93f-a6e5-4ad0-85eb-6dab69e4b99b/">
+                  <rdfs:label xml:lang="en">Conservator</rdfs:label>
+                  <crm:P14.1_in_the_role_of>
+                     <crm:E55_Type rdf:about="http://w3id.org/tna-vocab/4f3deb49-37b7-4490-a34b-4b190751241c">
+                        <rdfs:label xml:lang="en">conservators (people in conservation)</rdfs:label>
+                     </crm:E55_Type>
+                  </crm:P14.1_in_the_role_of>
+               </crm:E39_Actor>
+            </crm:P14_carried_out_by>
+         </crm:E13_Attribute_Assignment>
+      </crm:P70_documents>
+   </crm:E31_Document>
+</rdf:RDF>

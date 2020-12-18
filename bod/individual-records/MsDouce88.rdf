@@ -7,29 +7,29 @@
          xmlns:aat="http://vocab.getty.edu/aat/"
          xmlns:dbp="http://dbpedia.org/resource/"
          xml:base="http://www.ligatus.org.uk/lcd">
-   <crm:E31_Document rdf:about="http://www.ligatus.org.uk/lcd/a7b58f8f-34a5-4c62-b216-09c0d02ffe6e/">
+   <crm:E31_Document rdf:about="http://www.ligatus.org.uk/lcd/0e3fe7b8-6a12-48bd-a81f-01ae1095dfdd/">
       <rdfs:label xml:lang="en">Conservation Report (Bodleian, Ms.Douce.88)</rdfs:label>
       <crm:P70_documents>
-         <crm:E13_Attribute_Assignment rdf:about="http://www.ligatus.org.uk/lcd/34cefc6b-66e8-479e-a2d6-46075fd0241f/">
+         <crm:E13_Attribute_Assignment rdf:about="http://www.ligatus.org.uk/lcd/5dd5f004-6c87-4335-987d-3201ece5d8b8/">
             <rdfs:label xml:lang="en">Conservation assessment (Bodleian, Ms.Douce.88)</rdfs:label>
             <crm:P140_assigned_attribute_to>
-               <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/a74c11f7-b34c-4584-acd7-95010d6fa032/">
+               <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/161022cd-8b96-42a4-adde-86caab6f9b96/">
                   <rdfs:label xml:lang="en">Book (Bodleian, Ms.Douce.88)</rdfs:label>
                   <crm:P2_has_type>
-                     <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300224200">
-                        <rdfs:label xml:lang="en">codices (bound manuscripts)</rdfs:label>
+                     <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/de5cfb3f-b98c-4426-a0d5-083c7e8b02b4">
+                        <rdfs:label xml:lang="en">books</rdfs:label>
                      </crm:E55_Type>
                   </crm:P2_has_type>
                   <crm:P2_has_type>
-                     <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/0b53aea3-e769-4d0c-8f08-2f17a993f0c8">
+                     <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/0b53aea3-e769-4d0c-8f08-2f17a993f0c8">
                         <rdfs:label xml:lang="en">hollowBack</rdfs:label>
                      </crm:E55_Type>
                   </crm:P2_has_type>
                   <crm:P1_is_identified_by>
-                     <crm:E42_Identifier rdf:about="http://www.ligatus.org.uk/lcd/a5b42966-f4f0-4c02-a454-387604d44850/">
+                     <crm:E42_Identifier rdf:about="http://www.ligatus.org.uk/lcd/21e4c973-ade4-4e0b-8d5f-5403c9f3980c/">
                         <rdfs:label xml:lang="en">Shelfmark (Bodleian, Ms.Douce.88)</rdfs:label>
                         <crm:P2_has_type>
-                           <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3437">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/528dd75e-1afa-4acd-a347-74abb52eb383">
                               <rdfs:label xml:lang="en">shelfmarks</rdfs:label>
                            </crm:E55_Type>
                         </crm:P2_has_type>
@@ -37,17 +37,17 @@
                      </crm:E42_Identifier>
                   </crm:P1_is_identified_by>
                   <crm:P108i_was_produced_by>
-                     <crm:E12_Production rdf:about="http://www.ligatus.org.uk/lcd/7fb28a93-42ee-445f-ae81-1b7bfffdbe25">
+                     <crm:E12_Production rdf:about="http://www.ligatus.org.uk/lcd/aefdeed2-6e11-4395-ab84-31b510dae5b3">
                         <rdfs:label xml:lang="en">Bookbinding (Bodleian, Ms.Douce.88)</rdfs:label>
                         <crm:P4_has_time-span>
-                           <crm:E52_Time-Span rdf:about="http://www.ligatus.org.uk/lcd/c816eb9f-2245-451c-99d2-89823750f478/">
+                           <crm:E52_Time-Span rdf:about="http://www.ligatus.org.uk/lcd/9f6feaa3-9021-4105-a9e3-bbbacd4145a9/">
                               <rdfs:label xml:lang="en">Bookbinding dating (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1801-01-01T00:00:00</crm:P82a_begin_of_the_begin>
                               <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1900-12-31T23:59:59</crm:P82b_end_of_the_end>
                            </crm:E52_Time-Span>
                         </crm:P4_has_time-span>
                         <crm:P32_used_general_technique>
-                           <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300053592">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/632ac2b0-0c63-46d1-a5ac-7fd0170c346c">
                               <rdfs:label xml:lang="en">bookbinding (process)</rdfs:label>
                            </crm:E55_Type>
                         </crm:P32_used_general_technique>
@@ -70,36 +70,36 @@
                      </crm:E40_Legal_Body>
                   </crm:P50_has_current_keeper>
                   <crm:P31i_was_modified_by>
-                     <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/b7d75688-a27f-42fb-bab4-552ee7746de9/">
+                     <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/f9e00e18-405b-4194-b894-dbf75970f89b/">
                         <rdfs:label xml:lang="en">Previous repair (Bodleian, Ms.Douce.88)</rdfs:label>
                         <crm:P183_ends_before_the_start_of>
-                           <crm:E13_Attribute_Assignment rdf:about="http://www.ligatus.org.uk/lcd/34cefc6b-66e8-479e-a2d6-46075fd0241f/">
+                           <crm:E13_Attribute_Assignment rdf:about="http://www.ligatus.org.uk/lcd/5dd5f004-6c87-4335-987d-3201ece5d8b8/">
                               <rdfs:label xml:lang="en">Conservation assessment (Bodleian, Ms.Douce.88)</rdfs:label>
                            </crm:E13_Attribute_Assignment>
                         </crm:P183_ends_before_the_start_of>
                      </crm:E11_Modification>
                   </crm:P31i_was_modified_by>
                   <crm:P46_is_composed_of>
-                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/225dae25-2b12-4599-b0f9-890a3e76e766/">
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/86cceebb-4fd4-48b4-8187-4484a97be826/">
                         <rdfs:label xml:lang="en">Bookblock (Bodleian, Ms.Douce.88)</rdfs:label>
                         <crm:P2_has_type>
-                           <crm:E55_Type rdf:about="http://w3id.org/lob/concept/1227">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/a3fd1b01-9245-4309-9a4c-4083e2973936">
                               <rdfs:label xml:lang="en">bookblocks</rdfs:label>
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P46_is_composed_of>
-                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/7f5c7dd0-5f46-4432-bd77-6ff95742636d/">
+                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/efa6f166-731b-4ba5-be31-7536280ea7c2/">
                               <rdfs:label xml:lang="en">Textblock (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/lob/concept/1663">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/62c6d683-6b02-490c-b471-9b3bb84e9d40">
                                     <rdfs:label xml:lang="en">textblocks</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                               <crm:P108i_was_produced_by>
-                                 <crm:E12_Production rdf:about="http://www.ligatus.org.uk/lcd/9ca9217c-ec3d-4eea-a0c4-d1742e403675">
+                                 <crm:E12_Production rdf:about="http://www.ligatus.org.uk/lcd/e8b48e2f-b39b-4894-b452-0c528f6505f4">
                                     <rdfs:label xml:lang="en">Textblock production (Bodleian, Ms.Douce.88)</rdfs:label>
                                     <crm:P4_has_time-span>
-                                       <crm:E52_Time-Span rdf:about="http://www.ligatus.org.uk/lcd/456a7ac0-8384-44f1-a57e-3a438c438b41/">
+                                       <crm:E52_Time-Span rdf:about="http://www.ligatus.org.uk/lcd/768acec1-b0fd-4875-97cb-d99f03c2e6a0/">
                                           <rdfs:label xml:lang="en">Printing or Production date (Bodleian, Ms.Douce.88)</rdfs:label>
                                        </crm:E52_Time-Span>
                                     </crm:P4_has_time-span>
@@ -108,48 +108,48 @@
                            </crm:E22_Man-Made_Object>
                         </crm:P46_is_composed_of>
                         <crm:P46_is_composed_of>
-                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/b84245ed-5a4f-4c91-b276-b3415ddcdb24/">
+                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/550686f3-7d4d-47bd-849d-c3dee164e468/">
                               <rdfs:label xml:lang="en">Left endleaves (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/2012c0b0-1ce1-4afb-9c1f-8ad633a51021">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/2012c0b0-1ce1-4afb-9c1f-8ad633a51021">
                                     <rdfs:label xml:lang="en">endleaves</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                               <crm:P55_has_current_location>
-                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/225dae25-2b12-4599-b0f9-890a3e76e766#leftPlace">
+                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/86cceebb-4fd4-48b4-8187-4484a97be826#leftPlace">
                                     <rdfs:label xml:lang="en">Left (Bodleian, Ms.Douce.88)</rdfs:label>
                                     <crm:P2_has_type>
-                                       <crm:E55_Type rdf:about="http://w3id.org/lob/concept/2947">
+                                       <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/543cc45e-c8b4-4a45-b7f3-8bdbeeafbb2c">
                                           <rdfs:label xml:lang="en">left</rdfs:label>
                                        </crm:E55_Type>
                                     </crm:P2_has_type>
                                  </crm:E53_Place>
                               </crm:P55_has_current_location>
                               <crm:P31i_was_modified_by>
-                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/5343afae-f81a-404b-a844-5984d680d121/">
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/5aec8219-ec42-4741-b4a6-e65ed8c1d1b6/">
                                     <rdfs:label xml:lang="en">Modification of Bodleian, Ms.Douce.88</rdfs:label>
                                     <crm:P126_employed>
-                                       <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/40c3b79d-7315-4392-a294-b53b83da1b66">
+                                       <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/40c3b79d-7315-4392-a294-b53b83da1b66">
                                           <rdfs:label xml:lang="en">Japanese paper (handmade paper)</rdfs:label>
                                        </crm:E57_Material>
                                     </crm:P126_employed>
                                     <crm:P126_employed>
-                                       <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/d4cb1e41-dd40-4c86-a8e0-d11a49575573">
+                                       <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/d4cb1e41-dd40-4c86-a8e0-d11a49575573">
                                           <rdfs:label xml:lang="en">toned</rdfs:label>
                                        </crm:E57_Material>
                                     </crm:P126_employed>
                                     <crm:P8_took_place_on_or_within>
-                                       <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/99b63a1e-f175-4303-9e43-93a491b47775/">
+                                       <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/7549e43d-6403-4b63-804a-9cf32d2ca679/">
                                           <rdfs:label xml:lang="en">Inner joints (Bodleian, Ms.Douce.88)</rdfs:label>
                                           <crm:P2_has_type>
-                                             <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/3226a532-01ba-40a9-bb76-bc952e3ff76e">
+                                             <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/3226a532-01ba-40a9-bb76-bc952e3ff76e">
                                                 <rdfs:label xml:lang="en">inner joints</rdfs:label>
                                              </crm:E55_Type>
                                           </crm:P2_has_type>
                                        </crm:E53_Place>
                                     </crm:P8_took_place_on_or_within>
                                     <crm:P9i_forms_part_of>
-                                       <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/ba5982e5-1199-4b8c-a811-760964ef0d03/">
+                                       <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/466a6786-3230-414b-9bdf-e67dc2b73bab/">
                                           <rdfs:label xml:lang="en">Main conservation event (Bodleian, Ms.Douce.88)</rdfs:label>
                                        </crm:E11_Modification>
                                     </crm:P9i_forms_part_of>
@@ -158,48 +158,48 @@
                            </crm:E22_Man-Made_Object>
                         </crm:P46_is_composed_of>
                         <crm:P46_is_composed_of>
-                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/0623ade8-0e8c-4522-b294-48dcd7060a60/">
+                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/1d82822a-ff65-4780-9e4b-cef4e05384b3/">
                               <rdfs:label xml:lang="en">Right endleaves (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/2012c0b0-1ce1-4afb-9c1f-8ad633a51021">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/2012c0b0-1ce1-4afb-9c1f-8ad633a51021">
                                     <rdfs:label xml:lang="en">endleaves</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                               <crm:P55_has_current_location>
-                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/225dae25-2b12-4599-b0f9-890a3e76e766#rightPlace">
+                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/86cceebb-4fd4-48b4-8187-4484a97be826#rightPlace">
                                     <rdfs:label xml:lang="en">Right (Bodleian, Ms.Douce.88)</rdfs:label>
                                     <crm:P2_has_type>
-                                       <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3004">
+                                       <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/66080d12-89e2-4937-bf08-cc9dcc038380">
                                           <rdfs:label xml:lang="en">right</rdfs:label>
                                        </crm:E55_Type>
                                     </crm:P2_has_type>
                                  </crm:E53_Place>
                               </crm:P55_has_current_location>
                               <crm:P31i_was_modified_by>
-                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/4cdd526b-97d3-42b8-9056-13499b86d839/">
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/2399dec2-7b84-474b-a020-4bbef8914ac6/">
                                     <rdfs:label xml:lang="en">Modification of Bodleian, Ms.Douce.88</rdfs:label>
                                     <crm:P126_employed>
-                                       <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/40c3b79d-7315-4392-a294-b53b83da1b66">
+                                       <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/40c3b79d-7315-4392-a294-b53b83da1b66">
                                           <rdfs:label xml:lang="en">Japanese paper (handmade paper)</rdfs:label>
                                        </crm:E57_Material>
                                     </crm:P126_employed>
                                     <crm:P126_employed>
-                                       <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/d4cb1e41-dd40-4c86-a8e0-d11a49575573">
+                                       <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/d4cb1e41-dd40-4c86-a8e0-d11a49575573">
                                           <rdfs:label xml:lang="en">toned</rdfs:label>
                                        </crm:E57_Material>
                                     </crm:P126_employed>
                                     <crm:P8_took_place_on_or_within>
-                                       <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/4e1d8e26-92b9-4fe1-a74e-019088aa8d98/">
+                                       <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/5afaadf3-d693-4c34-a014-33d5021849a6/">
                                           <rdfs:label xml:lang="en">Inner joints (Bodleian, Ms.Douce.88)</rdfs:label>
                                           <crm:P2_has_type>
-                                             <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/3226a532-01ba-40a9-bb76-bc952e3ff76e">
+                                             <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/3226a532-01ba-40a9-bb76-bc952e3ff76e">
                                                 <rdfs:label xml:lang="en">inner joints</rdfs:label>
                                              </crm:E55_Type>
                                           </crm:P2_has_type>
                                        </crm:E53_Place>
                                     </crm:P8_took_place_on_or_within>
                                     <crm:P9i_forms_part_of>
-                                       <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/ba5982e5-1199-4b8c-a811-760964ef0d03/">
+                                       <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/466a6786-3230-414b-9bdf-e67dc2b73bab/">
                                           <rdfs:label xml:lang="en">Main conservation event (Bodleian, Ms.Douce.88)</rdfs:label>
                                        </crm:E11_Modification>
                                     </crm:P9i_forms_part_of>
@@ -208,38 +208,38 @@
                            </crm:E22_Man-Made_Object>
                         </crm:P46_is_composed_of>
                         <crm:P56_bears_feature>
-                           <crm:E25_Man-Made_Feature rdf:about="http://www.ligatus.org.uk/lcd/fbcd0309-54e6-4d05-9f86-6ecf34afbac1/">
+                           <crm:E25_Man-Made_Feature rdf:about="http://www.ligatus.org.uk/lcd/d7788c66-38a4-4320-a337-eaa36c3d3b08/">
                               <rdfs:label xml:lang="en">Bookblock spine (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/lob/concept/2352">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/aaf9cd01-1ba5-4004-87cc-42ad4fd920fb">
                                     <rdfs:label xml:lang="en">spine (bookblocks)</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                            </crm:E25_Man-Made_Feature>
                         </crm:P56_bears_feature>
                         <crm:P46_is_composed_of>
-                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/ed3d646d-aa41-4bb7-8f17-df5893c97af0/">
+                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/cc3884e2-037c-46ae-8c66-f05f08025264/">
                               <rdfs:label xml:lang="en">Adhesive layer, spine (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type><!--NB: this type is looked for in the terminology file-->
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/8fa3b487-b69a-40af-990a-9c71d654cc32">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/8fa3b487-b69a-40af-990a-9c71d654cc32">
                                     <rdfs:label xml:lang="en">adhesive layer</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                               <crm:P55_has_current_location>
-                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/225dae25-2b12-4599-b0f9-890a3e76e766#spinePlace">
+                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/86cceebb-4fd4-48b4-8187-4484a97be826#spinePlace">
                                     <rdfs:label xml:lang="en">Spine (place) (Bodleian, Ms.Douce.88)</rdfs:label>
                                     <crm:P2_has_type>
-                                       <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3810">
-                                          <rdfs:label xml:lang="en">spine (place)</rdfs:label>
+                                       <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/7af9029c-12c0-417a-97c6-2be51ae94ded">
+                                          <rdfs:label xml:lang="en">spine</rdfs:label>
                                        </crm:E55_Type>
                                     </crm:P2_has_type>
                                  </crm:E53_Place>
                               </crm:P55_has_current_location>
                               <crm:P113i_was_removed_by>
-                                 <crm:E80_Part_Removal rdf:about="http://www.ligatus.org.uk/lcd/41945b2b-4c5e-4eb6-b4c0-c828e52a7912/">
+                                 <crm:E80_Part_Removal rdf:about="http://www.ligatus.org.uk/lcd/d4e77c19-e44c-4b54-bd6f-d97c59eeb80e/">
                                     <rdfs:label xml:lang="en">Removal from Bodleian, Ms.Douce.88</rdfs:label>
                                     <crm:P9i_forms_part_of>
-                                       <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/ba5982e5-1199-4b8c-a811-760964ef0d03/">
+                                       <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/466a6786-3230-414b-9bdf-e67dc2b73bab/">
                                           <rdfs:label xml:lang="en">Main conservation event (Bodleian, Ms.Douce.88)</rdfs:label>
                                        </crm:E11_Modification>
                                     </crm:P9i_forms_part_of>
@@ -248,50 +248,50 @@
                            </crm:E22_Man-Made_Object>
                         </crm:P46_is_composed_of>
                         <crm:P59_has_section>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/225dae25-2b12-4599-b0f9-890a3e76e766#spinePlace">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/86cceebb-4fd4-48b4-8187-4484a97be826#spinePlace">
                               <rdfs:label xml:lang="en">Spine (place) (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3810">
-                                    <rdfs:label xml:lang="en">spine (place)</rdfs:label>
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/7af9029c-12c0-417a-97c6-2be51ae94ded">
+                                    <rdfs:label xml:lang="en">spine</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                            </crm:E53_Place>
                         </crm:P59_has_section>
                         <crm:P59_has_section>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/225dae25-2b12-4599-b0f9-890a3e76e766#headPlace">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/86cceebb-4fd4-48b4-8187-4484a97be826#headPlace">
                               <rdfs:label xml:lang="en">Head (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3803">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/4580c550-2663-4b8e-9eb6-bfd0c7242790">
                                     <rdfs:label xml:lang="en">head</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                            </crm:E53_Place>
                         </crm:P59_has_section>
                         <crm:P59_has_section>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/225dae25-2b12-4599-b0f9-890a3e76e766#tailPlace">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/86cceebb-4fd4-48b4-8187-4484a97be826#tailPlace">
                               <rdfs:label xml:lang="en">Tail (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3805">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/6328164f-98e0-4fe2-b027-957a0cb087c3">
                                     <rdfs:label xml:lang="en">tail</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                            </crm:E53_Place>
                         </crm:P59_has_section>
                         <crm:P59_has_section>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/225dae25-2b12-4599-b0f9-890a3e76e766#leftPlace">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/86cceebb-4fd4-48b4-8187-4484a97be826#leftPlace">
                               <rdfs:label xml:lang="en">Left (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/lob/concept/2947">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/543cc45e-c8b4-4a45-b7f3-8bdbeeafbb2c">
                                     <rdfs:label xml:lang="en">left</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                            </crm:E53_Place>
                         </crm:P59_has_section>
                         <crm:P59_has_section>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/225dae25-2b12-4599-b0f9-890a3e76e766#rightPlace">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/86cceebb-4fd4-48b4-8187-4484a97be826#rightPlace">
                               <rdfs:label xml:lang="en">Right (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3004">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/66080d12-89e2-4937-bf08-cc9dcc038380">
                                     <rdfs:label xml:lang="en">right</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
@@ -300,68 +300,68 @@
                      </crm:E22_Man-Made_Object>
                   </crm:P46_is_composed_of>
                   <crm:P46_is_composed_of>
-                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/8f3d748e-cd47-4d8b-9db8-89f40ddc6720/">
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/b6d10a0b-bc39-48fa-b9f0-6146f4d4870c/">
                         <rdfs:label xml:lang="en">Left board (Bodleian, Ms.Douce.88)</rdfs:label>
                         <crm:P2_has_type>
-                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/47f578d1-b3aa-4449-a5f2-4e4d2088c1cd">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/47f578d1-b3aa-4449-a5f2-4e4d2088c1cd">
                               <rdfs:label xml:lang="en">boards</rdfs:label>
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P55_has_current_location>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/a74c11f7-b34c-4584-acd7-95010d6fa032#leftPlace">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/161022cd-8b96-42a4-adde-86caab6f9b96#leftPlace">
                               <rdfs:label xml:lang="en">Left (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/lob/concept/2947">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/543cc45e-c8b4-4a45-b7f3-8bdbeeafbb2c">
                                     <rdfs:label xml:lang="en">left</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                            </crm:E53_Place>
                         </crm:P55_has_current_location>
                         <crm:P44_has_condition>
-                           <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/45791262-135d-40f4-9c32-8ebf801f6f87/">
+                           <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/2eb55100-722d-4d25-a316-8fb49a4b5b0b/">
                               <rdfs:label xml:lang="en">Detached (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/e9e57eb2-5ac2-4506-90a5-b13b160aeb85">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/e9e57eb2-5ac2-4506-90a5-b13b160aeb85">
                                     <rdfs:label xml:lang="en">detached</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                            </crm:E3_Condition_State>
                         </crm:P44_has_condition>
                         <crm:P31i_was_modified_by>
-                           <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/ce824d98-1393-4cc9-a7ae-da92e40b78ed/">
+                           <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/d54c595f-5105-4fea-8a8c-ff8aaeebda92/">
                               <rdfs:label xml:lang="en">Modification of Bodleian, Ms.Douce.88</rdfs:label>
                               <crm:P32_used_general_technique>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/f4d55db1-b5c0-45ae-aaa0-6d3f0b50b8e7">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/f4d55db1-b5c0-45ae-aaa0-6d3f0b50b8e7">
                                     <rdfs:label xml:lang="en">slotting</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P32_used_general_technique>
                               <crm:P9i_forms_part_of>
-                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/ba5982e5-1199-4b8c-a811-760964ef0d03/">
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/466a6786-3230-414b-9bdf-e67dc2b73bab/">
                                     <rdfs:label xml:lang="en">Main conservation event (Bodleian, Ms.Douce.88)</rdfs:label>
                                  </crm:E11_Modification>
                               </crm:P9i_forms_part_of>
                            </crm:E11_Modification>
                         </crm:P31i_was_modified_by>
                         <crm:P31i_was_modified_by>
-                           <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/61c0d67f-4ba1-4697-8218-e17493ec3cc1/">
+                           <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/4e66e5b4-ae63-46d1-9046-8bd91908d8d8/">
                               <rdfs:label xml:lang="en">Modification of Bodleian, Ms.Douce.88</rdfs:label>
                               <crm:P32_used_general_technique>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/1dde836d-4f06-4d04-8843-f30651e74b05">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/1dde836d-4f06-4d04-8843-f30651e74b05">
                                     <rdfs:label xml:lang="en">pasting</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P32_used_general_technique>
                               <crm:P8_took_place_on_or_within>
-                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/612ba1ff-d420-4803-a767-81c31891c7a7/">
+                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/5286d505-7e6e-4b02-a45f-586f96eeaca9/">
                                     <rdfs:label xml:lang="en">Slot (board slotting) (Bodleian, Ms.Douce.88)</rdfs:label>
                                     <crm:P2_has_type>
-                                       <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/166cb83a-7b02-4956-a267-dfb140a4bf26">
+                                       <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/166cb83a-7b02-4956-a267-dfb140a4bf26">
                                           <rdfs:label xml:lang="en">slot (board slotting)</rdfs:label>
                                        </crm:E55_Type>
                                     </crm:P2_has_type>
                                  </crm:E53_Place>
                               </crm:P8_took_place_on_or_within>
                               <crm:P9i_forms_part_of>
-                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/ba5982e5-1199-4b8c-a811-760964ef0d03/">
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/466a6786-3230-414b-9bdf-e67dc2b73bab/">
                                     <rdfs:label xml:lang="en">Main conservation event (Bodleian, Ms.Douce.88)</rdfs:label>
                                  </crm:E11_Modification>
                               </crm:P9i_forms_part_of>
@@ -370,68 +370,68 @@
                      </crm:E22_Man-Made_Object>
                   </crm:P46_is_composed_of>
                   <crm:P46_is_composed_of>
-                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/189b8264-0014-4af7-87d6-9ced37a45a6c/">
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/5a684bf1-fe72-4560-8eee-e9b053a00795/">
                         <rdfs:label xml:lang="en">Right board (Bodleian, Ms.Douce.88)</rdfs:label>
                         <crm:P2_has_type>
-                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/47f578d1-b3aa-4449-a5f2-4e4d2088c1cd">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/47f578d1-b3aa-4449-a5f2-4e4d2088c1cd">
                               <rdfs:label xml:lang="en">boards</rdfs:label>
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P55_has_current_location>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/a74c11f7-b34c-4584-acd7-95010d6fa032#rightPlace">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/161022cd-8b96-42a4-adde-86caab6f9b96#rightPlace">
                               <rdfs:label xml:lang="en">Right (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3004">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/66080d12-89e2-4937-bf08-cc9dcc038380">
                                     <rdfs:label xml:lang="en">right</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                            </crm:E53_Place>
                         </crm:P55_has_current_location>
                         <crm:P44_has_condition>
-                           <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/4584fc95-cf69-4afe-b994-f4cb04f71e7e/">
+                           <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/100279e6-3dc0-4650-be54-7ca4daa6f3e9/">
                               <rdfs:label xml:lang="en">Detached (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/e9e57eb2-5ac2-4506-90a5-b13b160aeb85">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/e9e57eb2-5ac2-4506-90a5-b13b160aeb85">
                                     <rdfs:label xml:lang="en">detached</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                            </crm:E3_Condition_State>
                         </crm:P44_has_condition>
                         <crm:P31i_was_modified_by>
-                           <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/a1ce77d1-05c9-4d27-afa8-68ddfa2557b9/">
+                           <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/eaaa072d-4722-429c-8841-d3b10c00c868/">
                               <rdfs:label xml:lang="en">Modification of Bodleian, Ms.Douce.88</rdfs:label>
                               <crm:P32_used_general_technique>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/f4d55db1-b5c0-45ae-aaa0-6d3f0b50b8e7">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/f4d55db1-b5c0-45ae-aaa0-6d3f0b50b8e7">
                                     <rdfs:label xml:lang="en">slotting</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P32_used_general_technique>
                               <crm:P9i_forms_part_of>
-                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/ba5982e5-1199-4b8c-a811-760964ef0d03/">
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/466a6786-3230-414b-9bdf-e67dc2b73bab/">
                                     <rdfs:label xml:lang="en">Main conservation event (Bodleian, Ms.Douce.88)</rdfs:label>
                                  </crm:E11_Modification>
                               </crm:P9i_forms_part_of>
                            </crm:E11_Modification>
                         </crm:P31i_was_modified_by>
                         <crm:P31i_was_modified_by>
-                           <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/435fb368-151a-40e0-9bff-8492b66b6fbe/">
+                           <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/5e19ca63-9a6b-461d-bce7-eba83057a56c/">
                               <rdfs:label xml:lang="en">Modification of Bodleian, Ms.Douce.88</rdfs:label>
                               <crm:P32_used_general_technique>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/1dde836d-4f06-4d04-8843-f30651e74b05">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/1dde836d-4f06-4d04-8843-f30651e74b05">
                                     <rdfs:label xml:lang="en">pasting</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P32_used_general_technique>
                               <crm:P8_took_place_on_or_within>
-                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/39f19864-fa81-4d08-95e7-fd42210e11e0/">
+                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/04063ec5-9f71-45ac-a69a-06b8f941eb39/">
                                     <rdfs:label xml:lang="en">Slot (board slotting) (Bodleian, Ms.Douce.88)</rdfs:label>
                                     <crm:P2_has_type>
-                                       <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/166cb83a-7b02-4956-a267-dfb140a4bf26">
+                                       <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/166cb83a-7b02-4956-a267-dfb140a4bf26">
                                           <rdfs:label xml:lang="en">slot (board slotting)</rdfs:label>
                                        </crm:E55_Type>
                                     </crm:P2_has_type>
                                  </crm:E53_Place>
                               </crm:P8_took_place_on_or_within>
                               <crm:P9i_forms_part_of>
-                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/ba5982e5-1199-4b8c-a811-760964ef0d03/">
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/466a6786-3230-414b-9bdf-e67dc2b73bab/">
                                     <rdfs:label xml:lang="en">Main conservation event (Bodleian, Ms.Douce.88)</rdfs:label>
                                  </crm:E11_Modification>
                               </crm:P9i_forms_part_of>
@@ -440,33 +440,33 @@
                      </crm:E22_Man-Made_Object>
                   </crm:P46_is_composed_of>
                   <crm:P46_is_composed_of>
-                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/970d7419-1cb2-450b-bd1c-58fd91d6bb5b/">
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/8d7c9541-c007-4f40-a55f-eeedd4bce377/">
                         <rdfs:label xml:lang="en">Sewing structure (Bodleian, Ms.Douce.88)</rdfs:label>
                         <crm:P2_has_type>
-                           <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3014">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/9391d5aa-9337-4fd3-a347-821741efeaec">
                               <rdfs:label xml:lang="en">sewn structures</rdfs:label>
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P44_has_condition>
-                           <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/0a734c86-12d3-4f83-9738-6305a677f1f5/">
+                           <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/b431f62f-02f7-48bc-9d88-d2c6e71d3abf/">
                               <rdfs:label xml:lang="en">Splitting (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/bd4067c5-8fb0-437e-b1e2-6e41a16d42cd">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/bd4067c5-8fb0-437e-b1e2-6e41a16d42cd">
                                     <rdfs:label xml:lang="en">splitting</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                            </crm:E3_Condition_State>
                         </crm:P44_has_condition>
                         <crm:P46_is_composed_of>
-                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/e44a145d-101e-49d9-a7de-fe8a9fa38b31-1/">
+                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/e2a8ad82-e5ac-426f-9e2a-396e2f4e17eb-1/">
                               <rdfs:label xml:lang="en">Sewing supports (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/864829d6-1be6-4b6a-8906-f3787e31abcb">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/864829d6-1be6-4b6a-8906-f3787e31abcb">
                                     <rdfs:label xml:lang="en">twisted</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                               <crm:P45_consists_of>
-                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/193388c6-d203-4bfa-be3b-d2838fdbc3e3">
+                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/193388c6-d203-4bfa-be3b-d2838fdbc3e3">
                                     <rdfs:label xml:lang="en">cord</rdfs:label>
                                  </crm:E57_Material>
                               </crm:P45_consists_of>
@@ -475,51 +475,51 @@
                      </crm:E22_Man-Made_Object>
                   </crm:P46_is_composed_of>
                   <crm:P46_is_composed_of>
-                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/1390f1b5-77fb-468e-8242-495be23ab52e/">
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/4cba62ce-db7e-4fb4-b9c7-54e6be4f4ebc/">
                         <rdfs:label xml:lang="en">Spine lining (Bodleian, Ms.Douce.88)</rdfs:label>
                         <crm:P2_has_type><!--NB: this type is looked for in the terminology file-->
-                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/9390e72f-cae7-48e8-939c-696c4028024b">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/9390e72f-cae7-48e8-939c-696c4028024b">
                               <rdfs:label xml:lang="en">spine lining</rdfs:label>
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P45_consists_of>
-                           <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/728e8eb2-7d0e-441d-9d37-c73a9fc7abc6">
+                           <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/728e8eb2-7d0e-441d-9d37-c73a9fc7abc6">
                               <rdfs:label xml:lang="en">machine-made paper</rdfs:label>
                            </crm:E57_Material>
                         </crm:P45_consists_of>
                         <crm:P55_has_current_location>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/225dae25-2b12-4599-b0f9-890a3e76e766#spinePlace">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/86cceebb-4fd4-48b4-8187-4484a97be826#spinePlace">
                               <rdfs:label xml:lang="en">Spine (place) (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3810">
-                                    <rdfs:label xml:lang="en">spine (place)</rdfs:label>
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/7af9029c-12c0-417a-97c6-2be51ae94ded">
+                                    <rdfs:label xml:lang="en">spine</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                            </crm:E53_Place>
                         </crm:P55_has_current_location>
                         <crm:P59_has_section>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/5adb89d7-5dbf-4763-83ea-bb0007141788/">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/21fc6da4-0510-4a54-a237-586f18a58f8e/">
                               <rdfs:label xml:lang="en">Tube hollow-place (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/dce32667-9af1-4b74-ac01-e9e0b5eb6286">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/dce32667-9af1-4b74-ac01-e9e0b5eb6286">
                                     <rdfs:label xml:lang="en">tube hollow</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                            </crm:E53_Place>
                         </crm:P59_has_section>
                         <crm:P46_is_composed_of>
-                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/53d80e19-f513-4c4f-bee2-94804c403bfa/">
+                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/0c9c3bba-8f3b-4eef-b190-c594eccca867/">
                               <rdfs:label xml:lang="en">Tube hollow (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/dce32667-9af1-4b74-ac01-e9e0b5eb6286">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/dce32667-9af1-4b74-ac01-e9e0b5eb6286">
                                     <rdfs:label xml:lang="en">tube hollow</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                               <crm:P44_has_condition>
-                                 <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/28c69862-dce3-45b8-986b-790ec4296968/">
+                                 <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/2b379fbc-d97a-4957-8c84-04d8426b6a27/">
                                     <rdfs:label xml:lang="en">Damaged (Bodleian, Ms.Douce.88)</rdfs:label>
                                     <crm:P2_has_type>
-                                       <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/569b76e1-aa35-4f51-8b01-63089fc4f317">
+                                       <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/569b76e1-aa35-4f51-8b01-63089fc4f317">
                                           <rdfs:label xml:lang="en">damaged</rdfs:label>
                                        </crm:E55_Type>
                                     </crm:P2_has_type>
@@ -528,10 +528,10 @@
                            </crm:E22_Man-Made_Object>
                         </crm:P46_is_composed_of>
                         <crm:P113i_was_removed_by>
-                           <crm:E80_Part_Removal rdf:about="http://www.ligatus.org.uk/lcd/62868e45-3f33-4ce3-91b2-3095f5cf2d45/">
+                           <crm:E80_Part_Removal rdf:about="http://www.ligatus.org.uk/lcd/6be4c600-b1b5-4d44-b049-eb5678a46ba8/">
                               <rdfs:label xml:lang="en">Removal from Bodleian, Ms.Douce.88</rdfs:label>
                               <crm:P9i_forms_part_of>
-                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/ba5982e5-1199-4b8c-a811-760964ef0d03/">
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/466a6786-3230-414b-9bdf-e67dc2b73bab/">
                                     <rdfs:label xml:lang="en">Main conservation event (Bodleian, Ms.Douce.88)</rdfs:label>
                                  </crm:E11_Modification>
                               </crm:P9i_forms_part_of>
@@ -540,50 +540,50 @@
                      </crm:E22_Man-Made_Object>
                   </crm:P46_is_composed_of>
                   <crm:P46_is_composed_of>
-                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/65c5c7bf-96e0-4833-9ee3-474156901e48/">
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/bda3ba0e-438f-4067-b1c6-9dbd38710857/">
                         <rdfs:label xml:lang="en">New spine lining (Bodleian, Ms.Douce.88)</rdfs:label>
                         <crm:P2_has_type>
-                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/9390e72f-cae7-48e8-939c-696c4028024b">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/9390e72f-cae7-48e8-939c-696c4028024b">
                               <rdfs:label xml:lang="en">spine lining</rdfs:label>
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P111i_was_added_by>
-                           <crm:E79_Part_Addition rdf:about="http://www.ligatus.org.uk/lcd/2458dfaf-133a-4fe1-8b49-8a7e564125ca/">
+                           <crm:E79_Part_Addition rdf:about="http://www.ligatus.org.uk/lcd/c8f4d4c7-dcaf-408e-bcfa-89d0720fe50a/">
                               <rdfs:label xml:lang="en">Addition to Bodleian, Ms.Douce.88</rdfs:label>
                               <crm:P32_used_general_technique>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/5fcf7aef-291f-462f-9344-f676cfaff72f">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/5fcf7aef-291f-462f-9344-f676cfaff72f">
                                     <rdfs:label xml:lang="en">sewing</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P32_used_general_technique>
                               <crm:P126_employed>
-                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/685d4124-9913-4de1-832d-867852e85145">
+                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/685d4124-9913-4de1-832d-867852e85145">
                                     <rdfs:label xml:lang="en">aerolinen</rdfs:label>
                                  </crm:E57_Material>
                               </crm:P126_employed>
                               <crm:P126_employed>
-                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/e635f656-e365-4be9-99f8-6ff3931dfd87">
+                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/e635f656-e365-4be9-99f8-6ff3931dfd87">
                                     <rdfs:label xml:lang="en">thread</rdfs:label>
                                     <crm:P43_has_dimension>
-                                       <crm:E54_Dimension rdf:about="http://www.ligatus.org.uk/lcd/6c3ded73-09b4-44f3-8f4f-014f825c511f/">
+                                       <crm:E54_Dimension rdf:about="http://www.ligatus.org.uk/lcd/7c6e4102-98bf-493b-a3bc-656720f979a8/">
                                           <rdfs:label xml:lang="en">Material dimensional specification</rdfs:label>
                                           <crm:P91_has_unit>
-                                             <crm:E58_Measurement_Unit rdf:about="http://w3id.org/bod-vocabs/55ac0c8b-4345-4d7d-840a-54f58ee14636">
+                                             <crm:E58_Measurement_Unit rdf:about="http://w3id.org/bod-vocab/55ac0c8b-4345-4d7d-840a-54f58ee14636">
                                                 <rdfs:label xml:lang="en">Gunze Count
                                                   system</rdfs:label>
                                              </crm:E58_Measurement_Unit>
                                           </crm:P91_has_unit>
-                                          <crm:P90_has_value rdf:datatype="http://www.ligatus.org.uk/lcd/5a6d411a-8a9f-4f25-925f-baf2e98a67c9/">25/3</crm:P90_has_value>
+                                          <crm:P90_has_value rdf:datatype="http://www.ligatus.org.uk/lcd/f51f9fd4-743b-464a-8e6a-ce43dc8f11d8/">25/3</crm:P90_has_value>
                                        </crm:E54_Dimension>
                                     </crm:P43_has_dimension>
                                  </crm:E57_Material>
                               </crm:P126_employed>
                               <crm:P126_employed>
-                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/5390cdd4-c0dd-4860-ab48-1430b6176881">
+                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/5390cdd4-c0dd-4860-ab48-1430b6176881">
                                     <rdfs:label xml:lang="en">linen</rdfs:label>
                                  </crm:E57_Material>
                               </crm:P126_employed>
                               <crm:P9i_forms_part_of>
-                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/ba5982e5-1199-4b8c-a811-760964ef0d03/">
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/466a6786-3230-414b-9bdf-e67dc2b73bab/">
                                     <rdfs:label xml:lang="en">Main conservation event (Bodleian, Ms.Douce.88)</rdfs:label>
                                  </crm:E11_Modification>
                               </crm:P9i_forms_part_of>
@@ -592,28 +592,28 @@
                      </crm:E22_Man-Made_Object>
                   </crm:P46_is_composed_of>
                   <crm:P46_is_composed_of>
-                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/5ca3cd31-8783-428f-a798-551ea6f83548/">
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/2d41bfda-12a8-46b3-b741-0dc18b6db051/">
                         <rdfs:label xml:lang="en">New spine lining (Bodleian, Ms.Douce.88)</rdfs:label>
                         <crm:P2_has_type>
-                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/9390e72f-cae7-48e8-939c-696c4028024b">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/9390e72f-cae7-48e8-939c-696c4028024b">
                               <rdfs:label xml:lang="en">spine lining</rdfs:label>
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P111i_was_added_by>
-                           <crm:E79_Part_Addition rdf:about="http://www.ligatus.org.uk/lcd/c06af340-0965-4fd3-bb2c-483d96a6d3a3/">
+                           <crm:E79_Part_Addition rdf:about="http://www.ligatus.org.uk/lcd/79b31bf5-b543-421b-976d-cd47f6d14fdb/">
                               <rdfs:label xml:lang="en">Addition to Bodleian, Ms.Douce.88</rdfs:label>
                               <crm:P126_employed>
-                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/40c3b79d-7315-4392-a294-b53b83da1b66">
+                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/40c3b79d-7315-4392-a294-b53b83da1b66">
                                     <rdfs:label xml:lang="en">Japanese paper (handmade paper)</rdfs:label>
                                     <crm:P1_is_identified_by>
-                                       <crm:E41_Appellation rdf:about="http://www.ligatus.org.uk/lcd/0401f849-cf21-4756-bb3a-3c850ab29f0c/">
+                                       <crm:E41_Appellation rdf:about="http://www.ligatus.org.uk/lcd/e92ff875-461e-4259-9503-a1cc8027a335/">
                                           <rdfs:label xml:lang="en">K62</rdfs:label>
                                        </crm:E41_Appellation>
                                     </crm:P1_is_identified_by>
                                  </crm:E57_Material>
                               </crm:P126_employed>
                               <crm:P9i_forms_part_of>
-                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/ba5982e5-1199-4b8c-a811-760964ef0d03/">
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/466a6786-3230-414b-9bdf-e67dc2b73bab/">
                                     <rdfs:label xml:lang="en">Main conservation event (Bodleian, Ms.Douce.88)</rdfs:label>
                                  </crm:E11_Modification>
                               </crm:P9i_forms_part_of>
@@ -622,51 +622,51 @@
                      </crm:E22_Man-Made_Object>
                   </crm:P46_is_composed_of>
                   <crm:P46_is_composed_of>
-                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/34b11e40-20e2-44a3-9043-a57a458534fe/">
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/631641d6-dcd0-4c5e-8e8a-db755236982b/">
                         <rdfs:label xml:lang="en">Spine lining (Bodleian, Ms.Douce.88)</rdfs:label>
                         <crm:P2_has_type><!--NB: this type is looked for in the terminology file-->
-                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/9390e72f-cae7-48e8-939c-696c4028024b">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/9390e72f-cae7-48e8-939c-696c4028024b">
                               <rdfs:label xml:lang="en">spine lining</rdfs:label>
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P2_has_type>
-                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/dce32667-9af1-4b74-ac01-e9e0b5eb6286">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/dce32667-9af1-4b74-ac01-e9e0b5eb6286">
                               <rdfs:label xml:lang="en">tube hollow</rdfs:label>
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P55_has_current_location>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/225dae25-2b12-4599-b0f9-890a3e76e766#spinePlace">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/86cceebb-4fd4-48b4-8187-4484a97be826#spinePlace">
                               <rdfs:label xml:lang="en">Spine (place) (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3810">
-                                    <rdfs:label xml:lang="en">spine (place)</rdfs:label>
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/7af9029c-12c0-417a-97c6-2be51ae94ded">
+                                    <rdfs:label xml:lang="en">spine</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                            </crm:E53_Place>
                         </crm:P55_has_current_location>
                         <crm:P59_has_section>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/62dcad25-b249-4ed4-99ba-106a1bee53e5/">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/aba8ab81-c5bb-40a0-8692-c548c8f90ad5/">
                               <rdfs:label xml:lang="en">Tube hollow-place (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/dce32667-9af1-4b74-ac01-e9e0b5eb6286">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/dce32667-9af1-4b74-ac01-e9e0b5eb6286">
                                     <rdfs:label xml:lang="en">tube hollow</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                            </crm:E53_Place>
                         </crm:P59_has_section>
                         <crm:P46_is_composed_of>
-                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/53d80e19-f513-4c4f-bee2-94804c403bfa/">
+                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/0c9c3bba-8f3b-4eef-b190-c594eccca867/">
                               <rdfs:label xml:lang="en">Tube hollow (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/dce32667-9af1-4b74-ac01-e9e0b5eb6286">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/dce32667-9af1-4b74-ac01-e9e0b5eb6286">
                                     <rdfs:label xml:lang="en">tube hollow</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                               <crm:P44_has_condition>
-                                 <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/28c69862-dce3-45b8-986b-790ec4296968/">
+                                 <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/2b379fbc-d97a-4957-8c84-04d8426b6a27/">
                                     <rdfs:label xml:lang="en">Damaged (Bodleian, Ms.Douce.88)</rdfs:label>
                                     <crm:P2_has_type>
-                                       <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/569b76e1-aa35-4f51-8b01-63089fc4f317">
+                                       <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/569b76e1-aa35-4f51-8b01-63089fc4f317">
                                           <rdfs:label xml:lang="en">damaged</rdfs:label>
                                        </crm:E55_Type>
                                     </crm:P2_has_type>
@@ -675,10 +675,10 @@
                            </crm:E22_Man-Made_Object>
                         </crm:P46_is_composed_of>
                         <crm:P113i_was_removed_by>
-                           <crm:E80_Part_Removal rdf:about="http://www.ligatus.org.uk/lcd/62868e45-3f33-4ce3-91b2-3095f5cf2d45/">
+                           <crm:E80_Part_Removal rdf:about="http://www.ligatus.org.uk/lcd/6be4c600-b1b5-4d44-b049-eb5678a46ba8/">
                               <rdfs:label xml:lang="en">Removal from Bodleian, Ms.Douce.88</rdfs:label>
                               <crm:P9i_forms_part_of>
-                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/ba5982e5-1199-4b8c-a811-760964ef0d03/">
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/466a6786-3230-414b-9bdf-e67dc2b73bab/">
                                     <rdfs:label xml:lang="en">Main conservation event (Bodleian, Ms.Douce.88)</rdfs:label>
                                  </crm:E11_Modification>
                               </crm:P9i_forms_part_of>
@@ -687,50 +687,50 @@
                      </crm:E22_Man-Made_Object>
                   </crm:P46_is_composed_of>
                   <crm:P46_is_composed_of>
-                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/2d2c4b44-3c07-4dc0-98a3-37c76fed3c7f/">
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/a73b1e9d-bd4e-4065-b99e-0d850703cb12/">
                         <rdfs:label xml:lang="en">New spine lining (Bodleian, Ms.Douce.88)</rdfs:label>
                         <crm:P2_has_type>
-                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/9390e72f-cae7-48e8-939c-696c4028024b">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/9390e72f-cae7-48e8-939c-696c4028024b">
                               <rdfs:label xml:lang="en">spine lining</rdfs:label>
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P111i_was_added_by>
-                           <crm:E79_Part_Addition rdf:about="http://www.ligatus.org.uk/lcd/cbe866ee-dfc5-4401-be2e-8129b0681c47/">
+                           <crm:E79_Part_Addition rdf:about="http://www.ligatus.org.uk/lcd/19cd8ca0-9993-43a5-8486-40966e2daaec/">
                               <rdfs:label xml:lang="en">Addition to Bodleian, Ms.Douce.88</rdfs:label>
                               <crm:P32_used_general_technique>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/5fcf7aef-291f-462f-9344-f676cfaff72f">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/5fcf7aef-291f-462f-9344-f676cfaff72f">
                                     <rdfs:label xml:lang="en">sewing</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P32_used_general_technique>
                               <crm:P126_employed>
-                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/685d4124-9913-4de1-832d-867852e85145">
+                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/685d4124-9913-4de1-832d-867852e85145">
                                     <rdfs:label xml:lang="en">aerolinen</rdfs:label>
                                  </crm:E57_Material>
                               </crm:P126_employed>
                               <crm:P126_employed>
-                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/e635f656-e365-4be9-99f8-6ff3931dfd87">
+                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/e635f656-e365-4be9-99f8-6ff3931dfd87">
                                     <rdfs:label xml:lang="en">thread</rdfs:label>
                                     <crm:P43_has_dimension>
-                                       <crm:E54_Dimension rdf:about="http://www.ligatus.org.uk/lcd/0b444c52-7105-4508-b265-3846f39a7608/">
+                                       <crm:E54_Dimension rdf:about="http://www.ligatus.org.uk/lcd/82846790-9fc8-4110-9472-a5a14f79204e/">
                                           <rdfs:label xml:lang="en">Material dimensional specification</rdfs:label>
                                           <crm:P91_has_unit>
-                                             <crm:E58_Measurement_Unit rdf:about="http://w3id.org/bod-vocabs/55ac0c8b-4345-4d7d-840a-54f58ee14636">
+                                             <crm:E58_Measurement_Unit rdf:about="http://w3id.org/bod-vocab/55ac0c8b-4345-4d7d-840a-54f58ee14636">
                                                 <rdfs:label xml:lang="en">Gunze Count
                                                   system</rdfs:label>
                                              </crm:E58_Measurement_Unit>
                                           </crm:P91_has_unit>
-                                          <crm:P90_has_value rdf:datatype="http://www.ligatus.org.uk/lcd/5a6d411a-8a9f-4f25-925f-baf2e98a67c9/">25/3</crm:P90_has_value>
+                                          <crm:P90_has_value rdf:datatype="http://www.ligatus.org.uk/lcd/f51f9fd4-743b-464a-8e6a-ce43dc8f11d8/">25/3</crm:P90_has_value>
                                        </crm:E54_Dimension>
                                     </crm:P43_has_dimension>
                                  </crm:E57_Material>
                               </crm:P126_employed>
                               <crm:P126_employed>
-                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/5390cdd4-c0dd-4860-ab48-1430b6176881">
+                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/5390cdd4-c0dd-4860-ab48-1430b6176881">
                                     <rdfs:label xml:lang="en">linen</rdfs:label>
                                  </crm:E57_Material>
                               </crm:P126_employed>
                               <crm:P9i_forms_part_of>
-                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/ba5982e5-1199-4b8c-a811-760964ef0d03/">
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/466a6786-3230-414b-9bdf-e67dc2b73bab/">
                                     <rdfs:label xml:lang="en">Main conservation event (Bodleian, Ms.Douce.88)</rdfs:label>
                                  </crm:E11_Modification>
                               </crm:P9i_forms_part_of>
@@ -739,28 +739,28 @@
                      </crm:E22_Man-Made_Object>
                   </crm:P46_is_composed_of>
                   <crm:P46_is_composed_of>
-                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/d3549ab5-4016-49bd-9192-36548d859f78/">
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/c667caec-463d-4c78-bad5-ec3ff95926f7/">
                         <rdfs:label xml:lang="en">New spine lining (Bodleian, Ms.Douce.88)</rdfs:label>
                         <crm:P2_has_type>
-                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/9390e72f-cae7-48e8-939c-696c4028024b">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/9390e72f-cae7-48e8-939c-696c4028024b">
                               <rdfs:label xml:lang="en">spine lining</rdfs:label>
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P111i_was_added_by>
-                           <crm:E79_Part_Addition rdf:about="http://www.ligatus.org.uk/lcd/d3ddb6f8-d749-40f0-8746-5cdab2176604/">
+                           <crm:E79_Part_Addition rdf:about="http://www.ligatus.org.uk/lcd/f9a47f9a-c580-4280-877d-9fc4b2ab90c2/">
                               <rdfs:label xml:lang="en">Addition to Bodleian, Ms.Douce.88</rdfs:label>
                               <crm:P126_employed>
-                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/40c3b79d-7315-4392-a294-b53b83da1b66">
+                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/40c3b79d-7315-4392-a294-b53b83da1b66">
                                     <rdfs:label xml:lang="en">Japanese paper (handmade paper)</rdfs:label>
                                     <crm:P1_is_identified_by>
-                                       <crm:E41_Appellation rdf:about="http://www.ligatus.org.uk/lcd/0401f849-cf21-4756-bb3a-3c850ab29f0c/">
+                                       <crm:E41_Appellation rdf:about="http://www.ligatus.org.uk/lcd/e92ff875-461e-4259-9503-a1cc8027a335/">
                                           <rdfs:label xml:lang="en">K62</rdfs:label>
                                        </crm:E41_Appellation>
                                     </crm:P1_is_identified_by>
                                  </crm:E57_Material>
                               </crm:P126_employed>
                               <crm:P9i_forms_part_of>
-                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/ba5982e5-1199-4b8c-a811-760964ef0d03/">
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/466a6786-3230-414b-9bdf-e67dc2b73bab/">
                                     <rdfs:label xml:lang="en">Main conservation event (Bodleian, Ms.Douce.88)</rdfs:label>
                                  </crm:E11_Modification>
                               </crm:P9i_forms_part_of>
@@ -769,51 +769,51 @@
                      </crm:E22_Man-Made_Object>
                   </crm:P46_is_composed_of>
                   <crm:P46_is_composed_of>
-                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/9bf91e74-9ca1-4ce4-aded-13e08de64c23/">
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/6882e6fd-d9e6-4d5f-96d4-13ab11e07c04/">
                         <rdfs:label xml:lang="en">Spine lining (Bodleian, Ms.Douce.88)</rdfs:label>
                         <crm:P2_has_type><!--NB: this type is looked for in the terminology file-->
-                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/9390e72f-cae7-48e8-939c-696c4028024b">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/9390e72f-cae7-48e8-939c-696c4028024b">
                               <rdfs:label xml:lang="en">spine lining</rdfs:label>
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P45_consists_of>
-                           <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/4be59f87-fdeb-4424-af8d-81a92cf47bde">
+                           <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/4be59f87-fdeb-4424-af8d-81a92cf47bde">
                               <rdfs:label xml:lang="en">mull</rdfs:label>
                            </crm:E57_Material>
                         </crm:P45_consists_of>
                         <crm:P55_has_current_location>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/225dae25-2b12-4599-b0f9-890a3e76e766#spinePlace">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/86cceebb-4fd4-48b4-8187-4484a97be826#spinePlace">
                               <rdfs:label xml:lang="en">Spine (place) (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3810">
-                                    <rdfs:label xml:lang="en">spine (place)</rdfs:label>
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/7af9029c-12c0-417a-97c6-2be51ae94ded">
+                                    <rdfs:label xml:lang="en">spine</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                            </crm:E53_Place>
                         </crm:P55_has_current_location>
                         <crm:P59_has_section>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/18b70d00-2817-4c44-8b42-7dce22b36741/">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/a24d1656-ca82-48fe-b7c9-7745c88a6e1b/">
                               <rdfs:label xml:lang="en">Tube hollow-place (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/dce32667-9af1-4b74-ac01-e9e0b5eb6286">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/dce32667-9af1-4b74-ac01-e9e0b5eb6286">
                                     <rdfs:label xml:lang="en">tube hollow</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                            </crm:E53_Place>
                         </crm:P59_has_section>
                         <crm:P46_is_composed_of>
-                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/53d80e19-f513-4c4f-bee2-94804c403bfa/">
+                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/0c9c3bba-8f3b-4eef-b190-c594eccca867/">
                               <rdfs:label xml:lang="en">Tube hollow (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/dce32667-9af1-4b74-ac01-e9e0b5eb6286">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/dce32667-9af1-4b74-ac01-e9e0b5eb6286">
                                     <rdfs:label xml:lang="en">tube hollow</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                               <crm:P44_has_condition>
-                                 <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/28c69862-dce3-45b8-986b-790ec4296968/">
+                                 <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/2b379fbc-d97a-4957-8c84-04d8426b6a27/">
                                     <rdfs:label xml:lang="en">Damaged (Bodleian, Ms.Douce.88)</rdfs:label>
                                     <crm:P2_has_type>
-                                       <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/569b76e1-aa35-4f51-8b01-63089fc4f317">
+                                       <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/569b76e1-aa35-4f51-8b01-63089fc4f317">
                                           <rdfs:label xml:lang="en">damaged</rdfs:label>
                                        </crm:E55_Type>
                                     </crm:P2_has_type>
@@ -822,10 +822,10 @@
                            </crm:E22_Man-Made_Object>
                         </crm:P46_is_composed_of>
                         <crm:P113i_was_removed_by>
-                           <crm:E80_Part_Removal rdf:about="http://www.ligatus.org.uk/lcd/62868e45-3f33-4ce3-91b2-3095f5cf2d45/">
+                           <crm:E80_Part_Removal rdf:about="http://www.ligatus.org.uk/lcd/6be4c600-b1b5-4d44-b049-eb5678a46ba8/">
                               <rdfs:label xml:lang="en">Removal from Bodleian, Ms.Douce.88</rdfs:label>
                               <crm:P9i_forms_part_of>
-                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/ba5982e5-1199-4b8c-a811-760964ef0d03/">
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/466a6786-3230-414b-9bdf-e67dc2b73bab/">
                                     <rdfs:label xml:lang="en">Main conservation event (Bodleian, Ms.Douce.88)</rdfs:label>
                                  </crm:E11_Modification>
                               </crm:P9i_forms_part_of>
@@ -834,50 +834,50 @@
                      </crm:E22_Man-Made_Object>
                   </crm:P46_is_composed_of>
                   <crm:P46_is_composed_of>
-                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/41c4c8d6-50fd-4e2a-85c1-89923ca344ab/">
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/a285b8d3-3b54-4309-863f-7306d714ea5e/">
                         <rdfs:label xml:lang="en">New spine lining (Bodleian, Ms.Douce.88)</rdfs:label>
                         <crm:P2_has_type>
-                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/9390e72f-cae7-48e8-939c-696c4028024b">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/9390e72f-cae7-48e8-939c-696c4028024b">
                               <rdfs:label xml:lang="en">spine lining</rdfs:label>
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P111i_was_added_by>
-                           <crm:E79_Part_Addition rdf:about="http://www.ligatus.org.uk/lcd/f0bbfdbf-f8a6-43d2-833e-8e38024db537/">
+                           <crm:E79_Part_Addition rdf:about="http://www.ligatus.org.uk/lcd/e3e3d029-95ae-4ad0-9e3e-5d81966ff91f/">
                               <rdfs:label xml:lang="en">Addition to Bodleian, Ms.Douce.88</rdfs:label>
                               <crm:P32_used_general_technique>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/5fcf7aef-291f-462f-9344-f676cfaff72f">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/5fcf7aef-291f-462f-9344-f676cfaff72f">
                                     <rdfs:label xml:lang="en">sewing</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P32_used_general_technique>
                               <crm:P126_employed>
-                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/685d4124-9913-4de1-832d-867852e85145">
+                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/685d4124-9913-4de1-832d-867852e85145">
                                     <rdfs:label xml:lang="en">aerolinen</rdfs:label>
                                  </crm:E57_Material>
                               </crm:P126_employed>
                               <crm:P126_employed>
-                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/e635f656-e365-4be9-99f8-6ff3931dfd87">
+                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/e635f656-e365-4be9-99f8-6ff3931dfd87">
                                     <rdfs:label xml:lang="en">thread</rdfs:label>
                                     <crm:P43_has_dimension>
-                                       <crm:E54_Dimension rdf:about="http://www.ligatus.org.uk/lcd/25ebdd8d-5600-4639-9317-c6883306b7ce/">
+                                       <crm:E54_Dimension rdf:about="http://www.ligatus.org.uk/lcd/e3c7e518-3c0c-4818-ac96-aae86f9d50de/">
                                           <rdfs:label xml:lang="en">Material dimensional specification</rdfs:label>
                                           <crm:P91_has_unit>
-                                             <crm:E58_Measurement_Unit rdf:about="http://w3id.org/bod-vocabs/55ac0c8b-4345-4d7d-840a-54f58ee14636">
+                                             <crm:E58_Measurement_Unit rdf:about="http://w3id.org/bod-vocab/55ac0c8b-4345-4d7d-840a-54f58ee14636">
                                                 <rdfs:label xml:lang="en">Gunze Count
                                                   system</rdfs:label>
                                              </crm:E58_Measurement_Unit>
                                           </crm:P91_has_unit>
-                                          <crm:P90_has_value rdf:datatype="http://www.ligatus.org.uk/lcd/5a6d411a-8a9f-4f25-925f-baf2e98a67c9/">25/3</crm:P90_has_value>
+                                          <crm:P90_has_value rdf:datatype="http://www.ligatus.org.uk/lcd/f51f9fd4-743b-464a-8e6a-ce43dc8f11d8/">25/3</crm:P90_has_value>
                                        </crm:E54_Dimension>
                                     </crm:P43_has_dimension>
                                  </crm:E57_Material>
                               </crm:P126_employed>
                               <crm:P126_employed>
-                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/5390cdd4-c0dd-4860-ab48-1430b6176881">
+                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/5390cdd4-c0dd-4860-ab48-1430b6176881">
                                     <rdfs:label xml:lang="en">linen</rdfs:label>
                                  </crm:E57_Material>
                               </crm:P126_employed>
                               <crm:P9i_forms_part_of>
-                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/ba5982e5-1199-4b8c-a811-760964ef0d03/">
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/466a6786-3230-414b-9bdf-e67dc2b73bab/">
                                     <rdfs:label xml:lang="en">Main conservation event (Bodleian, Ms.Douce.88)</rdfs:label>
                                  </crm:E11_Modification>
                               </crm:P9i_forms_part_of>
@@ -886,28 +886,28 @@
                      </crm:E22_Man-Made_Object>
                   </crm:P46_is_composed_of>
                   <crm:P46_is_composed_of>
-                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/4e7e5c02-12b4-41f1-bf90-4a7496196d8b/">
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/bb5b7ace-1954-4ec2-8037-12d641ccf3bb/">
                         <rdfs:label xml:lang="en">New spine lining (Bodleian, Ms.Douce.88)</rdfs:label>
                         <crm:P2_has_type>
-                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/9390e72f-cae7-48e8-939c-696c4028024b">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/9390e72f-cae7-48e8-939c-696c4028024b">
                               <rdfs:label xml:lang="en">spine lining</rdfs:label>
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P111i_was_added_by>
-                           <crm:E79_Part_Addition rdf:about="http://www.ligatus.org.uk/lcd/63ef6156-3535-40ee-97c1-190a75b3a105/">
+                           <crm:E79_Part_Addition rdf:about="http://www.ligatus.org.uk/lcd/27a1a695-9ae7-4933-bb74-9379e265a6f5/">
                               <rdfs:label xml:lang="en">Addition to Bodleian, Ms.Douce.88</rdfs:label>
                               <crm:P126_employed>
-                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/40c3b79d-7315-4392-a294-b53b83da1b66">
+                                 <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/40c3b79d-7315-4392-a294-b53b83da1b66">
                                     <rdfs:label xml:lang="en">Japanese paper (handmade paper)</rdfs:label>
                                     <crm:P1_is_identified_by>
-                                       <crm:E41_Appellation rdf:about="http://www.ligatus.org.uk/lcd/0401f849-cf21-4756-bb3a-3c850ab29f0c/">
+                                       <crm:E41_Appellation rdf:about="http://www.ligatus.org.uk/lcd/e92ff875-461e-4259-9503-a1cc8027a335/">
                                           <rdfs:label xml:lang="en">K62</rdfs:label>
                                        </crm:E41_Appellation>
                                     </crm:P1_is_identified_by>
                                  </crm:E57_Material>
                               </crm:P126_employed>
                               <crm:P9i_forms_part_of>
-                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/ba5982e5-1199-4b8c-a811-760964ef0d03/">
+                                 <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/466a6786-3230-414b-9bdf-e67dc2b73bab/">
                                     <rdfs:label xml:lang="en">Main conservation event (Bodleian, Ms.Douce.88)</rdfs:label>
                                  </crm:E11_Modification>
                               </crm:P9i_forms_part_of>
@@ -916,51 +916,51 @@
                      </crm:E22_Man-Made_Object>
                   </crm:P46_is_composed_of>
                   <crm:P46_is_composed_of>
-                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/6a67bf06-6669-419e-a673-1316791d1345/">
+                     <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/f850e0e5-4709-4c0f-a545-d842ca8b4494/">
                         <rdfs:label xml:lang="en">Cover (Bodleian, Ms.Douce.88)</rdfs:label>
                         <crm:P2_has_type>
-                           <crm:E55_Type rdf:about="http://w3id.org/lob/concept/1268">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/ff20e185-f4f3-491a-a16f-d62c6251d678">
                               <rdfs:label xml:lang="en">covers</rdfs:label>
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P2_has_type>
-                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/71531e9b-e28c-4be9-b83d-d0958a9c3199">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/71531e9b-e28c-4be9-b83d-d0958a9c3199">
                               <rdfs:label xml:lang="en">full</rdfs:label>
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P45_consists_of>
-                           <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/fa02a379-6d27-429f-84be-055799c1c369">
+                           <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/fa02a379-6d27-429f-84be-055799c1c369">
                               <rdfs:label xml:lang="en">tanned leather</rdfs:label>
                            </crm:E57_Material>
                         </crm:P45_consists_of>
                         <crm:P45_consists_of>
-                           <crm:E57_Material rdf:about="http://w3id.org/bod-vocabs/427ea2f9-a06e-4525-b26a-8b5d970b7336">
+                           <crm:E57_Material rdf:about="http://w3id.org/bod-vocab/427ea2f9-a06e-4525-b26a-8b5d970b7336">
                               <rdfs:label xml:lang="en">calfskin</rdfs:label>
                            </crm:E57_Material>
                         </crm:P45_consists_of>
                         <crm:P59_has_section>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/341bd9de-034e-4b94-9b7f-36ab89f83803/">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/ed308670-3d22-44d9-a44b-dfb40d81615c/">
                               <rdfs:label xml:lang="en">Left (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/lob/concept/2947">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/543cc45e-c8b4-4a45-b7f3-8bdbeeafbb2c">
                                     <rdfs:label xml:lang="en">left</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                            </crm:E53_Place>
                         </crm:P59_has_section>
                         <crm:P46_is_composed_of>
-                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/78323fa3-9afb-4f59-8c86-c4a57856104f/">
+                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/5bcd2cd3-9d7b-4f7e-9ca5-c8a9b70eedf3/">
                               <rdfs:label xml:lang="en">Left-section (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/543cc45e-c8b4-4a45-b7f3-8bdbeeafbb2c">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/543cc45e-c8b4-4a45-b7f3-8bdbeeafbb2c">
                                     <rdfs:label xml:lang="en">left</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                               <crm:P59_has_section>
-                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/e8c23b00-eb2e-4237-855e-dd2de6a9b3a1/">
+                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/542874f6-3aba-4cfb-b8e1-196d79b5d59e/">
                                     <rdfs:label xml:lang="en">Outer joints (Bodleian, Ms.Douce.88)</rdfs:label>
                                     <crm:P2_has_type>
-                                       <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/5af94f0f-d3ea-4405-8814-a8fdb79cb144">
+                                       <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/5af94f0f-d3ea-4405-8814-a8fdb79cb144">
                                           <rdfs:label xml:lang="en">outer joints</rdfs:label>
                                        </crm:E55_Type>
                                     </crm:P2_has_type>
@@ -969,28 +969,28 @@
                            </crm:E22_Man-Made_Object>
                         </crm:P46_is_composed_of>
                         <crm:P59_has_section>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/29468ea2-6aed-4395-acb7-4e416fd65899/">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/7ec1f17b-369e-450d-adf6-df4fa1eb27f7/">
                               <rdfs:label xml:lang="en">Spine (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/7af9029c-12c0-417a-97c6-2be51ae94ded">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/7af9029c-12c0-417a-97c6-2be51ae94ded">
                                     <rdfs:label xml:lang="en">spine</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                            </crm:E53_Place>
                         </crm:P59_has_section>
                         <crm:P46_is_composed_of>
-                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/e67641da-7537-4e60-a9b5-58043edb5929/">
+                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/ba4c4b91-9f36-4066-9af3-fdc44d3bfb0c/">
                               <rdfs:label xml:lang="en">Spine-section (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/7af9029c-12c0-417a-97c6-2be51ae94ded">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/7af9029c-12c0-417a-97c6-2be51ae94ded">
                                     <rdfs:label xml:lang="en">spine</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                               <crm:P44_has_condition>
-                                 <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/f08a2253-9480-43ed-a5fa-77aa4d0cbe1f/">
+                                 <crm:E3_Condition_State rdf:about="http://www.ligatus.org.uk/lcd/06ff4ee2-4b9f-4dbb-a8f8-eb23a1947a23/">
                                     <rdfs:label xml:lang="en">Rebacked (Bodleian, Ms.Douce.88)</rdfs:label>
                                     <crm:P2_has_type>
-                                       <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/ab709bf9-f6e0-455e-a4cf-e9c2d28ba994">
+                                       <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/ab709bf9-f6e0-455e-a4cf-e9c2d28ba994">
                                           <rdfs:label xml:lang="en">rebacked</rdfs:label>
                                        </crm:E55_Type>
                                     </crm:P2_has_type>
@@ -999,28 +999,28 @@
                            </crm:E22_Man-Made_Object>
                         </crm:P46_is_composed_of>
                         <crm:P59_has_section>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/f13ee3f2-575a-4bd2-b6a6-f61ee0ed9758/">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/d825ba83-5ea3-4443-bcfa-3cb15cfabea6/">
                               <rdfs:label xml:lang="en">Right (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3004">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/66080d12-89e2-4937-bf08-cc9dcc038380">
                                     <rdfs:label xml:lang="en">right</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                            </crm:E53_Place>
                         </crm:P59_has_section>
                         <crm:P46_is_composed_of>
-                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/d7092b47-6747-4d47-89dd-e90747f7a40d/">
+                           <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/3d4d9f43-ef8c-41de-a481-8e8b0b133380/">
                               <rdfs:label xml:lang="en">Right-section (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/66080d12-89e2-4937-bf08-cc9dcc038380">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/66080d12-89e2-4937-bf08-cc9dcc038380">
                                     <rdfs:label xml:lang="en">right</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                               <crm:P59_has_section>
-                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/f3003336-e5ff-4929-b072-98dde12225d6/">
+                                 <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/ce052b2f-30b4-4e19-bc12-81d3dfeb0ca1/">
                                     <rdfs:label xml:lang="en">Outer joints (Bodleian, Ms.Douce.88)</rdfs:label>
                                     <crm:P2_has_type>
-                                       <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/5af94f0f-d3ea-4405-8814-a8fdb79cb144">
+                                       <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/5af94f0f-d3ea-4405-8814-a8fdb79cb144">
                                           <rdfs:label xml:lang="en">outer joints</rdfs:label>
                                        </crm:E55_Type>
                                     </crm:P2_has_type>
@@ -1029,20 +1029,20 @@
                            </crm:E22_Man-Made_Object>
                         </crm:P46_is_composed_of>
                         <crm:P59_has_section>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/e8c23b00-eb2e-4237-855e-dd2de6a9b3a1/">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/542874f6-3aba-4cfb-b8e1-196d79b5d59e/">
                               <rdfs:label xml:lang="en">Outer joints (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/5af94f0f-d3ea-4405-8814-a8fdb79cb144">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/5af94f0f-d3ea-4405-8814-a8fdb79cb144">
                                     <rdfs:label xml:lang="en">outer joints</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
                            </crm:E53_Place>
                         </crm:P59_has_section>
                         <crm:P59_has_section>
-                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/f3003336-e5ff-4929-b072-98dde12225d6/">
+                           <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/ce052b2f-30b4-4e19-bc12-81d3dfeb0ca1/">
                               <rdfs:label xml:lang="en">Outer joints (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P2_has_type>
-                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/5af94f0f-d3ea-4405-8814-a8fdb79cb144">
+                                 <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/5af94f0f-d3ea-4405-8814-a8fdb79cb144">
                                     <rdfs:label xml:lang="en">outer joints</rdfs:label>
                                  </crm:E55_Type>
                               </crm:P2_has_type>
@@ -1051,42 +1051,49 @@
                      </crm:E22_Man-Made_Object>
                   </crm:P46_is_composed_of>
                   <crm:P55_has_current_location>
-                     <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/e3a0eb61-6a15-4c6d-b99b-545768ff074f/">
+                     <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/63ddf14b-af23-4fe3-b813-374b25d34e77/">
                         <rdfs:label xml:lang="en">Box space (Bodleian, Ms.Douce.88)</rdfs:label>
                      </crm:E53_Place>
                   </crm:P55_has_current_location>
                   <crm:P59_has_section>
-                     <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/a74c11f7-b34c-4584-acd7-95010d6fa032#leftPlace">
+                     <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/161022cd-8b96-42a4-adde-86caab6f9b96#leftPlace">
                         <rdfs:label xml:lang="en">Left (Bodleian, Ms.Douce.88)</rdfs:label>
                         <crm:P2_has_type>
-                           <crm:E55_Type rdf:about="http://w3id.org/lob/concept/2947">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/543cc45e-c8b4-4a45-b7f3-8bdbeeafbb2c">
                               <rdfs:label xml:lang="en">left</rdfs:label>
                            </crm:E55_Type>
                         </crm:P2_has_type>
                      </crm:E53_Place>
                   </crm:P59_has_section>
                   <crm:P59_has_section>
-                     <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/a74c11f7-b34c-4584-acd7-95010d6fa032#rightPlace">
+                     <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/161022cd-8b96-42a4-adde-86caab6f9b96#rightPlace">
                         <rdfs:label xml:lang="en">Right (Bodleian, Ms.Douce.88)</rdfs:label>
                         <crm:P2_has_type>
-                           <crm:E55_Type rdf:about="http://w3id.org/lob/concept/3004">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/66080d12-89e2-4937-bf08-cc9dcc038380">
                               <rdfs:label xml:lang="en">right</rdfs:label>
                            </crm:E55_Type>
                         </crm:P2_has_type>
                      </crm:E53_Place>
                   </crm:P59_has_section>
                   <crm:P31i_was_modified_by>
-                     <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/ba5982e5-1199-4b8c-a811-760964ef0d03/">
+                     <crm:E11_Modification rdf:about="http://www.ligatus.org.uk/lcd/466a6786-3230-414b-9bdf-e67dc2b73bab/">
                         <rdfs:label xml:lang="en">Main conservation event (Bodleian, Ms.Douce.88)</rdfs:label>
                         <crm:P2_has_type>
-                           <crm:E55_Type rdf:about="http://vocab.getty.edu/page/aat/300404519">
+                           <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/6fd886bc-1b95-461b-85b4-f2bc8bcadccc">
                               <rdfs:label xml:lang="en">conservation (process)</rdfs:label>
                            </crm:E55_Type>
                         </crm:P2_has_type>
                         <crm:P4_has_time-span>
-                           <crm:E52_Time-Span rdf:about="http://www.ligatus.org.uk/lcd/ce2aeadd-fd72-4674-9829-b376562ee5f2/">
+                           <crm:E52_Time-Span rdf:about="http://www.ligatus.org.uk/lcd/df49b88f-5a6a-45cf-88c9-8003548e8da3/">
                               <rdfs:label xml:lang="en">Conservation treatment date (Bodleian, Ms.Douce.88)</rdfs:label>
                               <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1991-03-18T23:59:59</crm:P82b_end_of_the_end>
+                              <crm:P86_falls_whitin>
+                                 <crm:E52_Time-Span rdf:about="http://www.ligatus.org.uk/lcd/de93b8e2-24b4-46b0-bbf3-f1f80b5f5472/">
+                                    <rdfs:label xml:lang="en">Conservation treatment decade (Bodleian, Ms.Douce.88)</rdfs:label>
+                                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1999-12-31T23:59:59</crm:P82b_end_of_the_end>
+                                 </crm:E52_Time-Span>
+                              </crm:P86_falls_whitin>
                            </crm:E52_Time-Span>
                         </crm:P4_has_time-span>
                      </crm:E11_Modification>
@@ -1094,15 +1101,15 @@
                </crm:E22_Man-Made_Object>
             </crm:P140_assigned_attribute_to>
             <crm:P2_has_type>
-               <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300080091">
+               <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/f4b42795-d94d-4ff5-a0e1-f41e6d11f8c0">
                   <rdfs:label xml:lang="en">description</rdfs:label>
                </crm:E55_Type>
             </crm:P2_has_type>
             <crm:P14_carried_out_by>
-               <crm:E39_Actor rdf:about="http://www.ligatus.org.uk/lcd/58c6f414-9597-426b-81ae-d7d1140e1913/">
+               <crm:E39_Actor rdf:about="http://www.ligatus.org.uk/lcd/9b9e8230-3a56-4545-8db5-3134080bb7dd/">
                   <rdfs:label xml:lang="en">Conservator</rdfs:label>
                   <crm:P14.1_in_the_role_of>
-                     <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300102842">
+                     <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/2d17fec8-df7c-46c0-945f-6a2826b6e22e">
                         <rdfs:label xml:lang="en">conservators (people in conservation)</rdfs:label>
                      </crm:E55_Type>
                   </crm:P14.1_in_the_role_of>
@@ -1111,15 +1118,15 @@
          </crm:E13_Attribute_Assignment>
       </crm:P70_documents>
       <crm:P70_documents>
-         <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/584ff4dd-bddb-4dca-b238-ba32e0a269f6/">
+         <crm:E22_Man-Made_Object rdf:about="http://www.ligatus.org.uk/lcd/1aee357d-8253-4a26-868a-4dd14149d5d2/">
             <rdfs:label xml:lang="en">Box (Bodleian, Ms.Douce.88)</rdfs:label>
             <crm:P2_has_type>
-               <crm:E55_Type rdf:about="http://w3id.org/bod-vocabs/9a703d4c-c8c5-479a-8e08-e62d38996a9d">
+               <crm:E55_Type rdf:about="http://w3id.org/bod-vocab/9a703d4c-c8c5-479a-8e08-e62d38996a9d">
                   <rdfs:label xml:lang="en">phase box</rdfs:label>
                </crm:E55_Type>
             </crm:P2_has_type>
             <crm:P156_occupies>
-               <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/e3a0eb61-6a15-4c6d-b99b-545768ff074f/">
+               <crm:E53_Place rdf:about="http://www.ligatus.org.uk/lcd/63ddf14b-af23-4fe3-b813-374b25d34e77/">
                   <rdfs:label xml:lang="en">Box space (Bodleian, Ms.Douce.88)</rdfs:label>
                </crm:E53_Place>
             </crm:P156_occupies>
