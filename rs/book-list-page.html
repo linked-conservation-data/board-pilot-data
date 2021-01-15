@@ -1,0 +1,84 @@
+<div class="page">
+    <div class='page__body'>
+        <h1>LCD pilot records</h1>
+        <bs-tabs id="tabs">
+            <bs-tab event-key="1" title="Conservation records">
+                <h2>Conservation records</h2>
+                <semantic-table
+                        id="records-table"
+                        query='
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+SELECT ?record ?resource ?g WHERE {
+  GRAPH ?g {
+    ?record a crm:E31_Document .
+    ?record crm:P70_documents ?resource .
+  }
+}'
+                        column-configuration='[
+                            {"variableName": "record", "displayName": "Conservation record"},
+                            {"variableName": "resource", "displayName": "record of"},
+                            {"variableName": "g", "displayName": "from dataset"}
+                        ]'
+                ></semantic-table>
+            </bs-tab>
+            <bs-tab event-key="2" title="Books">
+                <h2>Books</h2>
+                <semantic-table
+                        id="books-table"
+                        query='
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX lob: <http://w3id.org/lob/concept/>
+PREFIX aat: <http://vocab.getty.edu/aat/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?book ?graph WHERE {
+    {
+        SELECT (?s AS ?book) (?g AS ?graph) WHERE {
+      		GRAPH ?g {
+            	?s crm:P2_has_type aat:300028051 .
+        	}
+    	}
+    } UNION {
+    SELECT (?s2 AS ?book) (?g2 AS ?graph) WHERE {
+      		GRAPH ?g2 {
+            	?s2 crm:P2_has_type ?type .
+        	}
+      		?type ?p aat:300028051 .
+      		?p rdfs:subPropertyOf* skos:mappingRelation .
+    	}
+   }
+}'
+                        column-configuration='[
+                            {"variableName": "book", "displayName": "Books in pilot"},
+                            {"variableName": "graph", "displayName": "from dataset"},
+                            {
+                              "displayName": "Image", 
+                              "cellTemplate": "{{> photos}}"
+                            }
+                        ]'
+                >
+                    <template id ='photos'>
+                        <semantic-query 
+                            query='
+SELECT ?book ?iiifUrl WHERE {
+  ?book crm:P138i_has_representation ?photo .
+  BIND(<{{book.value}}> AS ?book) .
+  BIND(REPLACE(STR(?photo), "^.*/(.*)$", "$1") as ?imageID) .
+  BIND(CONCAT("/proxy/IIIF/", ?imageID, "/full/!640,480/0/default.jpg") AS ?iiifUrl)
+}LIMIT 5'
+                            template='{{> photo}}'
+                        >
+                            <template id="photo">
+                                {{#each bindings}}
+                                  <semantic-link uri="{{book.value}}"><img src="{{iiifUrl.value}}" width="50px" style="margin:0 10px 0 0" /></semantic-link>
+                                {{/each}}
+                            </template>
+                        </semantic-query>
+                    </template>
+                </semantic-table>
+            </bs-tab>
+        </bs-tabs>
+    </div>
+</div>
