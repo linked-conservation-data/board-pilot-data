@@ -1,0 +1,93 @@
+<div class="page">
+    <div class='page__body'>
+        <h1>LCD pilot vocabularies</h1>
+        <bs-tabs id="tabs">
+            <bs-tab event-key="1" title="Search terms">
+                <h2>Search terms</h2>
+                <semantic-search>
+                    <semantic-search-query-keyword
+                            query='
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT DISTINCT ?subject WHERE {
+    ?subject a skos:Concept .
+    ?subject skos:prefLabel|skos:altLabel ?label .
+    ?label bds:search ?__token__ ;
+           bds:relevance ?score ;
+           bds:rank ?rank .
+    ?subject skos:inScheme ?vocab .
+    MINUS {?subject skos:inScheme <http://vocab.getty.edu/aat/>}
+    MINUS {?subject skos:inScheme <http://w3id.org/lob/>}
+}'
+                            placeholder='Search for terms e.g. "paper"'
+                            min-search-term-length=3
+                            default-query='
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT DISTINCT ?subject WHERE {
+    ?subject a skos:Concept .
+    ?subject skos:prefLabel|skos:altLabel ?label .
+    MINUS {?subject skos:inScheme <http://vocab.getty.edu/aat/>}
+    MINUS {?subject skos:inScheme <http://w3id.org/lob/>}
+}'
+                    ></semantic-search-query-keyword>
+                    <div>
+                        <semantic-search-result-holder>
+                            <semantic-search-result>
+                                <semantic-table
+                                        id="term-table"
+                                        query='
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT ?subject ?note ?vocab WHERE {
+	?subject skos:inScheme ?vocab .
+	OPTIONAL {
+    ?subject skos:scopeNote ?note
+  }
+}
+ORDER BY DESC(?score) DESC(?rank) ?subject'
+                                        column-configuration='[
+                                            {"variableName": "subject", "displayName": "Term"}, 
+                                            {
+                                                "displayName": "Scope note", 
+                                                "cellTemplate": "<div style=\"max-width:200px\">{{note.value}}</div>" 
+                                            },                
+                                            {"variableName": "vocab", "displayName": "Vocabulary"},
+                                            {
+                                                "displayName": "Matched terms", 
+                                                "cellTemplate": "{{> matchedTerms}}"
+                                            }
+                                        ]'
+                                        options='{"showFilter": false}'
+                                >
+                                  <template id ='matchedTerms'>
+                                      {{#if subject.value}}
+                                      <semantic-query 
+                                          query='
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?matchsubject ?matchlabel ?vocab WHERE {
+  <{{subject.value}}> ?p ?matchsubject .
+  ?p rdfs:subPropertyOf* skos:mappingRelation .
+  ?matchsubject skos:prefLabel ?matchlabel .
+  ?matchsubject skos:inScheme ?vocab
+}
+ORDER BY ASC(?matchsubject)'
+                                          template='{{> nestedTemplate}}'
+                                      >
+                                          <template id="nestedTemplate">
+                                              <ul>
+                                                  {{#each bindings}}
+                                                      <li><semantic-link uri="{{matchsubject.value}}">{{matchlabel.value}}</semantic-link> ({{vocab.value}})</li>
+                                                  {{/each}}
+                                              </ul>
+                                          </template>
+                                      </semantic-query>
+                                      {{/if}}
+                                  </template>
+                              </semantic-table>
+                            </semantic-search-result>
+                        </semantic-search-result-holder>
+                    </div>
+                </semantic-search>
+            </bs-tab>
+        </bs-tabs>
+    </div>
+</div>
