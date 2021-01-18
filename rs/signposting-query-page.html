@@ -1,0 +1,132 @@
+  <div class="page">
+    <div class='page__body'>
+      <h1>Signposting example</h1>
+      <bs-tabs id="tabs">
+        <bs-tab event-key="1" title="Books">
+          <h2>Books</h2>
+          <semantic-table
+            id="books-table"
+            query='
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX aat: <http://vocab.getty.edu/aat/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?book WHERE {
+  {
+    SELECT (?s AS ?book) WHERE {
+      ?s crm:P2_has_type aat:300028051 .
+    }
+  } UNION {
+    SELECT (?s2 AS ?book) WHERE {
+      ?s2 crm:P2_has_type ?type .
+      ?type ?p aat:300028051 .
+      ?p rdfs:subPropertyOf* skos:mappingRelation .
+    }
+  }
+}'
+            column-configuration='[
+               {"variableName": "book", "displayName": "Book"}
+             ]'
+          ></semantic-table>
+        </bs-tab>
+        <bs-tab event-key="2" title="Books and dates">
+          <h2>Books and dates</h2>
+          <semantic-table
+            id="books-dates-table"
+            query='
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX aat: <http://vocab.getty.edu/aat/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?book (CONCAT(STR(YEAR(?e)), "-", STR(MONTH(?e)), "-", STR(DAY(?e))) AS ?end) WHERE {
+  ?me crm:P31_has_modified ?book .
+  ?me crm:P4_has_time-span ?mets .
+  OPTIONAL {
+    ?mets crm:P82a_begin_of_the_begin ?begin .
+  }
+  OPTIONAL {
+    ?mets crm:P82b_end_of_the_end ?e .
+  }
+  {
+    SELECT (?s AS ?book) WHERE {
+      ?s crm:P2_has_type aat:300028051 .
+    }
+  } UNION {
+    SELECT (?s2 AS ?book) WHERE {
+      ?s2 crm:P2_has_type ?type .
+      ?type ?p aat:300028051 .
+      ?p rdfs:subPropertyOf* skos:mappingRelation .
+    }
+  }
+} ORDER BY DESC(?e) DESC(?begin)'
+            column-configuration='[
+               {"variableName": "book", "displayName": "Book"},
+               {"variableName": "end", "displayName": "Date"}
+             ]'
+          ></semantic-table>
+        </bs-tab>
+        <bs-tab event-key="3" title="Books, dates and materials">
+          <h2>Books, dates and materials</h2>
+          <semantic-table
+            id="books-dates-materials-table"
+            query='
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX aat: <http://vocab.getty.edu/aat/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?book (CONCAT(STR(YEAR(?e)), "-", STR(MONTH(?e)), "-", STR(DAY(?e))) AS ?end) ?me WHERE {
+  ?me crm:P31_has_modified ?book .
+  ?me crm:P4_has_time-span ?mets .
+  OPTIONAL {
+    ?mets crm:P82a_begin_of_the_begin ?begin .
+  }
+  OPTIONAL {
+    ?mets crm:P82b_end_of_the_end ?e .
+  }
+  {
+    SELECT (?s AS ?book) WHERE {
+      ?s crm:P2_has_type aat:300028051 .
+    }
+  } UNION {
+    SELECT (?s2 AS ?book) WHERE {
+      ?s2 crm:P2_has_type ?type .
+      ?type ?p aat:300028051 .
+      ?p rdfs:subPropertyOf* skos:mappingRelation .
+    }
+  }
+} ORDER BY DESC(?e) DESC(?begin)'
+            column-configuration='[
+               {"variableName": "book", "displayName": "Book"},
+               {"variableName": "end", "displayName": "Date"},
+              {
+                "displayName": "Materials", 
+                "cellTemplate": "{{> materials}}"
+              }
+            ]'
+          >
+            <template id ='materials'>
+              <semantic-query 
+                query='
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+
+SELECT ?material ?me WHERE {
+  ?me crm:P126_employed ?material .
+  BIND(<{{me.value}}> AS ?me) .
+}'
+                template='{{> material}}'
+              >
+                <template id="material">
+                  {{#each bindings}}
+                    <semantic-link uri="{{material.value}}"></semantic-link><br />
+                  {{/each}}
+                </template>
+              </semantic-query>
+            </template>
+          </semantic-table>
+        </bs-tab>
+      </bs-tabs>
+    </div>
+  </div>
