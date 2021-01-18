@@ -1,0 +1,91 @@
+<mp-event-proxy id='clipboard-update-on-persisted-component' 
+                on-event-source='persit-component-action'
+                proxy-event-type='Component.Refresh' 
+                proxy-targets='["clipboard"]'
+></mp-event-proxy>
+
+
+<div class='page rs-dashboard-bg'>
+  [[#> rsp:ClipboardSidebar]]
+  [[#> rsp:DetailsSidebar]]
+
+  <div class='page__body'>
+  <h1>LCD pilot research questions</h1>
+  <h2>Frequency of conditions of boards prior to attachment</h2>
+  <mp-component-toolbar>
+    <mp-component-toolbar-actions>
+      <mp-component-toolbar-action-save id='persit-component-action' add-to-default-set=true></mp-component-toolbar-action-save>
+    </mp-component-toolbar-actions>
+    <mp-component-toolbar-component>
+    <semantic-table 
+      query="
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX aat: <http://vocab.getty.edu/aat/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?cst (COUNT(?cst) AS ?count) WHERE {
+  ?thing crm:P44_has_condition ?cs .
+  ?cs crm:P2_has_type ?cst .
+  ?thing crm:P2_has_type ?thingtype .
+  ?thingtype ?p aat:300202819 .
+  ?p rdfs:subPropertyOf* skos:mappingRelation .
+} GROUP BY ?cst ?thingtype
+ORDER BY DESC(?count)"
+      column-configuration='[
+        {
+          "variableName": "cst",
+          "displayName": "Condition Type"
+        }, 
+        {
+          "variableName": "count",
+          "displayName": "Frequency"
+        }
+      ]'
+    ></semantic-table>
+    </mp-component-toolbar-component>
+  </mp-component-toolbar>
+  <h2>Frequency of conditions of related components</h2>
+  <mp-component-toolbar>
+    <mp-component-toolbar-actions>
+      <mp-component-toolbar-action-save id='persit-component-action' add-to-default-set=true></mp-component-toolbar-action-save>
+    </mp-component-toolbar-actions>
+    <mp-component-toolbar-component>
+    <semantic-table 
+      query="
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX aat: <http://vocab.getty.edu/aat/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?thingtype ?cst (COUNT(?cst) AS ?count) WHERE {
+  ?thing crm:P44_has_condition ?cs .
+  ?cs crm:P2_has_type ?cst .
+  ?thing crm:P2_has_type ?thingtype .
+  FILTER NOT EXISTS {
+    ?thingtype ?p aat:300202819 .
+    ?p rdfs:subPropertyOf* skos:mappingRelation
+  }
+} GROUP BY ?cst ?thingtype
+ORDER BY DESC(?count)"
+      column-configuration='[
+        {
+          "variableName": "thingtype",
+          "displayName": "Component Type"
+        },
+        {
+          "variableName": "cst",
+          "displayName": "Condition Type"
+        }, 
+        {
+          "variableName": "count",
+          "displayName": "Frequency"
+        }
+      ]'
+  ></semantic-table>
+    </mp-component-toolbar-component>
+  </mp-component-toolbar>
+  </div>
+
+  [[/rsp:DetailsSidebar]]
+  [[/rsp:ClipboardSidebar]]
+
+</div>
