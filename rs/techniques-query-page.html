@@ -1,0 +1,104 @@
+<mp-event-proxy id='clipboard-update-on-persisted-component' 
+                on-event-source='persit-component-action'
+                proxy-event-type='Component.Refresh' 
+                proxy-targets='["clipboard"]'
+></mp-event-proxy>
+
+<div class='page rs-dashboard-bg'>
+  [[#> rsp:ClipboardSidebar]]
+  [[#> rsp:DetailsSidebar]]
+
+  <div class='page__body'>
+    <h1>LCD pilot research questions</h1>
+    <h2>Board attachment techniques over time</h2>
+    <h3>Frequency over time</h3>
+    <mp-component-toolbar>
+      <mp-component-toolbar-actions>
+        <mp-component-toolbar-action-save id='persit-component-action' add-to-default-set=true></mp-component-toolbar-action-save>
+      </mp-component-toolbar-actions>
+    <mp-component-toolbar-component>
+    <semantic-chart provider="chartjs" type="bar"
+      query='
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX aat: <http://vocab.getty.edu/aat/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?subject (ROUND(YEAR(?end)/10)*10 AS ?decade) (COUNT (?t) AS ?count) WHERE {
+  ?ts crm:P86_falls_within ?dts .
+  ?dts crm:P82b_end_of_the_end ?end .
+  ?me crm:P4_has_time-span ?ts .
+  ?me crm:P31_has_modified ?book .
+  ?me crm:P9_consists_of ?pme .
+  ?pme crm:P31_has_modified ?board .
+  ?board crm:P2_has_type ?bt .
+  ?bt ?p aat:300202819 .
+  ?p rdfs:subPropertyOf* skos:mappingRelation .
+  ?pme crm:P32_used_general_technique ?t .
+  ?t rdfs:label ?subject .
+} GROUP BY ?t ?subject ?end
+ORDER BY ASC(?decade) ASC(?subject)'
+      multi-data-set='{"dataSetVariable": "subject", "category": "decade", "value": "count"}'
+      styles='[{"provider": "chartjs", "style": {
+          "options": {
+            "scales": {
+              "xAxes": [{"scaleLabel": {"display": true, "labelString": "Period"}}],
+              "yAxes": [{"scaleLabel": {"display": true, "labelString": "Frequency"}}]
+            }
+          }
+      }}]'>
+        </semantic-chart>
+      </mp-component-toolbar-component>
+    </mp-component-toolbar>
+    <h3>Full data</h3>
+    <semantic-timeline
+      query='
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX aat: <http://vocab.getty.edu/aat/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?start ?subject ?group ?technique WHERE {
+  {
+  SELECT (?end1 AS ?start) (?subject1 AS ?subject) (?group1 AS ?group) (?technique1 AS ?technique) WHERE {
+    GRAPH ?group1 {
+      ?latestdate crm:P82b_end_of_the_end ?end1 .
+      ?treatment crm:P4_has_time-span ?latestdate .
+      ?treatment crm:P9_consists_of ?componentreattachment .
+      ?componentreattachment crm:P31_has_modified ?board1 .
+      ?board1 crm:P2_has_type ?boardtype .
+      ?partaddition crm:P111_added ?board1 .
+      ?partaddition crm:P32_used_general_technique ?technique1 .
+      ?technique1 rdfs:label ?subject1 .
+    }
+    ?boardtype ?p1 aat:300202819 .
+    ?p1 rdfs:subPropertyOf* skos:mappingRelation .
+    FILTER (?group1 = <file://sul-data-2020-12-31.trig-31-12-2020-01-31-47>)
+  }
+} UNION {
+  SELECT (?end2 AS ?start) (?subject2 AS ?subject) (?group2 AS ?group) (?technique2 AS ?technique) WHERE {
+    GRAPH ?group2 {
+      ?ts crm:P82b_end_of_the_end ?end2 .
+      ?me crm:P4_has_time-span ?ts .
+      ?me crm:P9_consists_of ?pme .
+      ?pme crm:P31_has_modified ?board2 .
+      ?board2 crm:P2_has_type ?bt .
+      ?pme crm:P32_used_general_technique ?technique2 .
+      ?technique2 rdfs:label ?subject2 .
+    }
+    ?bt ?p2 aat:300202819 .
+    ?p2 rdfs:subPropertyOf* skos:mappingRelation .
+    FILTER (?group2 != <file://sul-data-2020-12-31.trig-31-12-2020-01-31-47>)
+    }
+  }
+}'
+      tuple-template="{{> template}}" tuple-template-height="42">
+      <template id="template">
+        <span title="{{subject.value}}"><b>{{subject.value}}</b></span>
+          <div><semantic-link uri="{{technique.value}}">View</semantic-link></div>
+        </template>
+		  </semantic-timeline>
+    </div>
+
+  [[/rsp:DetailsSidebar]]
+  [[/rsp:ClipboardSidebar]]
+
+</div>

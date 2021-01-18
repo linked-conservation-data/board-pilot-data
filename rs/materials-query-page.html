@@ -1,0 +1,108 @@
+<mp-event-proxy id='clipboard-update-on-persisted-component' 
+                on-event-source='persit-component-action'
+                proxy-event-type='Component.Refresh' 
+                proxy-targets='["clipboard"]'
+></mp-event-proxy>
+
+
+<div class='page rs-dashboard-bg'>
+  [[#> rsp:ClipboardSidebar]]
+  [[#> rsp:DetailsSidebar]]
+
+  <div class='page__body'>
+    <h1>LCD pilot research questions</h1>
+    <h2>Board attachment materials over time</h2>
+    <h3>Frequency over time</h3>
+    <semantic-search>
+      <semantic-search-form-query
+        multi='true'
+        query-template='{
+          "queryString": "
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX aat: <http://vocab.getty.edu/aat/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xl: <http://www.w3.org/2008/05/skos-xl#>
+SELECT ?subject WHERE {
+    ?ts crm:P86_falls_within ?dts .
+    ?dts crm:P82b_end_of_the_end ?end .
+    ?me crm:P4_has_time-span ?ts .
+    ?me crm:P126_employed ?t .
+    ?t ?p2 ?aatc .
+    ?p2 rdfs:subPropertyOf* skos:mappingRelation .
+    ?aatc skos:prefLabel ?subject
+}",
+          "arguments": {
+            "aatc": {"type": "xsd:anyURI", "optional": true}
+            }
+          }'
+        fields='[
+          {
+            "id": "aatc",
+            "label": "Material",
+            "description": "Select the material to plot its representation in the pilot dataset",
+            "xsdDatatype": "xsd:anyURI",
+            "maxOccurs": "20",
+            "valueSetPattern": "
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX aat: <http://vocab.getty.edu/aat/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xl: <http://www.w3.org/2008/05/skos-xl#>
+SELECT DISTINCT ?value ?label WHERE {
+  {
+    ?ts crm:P86_falls_within ?dts .
+    ?dts crm:P82b_end_of_the_end ?end .
+    ?me crm:P4_has_time-span ?ts .
+    ?me crm:P126_employed ?t .
+    ?t ?p2 ?value .
+    ?p2 rdfs:subPropertyOf* skos:mappingRelation .
+    ?value skos:prefLabel ?label .
+                          
+  }
+} ORDER BY ASC(?label)",
+            "selectPattern": ""
+          }
+        ]'>
+        <semantic-form-select-input placeholder='Please select a material to search' for="aatc"></semantic-form-select-input>
+        <button type='button' name='submit' className='btn btn-default'>Search</button>
+      </semantic-search-form-query>
+      <semantic-search-result-holder>
+        <semantic-search-result>
+          <mp-component-toolbar>
+            <mp-component-toolbar-actions>
+              <mp-component-toolbar-action-save id='persit-component-action' add-to-default-set=true></mp-component-toolbar-action-save>
+            </mp-component-toolbar-actions>
+            <mp-component-toolbar-component>
+              <semantic-chart  id='material-search-chart' provider="chartjs" type="bar"
+                query='
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX aat: <http://vocab.getty.edu/aat/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xl: <http://www.w3.org/2008/05/skos-xl#>
+SELECT ?subject (ROUND(YEAR(?end)/10)*10 AS ?decade) (COUNT (?subject) AS ?count) WHERE {
+
+} GROUP BY ?subject ?end
+ORDER BY ASC(?decade) ASC(?subject)'
+                multi-data-set='{"dataSetVariable": "subject", "category": "decade", "value": "count"}'
+                styles='[{"provider": "chartjs", "style": {
+                  "options": {
+                    "scales": {
+                      "xAxes": [{"scaleLabel": {"display": true, "labelString": "Period"}}],
+                      "yAxes": [{"scaleLabel": {"display": true, "labelString": "Frequency"}}]
+                    }
+                  }
+                }}]'>
+              </semantic-chart>
+            </mp-component-toolbar-component>
+          </mp-component-toolbar>
+        </semantic-search-result>
+      </semantic-search-result-holder>
+    </semantic-search>
+  </div>
+
+  [[/rsp:DetailsSidebar]]
+  [[/rsp:ClipboardSidebar]]
+
+</div>
