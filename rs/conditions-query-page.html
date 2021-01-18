@@ -23,17 +23,18 @@ PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX aat: <http://vocab.getty.edu/aat/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-SELECT ?cst (COUNT(?cst) AS ?count) WHERE {
+SELECT ?aatcst (COUNT(?aatcst) AS ?count) WHERE {
   ?thing crm:P44_has_condition ?cs .
   ?cs crm:P2_has_type ?cst .
+  ?cst skos:exactMatch ?aatcst .
   ?thing crm:P2_has_type ?thingtype .
   ?thingtype ?p aat:300202819 .
   ?p rdfs:subPropertyOf* skos:mappingRelation .
-} GROUP BY ?cst ?thingtype
+} GROUP BY ?aatcst
 ORDER BY DESC(?count)"
       column-configuration='[
         {
-          "variableName": "cst",
+          "variableName": "aatcst",
           "displayName": "Condition Type"
         }, 
         {
@@ -56,15 +57,16 @@ PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX aat: <http://vocab.getty.edu/aat/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-SELECT ?thingtype ?cst (COUNT(?cst) AS ?count) WHERE {
+SELECT ?thingtype ?aatcst (COUNT(?aatcst) AS ?count) WHERE {
   ?thing crm:P44_has_condition ?cs .
   ?cs crm:P2_has_type ?cst .
+  ?cst skos:exactMatch ?aatcst .
   ?thing crm:P2_has_type ?thingtype .
   FILTER NOT EXISTS {
     ?thingtype ?p aat:300202819 .
     ?p rdfs:subPropertyOf* skos:mappingRelation
   }
-} GROUP BY ?cst ?thingtype
+} GROUP BY ?aatcst ?thingtype
 ORDER BY DESC(?count)"
       column-configuration='[
         {
@@ -72,7 +74,7 @@ ORDER BY DESC(?count)"
           "displayName": "Component Type"
         },
         {
-          "variableName": "cst",
+          "variableName": "aatcst",
           "displayName": "Condition Type"
         }, 
         {
