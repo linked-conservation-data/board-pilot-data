@@ -59,26 +59,71 @@ SELECT DISTINCT ?book ?graph WHERE {
                             }
                         ]'
                 >
-                    <template id ='photos'>
-                        <semantic-query 
-                            query='
-SELECT ?book ?iiifUrl WHERE {
-  ?book crm:P138i_has_representation ?photo .
+                  <template id ='photos'>
+                    <semantic-query query='
+SELECT DISTINCT ?imgURL ?book WHERE {
   BIND(<{{book.value}}> AS ?book) .
-  BIND(REPLACE(STR(?photo), "^.*/(.*)$", "$1") as ?imageID) .
-  BIND(CONCAT("/proxy/IIIF/", ?imageID, "/full/!640,480/0/default.jpg") AS ?iiifUrl)
-}LIMIT 5'
-                            template='{{> photo}}'
-                        >
-                            <template id="photo">
-                                {{#each bindings}}
-                                  <semantic-link uri="{{book.value}}"><img src="{{iiifUrl.value}}" width="50px" style="margin:0 10px 0 0" /></semantic-link>
-                                {{/each}}
-                            </template>
-                        </semantic-query>
-                    </template>
-                </semantic-table>
-            </bs-tab>
+  {
+    <{{book.value}}> a ?type ;
+    FILTER(?type != rso:EX_Digital_Image) .
+    ?representationProp rdfs:subPropertyOf* crm:P138i_has_representation .
+    <{{book.value}}> ?representationProp ?representation .
+
+    OPTIONAL {
+      <{{book.value}}> ?representationProp ?representation .
+      ?representation a rso:EX_Digital_Image ;
+        crm:P1_is_identified_by/rso:PX_has_file_name ?fileName.
+      BIND(CONCAT("/proxy/IIIF/", ?fileName, "/full/!640,480/0/default.jpg") AS ?uploadIiifUrl)
+    }
+
+    OPTIONAL {
+      <{{book.value}}> ?representationProp ?representation .
+      ?representation a rso:EX_Digital_Image .
+      BIND(REPLACE(STR(?representation), "^.*/(.*)$", "$1") as ?imageID) .
+      BIND(?imageID as ?imgIiifId)
+      BIND(CONCAT("/proxy/IIIF/", ?imageID, "/full/!640,480/0/default.jpg") AS ?iiifUrl)
+    }
+
+    BIND(COALESCE(?uploadIiifUrl, ?iiifUrl, ?representation) AS ?imgURL)
+    BIND(IF(?representationProp = rso:PX_has_main_representation, true, false) AS ?isMainRep)
+  } UNION {
+    <{{book.value}}> a rso:EX_Digital_Image ;
+    OPTIONAL {
+      <{{book.value}}> a rso:EX_Digital_Image ;
+        crm:P1_is_identified_by/rso:PX_has_file_name ?fileName. 
+      BIND(CONCAT("/proxy/IIIF/", ?fileName, "/full/!640,480/0/default.jpg") AS ?uploadIiifUrl)
+    }
+
+    OPTIONAL {
+      <{{book.value}}> a rso:EX_Digital_Image ;
+        BIND(REPLACE(STR(<{{book.value}}>), "^.*/(.*)$", "$1") as ?imageID) .
+      BIND(CONCAT("/proxy/IIIF/", ?imageID, "/full/!640,480/0/default.jpg") AS ?iiifUrl)
+    }
+    BIND(COALESCE(?uploadIiifUrl, ?iiifUrl, <{{book.value}}>) AS ?imgURL)
+    BIND(true AS ?isMainRep)
+  }  
+} ORDER BY ?imgURL'
+
+                                    template='{{> imageCarousel}}'
+                                    no-result-template='{{> noImages}}'
+                >
+                
+                  <template id="imageCarousel">
+                    {{#each bindings}}
+                    <semantic-link iri="{{book.value}}"><img src='{{imgURL.value}}' width="120" /></semantic-link>&nbsp;
+                    {{/each}}
+                  </template>
+                        
+                  <template id="noImages">
+                    <div class="no-media">
+                      No images available
+                    </div>
+                  </template>
+                </semantic-query>
+
+              </template>
+            </semantic-table>
+          </bs-tab>
         </bs-tabs>
     </div>
 </div>
